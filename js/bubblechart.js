@@ -238,7 +238,7 @@ function genBubblechart(update, isGoingLower) {
                             genScatterplot(true);
                         }
                     });
-    
+                    
                 // text labels that appear on top of the bubbles
                 var labels = bubbleGroup.append("text")
                     .attr("class","label unselectable")
