@@ -1,3 +1,6 @@
+var MAX_SELECTED_COUNTRIES = 5;
+var currentSelectedCountriesNumber = 0;
+
 function genWorldMap() {
     // Define size of map group
     // Full world map is 2:1 ratio
