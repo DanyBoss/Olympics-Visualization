@@ -73,8 +73,6 @@ function genLinechart() {
             }
         }
 
-        console.log(processedData.get(countryFilter));
-
         // automatically resize yScale according to max value of linechart
         yScale.domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
 

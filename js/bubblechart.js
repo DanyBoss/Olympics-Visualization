@@ -86,9 +86,7 @@ function genBubblechart(update, isGoingLower) {
 
             var yearsText = (endYearFilter == initialYearFilter ? " in <strong>" + initialYearFilter + "</strong>" : 
             " from <strong>" +  initialYearFilter + "</strong> to <strong>" + endYearFilter + "</strong>");
-            console.log(yearsText);
-
-
+            
             switch(currentLevel) {
                 case 0:
                     sportFilter = "All";
@@ -238,7 +236,7 @@ function genBubblechart(update, isGoingLower) {
                             genScatterplot(true);
                         }
                     });
-                    
+
                 // text labels that appear on top of the bubbles
                 var labels = bubbleGroup.append("text")
                     .attr("class","label unselectable")
