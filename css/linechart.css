@@ -1,0 +1,47 @@
+#linechart {    
+    width: 60%;
+    height: 40%;
+    float: left;
+    background: var(--main-bg-color); 
+}
+
+#linechart #medal-icon {
+    bottom: 300px;
+    width: 20px;
+    position: absolute;
+    margin: auto;
+}
+
+#linechart .line {
+    fill: none;
+    stroke: var(--linechart-line-color);
+    stroke-width: 3;
+}
+
+/* Axis Variables */
+
+#linechart .axislabel {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+}
+
+#linechart .dot {
+    stroke: var(--main-dark-color); 
+}
+
+#linechart.xAxis #linechart.yAxis text {
+    stroke: var(--main-dark-color);
+}
+
+#linechart text {
+    font-family: 'Roboto', sans-serif;
+    fill: var(--main-dark-color);
+}
+
+#linechart line {
+    stroke: var(--main-dark-color);
+}
+
+#linechart .domain {
+    stroke: var(--main-dark-color);
+}

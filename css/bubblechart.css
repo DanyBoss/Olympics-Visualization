@@ -1,0 +1,24 @@
+#bubblechart {  
+    width: 40%;
+    height: 55%;
+    float: left; 
+    background: var(--main-bg-color); 
+}
+
+#bubblechart #back-icon {
+    top: 70px;
+    left: 5px;
+    width: 48px;
+    position: absolute;
+    display: none;
+    margin: auto;
+}
+
+#bubblechart .label {
+    fill: var(--main-dark-color) !important;
+    font-size: 12px;
+    text-anchor: middle;
+    font-weight: bold;
+    pointer-events: none;
+    white-space: pre-wrap;
+}

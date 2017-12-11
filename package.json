@@ -1,0 +1,7 @@
+{
+    "name": "Olympics Visualization",
+    "version": "0.1",
+    "dependencies": {
+       "d3": "v4"
+    }
+  }

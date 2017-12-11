@@ -1,0 +1,5532 @@
+Year,Country,Sport,Discipline,GoldCount,SilverCount,BronzeCount
+1896,AUS,Athletics,Athletics,2,0,0
+1896,AUT,Aquatics,Swimming,1,1,0
+1896,AUT,Cycling,Cycling Track,1,0,2
+1896,DEN,Fencing,Fencing,0,0,1
+1896,DEN,Shooting,Shooting,0,1,2
+1896,DEN,Weightlifting,Weightlifting,1,1,0
+1896,FRA,Athletics,Athletics,0,1,1
+1896,FRA,Cycling,Cycling Track,4,1,1
+1896,FRA,Fencing,Fencing,1,2,0
+1896,GBR,Athletics,Athletics,0,1,1
+1896,GBR,Cycling,Cycling Road,0,0,1
+1896,GBR,Cycling,Cycling Track,0,1,0
+1896,GBR,Tennis,Tennis,1,0,0
+1896,GBR,Weightlifting,Weightlifting,1,1,0
+1896,GER,Athletics,Athletics,0,1,0
+1896,GER,Cycling,Cycling Road,0,1,0
+1896,GER,Gymnastics,Artistic G.,5,3,2
+1896,GER,Wrestling,Wrestling Gre-R,1,0,0
+1896,GRE,Aquatics,Swimming,1,3,3
+1896,GRE,Athletics,Athletics,1,3,5
+1896,GRE,Cycling,Cycling Road,1,0,0
+1896,GRE,Cycling,Cycling Track,0,3,0
+1896,GRE,Fencing,Fencing,2,1,1
+1896,GRE,Gymnastics,Artistic G.,2,2,2
+1896,GRE,Shooting,Shooting,3,3,3
+1896,GRE,Tennis,Tennis,0,1,1
+1896,GRE,Weightlifting,Weightlifting,0,0,2
+1896,GRE,Wrestling,Wrestling Gre-R,0,1,1
+1896,HUN,Aquatics,Swimming,2,0,0
+1896,HUN,Athletics,Athletics,0,1,2
+1896,HUN,Tennis,Tennis,0,0,1
+1896,SUI,Gymnastics,Artistic G.,1,2,0
+1896,USA,Athletics,Athletics,9,5,2
+1896,USA,Shooting,Shooting,2,1,0
+1896,ZZX,Tennis,Tennis,1,1,1
+1900,AUS,Aquatics,Swimming,2,0,0
+1900,AUS,Athletics,Athletics,0,0,3
+1900,AUT,Aquatics,Swimming,0,3,1
+1900,AUT,Fencing,Fencing,0,0,2
+1900,BEL,Aquatics,Water polo,0,1,0
+1900,BEL,Archery,Archery,3,2,1
+1900,BEL,Equestrian,Jumping,2,1,1
+1900,BEL,Football,Football,0,0,1
+1900,BEL,Rowing,Rowing,0,1,0
+1900,BEL,Shooting,Shooting,0,0,2
+1900,BOH,Athletics,Athletics,0,1,0
+1900,BOH,Tennis,Tennis,0,0,1
+1900,CAN,Athletics,Athletics,1,0,1
+1900,CUB,Fencing,Fencing,1,1,0
+1900,DEN,Aquatics,Swimming,0,0,1
+1900,DEN,Athletics,Athletics,0,0,1
+1900,DEN,Shooting,Shooting,1,3,0
+1900,ESP,Basque Pelota,Basque Pelota,1,0,0
+1900,FRA,Aquatics,Swimming,1,2,2
+1900,FRA,Aquatics,Water polo,0,0,1
+1900,FRA,Archery,Archery,3,5,4
+1900,FRA,Athletics,Athletics,1,4,2
+1900,FRA,Basque Pelota,Basque Pelota,0,1,0
+1900,FRA,Cricket,Cricket,0,1,0
+1900,FRA,Croquet,Croquet,3,2,2
+1900,FRA,Cycling,Cycling Track,2,2,1
+1900,FRA,Equestrian,Jumping,1,0,2
+1900,FRA,Fencing,Fencing,5,5,5
+1900,FRA,Football,Football,0,1,0
+1900,FRA,Gymnastics,Artistic G.,1,1,1
+1900,FRA,Rowing,Rowing,2,3,1
+1900,FRA,Rugby,Rugby,1,0,0
+1900,FRA,Sailing,Sailing,1,3,2
+1900,FRA,Shooting,Shooting,3,4,3
+1900,FRA,Tennis,Tennis,0,1,1
+1900,FRA,Tug of War,Tug of War,0,1,0
+1900,GBR,Aquatics,Swimming,2,0,1
+1900,GBR,Aquatics,Water polo,1,0,0
+1900,GBR,Athletics,Athletics,3,3,2
+1900,GBR,Cricket,Cricket,1,0,0
+1900,GBR,Football,Football,1,0,0
+1900,GBR,Golf,Golf,0,1,1
+1900,GBR,Rowing,Rowing,0,0,1
+1900,GBR,Rugby,Rugby,0,1,0
+1900,GBR,Sailing,Sailing,3,0,1
+1900,GBR,Tennis,Tennis,5,1,2
+1900,GER,Aquatics,Swimming,2,0,0
+1900,GER,Rowing,Rowing,1,0,1
+1900,GER,Rugby,Rugby,0,1,0
+1900,GER,Sailing,Sailing,0,1,0
+1900,HUN,Aquatics,Swimming,0,2,1
+1900,HUN,Athletics,Athletics,1,0,1
+1900,IND,Athletics,Athletics,0,2,0
+1900,ITA,Equestrian,Jumping,1,1,0
+1900,ITA,Fencing,Fencing,1,1,0
+1900,NED,Aquatics,Swimming,0,0,1
+1900,NED,Rowing,Rowing,0,1,1
+1900,NED,Shooting,Shooting,0,0,1
+1900,NOR,Athletics,Athletics,0,0,1
+1900,NOR,Shooting,Shooting,0,2,2
+1900,SUI,Shooting,Shooting,5,1,1
+1900,SWE,Athletics,Athletics,0,0,1
+1900,USA,Athletics,Athletics,16,13,10
+1900,USA,Cycling,Cycling Track,0,0,1
+1900,USA,Golf,Golf,2,1,1
+1900,USA,Rowing,Rowing,1,0,0
+1900,USA,Sailing,Sailing,0,0,1
+1900,USA,Tennis,Tennis,0,0,1
+1900,ZZX,Athletics,Athletics,1,0,0
+1900,ZZX,Polo,Polo,1,1,1
+1900,ZZX,Rowing,Rowing,1,0,0
+1900,ZZX,Tennis,Tennis,0,3,2
+1900,ZZX,Tug of War,Tug of War,1,0,0
+1904,AUT,Aquatics,Swimming,0,0,1
+1904,CAN,Athletics,Athletics,1,0,0
+1904,CAN,Football,Football,1,0,0
+1904,CAN,Golf,Golf,1,0,0
+1904,CAN,Lacrosse,Lacrosse,1,0,0
+1904,CAN,Rowing,Rowing,0,1,0
+1904,CUB,Fencing,Fencing,4,2,3
+1904,GBR,Athletics,Athletics,1,1,0
+1904,GER,Aquatics,Diving,0,1,1
+1904,GER,Aquatics,Swimming,4,2,2
+1904,GER,Athletics,Athletics,0,0,1
+1904,GER,Gymnastics,Artistic G.,0,1,1
+1904,GRE,Athletics,Athletics,0,0,1
+1904,GRE,Weightlifting,Weightlifting,1,0,0
+1904,HUN,Aquatics,Swimming,2,1,1
+1904,SUI,Gymnastics,Artistic G.,1,0,1
+1904,USA,Aquatics,Diving,2,1,2
+1904,USA,Aquatics,Swimming,3,6,5
+1904,USA,Archery,Archery,6,6,5
+1904,USA,Athletics,Athletics,23,23,22
+1904,USA,Boxing,Boxing,7,7,4
+1904,USA,Cycling,Cycling Track,7,7,7
+1904,USA,Fencing,Fencing,0,3,1
+1904,USA,Football,Football,1,1,1
+1904,USA,Golf,Golf,1,2,1
+1904,USA,Gymnastics,Artistic G.,10,8,9
+1904,USA,Lacrosse,Lacrosse,0,1,0
+1904,USA,Roque,Roque,1,1,1
+1904,USA,Rowing,Rowing,5,4,4
+1904,USA,Tennis,Tennis,2,2,2
+1904,USA,Tug of War,Tug of War,1,1,1
+1904,USA,Weightlifting,Weightlifting,1,2,2
+1904,USA,Wrestling,Wrestling Free.,7,7,7
+1904,ZZX,Athletics,Athletics,0,1,0
+1904,ZZX,Fencing,Fencing,1,0,0
+1908,ANZ,Aquatics,Swimming,0,1,1
+1908,ANZ,Athletics,Athletics,0,0,1
+1908,ANZ,Boxing,Boxing,0,1,0
+1908,ANZ,Rugby,Rugby,1,0,0
+1908,AUT,Aquatics,Swimming,0,0,1
+1908,BEL,Aquatics,Water polo,0,1,0
+1908,BEL,Cycling,Cycling Track,0,0,1
+1908,BEL,Fencing,Fencing,0,0,1
+1908,BEL,Rowing,Rowing,0,1,0
+1908,BEL,Sailing,Sailing,0,1,0
+1908,BEL,Shooting,Shooting,1,2,0
+1908,BOH,Fencing,Fencing,0,0,2
+1908,CAN,Athletics,Athletics,1,1,4
+1908,CAN,Cycling,Cycling Track,0,0,1
+1908,CAN,Lacrosse,Lacrosse,1,0,0
+1908,CAN,Rowing,Rowing,0,0,2
+1908,CAN,Shooting,Shooting,1,2,1
+1908,CAN,Wrestling,Wrestling Free.,0,0,1
+1908,DEN,Aquatics,Swimming,0,1,0
+1908,DEN,Football,Football,0,1,0
+1908,DEN,Wrestling,Wrestling Gre-R,0,0,3
+1908,FIN,Athletics,Athletics,0,0,1
+1908,FIN,Gymnastics,Artistic G.,0,0,1
+1908,FIN,Wrestling,Wrestling Gre-R,1,1,1
+1908,FRA,Archery,Archery,1,1,1
+1908,FRA,Athletics,Athletics,0,1,1
+1908,FRA,Cycling,Cycling Track,1,2,2
+1908,FRA,Fencing,Fencing,2,1,1
+1908,FRA,Gymnastics,Artistic G.,0,0,1
+1908,FRA,Sailing,Sailing,0,0,1
+1908,FRA,Shooting,Shooting,0,0,2
+1908,FRA,Water Motorsports,Water Motorspor,1,0,0
+1908,GBR,Aquatics,Swimming,4,2,1
+1908,GBR,Aquatics,Water polo,1,0,0
+1908,GBR,Archery,Archery,2,2,1
+1908,GBR,Athletics,Athletics,7,7,3
+1908,GBR,Boxing,Boxing,5,4,5
+1908,GBR,Cycling,Cycling Track,5,3,1
+1908,GBR,Fencing,Fencing,0,1,0
+1908,GBR,Football,Football,1,0,0
+1908,GBR,Gymnastics,Artistic G.,0,1,0
+1908,GBR,Hockey,Hockey,1,1,0
+1908,GBR,Jeu de paume,Jeu de Paume,0,1,1
+1908,GBR,Lacrosse,Lacrosse,0,1,0
+1908,GBR,Polo,Polo,1,1,0
+1908,GBR,Rackets,Rackets,2,2,2
+1908,GBR,Rowing,Rowing,4,3,1
+1908,GBR,Rugby,Rugby,0,1,0
+1908,GBR,Sailing,Sailing,4,1,1
+1908,GBR,Shooting,Shooting,6,7,8
+1908,GBR,Skating,Figure skating,1,3,3
+1908,GBR,Tennis,Tennis,6,5,4
+1908,GBR,Tug of War,Tug of War,1,1,1
+1908,GBR,Water Motorsports,Water Motorspor,2,0,0
+1908,GBR,Wrestling,Wrestling Free.,3,4,4
+1908,GER,Aquatics,Diving,1,1,1
+1908,GER,Aquatics,Swimming,1,0,0
+1908,GER,Athletics,Athletics,0,1,1
+1908,GER,Cycling,Cycling Track,0,1,1
+1908,GER,Rowing,Rowing,0,0,2
+1908,GER,Skating,Figure skating,2,1,1
+1908,GER,Tennis,Tennis,0,1,0
+1908,GRE,Athletics,Athletics,0,3,0
+1908,HUN,Aquatics,Swimming,0,2,0
+1908,HUN,Athletics,Athletics,0,1,1
+1908,HUN,Fencing,Fencing,2,1,0
+1908,HUN,Rowing,Rowing,0,0,1
+1908,HUN,Wrestling,Wrestling Gre-R,1,0,0
+1908,ITA,Athletics,Athletics,0,1,0
+1908,ITA,Fencing,Fencing,0,1,0
+1908,ITA,Gymnastics,Artistic G.,1,0,0
+1908,ITA,Wrestling,Wrestling Gre-R,1,0,0
+1908,NED,Football,Football,0,0,1
+1908,NOR,Athletics,Athletics,0,1,2
+1908,NOR,Gymnastics,Artistic G.,0,1,0
+1908,NOR,Shooting,Shooting,2,0,1
+1908,NOR,Wrestling,Wrestling Free.,0,1,0
+1908,RSA,Athletics,Athletics,1,1,0
+1908,RU1,Skating,Figure skating,1,0,0
+1908,RU1,Wrestling,Wrestling Gre-R,0,2,0
+1908,SWE,Aquatics,Diving,1,1,1
+1908,SWE,Aquatics,Swimming,0,0,2
+1908,SWE,Athletics,Athletics,2,0,3
+1908,SWE,Gymnastics,Artistic G.,1,0,0
+1908,SWE,Sailing,Sailing,0,1,0
+1908,SWE,Shooting,Shooting,2,2,1
+1908,SWE,Skating,Figure skating,1,1,1
+1908,SWE,Tennis,Tennis,0,0,2
+1908,SWE,Wrestling,Wrestling Gre-R,1,1,0
+1908,USA,Aquatics,Diving,0,0,1
+1908,USA,Aquatics,Swimming,1,0,1
+1908,USA,Archery,Archery,0,0,1
+1908,USA,Athletics,Athletics,15,10,8
+1908,USA,Jeu de paume,Jeu de Paume,1,0,0
+1908,USA,Shooting,Shooting,3,2,1
+1908,USA,Wrestling,Wrestling Free.,2,0,0
+1912,ANZ,Aquatics,Swimming,2,2,2
+1912,ANZ,Tennis,Tennis,0,0,1
+1912,AUT,Aquatics,Swimming,0,0,1
+1912,AUT,Fencing,Fencing,0,1,1
+1912,AUT,Tennis,Tennis,0,1,0
+1912,BEL,Aquatics,Water polo,0,0,1
+1912,BEL,Equestrian,Jumping,0,0,1
+1912,BEL,Fencing,Fencing,2,0,1
+1912,BEL,Rowing,Rowing,0,1,0
+1912,CAN,Aquatics,Swimming,2,0,0
+1912,CAN,Athletics,Athletics,1,2,2
+1912,CAN,Rowing,Rowing,0,0,1
+1912,DEN,Fencing,Fencing,0,1,0
+1912,DEN,Football,Football,0,1,0
+1912,DEN,Gymnastics,Artistic G.,0,1,1
+1912,DEN,Rowing,Rowing,1,0,1
+1912,DEN,Sailing,Sailing,0,1,0
+1912,DEN,Shooting,Shooting,0,1,2
+1912,DEN,Tennis,Tennis,0,1,0
+1912,DEN,Wrestling,Wrestling Gre-R,0,0,1
+1912,FIN,Athletics,Athletics,6,4,3
+1912,FIN,Gymnastics,Artistic G.,0,1,0
+1912,FIN,Sailing,Sailing,0,1,2
+1912,FIN,Shooting,Shooting,0,0,2
+1912,FIN,Wrestling,Wrestling Gre-R,3,2,2
+1912,FRA,Athletics,Athletics,0,2,0
+1912,FRA,Equestrian,Eventing,0,0,1
+1912,FRA,Equestrian,Jumping,1,1,0
+1912,FRA,Gymnastics,Artistic G.,0,1,0
+1912,FRA,Sailing,Sailing,1,0,0
+1912,FRA,Shooting,Shooting,2,0,0
+1912,FRA,Tennis,Tennis,3,0,3
+1912,GBR,Aquatics,Diving,0,0,1
+1912,GBR,Aquatics,Swimming,1,2,3
+1912,GBR,Aquatics,Water polo,1,0,0
+1912,GBR,Athletics,Athletics,2,1,5
+1912,GBR,Cycling,Cycling Road,0,2,0
+1912,GBR,Fencing,Fencing,0,1,0
+1912,GBR,Football,Football,1,0,0
+1912,GBR,Gymnastics,Artistic G.,0,0,1
+1912,GBR,Rowing,Rowing,2,2,0
+1912,GBR,Shooting,Shooting,1,4,4
+1912,GBR,Tennis,Tennis,3,3,2
+1912,GBR,Tug of War,Tug of War,0,1,0
+1912,GER,Aquatics,Diving,1,2,1
+1912,GER,Aquatics,Swimming,2,3,2
+1912,GER,Athletics,Athletics,0,2,0
+1912,GER,Equestrian,Eventing,0,2,0
+1912,GER,Equestrian,Jumping,0,1,1
+1912,GER,Rowing,Rowing,1,0,1
+1912,GER,Shooting,Shooting,0,1,1
+1912,GER,Tennis,Tennis,2,1,1
+1912,GER,Wrestling,Wrestling Gre-R,0,1,0
+1912,GRE,Athletics,Athletics,1,0,1
+1912,HUN,Athletics,Athletics,0,0,1
+1912,HUN,Fencing,Fencing,2,1,1
+1912,HUN,Gymnastics,Artistic G.,0,1,0
+1912,HUN,Shooting,Shooting,1,0,0
+1912,HUN,Wrestling,Wrestling Gre-R,0,0,1
+1912,ITA,Athletics,Athletics,0,0,1
+1912,ITA,Fencing,Fencing,1,1,0
+1912,ITA,Gymnastics,Artistic G.,2,0,1
+1912,NED,Fencing,Fencing,0,0,2
+1912,NED,Football,Football,0,0,1
+1912,NOR,Athletics,Athletics,1,0,0
+1912,NOR,Gymnastics,Artistic G.,1,0,1
+1912,NOR,Rowing,Rowing,0,0,1
+1912,NOR,Sailing,Sailing,2,0,0
+1912,NOR,Shooting,Shooting,0,1,1
+1912,NOR,Tennis,Tennis,0,0,1
+1912,RSA,Athletics,Athletics,1,1,0
+1912,RSA,Cycling,Cycling Road,1,0,0
+1912,RSA,Tennis,Tennis,2,1,0
+1912,RU1,Rowing,Rowing,0,0,1
+1912,RU1,Sailing,Sailing,0,0,1
+1912,RU1,Shooting,Shooting,0,1,1
+1912,RU1,Wrestling,Wrestling Gre-R,0,1,0
+1912,SWE,Aquatics,Diving,3,2,2
+1912,SWE,Aquatics,Swimming,0,1,0
+1912,SWE,Aquatics,Water polo,0,1,0
+1912,SWE,Athletics,Athletics,4,5,6
+1912,SWE,Cycling,Cycling Road,1,0,0
+1912,SWE,Equestrian,Dressage,1,1,1
+1912,SWE,Equestrian,Eventing,2,0,0
+1912,SWE,Equestrian,Jumping,1,0,0
+1912,SWE,Gymnastics,Artistic G.,1,0,0
+1912,SWE,Modern Pentathlon,Modern Pentath.,1,1,1
+1912,SWE,Rowing,Rowing,0,1,0
+1912,SWE,Sailing,Sailing,1,2,1
+1912,SWE,Shooting,Shooting,7,6,4
+1912,SWE,Tennis,Tennis,0,3,2
+1912,SWE,Tug of War,Tug of War,1,0,0
+1912,SWE,Wrestling,Wrestling Gre-R,1,2,1
+1912,USA,Aquatics,Swimming,2,1,1
+1912,USA,Athletics,Athletics,16,13,12
+1912,USA,Cycling,Cycling Road,0,0,2
+1912,USA,Equestrian,Eventing,0,0,1
+1912,USA,Shooting,Shooting,7,4,3
+1920,AUS,Aquatics,Swimming,0,1,1
+1920,AUS,Athletics,Athletics,0,1,0
+1920,BEL,Aquatics,Swimming,0,0,1
+1920,BEL,Aquatics,Water polo,0,1,0
+1920,BEL,Archery,Archery,8,4,2
+1920,BEL,Cycling,Cycling Road,0,0,1
+1920,BEL,Cycling,Cycling Track,1,0,0
+1920,BEL,Equestrian,Eventing,0,0,1
+1920,BEL,Equestrian,Jumping,0,1,0
+1920,BEL,Equestrian,Vaulting,2,0,1
+1920,BEL,Fencing,Fencing,0,1,0
+1920,BEL,Football,Football,1,0,0
+1920,BEL,Gymnastics,Artistic G.,0,1,1
+1920,BEL,Hockey,Hockey,0,0,1
+1920,BEL,Sailing,Sailing,1,1,1
+1920,BEL,Shooting,Shooting,0,1,0
+1920,BEL,Tug of War,Tug of War,0,0,1
+1920,BEL,Weightlifting,Weightlifting,1,1,1
+1920,BRA,Shooting,Shooting,1,1,1
+1920,CAN,Aquatics,Swimming,0,1,1
+1920,CAN,Athletics,Athletics,1,0,0
+1920,CAN,Boxing,Boxing,1,2,2
+1920,CAN,Ice Hockey,Ice Hockey,1,0,0
+1920,DEN,Aquatics,Diving,1,0,0
+1920,DEN,Athletics,Athletics,0,1,0
+1920,DEN,Boxing,Boxing,0,3,0
+1920,DEN,Gymnastics,Artistic G.,1,1,0
+1920,DEN,Hockey,Hockey,0,1,0
+1920,DEN,Shooting,Shooting,1,2,0
+1920,DEN,Wrestling,Wrestling Gre-R,0,1,1
+1920,ESP,Football,Football,0,1,0
+1920,ESP,Polo,Polo,0,1,0
+1920,EST,Athletics,Athletics,0,1,0
+1920,EST,Weightlifting,Weightlifting,1,1,0
+1920,FIN,Aquatics,Swimming,0,0,2
+1920,FIN,Athletics,Athletics,9,4,3
+1920,FIN,Shooting,Shooting,0,1,2
+1920,FIN,Skating,Figure skating,2,0,0
+1920,FIN,Wrestling,Wrestling Free.,2,1,0
+1920,FIN,Wrestling,Wrestling Gre-R,3,4,2
+1920,FRA,Archery,Archery,1,4,1
+1920,FRA,Athletics,Athletics,1,2,1
+1920,FRA,Boxing,Boxing,1,1,1
+1920,FRA,Cycling,Cycling Road,1,0,1
+1920,FRA,Equestrian,Vaulting,0,2,0
+1920,FRA,Fencing,Fencing,1,4,3
+1920,FRA,Gymnastics,Artistic G.,0,1,2
+1920,FRA,Rowing,Rowing,0,1,1
+1920,FRA,Rugby,Rugby,0,1,0
+1920,FRA,Sailing,Sailing,0,1,0
+1920,FRA,Shooting,Shooting,0,2,0
+1920,FRA,Tennis,Tennis,3,0,2
+1920,FRA,Weightlifting,Weightlifting,2,0,1
+1920,GBR,Aquatics,Diving,0,1,0
+1920,GBR,Aquatics,Swimming,0,1,1
+1920,GBR,Aquatics,Water polo,1,0,0
+1920,GBR,Athletics,Athletics,4,4,4
+1920,GBR,Boxing,Boxing,2,1,3
+1920,GBR,Cycling,Cycling Track,1,3,1
+1920,GBR,Hockey,Hockey,1,0,0
+1920,GBR,Polo,Polo,1,0,0
+1920,GBR,Rowing,Rowing,0,2,0
+1920,GBR,Sailing,Sailing,3,0,0
+1920,GBR,Skating,Figure skating,0,0,2
+1920,GBR,Tennis,Tennis,2,4,1
+1920,GBR,Tug of War,Tug of War,1,0,0
+1920,GBR,Wrestling,Wrestling Free.,0,0,2
+1920,GRE,Shooting,Shooting,0,1,0
+1920,ITA,Athletics,Athletics,2,0,2
+1920,ITA,Boxing,Boxing,0,0,1
+1920,ITA,Cycling,Cycling Track,1,0,0
+1920,ITA,Equestrian,Eventing,0,1,0
+1920,ITA,Equestrian,Jumping,1,1,1
+1920,ITA,Fencing,Fencing,5,1,0
+1920,ITA,Gymnastics,Artistic G.,2,0,0
+1920,ITA,Rowing,Rowing,1,1,0
+1920,ITA,Weightlifting,Weightlifting,1,1,0
+1920,JPN,Tennis,Tennis,0,2,0
+1920,LUX,Weightlifting,Weightlifting,0,1,0
+1920,NED,Archery,Archery,1,0,0
+1920,NED,Cycling,Cycling Track,1,0,2
+1920,NED,Fencing,Fencing,0,0,2
+1920,NED,Football,Football,0,0,1
+1920,NED,Sailing,Sailing,2,1,0
+1920,NED,Tug of War,Tug of War,0,1,0
+1920,NOR,Athletics,Athletics,1,0,0
+1920,NOR,Boxing,Boxing,0,1,0
+1920,NOR,Gymnastics,Artistic G.,0,1,0
+1920,NOR,Rowing,Rowing,0,0,2
+1920,NOR,Sailing,Sailing,7,4,1
+1920,NOR,Shooting,Shooting,5,2,4
+1920,NOR,Skating,Figure skating,0,3,1
+1920,NOR,Wrestling,Wrestling Gre-R,0,0,1
+1920,NZL,Rowing,Rowing,0,0,1
+1920,RSA,Athletics,Athletics,1,1,1
+1920,RSA,Boxing,Boxing,1,0,0
+1920,RSA,Cycling,Cycling Road,0,1,0
+1920,RSA,Cycling,Cycling Track,0,1,1
+1920,RSA,Shooting,Shooting,0,1,0
+1920,RSA,Tennis,Tennis,1,0,1
+1920,SUI,Rowing,Rowing,1,0,1
+1920,SUI,Shooting,Shooting,0,0,5
+1920,SUI,Weightlifting,Weightlifting,0,1,1
+1920,SUI,Wrestling,Wrestling Free.,1,1,0
+1920,SWE,Aquatics,Diving,1,2,2
+1920,SWE,Aquatics,Swimming,2,2,1
+1920,SWE,Aquatics,Water polo,0,0,1
+1920,SWE,Athletics,Athletics,1,3,10
+1920,SWE,Cycling,Cycling Road,1,1,0
+1920,SWE,Equestrian,Dressage,1,0,0
+1920,SWE,Equestrian,Eventing,1,0,0
+1920,SWE,Equestrian,Jumping,1,0,1
+1920,SWE,Equestrian,Vaulting,0,0,1
+1920,SWE,Gymnastics,Artistic G.,1,0,0
+1920,SWE,Modern Pentathlon,Modern Pentath.,1,1,1
+1920,SWE,Sailing,Sailing,2,1,0
+1920,SWE,Shooting,Shooting,1,6,3
+1920,SWE,Skating,Figure skating,2,1,0
+1920,SWE,Weightlifting,Weightlifting,0,0,2
+1920,SWE,Wrestling,Wrestling Free.,1,1,1
+1920,SWE,Wrestling,Wrestling Gre-R,2,0,1
+1920,TCH,Ice Hockey,Ice Hockey,0,0,1
+1920,TCH,Tennis,Tennis,0,0,2
+1920,USA,Aquatics,Diving,3,2,3
+1920,USA,Aquatics,Swimming,8,5,3
+1920,USA,Athletics,Athletics,9,12,8
+1920,USA,Boxing,Boxing,3,0,1
+1920,USA,Fencing,Fencing,0,0,1
+1920,USA,Ice Hockey,Ice Hockey,0,1,0
+1920,USA,Polo,Polo,0,0,1
+1920,USA,Rowing,Rowing,3,1,0
+1920,USA,Rugby,Rugby,1,0,0
+1920,USA,Shooting,Shooting,13,4,6
+1920,USA,Skating,Figure skating,0,0,1
+1920,USA,Wrestling,Wrestling Free.,1,2,3
+1924,ARG,Athletics,Athletics,0,1,0
+1924,ARG,Boxing,Boxing,0,2,2
+1924,ARG,Polo,Polo,1,0,0
+1924,AUS,Aquatics,Diving,1,0,0
+1924,AUS,Aquatics,Swimming,1,1,2
+1924,AUS,Athletics,Athletics,1,0,0
+1924,AUT,Weightlifting,Weightlifting,0,3,1
+1924,BEL,Aquatics,Swimming,0,1,0
+1924,BEL,Aquatics,Water polo,0,1,0
+1924,BEL,Boxing,Boxing,1,0,1
+1924,BEL,Cycling,Cycling Road,0,2,0
+1924,BEL,Cycling,Cycling Track,0,0,1
+1924,BEL,Fencing,Fencing,1,2,1
+1924,BEL,Sailing,Sailing,1,0,0
+1924,BEL,Wrestling,Wrestling Free.,0,1,0
+1924,CAN,Boxing,Boxing,0,0,1
+1924,CAN,Rowing,Rowing,0,2,0
+1924,CAN,Shooting,Shooting,0,1,0
+1924,DEN,Boxing,Boxing,1,2,0
+1924,DEN,Cycling,Cycling Track,0,1,0
+1924,DEN,Equestrian,Eventing,0,1,0
+1924,DEN,Fencing,Fencing,1,0,1
+1924,DEN,Sailing,Sailing,0,1,0
+1924,DEN,Shooting,Shooting,0,0,1
+1924,EST,Athletics,Athletics,0,0,1
+1924,EST,Weightlifting,Weightlifting,0,1,2
+1924,EST,Wrestling,Wrestling Gre-R,1,0,1
+1924,FIN,Athletics,Athletics,10,5,2
+1924,FIN,Sailing,Sailing,0,0,1
+1924,FIN,Shooting,Shooting,0,1,2
+1924,FIN,Wrestling,Wrestling Free.,1,3,2
+1924,FIN,Wrestling,Wrestling Gre-R,3,4,3
+1924,FRA,Aquatics,Water polo,1,0,0
+1924,FRA,Athletics,Athletics,0,0,3
+1924,FRA,Boxing,Boxing,0,0,1
+1924,FRA,Cycling,Cycling Road,2,0,1
+1924,FRA,Cycling,Cycling Track,2,0,1
+1924,FRA,Equestrian,Dressage,0,0,1
+1924,FRA,Fencing,Fencing,3,3,0
+1924,FRA,Gymnastics,Artistic G.,1,3,1
+1924,FRA,Rowing,Rowing,0,3,0
+1924,FRA,Rugby,Rugby,0,1,0
+1924,FRA,Sailing,Sailing,0,0,1
+1924,FRA,Shooting,Shooting,1,1,0
+1924,FRA,Tennis,Tennis,0,3,1
+1924,FRA,Weightlifting,Weightlifting,2,0,0
+1924,FRA,Wrestling,Wrestling Gre-R,1,0,0
+1924,GBR,Aquatics,Diving,0,0,1
+1924,GBR,Aquatics,Swimming,1,2,1
+1924,GBR,Athletics,Athletics,3,3,5
+1924,GBR,Boxing,Boxing,2,2,0
+1924,GBR,Cycling,Cycling Track,0,1,1
+1924,GBR,Fencing,Fencing,0,1,0
+1924,GBR,Polo,Polo,0,0,1
+1924,GBR,Rowing,Rowing,2,0,0
+1924,GBR,Sailing,Sailing,0,1,0
+1924,GBR,Shooting,Shooting,1,2,0
+1924,GBR,Tennis,Tennis,0,1,2
+1924,GBR,Wrestling,Wrestling Free.,0,0,1
+1924,HAI,Shooting,Shooting,0,0,1
+1924,HUN,Aquatics,Swimming,0,0,1
+1924,HUN,Athletics,Athletics,0,1,0
+1924,HUN,Fencing,Fencing,1,1,2
+1924,HUN,Shooting,Shooting,1,0,0
+1924,HUN,Wrestling,Wrestling Gre-R,0,1,1
+1924,ITA,Athletics,Athletics,1,1,0
+1924,ITA,Cycling,Cycling Track,1,0,0
+1924,ITA,Equestrian,Eventing,0,0,1
+1924,ITA,Equestrian,Jumping,0,1,0
+1924,ITA,Fencing,Fencing,1,0,1
+1924,ITA,Gymnastics,Artistic G.,2,0,1
+1924,ITA,Rowing,Rowing,0,1,1
+1924,ITA,Tennis,Tennis,0,0,1
+1924,ITA,Weightlifting,Weightlifting,3,0,0
+1924,JPN,Wrestling,Wrestling Free.,0,0,1
+1924,NED,Athletics,Athletics,0,0,1
+1924,NED,Cycling,Cycling Track,1,1,1
+1924,NED,Equestrian,Eventing,2,0,0
+1924,NED,Fencing,Fencing,0,0,1
+1924,NED,Rowing,Rowing,1,0,0
+1924,NED,Sailing,Sailing,0,0,1
+1924,NED,Tennis,Tennis,0,0,2
+1924,NOR,Athletics,Athletics,0,0,1
+1924,NOR,Boxing,Boxing,1,0,1
+1924,NOR,Sailing,Sailing,2,1,0
+1924,NOR,Shooting,Shooting,2,1,1
+1924,NZL,Athletics,Athletics,0,0,1
+1924,POL,Cycling,Cycling Track,0,1,0
+1924,POL,Equestrian,Jumping,0,0,1
+1924,POR,Equestrian,Jumping,0,0,1
+1924,ROU,Rugby,Rugby,0,0,1
+1924,RSA,Athletics,Athletics,0,1,1
+1924,RSA,Boxing,Boxing,1,0,0
+1924,SUI,Athletics,Athletics,0,2,0
+1924,SUI,Equestrian,Jumping,1,1,0
+1924,SUI,Football,Football,0,1,0
+1924,SUI,Gymnastics,Artistic G.,2,2,3
+1924,SUI,Rowing,Rowing,2,0,3
+1924,SUI,Shooting,Shooting,0,0,1
+1924,SUI,Weightlifting,Weightlifting,0,1,1
+1924,SUI,Wrestling,Wrestling Free.,2,1,2
+1924,SWE,Aquatics,Diving,0,1,1
+1924,SWE,Aquatics,Swimming,0,2,2
+1924,SWE,Athletics,Athletics,0,3,2
+1924,SWE,Cycling,Cycling Road,0,0,1
+1924,SWE,Equestrian,Dressage,1,1,0
+1924,SWE,Equestrian,Eventing,0,2,0
+1924,SWE,Equestrian,Jumping,1,0,0
+1924,SWE,Fencing,Fencing,0,0,1
+1924,SWE,Football,Football,0,0,1
+1924,SWE,Modern Pentathlon,Modern Pentath.,1,1,1
+1924,SWE,Shooting,Shooting,0,2,2
+1924,SWE,Wrestling,Wrestling Free.,0,1,0
+1924,SWE,Wrestling,Wrestling Gre-R,1,1,1
+1924,TCH,Gymnastics,Artistic G.,1,4,4
+1924,TCH,Weightlifting,Weightlifting,0,0,1
+1924,URU,Football,Football,1,0,0
+1924,USA,Aquatics,Diving,4,4,3
+1924,USA,Aquatics,Swimming,9,5,5
+1924,USA,Aquatics,Water polo,0,0,1
+1924,USA,Athletics,Athletics,12,10,10
+1924,USA,Boxing,Boxing,2,2,2
+1924,USA,Equestrian,Eventing,0,0,1
+1924,USA,Gymnastics,Artistic G.,1,0,0
+1924,USA,Polo,Polo,0,1,0
+1924,USA,Rowing,Rowing,2,1,2
+1924,USA,Rugby,Rugby,1,0,0
+1924,USA,Shooting,Shooting,5,2,2
+1924,USA,Tennis,Tennis,6,2,0
+1924,USA,Wrestling,Wrestling Free.,4,1,1
+1924,YUG,Gymnastics,Artistic G.,2,0,0
+1928,ARG,Aquatics,Swimming,1,0,0
+1928,ARG,Boxing,Boxing,2,2,0
+1928,ARG,Fencing,Fencing,0,0,1
+1928,ARG,Football,Football,0,1,0
+1928,AUS,Aquatics,Swimming,0,2,0
+1928,AUS,Cycling,Cycling Track,0,0,1
+1928,AUS,Rowing,Rowing,1,0,0
+1928,AUT,Rowing,Rowing,0,0,1
+1928,AUT,Weightlifting,Weightlifting,2,0,0
+1928,BEL,Boxing,Boxing,0,0,1
+1928,BEL,Rowing,Rowing,0,0,1
+1928,BEL,Wrestling,Wrestling Free.,0,1,0
+1928,CAN,Aquatics,Swimming,0,0,1
+1928,CAN,Athletics,Athletics,4,2,2
+1928,CAN,Boxing,Boxing,0,0,1
+1928,CAN,Rowing,Rowing,0,1,1
+1928,CAN,Wrestling,Wrestling Free.,0,1,2
+1928,CHI,Athletics,Athletics,0,1,0
+1928,DEN,Boxing,Boxing,0,0,1
+1928,DEN,Cycling,Cycling Road,2,0,0
+1928,DEN,Cycling,Cycling Track,1,0,2
+1928,DEN,Sailing,Sailing,0,1,0
+1928,EGY,Aquatics,Diving,0,1,1
+1928,EGY,Weightlifting,Weightlifting,1,0,0
+1928,EGY,Wrestling,Wrestling Gre-R,1,0,0
+1928,ESP,Equestrian,Jumping,1,0,0
+1928,EST,Sailing,Sailing,0,0,1
+1928,EST,Weightlifting,Weightlifting,0,1,0
+1928,EST,Wrestling,Wrestling Free.,1,0,0
+1928,EST,Wrestling,Wrestling Gre-R,1,0,1
+1928,FIN,Athletics,Athletics,5,5,4
+1928,FIN,Gymnastics,Artistic G.,0,0,1
+1928,FIN,Sailing,Sailing,0,0,1
+1928,FIN,Wrestling,Wrestling Free.,2,2,1
+1928,FIN,Wrestling,Wrestling Gre-R,1,1,2
+1928,FRA,Aquatics,Water polo,0,0,1
+1928,FRA,Athletics,Athletics,1,1,1
+1928,FRA,Boxing,Boxing,0,1,0
+1928,FRA,Cycling,Cycling Track,2,0,0
+1928,FRA,Equestrian,Dressage,0,1,0
+1928,FRA,Equestrian,Jumping,0,1,0
+1928,FRA,Fencing,Fencing,2,2,0
+1928,FRA,Rowing,Rowing,0,1,0
+1928,FRA,Sailing,Sailing,1,0,0
+1928,FRA,Weightlifting,Weightlifting,1,1,1
+1928,FRA,Wrestling,Wrestling Free.,0,1,2
+1928,GBR,Aquatics,Swimming,0,2,2
+1928,GBR,Athletics,Athletics,2,2,1
+1928,GBR,Cycling,Cycling Road,0,2,0
+1928,GBR,Cycling,Cycling Track,0,1,1
+1928,GBR,Fencing,Fencing,0,1,0
+1928,GBR,Gymnastics,Artistic G.,0,0,1
+1928,GBR,Rowing,Rowing,1,2,1
+1928,GBR,Wrestling,Wrestling Free.,0,0,1
+1928,GER,Aquatics,Swimming,1,1,1
+1928,GER,Aquatics,Water polo,1,0,0
+1928,GER,Athletics,Athletics,1,2,6
+1928,GER,Boxing,Boxing,0,1,0
+1928,GER,Cycling,Cycling Track,0,0,1
+1928,GER,Equestrian,Dressage,2,0,0
+1928,GER,Equestrian,Eventing,0,0,1
+1928,GER,Fencing,Fencing,1,1,1
+1928,GER,Hockey,Hockey,0,0,1
+1928,GER,Modern Pentathlon,Modern Pentath.,0,0,1
+1928,GER,Rowing,Rowing,1,0,0
+1928,GER,Weightlifting,Weightlifting,2,0,1
+1928,GER,Wrestling,Wrestling Gre-R,1,2,1
+1928,HAI,Athletics,Athletics,0,1,0
+1928,HUN,Aquatics,Swimming,0,1,0
+1928,HUN,Aquatics,Water polo,0,1,0
+1928,HUN,Athletics,Athletics,0,1,0
+1928,HUN,Boxing,Boxing,1,0,0
+1928,HUN,Fencing,Fencing,2,1,0
+1928,HUN,Wrestling,Wrestling Gre-R,1,1,0
+1928,IND,Hockey,Hockey,1,0,0
+1928,IRL,Athletics,Athletics,1,0,0
+1928,ITA,Boxing,Boxing,3,0,1
+1928,ITA,Cycling,Cycling Track,1,0,0
+1928,ITA,Fencing,Fencing,1,1,2
+1928,ITA,Football,Football,0,0,1
+1928,ITA,Gymnastics,Artistic G.,0,2,0
+1928,ITA,Rowing,Rowing,1,0,1
+1928,ITA,Weightlifting,Weightlifting,0,2,0
+1928,ITA,Wrestling,Wrestling Gre-R,0,0,2
+1928,JPN,Aquatics,Swimming,1,1,1
+1928,JPN,Athletics,Athletics,1,1,0
+1928,NED,Aquatics,Swimming,1,2,0
+1928,NED,Athletics,Athletics,0,1,0
+1928,NED,Boxing,Boxing,1,0,1
+1928,NED,Cycling,Cycling Track,1,4,0
+1928,NED,Equestrian,Dressage,0,0,1
+1928,NED,Equestrian,Eventing,2,1,0
+1928,NED,Gymnastics,Artistic G.,1,0,0
+1928,NED,Hockey,Hockey,0,1,0
+1928,NED,Sailing,Sailing,0,1,0
+1928,NED,Weightlifting,Weightlifting,0,0,2
+1928,NOR,Athletics,Athletics,0,0,1
+1928,NOR,Equestrian,Eventing,0,1,0
+1928,NOR,Sailing,Sailing,1,1,0
+1928,NZL,Boxing,Boxing,1,0,0
+1928,PHI,Aquatics,Swimming,0,0,1
+1928,POL,Athletics,Athletics,1,0,0
+1928,POL,Equestrian,Eventing,0,0,1
+1928,POL,Equestrian,Jumping,0,1,0
+1928,POL,Fencing,Fencing,0,0,1
+1928,POL,Rowing,Rowing,0,0,1
+1928,RSA,Aquatics,Swimming,0,0,1
+1928,RSA,Athletics,Athletics,1,0,0
+1928,RSA,Boxing,Boxing,0,0,1
+1928,SUI,Equestrian,Jumping,0,0,2
+1928,SUI,Gymnastics,Artistic G.,5,2,2
+1928,SUI,Rowing,Rowing,1,1,0
+1928,SUI,Wrestling,Wrestling Free.,1,1,1
+1928,SWE,Aquatics,Diving,0,0,1
+1928,SWE,Aquatics,Swimming,1,0,1
+1928,SWE,Athletics,Athletics,1,2,4
+1928,SWE,Boxing,Boxing,0,1,1
+1928,SWE,Cycling,Cycling Road,0,0,2
+1928,SWE,Equestrian,Dressage,0,1,1
+1928,SWE,Equestrian,Jumping,0,0,1
+1928,SWE,Modern Pentathlon,Modern Pentath.,1,1,0
+1928,SWE,Sailing,Sailing,1,0,1
+1928,SWE,Wrestling,Wrestling Free.,2,0,0
+1928,SWE,Wrestling,Wrestling Gre-R,1,1,0
+1928,TCH,Boxing,Boxing,0,1,0
+1928,TCH,Equestrian,Jumping,1,0,0
+1928,TCH,Gymnastics,Artistic G.,1,3,1
+1928,TCH,Weightlifting,Weightlifting,0,0,1
+1928,TCH,Wrestling,Wrestling Gre-R,0,1,0
+1928,URU,Football,Football,1,0,0
+1928,USA,Aquatics,Diving,4,3,2
+1928,USA,Aquatics,Swimming,6,2,3
+1928,USA,Athletics,Athletics,9,8,8
+1928,USA,Boxing,Boxing,0,2,1
+1928,USA,Fencing,Fencing,0,0,1
+1928,USA,Rowing,Rowing,2,2,1
+1928,USA,Wrestling,Wrestling Free.,1,1,0
+1928,YUG,Gymnastics,Artistic G.,1,1,3
+1932,ARG,Athletics,Athletics,1,0,0
+1932,ARG,Boxing,Boxing,2,1,0
+1932,AUS,Aquatics,Swimming,1,1,0
+1932,AUS,Cycling,Cycling Track,1,0,0
+1932,AUS,Rowing,Rowing,1,0,0
+1932,AUS,Wrestling,Wrestling Free.,0,0,1
+1932,AUT,Fencing,Fencing,1,0,0
+1932,AUT,Weightlifting,Weightlifting,0,1,1
+1932,AUT,Wrestling,Wrestling Free.,0,0,1
+1932,AUT,Wrestling,Wrestling Gre-R,0,0,1
+1932,CAN,Athletics,Athletics,1,3,5
+1932,CAN,Boxing,Boxing,1,0,0
+1932,CAN,Rowing,Rowing,0,0,2
+1932,CAN,Sailing,Sailing,0,1,1
+1932,CAN,Wrestling,Wrestling Free.,0,1,0
+1932,DEN,Aquatics,Swimming,0,0,1
+1932,DEN,Boxing,Boxing,0,0,1
+1932,DEN,Cycling,Cycling Road,0,1,0
+1932,DEN,Cycling,Cycling Track,0,0,1
+1932,DEN,Weightlifting,Weightlifting,0,1,0
+1932,DEN,Wrestling,Wrestling Gre-R,0,1,0
+1932,ESP,Sailing,Sailing,0,0,1
+1932,FIN,Athletics,Athletics,3,4,4
+1932,FIN,Boxing,Boxing,0,0,1
+1932,FIN,Gymnastics,Artistic G.,0,1,4
+1932,FIN,Wrestling,Wrestling Free.,1,1,2
+1932,FIN,Wrestling,Wrestling Gre-R,1,2,1
+1932,FRA,Aquatics,Swimming,0,1,0
+1932,FRA,Athletics,Athletics,0,0,1
+1932,FRA,Cycling,Cycling Track,1,2,1
+1932,FRA,Equestrian,Dressage,2,1,0
+1932,FRA,Fencing,Fencing,2,1,0
+1932,FRA,Rowing,Rowing,0,0,1
+1932,FRA,Sailing,Sailing,1,0,0
+1932,FRA,Weightlifting,Weightlifting,3,0,0
+1932,FRA,Wrestling,Wrestling Free.,1,0,0
+1932,FRA,Wrestling,Wrestling Gre-R,0,0,1
+1932,GBR,Aquatics,Swimming,0,0,2
+1932,GBR,Athletics,Athletics,2,4,2
+1932,GBR,Cycling,Cycling Track,0,1,1
+1932,GBR,Fencing,Fencing,0,1,0
+1932,GBR,Rowing,Rowing,2,0,0
+1932,GBR,Sailing,Sailing,0,1,0
+1932,GER,Aquatics,Water polo,0,1,0
+1932,GER,Athletics,Athletics,0,2,3
+1932,GER,Boxing,Boxing,0,3,0
+1932,GER,Rowing,Rowing,1,2,0
+1932,GER,Shooting,Shooting,0,1,0
+1932,GER,Weightlifting,Weightlifting,1,1,1
+1932,GER,Wrestling,Wrestling Gre-R,1,2,1
+1932,HUN,Aquatics,Swimming,0,0,1
+1932,HUN,Aquatics,Water polo,1,0,0
+1932,HUN,Boxing,Boxing,1,0,0
+1932,HUN,Fencing,Fencing,2,0,2
+1932,HUN,Gymnastics,Artistic G.,2,2,0
+1932,HUN,Shooting,Shooting,0,0,1
+1932,HUN,Wrestling,Wrestling Free.,0,2,1
+1932,IND,Hockey,Hockey,1,0,0
+1932,IRL,Athletics,Athletics,2,0,0
+1932,ITA,Athletics,Athletics,1,0,2
+1932,ITA,Boxing,Boxing,0,2,0
+1932,ITA,Cycling,Cycling Road,2,1,0
+1932,ITA,Cycling,Cycling Track,1,0,1
+1932,ITA,Fencing,Fencing,2,4,2
+1932,ITA,Gymnastics,Artistic G.,4,1,2
+1932,ITA,Rowing,Rowing,0,2,1
+1932,ITA,Shooting,Shooting,1,0,1
+1932,ITA,Weightlifting,Weightlifting,0,1,1
+1932,ITA,Wrestling,Wrestling Gre-R,1,1,2
+1932,JPN,Aquatics,Swimming,5,5,2
+1932,JPN,Athletics,Athletics,1,1,2
+1932,JPN,Equestrian,Jumping,1,0,0
+1932,JPN,Hockey,Hockey,0,1,0
+1932,LAT,Athletics,Athletics,0,1,0
+1932,MEX,Boxing,Boxing,0,1,0
+1932,MEX,Shooting,Shooting,0,1,0
+1932,NED,Aquatics,Swimming,0,2,0
+1932,NED,Cycling,Cycling Track,1,1,0
+1932,NED,Equestrian,Eventing,1,1,0
+1932,NED,Sailing,Sailing,0,1,0
+1932,NZL,Rowing,Rowing,0,1,0
+1932,PHI,Aquatics,Swimming,0,0,1
+1932,PHI,Athletics,Athletics,0,0,1
+1932,PHI,Boxing,Boxing,0,0,1
+1932,POL,Athletics,Athletics,2,0,1
+1932,POL,Fencing,Fencing,0,0,1
+1932,POL,Rowing,Rowing,0,1,2
+1932,RSA,Aquatics,Swimming,0,0,1
+1932,RSA,Athletics,Athletics,0,0,1
+1932,RSA,Boxing,Boxing,2,0,1
+1932,SUI,Gymnastics,Artistic G.,0,1,0
+1932,SWE,Athletics,Athletics,0,1,0
+1932,SWE,Boxing,Boxing,0,1,1
+1932,SWE,Cycling,Cycling Road,0,0,2
+1932,SWE,Equestrian,Dressage,0,1,0
+1932,SWE,Equestrian,Eventing,0,0,1
+1932,SWE,Equestrian,Jumping,0,0,1
+1932,SWE,Modern Pentathlon,Modern Pentath.,1,1,0
+1932,SWE,Sailing,Sailing,1,0,1
+1932,SWE,Shooting,Shooting,1,0,0
+1932,SWE,Wrestling,Wrestling Free.,2,1,2
+1932,SWE,Wrestling,Wrestling Gre-R,4,0,1
+1932,TCH,Athletics,Athletics,0,0,1
+1932,TCH,Weightlifting,Weightlifting,1,1,0
+1932,TCH,Wrestling,Wrestling Gre-R,0,1,0
+1932,URU,Rowing,Rowing,0,0,1
+1932,USA,Aquatics,Diving,4,4,4
+1932,USA,Aquatics,Swimming,5,2,3
+1932,USA,Aquatics,Water polo,0,0,1
+1932,USA,Athletics,Athletics,16,13,6
+1932,USA,Boxing,Boxing,2,0,3
+1932,USA,Equestrian,Dressage,0,0,2
+1932,USA,Equestrian,Eventing,1,1,0
+1932,USA,Equestrian,Jumping,0,1,0
+1932,USA,Fencing,Fencing,0,1,2
+1932,USA,Gymnastics,Artistic G.,5,6,5
+1932,USA,Hockey,Hockey,0,0,1
+1932,USA,Modern Pentathlon,Modern Pentath.,0,0,1
+1932,USA,Rowing,Rowing,3,1,0
+1932,USA,Sailing,Sailing,2,1,0
+1932,USA,Weightlifting,Weightlifting,0,0,2
+1932,USA,Wrestling,Wrestling Free.,3,2,0
+1936,ARG,Aquatics,Swimming,0,1,0
+1936,ARG,Boxing,Boxing,1,1,2
+1936,ARG,Polo,Polo,1,0,0
+1936,ARG,Rowing,Rowing,0,0,1
+1936,AUS,Athletics,Athletics,0,0,1
+1936,AUT,Canoe / Kayak,Canoe / Kayak F,3,3,1
+1936,AUT,Equestrian,Dressage,0,0,1
+1936,AUT,Fencing,Fencing,0,0,1
+1936,AUT,Football,Football,0,1,0
+1936,AUT,Handball,Handball,0,1,0
+1936,AUT,Rowing,Rowing,0,1,0
+1936,AUT,Weightlifting,Weightlifting,1,0,0
+1936,BEL,Aquatics,Water polo,0,0,1
+1936,BEL,Cycling,Cycling Road,0,0,1
+1936,CAN,Athletics,Athletics,0,1,3
+1936,CAN,Basketball,Basketball,0,1,0
+1936,CAN,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1936,CAN,Wrestling,Wrestling Free.,0,0,1
+1936,DEN,Aquatics,Swimming,0,1,1
+1936,DEN,Boxing,Boxing,0,0,1
+1936,DEN,Equestrian,Eventing,0,0,1
+1936,DEN,Rowing,Rowing,0,1,0
+1936,EGY,Weightlifting,Weightlifting,2,1,2
+1936,EST,Boxing,Boxing,0,1,0
+1936,EST,Weightlifting,Weightlifting,0,0,1
+1936,EST,Wrestling,Wrestling Free.,1,1,0
+1936,EST,Wrestling,Wrestling Gre-R,1,0,2
+1936,FIN,Athletics,Athletics,3,5,2
+1936,FIN,Boxing,Boxing,1,0,0
+1936,FIN,Gymnastics,Artistic G.,1,0,1
+1936,FIN,Wrestling,Wrestling Free.,1,0,2
+1936,FIN,Wrestling,Wrestling Gre-R,1,1,1
+1936,FRA,Boxing,Boxing,2,0,0
+1936,FRA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1936,FRA,Cycling,Cycling Road,2,1,0
+1936,FRA,Cycling,Cycling Track,1,1,2
+1936,FRA,Equestrian,Dressage,0,1,0
+1936,FRA,Fencing,Fencing,0,2,1
+1936,FRA,Rowing,Rowing,0,0,2
+1936,FRA,Shooting,Shooting,0,0,1
+1936,FRA,Weightlifting,Weightlifting,1,0,0
+1936,FRA,Wrestling,Wrestling Free.,1,0,0
+1936,GBR,Athletics,Athletics,2,5,0
+1936,GBR,Cycling,Cycling Track,0,0,1
+1936,GBR,Equestrian,Eventing,0,0,1
+1936,GBR,Polo,Polo,0,1,0
+1936,GBR,Rowing,Rowing,1,1,0
+1936,GBR,Sailing,Sailing,1,0,1
+1936,GER,Aquatics,Diving,0,0,2
+1936,GER,Aquatics,Swimming,0,3,1
+1936,GER,Aquatics,Water polo,0,1,0
+1936,GER,Athletics,Athletics,5,4,7
+1936,GER,Boxing,Boxing,2,2,1
+1936,GER,Canoe / Kayak,Canoe / Kayak F,2,3,2
+1936,GER,Cycling,Cycling Track,2,0,1
+1936,GER,Equestrian,Dressage,2,1,0
+1936,GER,Equestrian,Eventing,2,0,0
+1936,GER,Equestrian,Jumping,2,0,0
+1936,GER,Fencing,Fencing,0,1,2
+1936,GER,Gymnastics,Artistic G.,6,1,6
+1936,GER,Handball,Handball,1,0,0
+1936,GER,Hockey,Hockey,0,1,0
+1936,GER,Modern Pentathlon,Modern Pentath.,1,0,0
+1936,GER,Rowing,Rowing,5,1,1
+1936,GER,Sailing,Sailing,1,1,1
+1936,GER,Shooting,Shooting,1,2,0
+1936,GER,Weightlifting,Weightlifting,1,2,2
+1936,GER,Wrestling,Wrestling Free.,0,1,2
+1936,GER,Wrestling,Wrestling Gre-R,0,2,2
+1936,HUN,Aquatics,Swimming,1,0,1
+1936,HUN,Aquatics,Water polo,1,0,0
+1936,HUN,Athletics,Athletics,1,0,0
+1936,HUN,Boxing,Boxing,1,0,0
+1936,HUN,Equestrian,Jumping,0,0,1
+1936,HUN,Fencing,Fencing,3,0,1
+1936,HUN,Gymnastics,Artistic G.,0,0,1
+1936,HUN,Shooting,Shooting,0,1,0
+1936,HUN,Wrestling,Wrestling Free.,2,0,0
+1936,HUN,Wrestling,Wrestling Gre-R,1,0,1
+1936,IND,Hockey,Hockey,1,0,0
+1936,ITA,Athletics,Athletics,1,2,2
+1936,ITA,Boxing,Boxing,1,1,0
+1936,ITA,Cycling,Cycling Track,0,1,0
+1936,ITA,Fencing,Fencing,4,3,2
+1936,ITA,Football,Football,1,0,0
+1936,ITA,Modern Pentathlon,Modern Pentath.,0,0,1
+1936,ITA,Rowing,Rowing,0,2,0
+1936,ITA,Sailing,Sailing,1,0,0
+1936,JPN,Aquatics,Swimming,4,2,5
+1936,JPN,Athletics,Athletics,2,2,3
+1936,LAT,Athletics,Athletics,0,0,1
+1936,LAT,Wrestling,Wrestling Gre-R,0,1,0
+1936,MEX,Basketball,Basketball,0,0,1
+1936,MEX,Boxing,Boxing,0,0,1
+1936,MEX,Polo,Polo,0,0,1
+1936,NED,Aquatics,Swimming,4,1,0
+1936,NED,Athletics,Athletics,0,0,2
+1936,NED,Canoe / Kayak,Canoe / Kayak F,0,0,3
+1936,NED,Cycling,Cycling Track,1,2,0
+1936,NED,Equestrian,Jumping,0,1,0
+1936,NED,Hockey,Hockey,0,0,1
+1936,NED,Sailing,Sailing,1,0,1
+1936,NOR,Boxing,Boxing,0,1,1
+1936,NOR,Football,Football,0,0,1
+1936,NOR,Sailing,Sailing,0,2,0
+1936,NOR,Shooting,Shooting,1,0,0
+1936,NZL,Athletics,Athletics,1,0,0
+1936,PHI,Athletics,Athletics,0,0,1
+1936,POL,Athletics,Athletics,0,2,1
+1936,POL,Equestrian,Eventing,0,1,0
+1936,POL,Rowing,Rowing,0,0,1
+1936,POL,Shooting,Shooting,0,0,1
+1936,POR,Equestrian,Jumping,0,0,1
+1936,ROU,Equestrian,Jumping,0,1,0
+1936,RSA,Boxing,Boxing,0,1,0
+1936,SUI,Athletics,Athletics,0,1,0
+1936,SUI,Cycling,Cycling Road,0,1,1
+1936,SUI,Gymnastics,Artistic G.,1,6,2
+1936,SUI,Handball,Handball,0,0,1
+1936,SUI,Rowing,Rowing,0,1,1
+1936,SWE,Athletics,Athletics,0,0,2
+1936,SWE,Boxing,Boxing,0,0,1
+1936,SWE,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1936,SWE,Equestrian,Dressage,0,0,1
+1936,SWE,Fencing,Fencing,0,1,0
+1936,SWE,Sailing,Sailing,0,1,1
+1936,SWE,Shooting,Shooting,1,0,1
+1936,SWE,Wrestling,Wrestling Free.,1,1,1
+1936,SWE,Wrestling,Wrestling Gre-R,3,2,1
+1936,TCH,Canoe / Kayak,Canoe / Kayak F,2,1,0
+1936,TCH,Gymnastics,Artistic G.,1,1,0
+1936,TCH,Weightlifting,Weightlifting,0,1,0
+1936,TCH,Wrestling,Wrestling Free.,0,1,0
+1936,TCH,Wrestling,Wrestling Gre-R,0,1,0
+1936,TUR,Wrestling,Wrestling Free.,0,0,1
+1936,TUR,Wrestling,Wrestling Gre-R,1,0,0
+1936,USA,Aquatics,Diving,4,4,2
+1936,USA,Aquatics,Swimming,2,3,3
+1936,USA,Athletics,Athletics,14,7,4
+1936,USA,Basketball,Basketball,1,0,0
+1936,USA,Boxing,Boxing,0,1,1
+1936,USA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1936,USA,Equestrian,Eventing,0,1,0
+1936,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+1936,USA,Rowing,Rowing,1,0,1
+1936,USA,Weightlifting,Weightlifting,1,0,0
+1936,USA,Wrestling,Wrestling Free.,1,3,0
+1936,YUG,Gymnastics,Artistic G.,0,1,0
+1948,ARG,Athletics,Athletics,1,1,0
+1948,ARG,Boxing,Boxing,2,0,1
+1948,ARG,Sailing,Sailing,0,1,0
+1948,ARG,Shooting,Shooting,0,1,0
+1948,AUS,Aquatics,Swimming,0,2,2
+1948,AUS,Athletics,Athletics,1,3,2
+1948,AUS,Rowing,Rowing,1,0,0
+1948,AUS,Wrestling,Wrestling Free.,0,1,1
+1948,AUT,Athletics,Athletics,1,0,1
+1948,AUT,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1948,AUT,Fencing,Fencing,0,0,1
+1948,BEL,Athletics,Athletics,1,0,1
+1948,BEL,Boxing,Boxing,0,1,0
+1948,BEL,Cycling,Cycling Road,1,0,1
+1948,BEL,Cycling,Cycling Track,0,1,0
+1948,BEL,Fencing,Fencing,0,0,1
+1948,BRA,Basketball,Basketball,0,0,1
+1948,CAN,Athletics,Athletics,0,0,1
+1948,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1948,CUB,Sailing,Sailing,0,1,0
+1948,DEN,Aquatics,Diving,0,0,1
+1948,DEN,Aquatics,Swimming,2,2,0
+1948,DEN,Athletics,Athletics,0,0,1
+1948,DEN,Boxing,Boxing,0,0,1
+1948,DEN,Canoe / Kayak,Canoe / Kayak F,1,2,0
+1948,DEN,Cycling,Cycling Track,0,0,1
+1948,DEN,Fencing,Fencing,0,1,0
+1948,DEN,Football,Football,0,0,1
+1948,DEN,Rowing,Rowing,1,2,1
+1948,DEN,Sailing,Sailing,1,0,1
+1948,DEN,Wrestling,Wrestling Gre-R,0,0,1
+1948,EGY,Weightlifting,Weightlifting,2,1,0
+1948,EGY,Wrestling,Wrestling Gre-R,0,1,1
+1948,ESP,Equestrian,Jumping,0,1,0
+1948,FIN,Athletics,Athletics,1,2,0
+1948,FIN,Canoe / Kayak,Canoe / Kayak F,0,1,2
+1948,FIN,Gymnastics,Artistic G.,4,2,2
+1948,FIN,Shooting,Shooting,0,1,0
+1948,FIN,Wrestling,Wrestling Free.,1,0,0
+1948,FIN,Wrestling,Wrestling Gre-R,0,1,1
+1948,FRA,Aquatics,Swimming,0,0,2
+1948,FRA,Athletics,Athletics,2,3,3
+1948,FRA,Basketball,Basketball,0,1,0
+1948,FRA,Canoe / Kayak,Canoe / Kayak F,0,0,4
+1948,FRA,Cycling,Cycling Road,1,0,1
+1948,FRA,Cycling,Cycling Track,2,0,1
+1948,FRA,Equestrian,Dressage,1,1,0
+1948,FRA,Equestrian,Eventing,1,0,0
+1948,FRA,Equestrian,Jumping,0,0,1
+1948,FRA,Fencing,Fencing,3,1,0
+1948,FRA,Wrestling,Wrestling Free.,0,0,1
+1948,GBR,Aquatics,Swimming,0,0,1
+1948,GBR,Athletics,Athletics,0,6,1
+1948,GBR,Boxing,Boxing,0,2,0
+1948,GBR,Cycling,Cycling Road,0,1,0
+1948,GBR,Cycling,Cycling Track,0,2,2
+1948,GBR,Equestrian,Jumping,0,0,1
+1948,GBR,Hockey,Hockey,0,1,0
+1948,GBR,Rowing,Rowing,2,1,0
+1948,GBR,Sailing,Sailing,1,0,0
+1948,GBR,Weightlifting,Weightlifting,0,1,1
+1948,HUN,Aquatics,Swimming,0,1,3
+1948,HUN,Aquatics,Water polo,0,1,0
+1948,HUN,Athletics,Athletics,2,0,1
+1948,HUN,Boxing,Boxing,2,0,0
+1948,HUN,Fencing,Fencing,3,0,2
+1948,HUN,Gymnastics,Artistic G.,1,2,2
+1948,HUN,Rowing,Rowing,0,0,1
+1948,HUN,Shooting,Shooting,1,0,0
+1948,HUN,Wrestling,Wrestling Free.,1,0,0
+1948,HUN,Wrestling,Wrestling Gre-R,0,1,2
+1948,IND,Hockey,Hockey,1,0,0
+1948,IRI,Weightlifting,Weightlifting,0,0,1
+1948,ITA,Aquatics,Water polo,1,0,0
+1948,ITA,Athletics,Athletics,1,3,1
+1948,ITA,Boxing,Boxing,1,2,2
+1948,ITA,Cycling,Cycling Track,2,1,0
+1948,ITA,Fencing,Fencing,1,4,1
+1948,ITA,Rowing,Rowing,1,1,2
+1948,ITA,Wrestling,Wrestling Gre-R,1,0,2
+1948,JAM,Athletics,Athletics,1,2,0
+1948,KOR,Boxing,Boxing,0,0,1
+1948,KOR,Weightlifting,Weightlifting,0,0,1
+1948,MEX,Aquatics,Diving,0,0,1
+1948,MEX,Equestrian,Eventing,0,0,1
+1948,MEX,Equestrian,Jumping,2,1,0
+1948,NED,Aquatics,Swimming,1,0,2
+1948,NED,Aquatics,Water polo,0,0,1
+1948,NED,Athletics,Athletics,4,0,2
+1948,NED,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1948,NED,Cycling,Cycling Road,0,1,0
+1948,NED,Hockey,Hockey,0,0,1
+1948,NED,Sailing,Sailing,0,0,2
+1948,NED,Weightlifting,Weightlifting,0,0,1
+1948,NOR,Athletics,Athletics,0,1,0
+1948,NOR,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1948,NOR,Rowing,Rowing,0,0,1
+1948,NOR,Sailing,Sailing,1,0,0
+1948,NOR,Shooting,Shooting,0,0,1
+1948,NOR,Wrestling,Wrestling Gre-R,0,1,0
+1948,PAN,Athletics,Athletics,0,0,2
+1948,PER,Shooting,Shooting,1,0,0
+1948,POL,Boxing,Boxing,0,0,1
+1948,POR,Equestrian,Dressage,0,0,1
+1948,POR,Sailing,Sailing,0,1,0
+1948,PUR,Boxing,Boxing,0,0,1
+1948,RSA,Boxing,Boxing,2,1,1
+1948,SRI,Athletics,Athletics,0,1,0
+1948,SUI,Athletics,Athletics,0,1,1
+1948,SUI,Equestrian,Dressage,1,0,0
+1948,SUI,Fencing,Fencing,0,1,0
+1948,SUI,Gymnastics,Artistic G.,3,4,1
+1948,SUI,Rowing,Rowing,0,2,0
+1948,SUI,Shooting,Shooting,1,1,0
+1948,SUI,Wrestling,Wrestling Free.,0,1,2
+1948,SWE,Athletics,Athletics,5,3,5
+1948,SWE,Boxing,Boxing,0,1,0
+1948,SWE,Canoe / Kayak,Canoe / Kayak F,4,0,0
+1948,SWE,Equestrian,Dressage,0,0,1
+1948,SWE,Equestrian,Eventing,0,1,1
+1948,SWE,Fencing,Fencing,0,0,1
+1948,SWE,Football,Football,1,0,0
+1948,SWE,Modern Pentathlon,Modern Pentath.,1,0,1
+1948,SWE,Sailing,Sailing,0,1,1
+1948,SWE,Shooting,Shooting,0,0,3
+1948,SWE,Weightlifting,Weightlifting,0,0,1
+1948,SWE,Wrestling,Wrestling Free.,0,3,3
+1948,SWE,Wrestling,Wrestling Gre-R,5,2,0
+1948,TCH,Athletics,Athletics,1,1,0
+1948,TCH,Boxing,Boxing,1,0,0
+1948,TCH,Canoe / Kayak,Canoe / Kayak F,3,1,0
+1948,TCH,Gymnastics,Artistic G.,1,0,3
+1948,TRI,Weightlifting,Weightlifting,0,1,0
+1948,TUR,Athletics,Athletics,0,0,1
+1948,TUR,Wrestling,Wrestling Free.,4,2,0
+1948,TUR,Wrestling,Wrestling Gre-R,2,2,1
+1948,URU,Rowing,Rowing,0,1,1
+1948,USA,Aquatics,Diving,4,4,2
+1948,USA,Aquatics,Swimming,8,6,1
+1948,USA,Athletics,Athletics,12,5,10
+1948,USA,Basketball,Basketball,1,0,0
+1948,USA,Boxing,Boxing,0,1,0
+1948,USA,Canoe / Kayak,Canoe / Kayak F,1,2,0
+1948,USA,Equestrian,Dressage,0,1,0
+1948,USA,Equestrian,Eventing,1,1,0
+1948,USA,Fencing,Fencing,0,0,1
+1948,USA,Gymnastics,Artistic G.,0,0,1
+1948,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+1948,USA,Rowing,Rowing,2,0,1
+1948,USA,Sailing,Sailing,2,1,1
+1948,USA,Shooting,Shooting,1,1,0
+1948,USA,Weightlifting,Weightlifting,4,3,1
+1948,USA,Wrestling,Wrestling Free.,2,1,1
+1948,YUG,Athletics,Athletics,0,1,0
+1948,YUG,Football,Football,0,1,0
+1952,ARG,Athletics,Athletics,0,1,0
+1952,ARG,Boxing,Boxing,0,1,1
+1952,ARG,Rowing,Rowing,1,0,0
+1952,ARG,Weightlifting,Weightlifting,0,0,1
+1952,AUS,Aquatics,Swimming,1,0,0
+1952,AUS,Athletics,Athletics,3,0,1
+1952,AUS,Cycling,Cycling Track,2,1,0
+1952,AUS,Rowing,Rowing,0,1,1
+1952,AUS,Weightlifting,Weightlifting,0,0,1
+1952,AUT,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1952,BEL,Cycling,Cycling Road,2,1,0
+1952,BEL,Rowing,Rowing,0,1,0
+1952,BRA,Aquatics,Swimming,0,0,1
+1952,BRA,Athletics,Athletics,1,0,1
+1952,BUL,Boxing,Boxing,0,0,1
+1952,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1952,CAN,Shooting,Shooting,1,0,0
+1952,CAN,Weightlifting,Weightlifting,0,1,0
+1952,CHI,Equestrian,Jumping,0,2,0
+1952,DEN,Boxing,Boxing,0,0,1
+1952,DEN,Canoe / Kayak,Canoe / Kayak F,1,0,0
+1952,DEN,Equestrian,Dressage,0,1,0
+1952,DEN,Fencing,Fencing,0,0,1
+1952,DEN,Rowing,Rowing,0,0,1
+1952,DEN,Sailing,Sailing,1,0,0
+1952,EGY,Wrestling,Wrestling Gre-R,0,0,1
+1952,ESP,Shooting,Shooting,0,1,0
+1952,FIN,Athletics,Athletics,0,0,1
+1952,FIN,Boxing,Boxing,1,0,4
+1952,FIN,Canoe / Kayak,Canoe / Kayak F,4,1,1
+1952,FIN,Gymnastics,Artistic G.,0,0,1
+1952,FIN,Modern Pentathlon,Modern Pentath.,0,0,1
+1952,FIN,Rowing,Rowing,0,0,1
+1952,FIN,Sailing,Sailing,0,0,1
+1952,FIN,Shooting,Shooting,0,1,1
+1952,FIN,Wrestling,Wrestling Gre-R,1,1,2
+1952,FRA,Aquatics,Diving,0,1,0
+1952,FRA,Aquatics,Swimming,1,1,1
+1952,FRA,Athletics,Athletics,0,2,0
+1952,FRA,Boxing,Boxing,0,0,1
+1952,FRA,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1952,FRA,Cycling,Cycling Road,0,0,1
+1952,FRA,Equestrian,Dressage,0,0,1
+1952,FRA,Equestrian,Eventing,0,1,0
+1952,FRA,Equestrian,Jumping,1,0,0
+1952,FRA,Fencing,Fencing,2,0,1
+1952,FRA,Rowing,Rowing,1,1,0
+1952,GBR,Aquatics,Swimming,0,0,1
+1952,GBR,Athletics,Athletics,0,1,4
+1952,GBR,Cycling,Cycling Track,0,0,1
+1952,GBR,Equestrian,Jumping,1,0,0
+1952,GBR,Hockey,Hockey,0,0,1
+1952,GBR,Sailing,Sailing,0,1,0
+1952,GBR,Wrestling,Wrestling Free.,0,0,1
+1952,GER,Aquatics,Diving,0,0,1
+1952,GER,Aquatics,Swimming,0,0,1
+1952,GER,Athletics,Athletics,0,3,5
+1952,GER,Boxing,Boxing,0,1,1
+1952,GER,Canoe / Kayak,Canoe / Kayak F,0,0,3
+1952,GER,Cycling,Cycling Road,0,0,1
+1952,GER,Cycling,Cycling Track,0,0,1
+1952,GER,Equestrian,Dressage,0,0,2
+1952,GER,Equestrian,Eventing,0,1,1
+1952,GER,Equestrian,Jumping,0,0,1
+1952,GER,Gymnastics,Artistic G.,0,1,0
+1952,GER,Rowing,Rowing,0,1,0
+1952,GER,Sailing,Sailing,0,0,1
+1952,HUN,Aquatics,Swimming,4,2,1
+1952,HUN,Aquatics,Water polo,1,0,0
+1952,HUN,Athletics,Athletics,1,0,4
+1952,HUN,Boxing,Boxing,1,0,0
+1952,HUN,Canoe / Kayak,Canoe / Kayak F,0,2,1
+1952,HUN,Fencing,Fencing,2,2,2
+1952,HUN,Football,Football,1,0,0
+1952,HUN,Gymnastics,Artistic G.,2,1,5
+1952,HUN,Modern Pentathlon,Modern Pentath.,1,1,1
+1952,HUN,Shooting,Shooting,1,1,1
+1952,HUN,Wrestling,Wrestling Free.,0,0,1
+1952,HUN,Wrestling,Wrestling Gre-R,2,1,0
+1952,IND,Hockey,Hockey,1,0,0
+1952,IND,Wrestling,Wrestling Free.,0,0,1
+1952,IRI,Weightlifting,Weightlifting,0,1,1
+1952,IRI,Wrestling,Wrestling Free.,0,2,3
+1952,IRL,Boxing,Boxing,0,1,0
+1952,ITA,Aquatics,Water polo,0,0,1
+1952,ITA,Athletics,Athletics,1,1,0
+1952,ITA,Boxing,Boxing,1,1,1
+1952,ITA,Cycling,Cycling Road,0,1,0
+1952,ITA,Cycling,Cycling Track,2,1,1
+1952,ITA,Fencing,Fencing,3,4,1
+1952,ITA,Sailing,Sailing,1,0,0
+1952,ITA,Wrestling,Wrestling Gre-R,0,1,0
+1952,JAM,Athletics,Athletics,2,3,0
+1952,JPN,Aquatics,Swimming,0,3,0
+1952,JPN,Gymnastics,Artistic G.,0,2,1
+1952,JPN,Wrestling,Wrestling Free.,1,1,0
+1952,KOR,Boxing,Boxing,0,0,1
+1952,KOR,Weightlifting,Weightlifting,0,0,1
+1952,LIB,Wrestling,Wrestling Gre-R,0,1,1
+1952,LUX,Athletics,Athletics,1,0,0
+1952,MEX,Aquatics,Diving,0,1,0
+1952,NED,Aquatics,Swimming,0,3,0
+1952,NED,Athletics,Athletics,0,1,0
+1952,NED,Hockey,Hockey,0,1,0
+1952,NOR,Sailing,Sailing,1,3,0
+1952,NOR,Shooting,Shooting,2,0,0
+1952,NZL,Aquatics,Swimming,0,0,1
+1952,NZL,Athletics,Athletics,1,0,1
+1952,POL,Boxing,Boxing,1,1,0
+1952,POL,Gymnastics,Artistic G.,0,1,0
+1952,POL,Rowing,Rowing,0,0,1
+1952,POR,Sailing,Sailing,0,0,1
+1952,ROU,Boxing,Boxing,0,1,1
+1952,ROU,Shooting,Shooting,1,0,1
+1952,RSA,Aquatics,Swimming,1,0,0
+1952,RSA,Athletics,Athletics,1,1,0
+1952,RSA,Boxing,Boxing,0,1,3
+1952,RSA,Cycling,Cycling Track,0,2,1
+1952,SUI,Athletics,Athletics,0,1,0
+1952,SUI,Equestrian,Dressage,0,1,0
+1952,SUI,Fencing,Fencing,0,0,2
+1952,SUI,Gymnastics,Artistic G.,2,2,3
+1952,SUI,Rowing,Rowing,0,1,1
+1952,SUI,Shooting,Shooting,0,1,0
+1952,SWE,Aquatics,Swimming,0,0,2
+1952,SWE,Athletics,Athletics,1,0,2
+1952,SWE,Boxing,Boxing,0,1,1
+1952,SWE,Canoe / Kayak,Canoe / Kayak F,1,3,0
+1952,SWE,Equestrian,Dressage,2,0,0
+1952,SWE,Equestrian,Eventing,2,0,0
+1952,SWE,Fencing,Fencing,0,1,0
+1952,SWE,Football,Football,0,0,1
+1952,SWE,Gymnastics,Artistic G.,2,0,0
+1952,SWE,Modern Pentathlon,Modern Pentath.,1,1,0
+1952,SWE,Sailing,Sailing,0,1,2
+1952,SWE,Shooting,Shooting,0,2,1
+1952,SWE,Wrestling,Wrestling Free.,2,2,0
+1952,SWE,Wrestling,Wrestling Gre-R,1,2,1
+1952,TCH,Athletics,Athletics,4,1,0
+1952,TCH,Boxing,Boxing,1,0,0
+1952,TCH,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1952,TCH,Gymnastics,Artistic G.,0,0,1
+1952,TCH,Rowing,Rowing,1,0,0
+1952,TCH,Wrestling,Wrestling Gre-R,0,1,1
+1952,TRI,Weightlifting,Weightlifting,0,0,2
+1952,TUR,Wrestling,Wrestling Free.,2,0,1
+1952,URS,Athletics,Athletics,2,8,7
+1952,URS,Basketball,Basketball,0,1,0
+1952,URS,Boxing,Boxing,0,2,4
+1952,URS,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1952,URS,Gymnastics,Artistic G.,9,10,2
+1952,URS,Rowing,Rowing,1,2,0
+1952,URS,Shooting,Shooting,1,1,2
+1952,URS,Weightlifting,Weightlifting,3,3,1
+1952,URS,Wrestling,Wrestling Free.,2,1,0
+1952,URS,Wrestling,Wrestling Gre-R,4,1,2
+1952,URU,Basketball,Basketball,0,0,1
+1952,URU,Rowing,Rowing,0,0,1
+1952,USA,Aquatics,Diving,4,2,3
+1952,USA,Aquatics,Swimming,4,2,3
+1952,USA,Athletics,Athletics,15,10,6
+1952,USA,Basketball,Basketball,1,0,0
+1952,USA,Boxing,Boxing,5,0,0
+1952,USA,Canoe / Kayak,Canoe / Kayak F,1,0,0
+1952,USA,Equestrian,Eventing,0,0,1
+1952,USA,Equestrian,Jumping,0,0,1
+1952,USA,Rowing,Rowing,2,0,1
+1952,USA,Sailing,Sailing,3,1,0
+1952,USA,Shooting,Shooting,1,0,1
+1952,USA,Weightlifting,Weightlifting,4,2,0
+1952,USA,Wrestling,Wrestling Free.,1,2,1
+1952,VEN,Athletics,Athletics,0,0,1
+1952,YUG,Aquatics,Water polo,0,1,0
+1952,YUG,Football,Football,0,1,0
+1952,YUG,Rowing,Rowing,1,0,0
+1956,ARG,Boxing,Boxing,0,0,1
+1956,ARG,Weightlifting,Weightlifting,0,1,0
+1956,AUS,Aquatics,Swimming,8,4,2
+1956,AUS,Athletics,Athletics,4,2,6
+1956,AUS,Boxing,Boxing,0,0,1
+1956,AUS,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1956,AUS,Cycling,Cycling Track,1,0,1
+1956,AUS,Rowing,Rowing,0,1,2
+1956,AUS,Sailing,Sailing,0,1,1
+1956,AUT,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1956,AUT,Rowing,Rowing,0,0,1
+1956,BAH,Sailing,Sailing,0,0,1
+1956,BEL,Sailing,Sailing,0,1,0
+1956,BEL,Wrestling,Wrestling Free.,0,1,0
+1956,BRA,Athletics,Athletics,1,0,0
+1956,BUL,Football,Football,0,0,1
+1956,BUL,Wrestling,Wrestling Free.,1,1,0
+1956,BUL,Wrestling,Wrestling Gre-R,0,2,0
+1956,CAN,Aquatics,Diving,0,0,1
+1956,CAN,Equestrian,Eventing,0,0,1
+1956,CAN,Rowing,Rowing,1,1,0
+1956,CAN,Shooting,Shooting,1,0,1
+1956,CHI,Athletics,Athletics,0,1,0
+1956,CHI,Boxing,Boxing,0,1,2
+1956,DEN,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1956,DEN,Equestrian,Dressage,0,1,0
+1956,DEN,Sailing,Sailing,1,1,0
+1956,EUA,Aquatics,Swimming,1,0,1
+1956,EUA,Athletics,Athletics,0,5,2
+1956,EUA,Boxing,Boxing,1,1,0
+1956,EUA,Canoe / Kayak,Canoe / Kayak F,1,2,1
+1956,EUA,Cycling,Cycling Road,0,0,1
+1956,EUA,Equestrian,Dressage,0,1,1
+1956,EUA,Equestrian,Eventing,0,3,0
+1956,EUA,Equestrian,Jumping,4,0,0
+1956,EUA,Gymnastics,Artistic G.,1,0,0
+1956,EUA,Hockey,Hockey,0,0,1
+1956,EUA,Rowing,Rowing,0,1,0
+1956,EUA,Wrestling,Wrestling Gre-R,0,1,0
+1956,FIN,Athletics,Athletics,0,0,3
+1956,FIN,Boxing,Boxing,0,0,1
+1956,FIN,Gymnastics,Artistic G.,0,0,1
+1956,FIN,Modern Pentathlon,Modern Pentath.,0,1,2
+1956,FIN,Rowing,Rowing,0,0,1
+1956,FIN,Shooting,Shooting,1,0,1
+1956,FIN,Wrestling,Wrestling Free.,0,0,2
+1956,FIN,Wrestling,Wrestling Gre-R,2,0,0
+1956,FRA,Athletics,Athletics,1,0,0
+1956,FRA,Boxing,Boxing,0,0,2
+1956,FRA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1956,FRA,Cycling,Cycling Road,1,1,0
+1956,FRA,Cycling,Cycling Track,1,1,0
+1956,FRA,Fencing,Fencing,1,1,2
+1956,FRA,Rowing,Rowing,0,0,1
+1956,FRA,Weightlifting,Weightlifting,0,0,1
+1956,GBR,Aquatics,Swimming,1,0,1
+1956,GBR,Athletics,Athletics,1,4,2
+1956,GBR,Boxing,Boxing,2,1,2
+1956,GBR,Cycling,Cycling Road,0,1,1
+1956,GBR,Cycling,Cycling Track,0,0,1
+1956,GBR,Equestrian,Eventing,1,0,1
+1956,GBR,Equestrian,Jumping,0,0,2
+1956,GBR,Fencing,Fencing,1,0,0
+1956,GBR,Sailing,Sailing,0,1,2
+1956,GRE,Athletics,Athletics,0,0,1
+1956,HUN,Aquatics,Swimming,0,1,1
+1956,HUN,Aquatics,Water polo,1,0,0
+1956,HUN,Athletics,Athletics,0,2,0
+1956,HUN,Boxing,Boxing,1,0,0
+1956,HUN,Canoe / Kayak,Canoe / Kayak F,1,3,3
+1956,HUN,Fencing,Fencing,2,1,1
+1956,HUN,Gymnastics,Artistic G.,4,2,1
+1956,HUN,Wrestling,Wrestling Gre-R,0,1,1
+1956,IND,Hockey,Hockey,1,0,0
+1956,IRI,Weightlifting,Weightlifting,0,0,1
+1956,IRI,Wrestling,Wrestling Free.,2,2,0
+1956,IRL,Athletics,Athletics,1,0,0
+1956,IRL,Boxing,Boxing,0,1,3
+1956,ISL,Athletics,Athletics,0,1,0
+1956,ITA,Boxing,Boxing,0,1,1
+1956,ITA,Cycling,Cycling Road,1,0,0
+1956,ITA,Cycling,Cycling Track,2,1,1
+1956,ITA,Equestrian,Jumping,0,2,1
+1956,ITA,Fencing,Fencing,3,2,2
+1956,ITA,Rowing,Rowing,1,0,0
+1956,ITA,Sailing,Sailing,0,1,0
+1956,ITA,Shooting,Shooting,1,0,1
+1956,ITA,Weightlifting,Weightlifting,0,0,2
+1956,ITA,Wrestling,Wrestling Gre-R,0,1,1
+1956,JPN,Aquatics,Swimming,1,4,0
+1956,JPN,Gymnastics,Artistic G.,1,5,3
+1956,JPN,Wrestling,Wrestling Free.,2,1,0
+1956,KOR,Boxing,Boxing,0,1,0
+1956,KOR,Weightlifting,Weightlifting,0,0,1
+1956,MEX,Aquatics,Diving,1,0,1
+1956,NOR,Athletics,Athletics,1,0,2
+1956,NZL,Athletics,Athletics,1,0,0
+1956,NZL,Sailing,Sailing,1,0,0
+1956,PAK,Hockey,Hockey,0,1,0
+1956,POL,Athletics,Athletics,1,1,0
+1956,POL,Boxing,Boxing,0,0,2
+1956,POL,Fencing,Fencing,0,2,0
+1956,POL,Gymnastics,Artistic G.,0,0,1
+1956,POL,Shooting,Shooting,0,1,0
+1956,POL,Weightlifting,Weightlifting,0,0,1
+1956,ROU,Boxing,Boxing,1,2,1
+1956,ROU,Canoe / Kayak,Canoe / Kayak F,3,0,0
+1956,ROU,Fencing,Fencing,0,1,0
+1956,ROU,Gymnastics,Artistic G.,0,0,2
+1956,ROU,Shooting,Shooting,1,0,1
+1956,ROU,Wrestling,Wrestling Gre-R,0,0,1
+1956,RSA,Aquatics,Swimming,0,0,1
+1956,RSA,Boxing,Boxing,0,0,2
+1956,RSA,Cycling,Cycling Track,0,0,1
+1956,SUI,Equestrian,Dressage,0,0,1
+1956,SWE,Athletics,Athletics,0,0,1
+1956,SWE,Canoe / Kayak,Canoe / Kayak F,2,0,0
+1956,SWE,Equestrian,Dressage,2,0,0
+1956,SWE,Equestrian,Eventing,1,0,0
+1956,SWE,Gymnastics,Artistic G.,0,2,1
+1956,SWE,Modern Pentathlon,Modern Pentath.,1,0,0
+1956,SWE,Rowing,Rowing,0,1,0
+1956,SWE,Sailing,Sailing,2,0,0
+1956,SWE,Shooting,Shooting,0,1,1
+1956,SWE,Wrestling,Wrestling Gre-R,0,1,3
+1956,TCH,Athletics,Athletics,1,0,1
+1956,TCH,Cycling,Cycling Track,0,2,0
+1956,TCH,Gymnastics,Artistic G.,0,1,0
+1956,TCH,Shooting,Shooting,0,1,0
+1956,TUR,Wrestling,Wrestling Free.,2,1,1
+1956,TUR,Wrestling,Wrestling Gre-R,1,1,1
+1956,URS,Aquatics,Swimming,0,0,2
+1956,URS,Aquatics,Water polo,0,0,1
+1956,URS,Athletics,Athletics,5,7,10
+1956,URS,Basketball,Basketball,0,1,0
+1956,URS,Boxing,Boxing,3,1,2
+1956,URS,Canoe / Kayak,Canoe / Kayak F,2,3,2
+1956,URS,Fencing,Fencing,0,0,2
+1956,URS,Football,Football,1,0,0
+1956,URS,Gymnastics,Artistic G.,11,6,6
+1956,URS,Modern Pentathlon,Modern Pentath.,1,0,0
+1956,URS,Rowing,Rowing,2,1,1
+1956,URS,Shooting,Shooting,3,4,1
+1956,URS,Weightlifting,Weightlifting,3,4,0
+1956,URS,Wrestling,Wrestling Free.,1,1,4
+1956,URS,Wrestling,Wrestling Gre-R,5,1,1
+1956,URU,Basketball,Basketball,0,0,1
+1956,USA,Aquatics,Diving,3,4,2
+1956,USA,Aquatics,Swimming,2,4,5
+1956,USA,Athletics,Athletics,16,10,5
+1956,USA,Basketball,Basketball,1,0,0
+1956,USA,Boxing,Boxing,2,1,0
+1956,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+1956,USA,Rowing,Rowing,3,2,1
+1956,USA,Sailing,Sailing,1,0,1
+1956,USA,Shooting,Shooting,0,0,1
+1956,USA,Weightlifting,Weightlifting,4,2,1
+1956,USA,Wrestling,Wrestling Free.,0,1,1
+1956,YUG,Aquatics,Water polo,0,1,0
+1956,YUG,Athletics,Athletics,0,1,0
+1956,YUG,Football,Football,0,1,0
+1960,ARG,Boxing,Boxing,0,0,1
+1960,ARG,Sailing,Sailing,0,1,0
+1960,AUS,Aquatics,Swimming,5,5,3
+1960,AUS,Athletics,Athletics,1,2,1
+1960,AUS,Boxing,Boxing,0,0,2
+1960,AUS,Equestrian,Eventing,2,1,0
+1960,AUT,Rowing,Rowing,0,1,0
+1960,AUT,Shooting,Shooting,1,0,0
+1960,BEL,Athletics,Athletics,0,1,0
+1960,BEL,Cycling,Cycling Road,0,0,1
+1960,BEL,Cycling,Cycling Track,0,1,0
+1960,BEL,Sailing,Sailing,0,0,1
+1960,BRA,Aquatics,Swimming,0,0,1
+1960,BRA,Basketball,Basketball,0,0,1
+1960,BUL,Gymnastics,Artistic G.,0,0,1
+1960,BUL,Wrestling,Wrestling Free.,0,2,1
+1960,BUL,Wrestling,Wrestling Gre-R,1,1,1
+1960,BWI,Athletics,Athletics,0,0,2
+1960,CAN,Rowing,Rowing,0,1,0
+1960,DEN,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1960,DEN,Football,Football,0,1,0
+1960,DEN,Sailing,Sailing,1,2,0
+1960,EGY,Boxing,Boxing,0,0,1
+1960,EGY,Wrestling,Wrestling Gre-R,0,1,0
+1960,ESP,Hockey,Hockey,0,0,1
+1960,ETH,Athletics,Athletics,1,0,0
+1960,EUA,Aquatics,Diving,2,0,0
+1960,EUA,Aquatics,Swimming,0,1,3
+1960,EUA,Athletics,Athletics,2,8,3
+1960,EUA,Boxing,Boxing,0,0,1
+1960,EUA,Canoe / Kayak,Canoe / Kayak F,1,2,0
+1960,EUA,Cycling,Cycling Road,0,1,0
+1960,EUA,Cycling,Cycling Track,0,3,0
+1960,EUA,Equestrian,Dressage,0,0,1
+1960,EUA,Equestrian,Jumping,1,0,0
+1960,EUA,Fencing,Fencing,1,0,1
+1960,EUA,Rowing,Rowing,3,1,0
+1960,EUA,Sailing,Sailing,0,0,1
+1960,EUA,Shooting,Shooting,1,0,1
+1960,EUA,Wrestling,Wrestling Free.,1,0,0
+1960,EUA,Wrestling,Wrestling Gre-R,0,3,0
+1960,FIN,Athletics,Athletics,0,0,1
+1960,FIN,Boxing,Boxing,0,0,1
+1960,FIN,Gymnastics,Artistic G.,1,0,0
+1960,FIN,Rowing,Rowing,0,0,1
+1960,FIN,Shooting,Shooting,0,1,0
+1960,FRA,Athletics,Athletics,0,1,1
+1960,FRA,Equestrian,Eventing,0,0,1
+1960,FRA,Rowing,Rowing,0,1,0
+1960,FRA,Wrestling,Wrestling Gre-R,0,0,1
+1960,GBR,Aquatics,Diving,0,0,2
+1960,GBR,Aquatics,Swimming,1,1,1
+1960,GBR,Athletics,Athletics,1,3,4
+1960,GBR,Boxing,Boxing,0,0,3
+1960,GBR,Equestrian,Jumping,0,0,1
+1960,GBR,Fencing,Fencing,0,2,0
+1960,GBR,Weightlifting,Weightlifting,0,0,1
+1960,GHA,Boxing,Boxing,0,1,0
+1960,GRE,Sailing,Sailing,1,0,0
+1960,HUN,Aquatics,Water polo,0,0,1
+1960,HUN,Athletics,Athletics,0,1,2
+1960,HUN,Boxing,Boxing,1,0,0
+1960,HUN,Canoe / Kayak,Canoe / Kayak F,1,3,2
+1960,HUN,Fencing,Fencing,2,2,0
+1960,HUN,Football,Football,0,0,1
+1960,HUN,Modern Pentathlon,Modern Pentath.,2,1,0
+1960,HUN,Weightlifting,Weightlifting,0,0,1
+1960,HUN,Wrestling,Wrestling Gre-R,0,1,0
+1960,IND,Hockey,Hockey,0,1,0
+1960,IRI,Weightlifting,Weightlifting,0,0,1
+1960,IRI,Wrestling,Wrestling Free.,0,1,1
+1960,IRI,Wrestling,Wrestling Gre-R,0,0,1
+1960,IRQ,Weightlifting,Weightlifting,0,0,1
+1960,ITA,Aquatics,Water polo,1,0,0
+1960,ITA,Athletics,Athletics,1,0,2
+1960,ITA,Boxing,Boxing,3,3,1
+1960,ITA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1960,ITA,Cycling,Cycling Road,1,1,0
+1960,ITA,Cycling,Cycling Track,4,0,1
+1960,ITA,Equestrian,Jumping,1,1,1
+1960,ITA,Fencing,Fencing,2,1,3
+1960,ITA,Gymnastics,Artistic G.,0,1,2
+1960,ITA,Rowing,Rowing,0,1,1
+1960,ITA,Sailing,Sailing,0,0,1
+1960,ITA,Shooting,Shooting,0,1,0
+1960,ITA,Weightlifting,Weightlifting,0,0,1
+1960,JPN,Aquatics,Swimming,0,3,2
+1960,JPN,Boxing,Boxing,0,0,1
+1960,JPN,Gymnastics,Artistic G.,4,2,3
+1960,JPN,Shooting,Shooting,0,0,1
+1960,JPN,Weightlifting,Weightlifting,0,1,0
+1960,JPN,Wrestling,Wrestling Free.,0,1,0
+1960,MAR,Athletics,Athletics,0,1,0
+1960,MEX,Aquatics,Diving,0,0,1
+1960,NED,Aquatics,Swimming,0,1,2
+1960,NOR,Sailing,Sailing,1,0,0
+1960,NZL,Athletics,Athletics,2,0,1
+1960,PAK,Hockey,Hockey,1,0,0
+1960,PAK,Wrestling,Wrestling Free.,0,0,1
+1960,POL,Athletics,Athletics,2,2,3
+1960,POL,Boxing,Boxing,1,3,3
+1960,POL,Canoe / Kayak,Canoe / Kayak F,0,0,2
+1960,POL,Fencing,Fencing,0,1,0
+1960,POL,Rowing,Rowing,0,0,1
+1960,POL,Weightlifting,Weightlifting,1,0,1
+1960,POL,Wrestling,Wrestling Free.,0,0,1
+1960,POR,Sailing,Sailing,0,1,0
+1960,ROU,Athletics,Athletics,1,0,1
+1960,ROU,Boxing,Boxing,0,0,1
+1960,ROU,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1960,ROU,Fencing,Fencing,0,0,1
+1960,ROU,Gymnastics,Artistic G.,0,0,1
+1960,ROU,Shooting,Shooting,1,0,0
+1960,ROU,Wrestling,Wrestling Gre-R,1,1,1
+1960,RSA,Athletics,Athletics,0,0,1
+1960,RSA,Boxing,Boxing,0,1,1
+1960,SIN,Weightlifting,Weightlifting,0,1,0
+1960,SUI,Equestrian,Dressage,0,1,0
+1960,SUI,Equestrian,Eventing,0,1,1
+1960,SUI,Rowing,Rowing,0,0,1
+1960,SUI,Sailing,Sailing,0,0,1
+1960,SUI,Shooting,Shooting,0,1,0
+1960,SWE,Aquatics,Swimming,0,1,0
+1960,SWE,Athletics,Athletics,0,1,0
+1960,SWE,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1960,SWE,Wrestling,Wrestling Free.,0,0,1
+1960,SWE,Wrestling,Wrestling Gre-R,0,0,1
+1960,TCH,Athletics,Athletics,0,1,0
+1960,TCH,Boxing,Boxing,1,0,1
+1960,TCH,Gymnastics,Artistic G.,1,1,0
+1960,TCH,Rowing,Rowing,1,0,1
+1960,TCH,Wrestling,Wrestling Gre-R,0,0,1
+1960,TPE,Athletics,Athletics,0,1,0
+1960,TUR,Wrestling,Wrestling Free.,4,2,0
+1960,TUR,Wrestling,Wrestling Gre-R,3,0,0
+1960,URS,Aquatics,Diving,0,0,1
+1960,URS,Aquatics,Water polo,0,1,0
+1960,URS,Athletics,Athletics,11,5,5
+1960,URS,Basketball,Basketball,0,1,0
+1960,URS,Boxing,Boxing,1,2,2
+1960,URS,Canoe / Kayak,Canoe / Kayak F,3,1,0
+1960,URS,Cycling,Cycling Road,1,0,1
+1960,URS,Cycling,Cycling Track,0,0,3
+1960,URS,Equestrian,Dressage,1,0,0
+1960,URS,Fencing,Fencing,3,2,2
+1960,URS,Gymnastics,Artistic G.,10,8,8
+1960,URS,Modern Pentathlon,Modern Pentath.,0,1,0
+1960,URS,Rowing,Rowing,2,2,1
+1960,URS,Sailing,Sailing,1,1,0
+1960,URS,Shooting,Shooting,2,2,3
+1960,URS,Weightlifting,Weightlifting,5,1,0
+1960,URS,Wrestling,Wrestling Free.,0,2,3
+1960,URS,Wrestling,Wrestling Gre-R,3,0,2
+1960,USA,Aquatics,Diving,2,4,0
+1960,USA,Aquatics,Swimming,9,3,3
+1960,USA,Athletics,Athletics,12,8,6
+1960,USA,Basketball,Basketball,1,0,0
+1960,USA,Boxing,Boxing,3,0,1
+1960,USA,Equestrian,Jumping,0,1,0
+1960,USA,Fencing,Fencing,0,0,1
+1960,USA,Modern Pentathlon,Modern Pentath.,0,0,2
+1960,USA,Rowing,Rowing,1,0,1
+1960,USA,Sailing,Sailing,1,0,1
+1960,USA,Shooting,Shooting,1,1,0
+1960,USA,Weightlifting,Weightlifting,1,4,1
+1960,USA,Wrestling,Wrestling Free.,3,0,0
+1960,VEN,Shooting,Shooting,0,0,1
+1960,YUG,Football,Football,1,0,0
+1960,YUG,Wrestling,Wrestling Gre-R,0,1,0
+1964,ARG,Equestrian,Eventing,0,1,0
+1964,AUS,Aquatics,Swimming,4,1,4
+1964,AUS,Athletics,Athletics,1,1,4
+1964,AUS,Hockey,Hockey,0,0,1
+1964,AUS,Judo,Judo,0,0,1
+1964,AUS,Sailing,Sailing,1,0,0
+1964,BAH,Sailing,Sailing,1,0,0
+1964,BEL,Athletics,Athletics,1,0,0
+1964,BEL,Cycling,Cycling Road,0,0,1
+1964,BEL,Cycling,Cycling Track,1,0,0
+1964,BRA,Basketball,Basketball,0,0,1
+1964,BUL,Boxing,Boxing,0,0,1
+1964,BUL,Shooting,Shooting,0,1,0
+1964,BUL,Wrestling,Wrestling Free.,2,2,1
+1964,BUL,Wrestling,Wrestling Gre-R,1,2,0
+1964,CAN,Athletics,Athletics,0,1,1
+1964,CAN,Judo,Judo,0,1,0
+1964,CAN,Rowing,Rowing,1,0,0
+1964,CUB,Athletics,Athletics,0,1,0
+1964,DEN,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1964,DEN,Cycling,Cycling Road,0,1,0
+1964,DEN,Cycling,Cycling Track,0,0,1
+1964,DEN,Rowing,Rowing,1,0,0
+1964,DEN,Sailing,Sailing,1,0,1
+1964,ETH,Athletics,Athletics,1,0,0
+1964,EUA,Aquatics,Diving,1,1,0
+1964,EUA,Aquatics,Swimming,0,4,2
+1964,EUA,Athletics,Athletics,2,5,3
+1964,EUA,Boxing,Boxing,0,2,1
+1964,EUA,Canoe / Kayak,Canoe / Kayak F,2,1,1
+1964,EUA,Cycling,Cycling Track,1,0,1
+1964,EUA,Equestrian,Dressage,1,1,0
+1964,EUA,Equestrian,Eventing,0,0,2
+1964,EUA,Equestrian,Jumping,1,1,0
+1964,EUA,Fencing,Fencing,0,1,1
+1964,EUA,Football,Football,0,0,1
+1964,EUA,Gymnastics,Artistic G.,0,1,1
+1964,EUA,Judo,Judo,0,1,1
+1964,EUA,Rowing,Rowing,1,2,1
+1964,EUA,Sailing,Sailing,1,1,0
+1964,EUA,Wrestling,Wrestling Free.,0,1,0
+1964,EUA,Wrestling,Wrestling Gre-R,0,0,3
+1964,FIN,Athletics,Athletics,1,0,0
+1964,FIN,Boxing,Boxing,0,0,1
+1964,FIN,Gymnastics,Artistic G.,0,0,1
+1964,FIN,Shooting,Shooting,2,0,0
+1964,FRA,Aquatics,Swimming,0,1,0
+1964,FRA,Athletics,Athletics,0,1,1
+1964,FRA,Boxing,Boxing,0,1,0
+1964,FRA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1964,FRA,Cycling,Cycling Track,0,0,2
+1964,FRA,Equestrian,Jumping,1,2,0
+1964,FRA,Fencing,Fencing,0,2,3
+1964,FRA,Rowing,Rowing,0,1,0
+1964,GBR,Aquatics,Swimming,0,1,0
+1964,GBR,Athletics,Athletics,4,7,1
+1964,GBR,Equestrian,Jumping,0,0,1
+1964,GBR,Fencing,Fencing,0,1,0
+1964,GBR,Rowing,Rowing,0,1,0
+1964,GBR,Sailing,Sailing,0,1,0
+1964,GBR,Weightlifting,Weightlifting,0,1,0
+1964,GHA,Boxing,Boxing,0,0,1
+1964,HUN,Aquatics,Water polo,1,0,0
+1964,HUN,Athletics,Athletics,0,3,1
+1964,HUN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1964,HUN,Fencing,Fencing,4,0,0
+1964,HUN,Football,Football,1,0,0
+1964,HUN,Gymnastics,Artistic G.,0,1,1
+1964,HUN,Modern Pentathlon,Modern Pentath.,1,0,1
+1964,HUN,Shooting,Shooting,1,0,1
+1964,HUN,Weightlifting,Weightlifting,0,2,1
+1964,HUN,Wrestling,Wrestling Gre-R,2,0,0
+1964,IND,Hockey,Hockey,1,0,0
+1964,IRI,Wrestling,Wrestling Free.,0,0,2
+1964,IRL,Boxing,Boxing,0,0,1
+1964,ITA,Aquatics,Diving,0,1,0
+1964,ITA,Athletics,Athletics,1,0,1
+1964,ITA,Boxing,Boxing,2,0,3
+1964,ITA,Cycling,Cycling Road,1,1,0
+1964,ITA,Cycling,Cycling Track,2,4,0
+1964,ITA,Equestrian,Eventing,2,0,0
+1964,ITA,Equestrian,Jumping,0,0,1
+1964,ITA,Fencing,Fencing,0,2,1
+1964,ITA,Gymnastics,Artistic G.,1,1,1
+1964,ITA,Rowing,Rowing,0,1,0
+1964,ITA,Shooting,Shooting,1,0,0
+1964,JPN,Aquatics,Swimming,0,0,1
+1964,JPN,Athletics,Athletics,0,0,1
+1964,JPN,Boxing,Boxing,1,0,0
+1964,JPN,Gymnastics,Artistic G.,5,4,1
+1964,JPN,Judo,Judo,3,1,0
+1964,JPN,Shooting,Shooting,0,0,1
+1964,JPN,Volleyball,Volleyball,1,0,1
+1964,JPN,Weightlifting,Weightlifting,1,0,2
+1964,JPN,Wrestling,Wrestling Free.,3,0,1
+1964,JPN,Wrestling,Wrestling Gre-R,2,0,0
+1964,KEN,Athletics,Athletics,0,0,1
+1964,KOR,Boxing,Boxing,0,1,0
+1964,KOR,Judo,Judo,0,0,1
+1964,KOR,Wrestling,Wrestling Free.,0,1,0
+1964,MEX,Boxing,Boxing,0,0,1
+1964,NED,Aquatics,Swimming,0,2,1
+1964,NED,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1964,NED,Cycling,Cycling Road,1,0,0
+1964,NED,Cycling,Cycling Track,0,0,1
+1964,NED,Judo,Judo,1,0,0
+1964,NED,Rowing,Rowing,0,1,2
+1964,NGR,Boxing,Boxing,0,0,1
+1964,NZL,Athletics,Athletics,2,0,2
+1964,NZL,Sailing,Sailing,1,0,0
+1964,PAK,Hockey,Hockey,0,1,0
+1964,PHI,Boxing,Boxing,0,1,0
+1964,POL,Athletics,Athletics,2,4,2
+1964,POL,Boxing,Boxing,3,1,3
+1964,POL,Fencing,Fencing,1,1,1
+1964,POL,Volleyball,Volleyball,0,0,1
+1964,POL,Weightlifting,Weightlifting,1,0,3
+1964,ROU,Athletics,Athletics,2,0,1
+1964,ROU,Canoe / Kayak,Canoe / Kayak F,0,2,3
+1964,ROU,Shooting,Shooting,0,1,0
+1964,ROU,Wrestling,Wrestling Gre-R,0,1,2
+1964,SUI,Equestrian,Dressage,1,2,0
+1964,SUI,Judo,Judo,0,1,0
+1964,SUI,Rowing,Rowing,0,0,1
+1964,SWE,Athletics,Athletics,0,0,1
+1964,SWE,Canoe / Kayak,Canoe / Kayak F,2,0,0
+1964,SWE,Cycling,Cycling Road,0,0,1
+1964,SWE,Sailing,Sailing,0,1,1
+1964,SWE,Wrestling,Wrestling Gre-R,0,1,1
+1964,TCH,Athletics,Athletics,0,2,0
+1964,TCH,Cycling,Cycling Track,1,0,0
+1964,TCH,Football,Football,0,1,0
+1964,TCH,Gymnastics,Artistic G.,3,1,0
+1964,TCH,Rowing,Rowing,0,0,2
+1964,TCH,Shooting,Shooting,0,0,1
+1964,TCH,Volleyball,Volleyball,0,1,0
+1964,TCH,Weightlifting,Weightlifting,1,0,0
+1964,TCH,Wrestling,Wrestling Gre-R,0,1,0
+1964,TRI,Athletics,Athletics,0,1,2
+1964,TUN,Athletics,Athletics,0,1,0
+1964,TUN,Boxing,Boxing,0,0,1
+1964,TUR,Wrestling,Wrestling Free.,1,3,1
+1964,TUR,Wrestling,Wrestling Gre-R,1,0,0
+1964,URS,Aquatics,Diving,0,0,1
+1964,URS,Aquatics,Swimming,1,1,2
+1964,URS,Aquatics,Water polo,0,0,1
+1964,URS,Athletics,Athletics,5,2,11
+1964,URS,Basketball,Basketball,0,1,0
+1964,URS,Boxing,Boxing,3,4,2
+1964,URS,Canoe / Kayak,Canoe / Kayak F,3,0,1
+1964,URS,Cycling,Cycling Track,0,1,0
+1964,URS,Equestrian,Dressage,0,0,2
+1964,URS,Fencing,Fencing,3,1,2
+1964,URS,Gymnastics,Artistic G.,4,9,5
+1964,URS,Judo,Judo,0,0,2
+1964,URS,Modern Pentathlon,Modern Pentath.,1,1,1
+1964,URS,Rowing,Rowing,2,0,0
+1964,URS,Shooting,Shooting,0,2,0
+1964,URS,Volleyball,Volleyball,1,1,0
+1964,URS,Weightlifting,Weightlifting,4,3,0
+1964,URS,Wrestling,Wrestling Free.,2,1,2
+1964,URS,Wrestling,Wrestling Gre-R,1,3,1
+1964,URU,Boxing,Boxing,0,0,1
+1964,USA,Aquatics,Diving,3,2,3
+1964,USA,Aquatics,Swimming,13,8,8
+1964,USA,Athletics,Athletics,14,7,3
+1964,USA,Basketball,Basketball,1,0,0
+1964,USA,Boxing,Boxing,1,0,3
+1964,USA,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1964,USA,Equestrian,Eventing,0,1,0
+1964,USA,Judo,Judo,0,0,1
+1964,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+1964,USA,Rowing,Rowing,2,1,1
+1964,USA,Sailing,Sailing,0,2,3
+1964,USA,Shooting,Shooting,2,2,3
+1964,USA,Weightlifting,Weightlifting,0,1,1
+1964,USA,Wrestling,Wrestling Free.,0,0,1
+1964,YUG,Aquatics,Water polo,0,1,0
+1964,YUG,Gymnastics,Artistic G.,1,0,1
+1964,YUG,Wrestling,Wrestling Gre-R,1,0,1
+1968,ARG,Boxing,Boxing,0,0,1
+1968,ARG,Rowing,Rowing,0,0,1
+1968,AUS,Aquatics,Swimming,3,2,3
+1968,AUS,Athletics,Athletics,2,3,1
+1968,AUS,Equestrian,Eventing,0,0,1
+1968,AUS,Hockey,Hockey,0,1,0
+1968,AUS,Rowing,Rowing,0,1,0
+1968,AUT,Athletics,Athletics,0,1,1
+1968,AUT,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1968,AUT,Sailing,Sailing,0,1,0
+1968,BEL,Cycling,Cycling Track,0,0,1
+1968,BEL,Weightlifting,Weightlifting,0,1,0
+1968,BRA,Athletics,Athletics,0,1,0
+1968,BRA,Boxing,Boxing,0,0,1
+1968,BRA,Sailing,Sailing,0,0,1
+1968,BUL,Boxing,Boxing,0,0,2
+1968,BUL,Football,Football,0,1,0
+1968,BUL,Wrestling,Wrestling Free.,0,3,1
+1968,BUL,Wrestling,Wrestling Gre-R,2,0,0
+1968,CAN,Aquatics,Swimming,0,3,1
+1968,CAN,Equestrian,Jumping,1,0,0
+1968,CMR,Boxing,Boxing,0,1,0
+1968,CUB,Athletics,Athletics,0,2,0
+1968,CUB,Boxing,Boxing,0,2,0
+1968,DEN,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1968,DEN,Cycling,Cycling Road,0,1,0
+1968,DEN,Cycling,Cycling Track,1,2,0
+1968,DEN,Rowing,Rowing,0,0,2
+1968,DEN,Sailing,Sailing,0,1,0
+1968,ETH,Athletics,Athletics,1,1,0
+1968,FIN,Athletics,Athletics,0,1,0
+1968,FIN,Boxing,Boxing,0,0,1
+1968,FIN,Gymnastics,Artistic G.,0,1,0
+1968,FIN,Weightlifting,Weightlifting,1,0,0
+1968,FRA,Aquatics,Swimming,0,0,1
+1968,FRA,Athletics,Athletics,1,0,1
+1968,FRA,Cycling,Cycling Track,4,0,1
+1968,FRA,Equestrian,Eventing,1,0,0
+1968,FRA,Equestrian,Jumping,0,2,0
+1968,FRA,Fencing,Fencing,1,0,1
+1968,FRA,Modern Pentathlon,Modern Pentath.,0,0,1
+1968,FRA,Wrestling,Wrestling Free.,0,1,0
+1968,FRA,Wrestling,Wrestling Gre-R,0,1,0
+1968,FRG,Aquatics,Swimming,0,0,2
+1968,FRG,Athletics,Athletics,1,4,3
+1968,FRG,Boxing,Boxing,0,0,1
+1968,FRG,Canoe / Kayak,Canoe / Kayak F,1,2,0
+1968,FRG,Cycling,Cycling Track,0,1,0
+1968,FRG,Equestrian,Dressage,2,1,1
+1968,FRG,Equestrian,Jumping,0,0,1
+1968,FRG,Rowing,Rowing,1,1,0
+1968,FRG,Sailing,Sailing,0,1,0
+1968,FRG,Shooting,Shooting,1,1,1
+1968,FRG,Wrestling,Wrestling Free.,0,0,1
+1968,GBR,Aquatics,Swimming,0,1,0
+1968,GBR,Athletics,Athletics,1,2,1
+1968,GBR,Boxing,Boxing,1,0,0
+1968,GBR,Equestrian,Eventing,1,1,0
+1968,GBR,Equestrian,Jumping,0,1,1
+1968,GBR,Sailing,Sailing,1,0,1
+1968,GBR,Shooting,Shooting,1,0,0
+1968,GDR,Aquatics,Swimming,2,3,1
+1968,GDR,Athletics,Athletics,2,3,1
+1968,GDR,Boxing,Boxing,1,0,0
+1968,GDR,Gymnastics,Artistic G.,0,2,2
+1968,GDR,Rowing,Rowing,2,1,0
+1968,GDR,Sailing,Sailing,0,0,1
+1968,GDR,Shooting,Shooting,0,0,2
+1968,GDR,Wrestling,Wrestling Gre-R,2,0,0
+1968,GRE,Wrestling,Wrestling Gre-R,0,0,1
+1968,HUN,Aquatics,Water polo,0,0,1
+1968,HUN,Athletics,Athletics,2,1,4
+1968,HUN,Canoe / Kayak,Canoe / Kayak F,2,3,1
+1968,HUN,Fencing,Fencing,2,2,3
+1968,HUN,Football,Football,1,0,0
+1968,HUN,Modern Pentathlon,Modern Pentath.,1,1,0
+1968,HUN,Rowing,Rowing,0,1,0
+1968,HUN,Shooting,Shooting,0,1,0
+1968,HUN,Weightlifting,Weightlifting,0,1,1
+1968,HUN,Wrestling,Wrestling Free.,0,0,1
+1968,HUN,Wrestling,Wrestling Gre-R,2,0,1
+1968,IND,Hockey,Hockey,0,0,1
+1968,IRI,Weightlifting,Weightlifting,1,1,0
+1968,IRI,Wrestling,Wrestling Free.,1,0,2
+1968,ITA,Aquatics,Diving,1,1,0
+1968,ITA,Athletics,Athletics,0,0,2
+1968,ITA,Boxing,Boxing,0,0,1
+1968,ITA,Cycling,Cycling Road,1,0,1
+1968,ITA,Cycling,Cycling Track,0,1,1
+1968,ITA,Fencing,Fencing,0,1,1
+1968,ITA,Rowing,Rowing,1,0,1
+1968,ITA,Sailing,Sailing,0,0,2
+1968,ITA,Shooting,Shooting,0,1,0
+1968,JAM,Athletics,Athletics,0,1,0
+1968,JPN,Athletics,Athletics,0,1,0
+1968,JPN,Boxing,Boxing,0,0,1
+1968,JPN,Football,Football,0,0,1
+1968,JPN,Gymnastics,Artistic G.,6,2,4
+1968,JPN,Volleyball,Volleyball,0,2,0
+1968,JPN,Weightlifting,Weightlifting,1,1,1
+1968,JPN,Wrestling,Wrestling Free.,3,0,0
+1968,JPN,Wrestling,Wrestling Gre-R,1,1,0
+1968,KEN,Athletics,Athletics,3,4,1
+1968,KEN,Boxing,Boxing,0,0,1
+1968,KOR,Boxing,Boxing,0,1,1
+1968,MEX,Aquatics,Diving,0,1,0
+1968,MEX,Aquatics,Swimming,1,0,1
+1968,MEX,Athletics,Athletics,0,1,0
+1968,MEX,Boxing,Boxing,2,0,2
+1968,MEX,Fencing,Fencing,0,1,0
+1968,MGL,Wrestling,Wrestling Free.,0,1,3
+1968,NED,Aquatics,Swimming,1,0,0
+1968,NED,Athletics,Athletics,0,0,1
+1968,NED,Cycling,Cycling Road,1,0,0
+1968,NED,Cycling,Cycling Track,0,1,0
+1968,NED,Rowing,Rowing,1,2,0
+1968,NOR,Canoe / Kayak,Canoe / Kayak F,1,0,0
+1968,NOR,Sailing,Sailing,0,1,0
+1968,NZL,Athletics,Athletics,0,0,1
+1968,NZL,Rowing,Rowing,1,0,0
+1968,NZL,Shooting,Shooting,0,0,1
+1968,PAK,Hockey,Hockey,1,0,0
+1968,POL,Athletics,Athletics,1,0,1
+1968,POL,Boxing,Boxing,1,2,2
+1968,POL,Cycling,Cycling Track,0,0,1
+1968,POL,Fencing,Fencing,1,0,2
+1968,POL,Shooting,Shooting,1,0,0
+1968,POL,Volleyball,Volleyball,0,0,1
+1968,POL,Weightlifting,Weightlifting,1,0,4
+1968,ROU,Athletics,Athletics,2,2,0
+1968,ROU,Boxing,Boxing,0,1,1
+1968,ROU,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1968,ROU,Fencing,Fencing,1,0,1
+1968,ROU,Shooting,Shooting,0,1,0
+1968,ROU,Wrestling,Wrestling Gre-R,0,1,2
+1968,SUI,Cycling,Cycling Track,0,0,1
+1968,SUI,Equestrian,Dressage,0,0,2
+1968,SUI,Rowing,Rowing,0,0,1
+1968,SUI,Sailing,Sailing,0,1,0
+1968,SUI,Shooting,Shooting,0,0,1
+1968,SWE,Cycling,Cycling Road,0,1,1
+1968,SWE,Modern Pentathlon,Modern Pentath.,1,0,0
+1968,SWE,Sailing,Sailing,1,0,0
+1968,TCH,Aquatics,Diving,1,0,0
+1968,TCH,Athletics,Athletics,1,0,1
+1968,TCH,Gymnastics,Artistic G.,4,2,0
+1968,TCH,Shooting,Shooting,1,0,0
+1968,TCH,Volleyball,Volleyball,0,0,1
+1968,TCH,Wrestling,Wrestling Gre-R,0,0,2
+1968,TPE,Athletics,Athletics,0,0,1
+1968,TUN,Athletics,Athletics,1,0,1
+1968,TUR,Wrestling,Wrestling Free.,2,0,0
+1968,UGA,Boxing,Boxing,0,1,1
+1968,URS,Aquatics,Diving,0,2,0
+1968,URS,Aquatics,Swimming,0,4,4
+1968,URS,Aquatics,Water polo,0,1,0
+1968,URS,Athletics,Athletics,3,2,8
+1968,URS,Basketball,Basketball,0,0,1
+1968,URS,Boxing,Boxing,3,2,1
+1968,URS,Canoe / Kayak,Canoe / Kayak F,2,1,3
+1968,URS,Equestrian,Dressage,1,2,0
+1968,URS,Fencing,Fencing,3,4,0
+1968,URS,Gymnastics,Artistic G.,5,5,8
+1968,URS,Modern Pentathlon,Modern Pentath.,0,1,1
+1968,URS,Rowing,Rowing,1,0,1
+1968,URS,Sailing,Sailing,1,0,0
+1968,URS,Shooting,Shooting,2,1,2
+1968,URS,Volleyball,Volleyball,2,0,0
+1968,URS,Weightlifting,Weightlifting,3,3,0
+1968,URS,Wrestling,Wrestling Free.,2,1,0
+1968,URS,Wrestling,Wrestling Gre-R,1,4,1
+1968,USA,Aquatics,Diving,2,0,4
+1968,USA,Aquatics,Swimming,21,15,16
+1968,USA,Athletics,Athletics,15,6,7
+1968,USA,Basketball,Basketball,1,0,0
+1968,USA,Boxing,Boxing,2,1,4
+1968,USA,Equestrian,Eventing,0,1,1
+1968,USA,Equestrian,Jumping,1,0,0
+1968,USA,Rowing,Rowing,0,1,1
+1968,USA,Sailing,Sailing,2,0,0
+1968,USA,Shooting,Shooting,1,2,0
+1968,USA,Weightlifting,Weightlifting,0,0,1
+1968,USA,Wrestling,Wrestling Free.,0,2,0
+1968,VEN,Boxing,Boxing,1,0,0
+1968,YUG,Aquatics,Swimming,1,1,0
+1968,YUG,Aquatics,Water polo,1,0,0
+1968,YUG,Basketball,Basketball,0,1,0
+1968,YUG,Boxing,Boxing,0,0,1
+1968,YUG,Gymnastics,Artistic G.,1,0,0
+1968,YUG,Wrestling,Wrestling Gre-R,0,1,1
+1972,ARG,Rowing,Rowing,0,1,0
+1972,AUS,Aquatics,Swimming,6,2,2
+1972,AUS,Athletics,Athletics,0,2,0
+1972,AUS,Cycling,Cycling Road,0,1,0
+1972,AUS,Cycling,Cycling Track,0,2,0
+1972,AUS,Sailing,Sailing,2,0,0
+1972,AUT,Athletics,Athletics,0,0,1
+1972,AUT,Canoe / Kayak,Canoe / Kayak S,0,1,0
+1972,AUT,Shooting,Shooting,0,0,1
+1972,BEL,Athletics,Athletics,0,2,0
+1972,BRA,Athletics,Athletics,0,0,1
+1972,BRA,Judo,Judo,0,0,1
+1972,BUL,Athletics,Athletics,0,2,2
+1972,BUL,Boxing,Boxing,1,1,0
+1972,BUL,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1972,BUL,Weightlifting,Weightlifting,3,3,0
+1972,BUL,Wrestling,Wrestling Free.,0,2,1
+1972,BUL,Wrestling,Wrestling Gre-R,2,2,1
+1972,CAN,Aquatics,Swimming,0,2,2
+1972,CAN,Sailing,Sailing,0,0,1
+1972,COL,Boxing,Boxing,0,0,2
+1972,COL,Shooting,Shooting,0,1,0
+1972,CUB,Athletics,Athletics,0,0,2
+1972,CUB,Basketball,Basketball,0,0,1
+1972,CUB,Boxing,Boxing,3,1,1
+1972,DEN,Cycling,Cycling Track,1,0,0
+1972,ESP,Boxing,Boxing,0,0,1
+1972,ETH,Athletics,Athletics,0,0,2
+1972,FIN,Archery,Archery,0,0,1
+1972,FIN,Athletics,Athletics,3,0,1
+1972,FIN,Boxing,Boxing,0,1,0
+1972,FIN,Modern Pentathlon,Modern Pentath.,0,0,1
+1972,FIN,Wrestling,Wrestling Gre-R,0,0,1
+1972,FRA,Athletics,Athletics,0,1,1
+1972,FRA,Canoe / Kayak,Canoe / Kayak S,0,0,1
+1972,FRA,Cycling,Cycling Track,1,0,0
+1972,FRA,Fencing,Fencing,0,1,2
+1972,FRA,Judo,Judo,0,0,3
+1972,FRA,Sailing,Sailing,1,1,0
+1972,FRA,Shooting,Shooting,0,1,0
+1972,FRG,Aquatics,Swimming,0,1,3
+1972,FRG,Athletics,Athletics,6,3,2
+1972,FRG,Boxing,Boxing,1,0,1
+1972,FRG,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1972,FRG,Canoe / Kayak,Canoe / Kayak S,0,3,1
+1972,FRG,Cycling,Cycling Track,1,0,1
+1972,FRG,Equestrian,Dressage,1,2,1
+1972,FRG,Equestrian,Eventing,0,0,1
+1972,FRG,Equestrian,Jumping,1,0,0
+1972,FRG,Hockey,Hockey,1,0,0
+1972,FRG,Judo,Judo,0,1,1
+1972,FRG,Rowing,Rowing,1,0,1
+1972,FRG,Sailing,Sailing,0,0,2
+1972,FRG,Shooting,Shooting,1,0,0
+1972,FRG,Weightlifting,Weightlifting,0,1,0
+1972,FRG,Wrestling,Wrestling Free.,0,0,1
+1972,FRG,Wrestling,Wrestling Gre-R,0,1,0
+1972,GBR,Aquatics,Swimming,0,1,0
+1972,GBR,Athletics,Athletics,1,1,2
+1972,GBR,Boxing,Boxing,0,0,3
+1972,GBR,Cycling,Cycling Track,0,0,1
+1972,GBR,Equestrian,Eventing,3,0,0
+1972,GBR,Equestrian,Jumping,0,1,0
+1972,GBR,Judo,Judo,0,1,2
+1972,GBR,Sailing,Sailing,1,1,0
+1972,GBR,Shooting,Shooting,0,0,1
+1972,GDR,Aquatics,Diving,0,0,2
+1972,GDR,Aquatics,Swimming,2,5,2
+1972,GDR,Athletics,Athletics,8,7,5
+1972,GDR,Boxing,Boxing,0,0,1
+1972,GDR,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1972,GDR,Canoe / Kayak,Canoe / Kayak S,4,0,1
+1972,GDR,Cycling,Cycling Track,0,2,1
+1972,GDR,Football,Football,0,0,1
+1972,GDR,Gymnastics,Artistic G.,3,4,2
+1972,GDR,Judo,Judo,0,0,1
+1972,GDR,Rowing,Rowing,3,1,3
+1972,GDR,Sailing,Sailing,0,1,0
+1972,GDR,Shooting,Shooting,0,0,2
+1972,GDR,Volleyball,Volleyball,0,1,0
+1972,GDR,Weightlifting,Weightlifting,0,0,2
+1972,GDR,Wrestling,Wrestling Gre-R,0,1,0
+1972,GHA,Boxing,Boxing,0,0,1
+1972,GRE,Sailing,Sailing,0,1,0
+1972,GRE,Wrestling,Wrestling Gre-R,0,1,0
+1972,HUN,Aquatics,Swimming,0,1,2
+1972,HUN,Aquatics,Water polo,0,1,0
+1972,HUN,Boxing,Boxing,1,2,1
+1972,HUN,Canoe / Kayak,Canoe / Kayak F,0,2,2
+1972,HUN,Fencing,Fencing,2,4,2
+1972,HUN,Football,Football,0,1,0
+1972,HUN,Gymnastics,Artistic G.,0,0,1
+1972,HUN,Modern Pentathlon,Modern Pentath.,1,1,0
+1972,HUN,Shooting,Shooting,0,0,1
+1972,HUN,Weightlifting,Weightlifting,1,1,3
+1972,HUN,Wrestling,Wrestling Free.,0,0,3
+1972,HUN,Wrestling,Wrestling Gre-R,1,0,1
+1972,IND,Hockey,Hockey,0,0,1
+1972,IRI,Weightlifting,Weightlifting,0,1,0
+1972,IRI,Wrestling,Wrestling Free.,0,0,1
+1972,IRI,Wrestling,Wrestling Gre-R,0,1,0
+1972,ITA,Aquatics,Diving,1,1,1
+1972,ITA,Aquatics,Swimming,0,1,2
+1972,ITA,Athletics,Athletics,0,0,2
+1972,ITA,Equestrian,Eventing,0,1,0
+1972,ITA,Equestrian,Jumping,1,0,1
+1972,ITA,Fencing,Fencing,2,0,0
+1972,ITA,Shooting,Shooting,1,0,1
+1972,ITA,Weightlifting,Weightlifting,0,0,1
+1972,ITA,Wrestling,Wrestling Gre-R,0,0,2
+1972,JAM,Athletics,Athletics,0,0,1
+1972,JPN,Aquatics,Swimming,2,0,1
+1972,JPN,Gymnastics,Artistic G.,5,5,6
+1972,JPN,Judo,Judo,3,0,1
+1972,JPN,Volleyball,Volleyball,1,1,0
+1972,JPN,Wrestling,Wrestling Free.,2,1,0
+1972,JPN,Wrestling,Wrestling Gre-R,0,1,0
+1972,KEN,Athletics,Athletics,2,2,2
+1972,KEN,Boxing,Boxing,0,1,2
+1972,KOR,Judo,Judo,0,1,0
+1972,LIB,Weightlifting,Weightlifting,0,1,0
+1972,MEX,Boxing,Boxing,0,1,0
+1972,MGL,Wrestling,Wrestling Free.,0,1,0
+1972,NED,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1972,NED,Cycling,Cycling Road,1,0,0
+1972,NED,Judo,Judo,2,0,0
+1972,NED,Rowing,Rowing,0,0,1
+1972,NGR,Boxing,Boxing,0,0,1
+1972,NIG,Boxing,Boxing,0,0,1
+1972,NOR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1972,NOR,Cycling,Cycling Track,1,0,0
+1972,NOR,Rowing,Rowing,0,1,0
+1972,NOR,Weightlifting,Weightlifting,1,0,0
+1972,NZL,Athletics,Athletics,0,0,1
+1972,NZL,Rowing,Rowing,1,1,0
+1972,PAK,Hockey,Hockey,0,1,0
+1972,POL,Archery,Archery,0,1,0
+1972,POL,Athletics,Athletics,1,0,2
+1972,POL,Boxing,Boxing,1,1,2
+1972,POL,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1972,POL,Cycling,Cycling Road,0,1,0
+1972,POL,Cycling,Cycling Track,0,0,1
+1972,POL,Fencing,Fencing,2,0,0
+1972,POL,Football,Football,1,0,0
+1972,POL,Judo,Judo,0,1,0
+1972,POL,Shooting,Shooting,1,0,0
+1972,POL,Weightlifting,Weightlifting,1,1,1
+1972,POL,Wrestling,Wrestling Gre-R,0,0,2
+1972,PRK,Boxing,Boxing,0,1,0
+1972,PRK,Judo,Judo,0,0,1
+1972,PRK,Shooting,Shooting,1,0,0
+1972,PRK,Volleyball,Volleyball,0,0,1
+1972,PRK,Wrestling,Wrestling Free.,0,0,1
+1972,ROU,Athletics,Athletics,0,2,0
+1972,ROU,Boxing,Boxing,0,1,0
+1972,ROU,Canoe / Kayak,Canoe / Kayak F,1,2,1
+1972,ROU,Fencing,Fencing,0,0,1
+1972,ROU,Handball,Handball,0,0,1
+1972,ROU,Rowing,Rowing,0,0,1
+1972,ROU,Shooting,Shooting,0,1,1
+1972,ROU,Wrestling,Wrestling Free.,0,0,1
+1972,ROU,Wrestling,Wrestling Gre-R,2,0,1
+1972,SUI,Cycling,Cycling Track,0,1,0
+1972,SUI,Fencing,Fencing,0,1,0
+1972,SUI,Rowing,Rowing,0,1,0
+1972,SWE,Aquatics,Diving,1,1,0
+1972,SWE,Aquatics,Swimming,2,0,0
+1972,SWE,Archery,Archery,0,1,0
+1972,SWE,Athletics,Athletics,0,0,1
+1972,SWE,Boxing,Boxing,0,0,1
+1972,SWE,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1972,SWE,Equestrian,Dressage,0,0,1
+1972,SWE,Equestrian,Eventing,0,0,1
+1972,SWE,Sailing,Sailing,0,2,0
+1972,SWE,Shooting,Shooting,1,0,0
+1972,SWE,Weightlifting,Weightlifting,0,0,1
+1972,SWE,Wrestling,Wrestling Free.,0,1,0
+1972,SWE,Wrestling,Wrestling Gre-R,0,0,1
+1972,TCH,Aquatics,Diving,0,1,0
+1972,TCH,Athletics,Athletics,1,0,1
+1972,TCH,Handball,Handball,0,1,0
+1972,TCH,Rowing,Rowing,0,1,1
+1972,TCH,Shooting,Shooting,0,1,0
+1972,TCH,Wrestling,Wrestling Gre-R,1,0,0
+1972,TUN,Athletics,Athletics,0,1,0
+1972,TUR,Wrestling,Wrestling Free.,0,1,0
+1972,UGA,Athletics,Athletics,1,0,0
+1972,UGA,Boxing,Boxing,0,1,0
+1972,URS,Aquatics,Diving,1,0,0
+1972,URS,Aquatics,Swimming,0,2,3
+1972,URS,Aquatics,Water polo,1,0,0
+1972,URS,Archery,Archery,0,0,1
+1972,URS,Athletics,Athletics,9,7,1
+1972,URS,Basketball,Basketball,1,0,0
+1972,URS,Boxing,Boxing,2,0,0
+1972,URS,Canoe / Kayak,Canoe / Kayak F,6,0,0
+1972,URS,Cycling,Cycling Road,1,0,0
+1972,URS,Cycling,Cycling Track,1,0,1
+1972,URS,Equestrian,Dressage,2,1,0
+1972,URS,Fencing,Fencing,2,2,3
+1972,URS,Football,Football,0,0,1
+1972,URS,Gymnastics,Artistic G.,6,6,4
+1972,URS,Judo,Judo,1,1,2
+1972,URS,Modern Pentathlon,Modern Pentath.,1,1,1
+1972,URS,Rowing,Rowing,2,0,0
+1972,URS,Sailing,Sailing,1,0,1
+1972,URS,Shooting,Shooting,1,2,1
+1972,URS,Volleyball,Volleyball,1,0,1
+1972,URS,Weightlifting,Weightlifting,3,1,1
+1972,URS,Wrestling,Wrestling Free.,5,2,1
+1972,URS,Wrestling,Wrestling Gre-R,4,2,0
+1972,USA,Aquatics,Diving,1,1,1
+1972,USA,Aquatics,Swimming,17,14,12
+1972,USA,Aquatics,Water polo,0,0,1
+1972,USA,Archery,Archery,2,0,0
+1972,USA,Athletics,Athletics,6,8,8
+1972,USA,Basketball,Basketball,0,1,0
+1972,USA,Boxing,Boxing,1,0,3
+1972,USA,Canoe / Kayak,Canoe / Kayak S,0,0,1
+1972,USA,Equestrian,Eventing,0,1,0
+1972,USA,Equestrian,Jumping,0,2,1
+1972,USA,Rowing,Rowing,0,1,0
+1972,USA,Sailing,Sailing,1,0,2
+1972,USA,Shooting,Shooting,2,2,0
+1972,USA,Wrestling,Wrestling Free.,3,2,1
+1972,YUG,Boxing,Boxing,1,0,1
+1972,YUG,Handball,Handball,1,0,0
+1972,YUG,Wrestling,Wrestling Gre-R,0,1,1
+1976,AUS,Aquatics,Swimming,0,0,1
+1976,AUS,Equestrian,Eventing,0,0,1
+1976,AUS,Hockey,Hockey,0,1,0
+1976,AUS,Sailing,Sailing,0,0,2
+1976,AUT,Shooting,Shooting,0,0,1
+1976,BEL,Athletics,Athletics,0,2,1
+1976,BEL,Cycling,Cycling Track,0,1,0
+1976,BEL,Equestrian,Jumping,0,0,2
+1976,BER,Boxing,Boxing,0,0,1
+1976,BRA,Athletics,Athletics,0,0,1
+1976,BRA,Sailing,Sailing,0,0,1
+1976,BUL,Athletics,Athletics,1,2,1
+1976,BUL,Basketball,Basketball,0,0,1
+1976,BUL,Boxing,Boxing,0,0,1
+1976,BUL,Rowing,Rowing,2,1,0
+1976,BUL,Weightlifting,Weightlifting,2,3,1
+1976,BUL,Wrestling,Wrestling Free.,1,0,1
+1976,BUL,Wrestling,Wrestling Gre-R,0,3,2
+1976,CAN,Aquatics,Swimming,0,2,6
+1976,CAN,Athletics,Athletics,0,1,0
+1976,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1976,CAN,Equestrian,Jumping,0,1,0
+1976,CUB,Athletics,Athletics,2,1,0
+1976,CUB,Boxing,Boxing,3,3,2
+1976,CUB,Judo,Judo,1,0,0
+1976,CUB,Volleyball,Volleyball,0,0,1
+1976,DEN,Cycling,Cycling Road,0,0,1
+1976,DEN,Cycling,Cycling Track,0,0,1
+1976,DEN,Sailing,Sailing,1,0,0
+1976,ESP,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1976,ESP,Sailing,Sailing,0,1,0
+1976,FIN,Athletics,Athletics,2,2,0
+1976,FIN,Rowing,Rowing,1,0,0
+1976,FIN,Wrestling,Wrestling Gre-R,1,0,0
+1976,FRA,Athletics,Athletics,1,0,0
+1976,FRA,Cycling,Cycling Track,0,1,0
+1976,FRA,Equestrian,Jumping,1,0,0
+1976,FRA,Fencing,Fencing,0,1,2
+1976,FRA,Gymnastics,Artistic G.,0,0,1
+1976,FRA,Judo,Judo,0,0,1
+1976,FRA,Weightlifting,Weightlifting,0,1,0
+1976,FRG,Aquatics,Swimming,0,0,2
+1976,FRG,Athletics,Athletics,1,4,4
+1976,FRG,Boxing,Boxing,0,0,1
+1976,FRG,Cycling,Cycling Track,2,0,0
+1976,FRG,Equestrian,Dressage,2,1,1
+1976,FRG,Equestrian,Eventing,0,1,1
+1976,FRG,Equestrian,Jumping,1,1,0
+1976,FRG,Fencing,Fencing,2,2,0
+1976,FRG,Gymnastics,Artistic G.,0,0,1
+1976,FRG,Judo,Judo,0,1,0
+1976,FRG,Rowing,Rowing,0,1,3
+1976,FRG,Sailing,Sailing,2,0,1
+1976,FRG,Shooting,Shooting,1,1,1
+1976,FRG,Wrestling,Wrestling Free.,0,0,1
+1976,FRG,Wrestling,Wrestling Gre-R,0,0,1
+1976,GBR,Aquatics,Swimming,1,1,1
+1976,GBR,Athletics,Athletics,0,0,1
+1976,GBR,Boxing,Boxing,0,0,1
+1976,GBR,Cycling,Cycling Track,0,0,1
+1976,GBR,Judo,Judo,0,1,1
+1976,GBR,Modern Pentathlon,Modern Pentath.,1,0,0
+1976,GBR,Rowing,Rowing,0,2,0
+1976,GBR,Sailing,Sailing,1,1,0
+1976,GDR,Aquatics,Diving,0,1,0
+1976,GDR,Aquatics,Swimming,11,6,2
+1976,GDR,Athletics,Athletics,11,7,9
+1976,GDR,Boxing,Boxing,1,1,0
+1976,GDR,Canoe / Kayak,Canoe / Kayak F,3,1,3
+1976,GDR,Cycling,Cycling Track,1,0,2
+1976,GDR,Football,Football,1,0,0
+1976,GDR,Gymnastics,Artistic G.,0,1,3
+1976,GDR,Handball,Handball,0,1,0
+1976,GDR,Rowing,Rowing,9,3,2
+1976,GDR,Sailing,Sailing,1,0,1
+1976,GDR,Shooting,Shooting,2,2,0
+1976,GDR,Weightlifting,Weightlifting,0,1,2
+1976,GDR,Wrestling,Wrestling Free.,0,1,0
+1976,GDR,Wrestling,Wrestling Gre-R,0,0,1
+1976,HUN,Aquatics,Water polo,1,0,0
+1976,HUN,Athletics,Athletics,1,0,0
+1976,HUN,Canoe / Kayak,Canoe / Kayak F,0,3,5
+1976,HUN,Fencing,Fencing,1,0,2
+1976,HUN,Gymnastics,Artistic G.,1,0,1
+1976,HUN,Handball,Handball,0,0,1
+1976,HUN,Judo,Judo,0,0,1
+1976,HUN,Modern Pentathlon,Modern Pentath.,0,0,1
+1976,HUN,Weightlifting,Weightlifting,0,1,1
+1976,HUN,Wrestling,Wrestling Free.,0,1,0
+1976,HUN,Wrestling,Wrestling Gre-R,0,0,1
+1976,IRI,Weightlifting,Weightlifting,0,0,1
+1976,IRI,Wrestling,Wrestling Free.,0,1,0
+1976,ITA,Aquatics,Diving,1,1,0
+1976,ITA,Aquatics,Water polo,0,1,0
+1976,ITA,Archery,Archery,0,0,1
+1976,ITA,Athletics,Athletics,0,1,0
+1976,ITA,Cycling,Cycling Road,0,1,0
+1976,ITA,Fencing,Fencing,1,3,0
+1976,ITA,Judo,Judo,0,0,1
+1976,ITA,Shooting,Shooting,0,0,2
+1976,JAM,Athletics,Athletics,1,1,0
+1976,JPN,Archery,Archery,0,1,0
+1976,JPN,Gymnastics,Artistic G.,3,4,3
+1976,JPN,Judo,Judo,3,1,1
+1976,JPN,Volleyball,Volleyball,1,0,0
+1976,JPN,Weightlifting,Weightlifting,0,0,2
+1976,JPN,Wrestling,Wrestling Free.,2,0,3
+1976,JPN,Wrestling,Wrestling Gre-R,0,0,1
+1976,KOR,Judo,Judo,0,1,2
+1976,KOR,Volleyball,Volleyball,0,0,1
+1976,KOR,Wrestling,Wrestling Free.,1,0,1
+1976,MEX,Athletics,Athletics,1,0,0
+1976,MEX,Boxing,Boxing,0,0,1
+1976,MGL,Wrestling,Wrestling Free.,0,1,0
+1976,NED,Aquatics,Swimming,0,0,2
+1976,NED,Aquatics,Water polo,0,0,1
+1976,NED,Cycling,Cycling Track,0,1,0
+1976,NED,Shooting,Shooting,0,1,0
+1976,NOR,Rowing,Rowing,1,1,0
+1976,NZL,Athletics,Athletics,1,1,0
+1976,NZL,Hockey,Hockey,1,0,0
+1976,NZL,Rowing,Rowing,0,0,1
+1976,PAK,Hockey,Hockey,0,0,1
+1976,POL,Athletics,Athletics,3,2,0
+1976,POL,Boxing,Boxing,1,0,4
+1976,POL,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1976,POL,Cycling,Cycling Road,0,1,1
+1976,POL,Football,Football,0,1,0
+1976,POL,Handball,Handball,0,0,1
+1976,POL,Judo,Judo,0,0,1
+1976,POL,Modern Pentathlon,Modern Pentath.,1,0,0
+1976,POL,Shooting,Shooting,0,0,2
+1976,POL,Volleyball,Volleyball,1,0,0
+1976,POL,Weightlifting,Weightlifting,0,1,2
+1976,POL,Wrestling,Wrestling Gre-R,1,0,2
+1976,POR,Athletics,Athletics,0,1,0
+1976,POR,Shooting,Shooting,0,1,0
+1976,PRK,Boxing,Boxing,1,1,0
+1976,PUR,Boxing,Boxing,0,0,1
+1976,ROU,Athletics,Athletics,0,0,1
+1976,ROU,Boxing,Boxing,0,2,3
+1976,ROU,Canoe / Kayak,Canoe / Kayak F,1,1,2
+1976,ROU,Fencing,Fencing,0,0,1
+1976,ROU,Gymnastics,Artistic G.,3,2,3
+1976,ROU,Handball,Handball,0,1,0
+1976,ROU,Rowing,Rowing,0,0,1
+1976,ROU,Wrestling,Wrestling Free.,0,0,2
+1976,ROU,Wrestling,Wrestling Gre-R,0,3,1
+1976,SUI,Equestrian,Dressage,1,2,0
+1976,SUI,Fencing,Fencing,0,0,1
+1976,SUI,Judo,Judo,0,0,1
+1976,SWE,Aquatics,Diving,0,1,0
+1976,SWE,Athletics,Athletics,1,0,0
+1976,SWE,Cycling,Cycling Road,1,0,0
+1976,SWE,Fencing,Fencing,1,0,0
+1976,SWE,Sailing,Sailing,1,0,0
+1976,TCH,Athletics,Athletics,0,0,1
+1976,TCH,Cycling,Cycling Track,1,0,0
+1976,TCH,Modern Pentathlon,Modern Pentath.,0,1,1
+1976,TCH,Rowing,Rowing,0,0,2
+1976,TCH,Shooting,Shooting,1,0,0
+1976,TCH,Wrestling,Wrestling Gre-R,0,1,0
+1976,THA,Boxing,Boxing,0,0,1
+1976,TRI,Athletics,Athletics,1,0,0
+1976,URS,Aquatics,Diving,1,0,2
+1976,URS,Aquatics,Swimming,1,3,5
+1976,URS,Archery,Archery,0,1,1
+1976,URS,Athletics,Athletics,4,4,10
+1976,URS,Basketball,Basketball,1,0,1
+1976,URS,Boxing,Boxing,0,1,4
+1976,URS,Canoe / Kayak,Canoe / Kayak F,6,3,0
+1976,URS,Cycling,Cycling Road,1,0,0
+1976,URS,Cycling,Cycling Track,0,1,0
+1976,URS,Fencing,Fencing,3,2,2
+1976,URS,Football,Football,0,0,1
+1976,URS,Gymnastics,Artistic G.,7,8,2
+1976,URS,Handball,Handball,2,0,0
+1976,URS,Judo,Judo,2,2,1
+1976,URS,Modern Pentathlon,Modern Pentath.,0,1,0
+1976,URS,Rowing,Rowing,1,4,4
+1976,URS,Sailing,Sailing,0,2,0
+1976,URS,Shooting,Shooting,1,1,1
+1976,URS,Volleyball,Volleyball,0,2,0
+1976,URS,Weightlifting,Weightlifting,7,1,0
+1976,URS,Wrestling,Wrestling Free.,5,3,0
+1976,URS,Wrestling,Wrestling Gre-R,7,2,1
+1976,USA,Aquatics,Diving,2,1,2
+1976,USA,Aquatics,Swimming,13,14,7
+1976,USA,Archery,Archery,2,0,0
+1976,USA,Athletics,Athletics,6,8,8
+1976,USA,Basketball,Basketball,1,1,0
+1976,USA,Boxing,Boxing,5,1,1
+1976,USA,Equestrian,Dressage,0,0,1
+1976,USA,Equestrian,Eventing,3,1,0
+1976,USA,Gymnastics,Artistic G.,0,0,1
+1976,USA,Judo,Judo,0,0,1
+1976,USA,Rowing,Rowing,0,2,1
+1976,USA,Sailing,Sailing,0,2,1
+1976,USA,Shooting,Shooting,2,1,0
+1976,USA,Weightlifting,Weightlifting,0,1,0
+1976,USA,Wrestling,Wrestling Free.,1,3,2
+1976,VEN,Boxing,Boxing,0,1,0
+1976,YUG,Basketball,Basketball,0,1,0
+1976,YUG,Boxing,Boxing,0,1,1
+1976,YUG,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1976,YUG,Judo,Judo,0,0,1
+1976,YUG,Wrestling,Wrestling Gre-R,1,1,0
+1980,AUS,Aquatics,Swimming,2,0,5
+1980,AUS,Athletics,Athletics,0,1,0
+1980,AUS,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1980,AUT,Equestrian,Dressage,1,0,0
+1980,AUT,Sailing,Sailing,0,2,0
+1980,AUT,Shooting,Shooting,0,0,1
+1980,BEL,Judo,Judo,1,0,0
+1980,BRA,Aquatics,Swimming,0,0,1
+1980,BRA,Athletics,Athletics,0,0,1
+1980,BRA,Sailing,Sailing,2,0,0
+1980,BUL,Athletics,Athletics,0,1,1
+1980,BUL,Basketball,Basketball,0,1,0
+1980,BUL,Boxing,Boxing,1,0,1
+1980,BUL,Canoe / Kayak,Canoe / Kayak F,1,2,2
+1980,BUL,Equestrian,Dressage,0,1,0
+1980,BUL,Gymnastics,Artistic G.,1,0,1
+1980,BUL,Judo,Judo,0,1,1
+1980,BUL,Rowing,Rowing,0,1,3
+1980,BUL,Shooting,Shooting,0,0,2
+1980,BUL,Volleyball,Volleyball,0,1,1
+1980,BUL,Weightlifting,Weightlifting,2,4,2
+1980,BUL,Wrestling,Wrestling Free.,2,3,1
+1980,BUL,Wrestling,Wrestling Gre-R,1,1,2
+1980,CUB,Athletics,Athletics,1,2,1
+1980,CUB,Boxing,Boxing,6,2,2
+1980,CUB,Judo,Judo,0,3,0
+1980,CUB,Shooting,Shooting,0,0,1
+1980,CUB,Weightlifting,Weightlifting,1,0,1
+1980,DEN,Aquatics,Swimming,0,0,1
+1980,DEN,Cycling,Cycling Track,0,0,1
+1980,DEN,Sailing,Sailing,1,1,0
+1980,DEN,Shooting,Shooting,1,0,0
+1980,ESP,Aquatics,Swimming,0,0,1
+1980,ESP,Athletics,Athletics,0,1,0
+1980,ESP,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1980,ESP,Hockey,Hockey,0,1,0
+1980,ESP,Sailing,Sailing,1,0,0
+1980,ETH,Athletics,Athletics,2,0,2
+1980,FIN,Archery,Archery,1,0,1
+1980,FIN,Athletics,Athletics,0,1,1
+1980,FIN,Rowing,Rowing,1,0,0
+1980,FIN,Sailing,Sailing,1,0,1
+1980,FIN,Wrestling,Wrestling Gre-R,0,0,1
+1980,FRA,Athletics,Athletics,0,0,1
+1980,FRA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1980,FRA,Cycling,Cycling Track,0,2,0
+1980,FRA,Fencing,Fencing,4,1,1
+1980,FRA,Judo,Judo,2,1,1
+1980,GBR,Aquatics,Swimming,1,3,1
+1980,GBR,Athletics,Athletics,4,2,4
+1980,GBR,Boxing,Boxing,0,0,1
+1980,GBR,Judo,Judo,0,1,1
+1980,GBR,Rowing,Rowing,0,1,2
+1980,GDR,Aquatics,Diving,2,1,1
+1980,GDR,Aquatics,Swimming,12,10,8
+1980,GDR,Athletics,Athletics,11,8,10
+1980,GDR,Boxing,Boxing,1,0,5
+1980,GDR,Canoe / Kayak,Canoe / Kayak F,4,1,3
+1980,GDR,Cycling,Cycling Road,0,1,0
+1980,GDR,Cycling,Cycling Track,2,1,0
+1980,GDR,Football,Football,0,1,0
+1980,GDR,Gymnastics,Artistic G.,2,3,6
+1980,GDR,Handball,Handball,1,0,1
+1980,GDR,Judo,Judo,1,0,4
+1980,GDR,Rowing,Rowing,11,1,2
+1980,GDR,Sailing,Sailing,0,1,0
+1980,GDR,Shooting,Shooting,0,5,1
+1980,GDR,Volleyball,Volleyball,0,1,0
+1980,GDR,Weightlifting,Weightlifting,0,2,1
+1980,GDR,Wrestling,Wrestling Free.,0,1,0
+1980,GRE,Sailing,Sailing,0,0,1
+1980,GRE,Wrestling,Wrestling Free.,0,0,1
+1980,GRE,Wrestling,Wrestling Gre-R,1,0,0
+1980,GUY,Boxing,Boxing,0,0,1
+1980,HUN,Aquatics,Swimming,1,2,1
+1980,HUN,Aquatics,Water polo,0,0,1
+1980,HUN,Boxing,Boxing,0,0,2
+1980,HUN,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1980,HUN,Fencing,Fencing,0,2,3
+1980,HUN,Gymnastics,Artistic G.,1,0,1
+1980,HUN,Judo,Judo,0,0,2
+1980,HUN,Modern Pentathlon,Modern Pentath.,0,2,0
+1980,HUN,Sailing,Sailing,0,0,1
+1980,HUN,Shooting,Shooting,1,0,0
+1980,HUN,Weightlifting,Weightlifting,1,0,1
+1980,HUN,Wrestling,Wrestling Free.,0,1,1
+1980,HUN,Wrestling,Wrestling Gre-R,2,2,1
+1980,IND,Hockey,Hockey,1,0,0
+1980,IRL,Boxing,Boxing,0,0,1
+1980,IRL,Sailing,Sailing,0,1,0
+1980,ITA,Aquatics,Diving,0,0,1
+1980,ITA,Archery,Archery,0,0,1
+1980,ITA,Athletics,Athletics,3,0,1
+1980,ITA,Basketball,Basketball,0,1,0
+1980,ITA,Boxing,Boxing,1,0,0
+1980,ITA,Equestrian,Eventing,1,2,0
+1980,ITA,Fencing,Fencing,0,1,0
+1980,ITA,Judo,Judo,1,0,0
+1980,ITA,Sailing,Sailing,0,0,1
+1980,ITA,Shooting,Shooting,1,0,0
+1980,ITA,Wrestling,Wrestling Free.,1,0,0
+1980,JAM,Athletics,Athletics,0,0,2
+1980,JAM,Cycling,Cycling Track,0,0,1
+1980,LIB,Wrestling,Wrestling Gre-R,0,0,1
+1980,MEX,Aquatics,Diving,0,1,0
+1980,MEX,Equestrian,Eventing,0,0,2
+1980,MEX,Equestrian,Jumping,0,0,3
+1980,MGL,Judo,Judo,0,1,1
+1980,MGL,Wrestling,Wrestling Free.,0,1,1
+1980,NED,Aquatics,Swimming,0,0,1
+1980,NED,Athletics,Athletics,0,1,0
+1980,NED,Judo,Judo,0,0,1
+1980,POL,Aquatics,Swimming,0,0,1
+1980,POL,Athletics,Athletics,2,4,1
+1980,POL,Boxing,Boxing,0,1,4
+1980,POL,Cycling,Cycling Road,0,1,0
+1980,POL,Equestrian,Jumping,1,1,0
+1980,POL,Fencing,Fencing,0,1,2
+1980,POL,Judo,Judo,0,0,1
+1980,POL,Rowing,Rowing,0,1,1
+1980,POL,Weightlifting,Weightlifting,0,0,3
+1980,POL,Wrestling,Wrestling Free.,0,1,2
+1980,POL,Wrestling,Wrestling Gre-R,0,4,0
+1980,PRK,Boxing,Boxing,0,0,1
+1980,PRK,Weightlifting,Weightlifting,0,1,1
+1980,PRK,Wrestling,Wrestling Free.,0,2,0
+1980,ROU,Boxing,Boxing,0,0,2
+1980,ROU,Canoe / Kayak,Canoe / Kayak F,1,2,2
+1980,ROU,Equestrian,Dressage,0,0,1
+1980,ROU,Gymnastics,Artistic G.,2,3,2
+1980,ROU,Handball,Handball,0,0,1
+1980,ROU,Rowing,Rowing,1,0,2
+1980,ROU,Shooting,Shooting,1,0,0
+1980,ROU,Volleyball,Volleyball,0,0,1
+1980,ROU,Wrestling,Wrestling Gre-R,1,1,2
+1980,SUI,Cycling,Cycling Track,1,0,0
+1980,SUI,Judo,Judo,1,0,0
+1980,SWE,Aquatics,Swimming,2,2,1
+1980,SWE,Fencing,Fencing,1,0,0
+1980,SWE,Modern Pentathlon,Modern Pentath.,0,0,1
+1980,SWE,Sailing,Sailing,0,0,1
+1980,SWE,Shooting,Shooting,0,1,1
+1980,SWE,Wrestling,Wrestling Gre-R,0,0,2
+1980,TAN,Athletics,Athletics,0,2,0
+1980,TCH,Athletics,Athletics,0,2,0
+1980,TCH,Boxing,Boxing,0,0,1
+1980,TCH,Cycling,Cycling Road,0,0,1
+1980,TCH,Cycling,Cycling Track,0,0,1
+1980,TCH,Football,Football,1,0,0
+1980,TCH,Gymnastics,Artistic G.,0,0,1
+1980,TCH,Hockey,Hockey,0,1,0
+1980,TCH,Judo,Judo,0,0,1
+1980,TCH,Rowing,Rowing,0,0,1
+1980,TCH,Weightlifting,Weightlifting,1,0,1
+1980,TCH,Wrestling,Wrestling Free.,0,0,2
+1980,UGA,Boxing,Boxing,0,1,0
+1980,URS,Aquatics,Diving,2,2,2
+1980,URS,Aquatics,Swimming,8,9,5
+1980,URS,Aquatics,Water polo,1,0,0
+1980,URS,Archery,Archery,1,2,0
+1980,URS,Athletics,Athletics,15,14,12
+1980,URS,Basketball,Basketball,1,0,1
+1980,URS,Boxing,Boxing,1,6,1
+1980,URS,Canoe / Kayak,Canoe / Kayak F,4,2,2
+1980,URS,Cycling,Cycling Road,2,0,1
+1980,URS,Cycling,Cycling Track,1,1,1
+1980,URS,Equestrian,Dressage,2,1,1
+1980,URS,Equestrian,Eventing,1,1,1
+1980,URS,Equestrian,Jumping,1,1,0
+1980,URS,Fencing,Fencing,3,3,2
+1980,URS,Football,Football,0,0,1
+1980,URS,Gymnastics,Artistic G.,9,8,5
+1980,URS,Handball,Handball,1,1,0
+1980,URS,Hockey,Hockey,0,0,2
+1980,URS,Judo,Judo,2,1,2
+1980,URS,Modern Pentathlon,Modern Pentath.,2,0,1
+1980,URS,Rowing,Rowing,1,9,2
+1980,URS,Sailing,Sailing,1,1,1
+1980,URS,Shooting,Shooting,3,1,1
+1980,URS,Volleyball,Volleyball,2,0,0
+1980,URS,Weightlifting,Weightlifting,5,3,0
+1980,URS,Wrestling,Wrestling Free.,7,1,1
+1980,URS,Wrestling,Wrestling Gre-R,5,2,1
+1980,VEN,Boxing,Boxing,0,1,0
+1980,YUG,Aquatics,Water polo,0,1,0
+1980,YUG,Basketball,Basketball,1,0,1
+1980,YUG,Boxing,Boxing,1,0,0
+1980,YUG,Handball,Handball,0,1,0
+1980,YUG,Judo,Judo,0,0,1
+1980,YUG,Rowing,Rowing,0,1,1
+1980,YUG,Wrestling,Wrestling Free.,0,0,1
+1980,ZIM,Hockey,Hockey,1,0,0
+1984,ALG,Boxing,Boxing,0,0,2
+1984,AUS,Aquatics,Swimming,1,5,6
+1984,AUS,Athletics,Athletics,1,1,1
+1984,AUS,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1984,AUS,Cycling,Cycling Track,1,0,0
+1984,AUS,Rowing,Rowing,0,1,2
+1984,AUS,Sailing,Sailing,0,0,1
+1984,AUS,Shooting,Shooting,0,0,1
+1984,AUS,Weightlifting,Weightlifting,1,1,0
+1984,AUT,Judo,Judo,1,0,1
+1984,AUT,Shooting,Shooting,0,1,0
+1984,BEL,Aquatics,Swimming,0,0,1
+1984,BEL,Cycling,Cycling Track,1,0,0
+1984,BEL,Rowing,Rowing,0,1,1
+1984,BRA,Aquatics,Swimming,0,1,0
+1984,BRA,Athletics,Athletics,1,0,0
+1984,BRA,Football,Football,0,1,0
+1984,BRA,Judo,Judo,0,1,2
+1984,BRA,Sailing,Sailing,0,1,0
+1984,BRA,Volleyball,Volleyball,0,1,0
+1984,CAN,Aquatics,Diving,1,0,0
+1984,CAN,Aquatics,Swimming,4,3,3
+1984,CAN,Aquatics,Synchronized S.,0,2,0
+1984,CAN,Athletics,Athletics,0,2,3
+1984,CAN,Boxing,Boxing,0,2,1
+1984,CAN,Canoe / Kayak,Canoe / Kayak F,2,2,2
+1984,CAN,Cycling,Cycling Road,0,1,0
+1984,CAN,Cycling,Cycling Track,0,1,0
+1984,CAN,Gymnastics,Rhythmic G.,1,0,0
+1984,CAN,Judo,Judo,0,0,1
+1984,CAN,Rowing,Rowing,1,2,3
+1984,CAN,Sailing,Sailing,0,1,2
+1984,CAN,Shooting,Shooting,1,0,0
+1984,CAN,Weightlifting,Weightlifting,0,1,0
+1984,CAN,Wrestling,Wrestling Free.,0,1,1
+1984,CHN,Aquatics,Diving,1,1,1
+1984,CHN,Archery,Archery,0,1,0
+1984,CHN,Athletics,Athletics,0,0,1
+1984,CHN,Basketball,Basketball,0,0,1
+1984,CHN,Fencing,Fencing,1,0,0
+1984,CHN,Gymnastics,Artistic G.,5,4,2
+1984,CHN,Handball,Handball,0,0,1
+1984,CHN,Shooting,Shooting,3,0,3
+1984,CHN,Volleyball,Volleyball,1,0,0
+1984,CHN,Weightlifting,Weightlifting,4,2,0
+1984,CIV,Athletics,Athletics,0,1,0
+1984,CMR,Boxing,Boxing,0,0,1
+1984,COL,Shooting,Shooting,0,1,0
+1984,DEN,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1984,DEN,Equestrian,Dressage,0,1,0
+1984,DEN,Rowing,Rowing,0,0,2
+1984,DEN,Shooting,Shooting,0,1,0
+1984,DOM,Boxing,Boxing,0,0,1
+1984,EGY,Judo,Judo,0,1,0
+1984,ESP,Athletics,Athletics,0,0,1
+1984,ESP,Basketball,Basketball,0,1,0
+1984,ESP,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1984,ESP,Rowing,Rowing,0,1,0
+1984,ESP,Sailing,Sailing,1,0,0
+1984,FIN,Athletics,Athletics,2,1,1
+1984,FIN,Boxing,Boxing,0,0,1
+1984,FIN,Rowing,Rowing,1,0,0
+1984,FIN,Shooting,Shooting,0,0,1
+1984,FIN,Weightlifting,Weightlifting,0,0,2
+1984,FIN,Wrestling,Wrestling Free.,0,0,1
+1984,FIN,Wrestling,Wrestling Gre-R,1,1,0
+1984,FRA,Aquatics,Swimming,0,1,1
+1984,FRA,Athletics,Athletics,1,1,2
+1984,FRA,Boxing,Boxing,0,0,1
+1984,FRA,Canoe / Kayak,Canoe / Kayak F,0,1,3
+1984,FRA,Cycling,Cycling Track,0,0,1
+1984,FRA,Fencing,Fencing,2,2,3
+1984,FRA,Football,Football,1,0,0
+1984,FRA,Gymnastics,Artistic G.,0,0,1
+1984,FRA,Judo,Judo,0,1,2
+1984,FRA,Modern Pentathlon,Modern Pentath.,0,0,1
+1984,FRA,Sailing,Sailing,0,0,1
+1984,FRA,Shooting,Shooting,1,1,0
+1984,FRG,Aquatics,Swimming,2,3,6
+1984,FRG,Aquatics,Water polo,0,0,1
+1984,FRG,Athletics,Athletics,4,2,5
+1984,FRG,Boxing,Boxing,0,0,1
+1984,FRG,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1984,FRG,Cycling,Cycling Road,0,0,1
+1984,FRG,Cycling,Cycling Track,1,2,1
+1984,FRG,Equestrian,Dressage,2,0,0
+1984,FRG,Equestrian,Eventing,0,0,2
+1984,FRG,Equestrian,Jumping,0,0,1
+1984,FRG,Fencing,Fencing,2,3,0
+1984,FRG,Gymnastics,Rhythmic G.,0,0,1
+1984,FRG,Handball,Handball,0,1,0
+1984,FRG,Hockey,Hockey,0,2,0
+1984,FRG,Judo,Judo,1,0,2
+1984,FRG,Rowing,Rowing,1,1,1
+1984,FRG,Sailing,Sailing,0,1,0
+1984,FRG,Shooting,Shooting,0,1,0
+1984,FRG,Weightlifting,Weightlifting,2,0,1
+1984,FRG,Wrestling,Wrestling Free.,0,1,0
+1984,FRG,Wrestling,Wrestling Gre-R,1,1,0
+1984,GBR,Aquatics,Swimming,0,1,4
+1984,GBR,Athletics,Athletics,3,7,6
+1984,GBR,Boxing,Boxing,0,0,1
+1984,GBR,Equestrian,Eventing,0,2,1
+1984,GBR,Equestrian,Jumping,0,1,0
+1984,GBR,Hockey,Hockey,0,0,1
+1984,GBR,Judo,Judo,0,1,2
+1984,GBR,Rowing,Rowing,1,0,0
+1984,GBR,Sailing,Sailing,0,0,1
+1984,GBR,Shooting,Shooting,1,0,3
+1984,GBR,Weightlifting,Weightlifting,0,0,1
+1984,GBR,Wrestling,Wrestling Free.,0,0,1
+1984,GRE,Wrestling,Wrestling Gre-R,0,1,1
+1984,IRL,Athletics,Athletics,0,1,0
+1984,ISL,Judo,Judo,0,0,1
+1984,ITA,Athletics,Athletics,3,1,3
+1984,ITA,Boxing,Boxing,1,2,2
+1984,ITA,Cycling,Cycling Road,1,0,0
+1984,ITA,Fencing,Fencing,3,1,3
+1984,ITA,Judo,Judo,0,1,0
+1984,ITA,Modern Pentathlon,Modern Pentath.,2,0,1
+1984,ITA,Rowing,Rowing,1,0,0
+1984,ITA,Sailing,Sailing,0,0,1
+1984,ITA,Shooting,Shooting,1,1,1
+1984,ITA,Volleyball,Volleyball,0,0,1
+1984,ITA,Weightlifting,Weightlifting,1,0,0
+1984,ITA,Wrestling,Wrestling Gre-R,1,0,0
+1984,JAM,Athletics,Athletics,0,1,2
+1984,JPN,Aquatics,Synchronized S.,0,0,2
+1984,JPN,Archery,Archery,0,0,1
+1984,JPN,Cycling,Cycling Track,0,0,1
+1984,JPN,Gymnastics,Artistic G.,3,2,3
+1984,JPN,Judo,Judo,4,0,1
+1984,JPN,Shooting,Shooting,1,0,0
+1984,JPN,Volleyball,Volleyball,0,0,1
+1984,JPN,Weightlifting,Weightlifting,0,0,3
+1984,JPN,Wrestling,Wrestling Free.,1,4,1
+1984,JPN,Wrestling,Wrestling Gre-R,1,1,1
+1984,KEN,Athletics,Athletics,1,0,1
+1984,KEN,Boxing,Boxing,0,0,1
+1984,KOR,Archery,Archery,1,0,1
+1984,KOR,Basketball,Basketball,0,1,0
+1984,KOR,Boxing,Boxing,1,1,1
+1984,KOR,Handball,Handball,0,1,0
+1984,KOR,Judo,Judo,2,2,1
+1984,KOR,Wrestling,Wrestling Free.,1,1,3
+1984,KOR,Wrestling,Wrestling Gre-R,1,0,1
+1984,MAR,Athletics,Athletics,2,0,0
+1984,MEX,Athletics,Athletics,2,1,0
+1984,MEX,Boxing,Boxing,0,1,0
+1984,MEX,Cycling,Cycling Track,0,0,1
+1984,MEX,Wrestling,Wrestling Gre-R,0,1,0
+1984,NED,Aquatics,Swimming,2,1,3
+1984,NED,Athletics,Athletics,1,0,0
+1984,NED,Boxing,Boxing,0,0,1
+1984,NED,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1984,NED,Hockey,Hockey,1,0,0
+1984,NED,Rowing,Rowing,0,1,1
+1984,NED,Sailing,Sailing,1,0,0
+1984,NGR,Athletics,Athletics,0,0,1
+1984,NGR,Boxing,Boxing,0,1,0
+1984,NOR,Athletics,Athletics,0,1,0
+1984,NOR,Cycling,Cycling Road,0,0,1
+1984,NOR,Rowing,Rowing,0,0,1
+1984,NZL,Boxing,Boxing,0,1,0
+1984,NZL,Canoe / Kayak,Canoe / Kayak F,4,0,0
+1984,NZL,Equestrian,Eventing,1,0,0
+1984,NZL,Rowing,Rowing,1,0,1
+1984,NZL,Sailing,Sailing,2,0,1
+1984,PAK,Hockey,Hockey,1,0,0
+1984,PER,Shooting,Shooting,0,1,0
+1984,POR,Athletics,Athletics,1,0,2
+1984,PUR,Boxing,Boxing,0,1,1
+1984,ROU,Aquatics,Swimming,0,0,1
+1984,ROU,Athletics,Athletics,3,3,4
+1984,ROU,Boxing,Boxing,0,0,1
+1984,ROU,Canoe / Kayak,Canoe / Kayak F,2,1,1
+1984,ROU,Fencing,Fencing,0,1,1
+1984,ROU,Gymnastics,Artistic G.,4,1,2
+1984,ROU,Gymnastics,Rhythmic G.,0,1,0
+1984,ROU,Handball,Handball,0,0,1
+1984,ROU,Judo,Judo,0,0,2
+1984,ROU,Rowing,Rowing,6,2,0
+1984,ROU,Shooting,Shooting,0,1,0
+1984,ROU,Weightlifting,Weightlifting,2,5,1
+1984,ROU,Wrestling,Wrestling Free.,0,0,1
+1984,ROU,Wrestling,Wrestling Gre-R,2,1,2
+1984,SUI,Aquatics,Swimming,0,0,1
+1984,SUI,Athletics,Athletics,0,1,0
+1984,SUI,Cycling,Cycling Road,0,1,0
+1984,SUI,Equestrian,Dressage,0,2,1
+1984,SUI,Equestrian,Jumping,0,0,1
+1984,SUI,Shooting,Shooting,0,1,0
+1984,SUI,Wrestling,Wrestling Gre-R,0,0,1
+1984,SWE,Aquatics,Swimming,0,0,2
+1984,SWE,Athletics,Athletics,0,2,1
+1984,SWE,Canoe / Kayak,Canoe / Kayak F,2,4,0
+1984,SWE,Equestrian,Dressage,0,0,1
+1984,SWE,Fencing,Fencing,0,1,0
+1984,SWE,Modern Pentathlon,Modern Pentath.,0,1,0
+1984,SWE,Shooting,Shooting,0,1,0
+1984,SWE,Wrestling,Wrestling Gre-R,0,2,2
+1984,SYR,Wrestling,Wrestling Free.,0,1,0
+1984,THA,Boxing,Boxing,0,1,0
+1984,TPE,Weightlifting,Weightlifting,0,0,1
+1984,TUR,Boxing,Boxing,0,0,2
+1984,TUR,Wrestling,Wrestling Free.,0,0,1
+1984,USA,Aquatics,Diving,2,3,3
+1984,USA,Aquatics,Swimming,20,13,0
+1984,USA,Aquatics,Synchronized S.,2,0,0
+1984,USA,Aquatics,Water polo,0,1,0
+1984,USA,Archery,Archery,1,1,0
+1984,USA,Athletics,Athletics,16,15,9
+1984,USA,Basketball,Basketball,2,0,0
+1984,USA,Boxing,Boxing,9,1,1
+1984,USA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1984,USA,Cycling,Cycling Road,2,1,1
+1984,USA,Cycling,Cycling Track,2,2,1
+1984,USA,Equestrian,Eventing,2,1,0
+1984,USA,Equestrian,Jumping,3,1,0
+1984,USA,Fencing,Fencing,0,0,1
+1984,USA,Gymnastics,Artistic G.,5,5,6
+1984,USA,Hockey,Hockey,0,0,1
+1984,USA,Judo,Judo,0,1,1
+1984,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+1984,USA,Rowing,Rowing,2,5,1
+1984,USA,Sailing,Sailing,3,4,0
+1984,USA,Shooting,Shooting,3,1,2
+1984,USA,Volleyball,Volleyball,1,1,0
+1984,USA,Weightlifting,Weightlifting,0,1,1
+1984,USA,Wrestling,Wrestling Free.,7,2,0
+1984,USA,Wrestling,Wrestling Gre-R,2,1,1
+1984,VEN,Aquatics,Swimming,0,0,1
+1984,VEN,Boxing,Boxing,0,0,2
+1984,YUG,Aquatics,Water polo,1,0,0
+1984,YUG,Basketball,Basketball,0,0,1
+1984,YUG,Boxing,Boxing,1,1,2
+1984,YUG,Canoe / Kayak,Canoe / Kayak F,1,2,0
+1984,YUG,Football,Football,0,0,1
+1984,YUG,Handball,Handball,2,0,0
+1984,YUG,Rowing,Rowing,0,0,1
+1984,YUG,Wrestling,Wrestling Free.,1,0,1
+1984,YUG,Wrestling,Wrestling Gre-R,1,1,1
+1984,ZAM,Boxing,Boxing,0,0,1
+1988,AHO,Sailing,Sailing,0,1,0
+1988,ARG,Tennis,Tennis,0,1,0
+1988,ARG,Volleyball,Volleyball,0,0,1
+1988,AUS,Aquatics,Swimming,1,1,1
+1988,AUS,Athletics,Athletics,1,1,0
+1988,AUS,Boxing,Boxing,0,1,0
+1988,AUS,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1988,AUS,Cycling,Cycling Track,0,2,2
+1988,AUS,Hockey,Hockey,1,0,0
+1988,AUS,Tennis,Tennis,0,0,1
+1988,AUT,Judo,Judo,1,0,0
+1988,BEL,Judo,Judo,0,0,1
+1988,BEL,Shooting,Shooting,0,0,1
+1988,BRA,Athletics,Athletics,0,1,1
+1988,BRA,Football,Football,0,1,0
+1988,BRA,Judo,Judo,1,0,0
+1988,BRA,Sailing,Sailing,0,0,2
+1988,BUL,Aquatics,Swimming,1,1,1
+1988,BUL,Athletics,Athletics,2,1,1
+1988,BUL,Boxing,Boxing,1,1,0
+1988,BUL,Canoe / Kayak,Canoe / Kayak F,1,1,3
+1988,BUL,Gymnastics,Artistic G.,1,0,1
+1988,BUL,Gymnastics,Rhythmic G.,0,1,0
+1988,BUL,Rowing,Rowing,0,1,2
+1988,BUL,Shooting,Shooting,1,1,0
+1988,BUL,Tennis,Tennis,0,0,1
+1988,BUL,Weightlifting,Weightlifting,2,1,1
+1988,BUL,Wrestling,Wrestling Free.,0,1,2
+1988,BUL,Wrestling,Wrestling Gre-R,1,3,1
+1988,CAN,Aquatics,Swimming,0,1,1
+1988,CAN,Aquatics,Synchronized S.,2,0,0
+1988,CAN,Athletics,Athletics,0,0,1
+1988,CAN,Boxing,Boxing,1,1,1
+1988,CAN,Equestrian,Dressage,0,0,2
+1988,CAN,Sailing,Sailing,0,0,1
+1988,CHI,Shooting,Shooting,0,1,0
+1988,CHN,Aquatics,Diving,2,3,1
+1988,CHN,Aquatics,Swimming,0,3,1
+1988,CHN,Athletics,Athletics,0,0,1
+1988,CHN,Gymnastics,Artistic G.,1,0,1
+1988,CHN,Rowing,Rowing,0,1,1
+1988,CHN,Shooting,Shooting,0,1,1
+1988,CHN,Table Tennis,Table Tennis,2,2,1
+1988,CHN,Volleyball,Volleyball,0,0,1
+1988,CHN,Weightlifting,Weightlifting,0,1,4
+1988,COL,Boxing,Boxing,0,0,1
+1988,CRC,Aquatics,Swimming,0,1,0
+1988,DEN,Aquatics,Swimming,0,1,0
+1988,DEN,Cycling,Cycling Track,1,0,0
+1988,DEN,Sailing,Sailing,1,0,1
+1988,DJI,Athletics,Athletics,0,0,1
+1988,ESP,Aquatics,Swimming,0,0,1
+1988,ESP,Sailing,Sailing,1,0,0
+1988,ESP,Shooting,Shooting,0,0,1
+1988,ESP,Tennis,Tennis,0,1,0
+1988,FIN,Athletics,Athletics,1,0,1
+1988,FIN,Wrestling,Wrestling Gre-R,0,1,1
+1988,FRA,Aquatics,Swimming,0,0,2
+1988,FRA,Athletics,Athletics,0,0,1
+1988,FRA,Boxing,Boxing,0,1,0
+1988,FRA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1988,FRA,Equestrian,Dressage,0,1,0
+1988,FRA,Equestrian,Jumping,1,0,1
+1988,FRA,Fencing,Fencing,2,1,0
+1988,FRA,Judo,Judo,1,0,1
+1988,FRA,Sailing,Sailing,2,0,0
+1988,FRA,Shooting,Shooting,0,1,0
+1988,FRG,Aquatics,Swimming,1,1,1
+1988,FRG,Athletics,Athletics,0,1,3
+1988,FRG,Boxing,Boxing,0,0,1
+1988,FRG,Cycling,Cycling Road,0,2,1
+1988,FRG,Cycling,Cycling Track,0,0,1
+1988,FRG,Equestrian,Dressage,3,0,0
+1988,FRG,Equestrian,Eventing,1,0,0
+1988,FRG,Equestrian,Jumping,1,0,1
+1988,FRG,Fencing,Fencing,3,3,1
+1988,FRG,Football,Football,0,0,1
+1988,FRG,Hockey,Hockey,0,1,0
+1988,FRG,Judo,Judo,0,2,0
+1988,FRG,Rowing,Rowing,1,1,1
+1988,FRG,Shooting,Shooting,1,1,1
+1988,FRG,Tennis,Tennis,1,0,1
+1988,FRG,Weightlifting,Weightlifting,0,1,2
+1988,FRG,Wrestling,Wrestling Gre-R,0,1,0
+1988,GBR,Aquatics,Swimming,1,1,1
+1988,GBR,Archery,Archery,0,0,1
+1988,GBR,Athletics,Athletics,0,6,2
+1988,GBR,Boxing,Boxing,0,0,1
+1988,GBR,Equestrian,Eventing,0,3,1
+1988,GBR,Hockey,Hockey,1,0,0
+1988,GBR,Judo,Judo,0,0,1
+1988,GBR,Modern Pentathlon,Modern Pentath.,0,0,1
+1988,GBR,Rowing,Rowing,1,0,1
+1988,GBR,Sailing,Sailing,1,0,0
+1988,GBR,Shooting,Shooting,1,1,0
+1988,GDR,Aquatics,Swimming,11,8,9
+1988,GDR,Athletics,Athletics,6,11,10
+1988,GDR,Boxing,Boxing,2,1,0
+1988,GDR,Canoe / Kayak,Canoe / Kayak F,3,4,2
+1988,GDR,Cycling,Cycling Road,2,0,0
+1988,GDR,Cycling,Cycling Track,1,2,1
+1988,GDR,Fencing,Fencing,0,1,0
+1988,GDR,Gymnastics,Artistic G.,1,3,4
+1988,GDR,Judo,Judo,0,2,1
+1988,GDR,Rowing,Rowing,8,1,1
+1988,GDR,Sailing,Sailing,1,0,0
+1988,GDR,Shooting,Shooting,1,1,0
+1988,GDR,Weightlifting,Weightlifting,1,1,1
+1988,GDR,Wrestling,Wrestling Free.,0,0,1
+1988,GRE,Wrestling,Wrestling Gre-R,0,0,1
+1988,HUN,Aquatics,Swimming,4,2,0
+1988,HUN,Boxing,Boxing,0,0,1
+1988,HUN,Canoe / Kayak,Canoe / Kayak F,2,1,1
+1988,HUN,Fencing,Fencing,1,0,2
+1988,HUN,Gymnastics,Artistic G.,1,0,0
+1988,HUN,Modern Pentathlon,Modern Pentath.,2,0,0
+1988,HUN,Shooting,Shooting,0,0,2
+1988,HUN,Weightlifting,Weightlifting,0,2,0
+1988,HUN,Wrestling,Wrestling Gre-R,1,1,0
+1988,INA,Archery,Archery,0,1,0
+1988,IRI,Wrestling,Wrestling Free.,0,1,0
+1988,ISV,Sailing,Sailing,0,1,0
+1988,ITA,Aquatics,Swimming,0,0,1
+1988,ITA,Athletics,Athletics,1,1,1
+1988,ITA,Boxing,Boxing,1,0,0
+1988,ITA,Fencing,Fencing,1,1,2
+1988,ITA,Modern Pentathlon,Modern Pentath.,0,2,0
+1988,ITA,Rowing,Rowing,2,0,0
+1988,ITA,Wrestling,Wrestling Gre-R,1,0,0
+1988,JAM,Athletics,Athletics,0,2,0
+1988,JPN,Aquatics,Swimming,1,0,0
+1988,JPN,Aquatics,Synchronized S.,0,0,2
+1988,JPN,Gymnastics,Artistic G.,0,0,2
+1988,JPN,Judo,Judo,1,0,3
+1988,JPN,Shooting,Shooting,0,1,0
+1988,JPN,Wrestling,Wrestling Free.,2,1,0
+1988,JPN,Wrestling,Wrestling Gre-R,0,1,0
+1988,KEN,Athletics,Athletics,4,2,1
+1988,KEN,Boxing,Boxing,1,0,1
+1988,KOR,Archery,Archery,3,2,1
+1988,KOR,Boxing,Boxing,2,1,1
+1988,KOR,Gymnastics,Artistic G.,0,0,1
+1988,KOR,Handball,Handball,1,1,0
+1988,KOR,Hockey,Hockey,0,1,0
+1988,KOR,Judo,Judo,2,0,1
+1988,KOR,Shooting,Shooting,0,1,0
+1988,KOR,Table Tennis,Table Tennis,2,1,1
+1988,KOR,Weightlifting,Weightlifting,0,1,1
+1988,KOR,Wrestling,Wrestling Free.,1,1,2
+1988,KOR,Wrestling,Wrestling Gre-R,1,1,3
+1988,MAR,Athletics,Athletics,1,0,1
+1988,MAR,Boxing,Boxing,0,0,1
+1988,MEX,Aquatics,Diving,0,0,1
+1988,MEX,Boxing,Boxing,0,0,1
+1988,MGL,Boxing,Boxing,0,0,1
+1988,NED,Aquatics,Swimming,0,1,0
+1988,NED,Boxing,Boxing,0,0,1
+1988,NED,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1988,NED,Cycling,Cycling Road,1,0,0
+1988,NED,Cycling,Cycling Track,0,1,0
+1988,NED,Hockey,Hockey,0,0,2
+1988,NED,Judo,Judo,0,0,1
+1988,NED,Rowing,Rowing,1,0,0
+1988,NOR,Handball,Handball,0,1,0
+1988,NOR,Rowing,Rowing,0,1,0
+1988,NOR,Sailing,Sailing,0,1,0
+1988,NOR,Shooting,Shooting,1,0,0
+1988,NOR,Wrestling,Wrestling Gre-R,1,0,0
+1988,NZL,Aquatics,Swimming,0,0,2
+1988,NZL,Canoe / Kayak,Canoe / Kayak F,1,1,1
+1988,NZL,Equestrian,Eventing,1,0,2
+1988,NZL,Rowing,Rowing,0,0,3
+1988,NZL,Sailing,Sailing,1,1,1
+1988,PAK,Boxing,Boxing,0,0,1
+1988,PER,Volleyball,Volleyball,0,1,0
+1988,PHI,Boxing,Boxing,0,0,1
+1988,POL,Aquatics,Swimming,0,0,1
+1988,POL,Boxing,Boxing,0,0,4
+1988,POL,Canoe / Kayak,Canoe / Kayak F,0,1,2
+1988,POL,Cycling,Cycling Road,0,1,0
+1988,POL,Fencing,Fencing,0,1,0
+1988,POL,Judo,Judo,1,1,0
+1988,POL,Weightlifting,Weightlifting,0,0,1
+1988,POL,Wrestling,Wrestling Gre-R,1,1,1
+1988,POR,Athletics,Athletics,1,0,0
+1988,ROU,Aquatics,Swimming,0,1,1
+1988,ROU,Athletics,Athletics,1,1,0
+1988,ROU,Boxing,Boxing,0,1,0
+1988,ROU,Gymnastics,Artistic G.,3,3,3
+1988,ROU,Rowing,Rowing,1,4,2
+1988,ROU,Shooting,Shooting,1,0,0
+1988,ROU,Weightlifting,Weightlifting,0,1,0
+1988,ROU,Wrestling,Wrestling Free.,1,0,0
+1988,SEN,Athletics,Athletics,0,1,0
+1988,SUI,Athletics,Athletics,0,0,1
+1988,SUI,Equestrian,Dressage,0,2,1
+1988,SUI,Rowing,Rowing,0,1,0
+1988,SUR,Aquatics,Swimming,1,0,0
+1988,SWE,Aquatics,Swimming,0,1,0
+1988,SWE,Athletics,Athletics,0,0,1
+1988,SWE,Boxing,Boxing,0,1,1
+1988,SWE,Cycling,Cycling Road,0,0,1
+1988,SWE,Sailing,Sailing,0,1,0
+1988,SWE,Shooting,Shooting,0,1,0
+1988,SWE,Table Tennis,Table Tennis,0,0,1
+1988,SWE,Tennis,Tennis,0,0,2
+1988,SWE,Wrestling,Wrestling Gre-R,0,0,1
+1988,TCH,Athletics,Athletics,1,1,0
+1988,TCH,Shooting,Shooting,1,1,0
+1988,TCH,Tennis,Tennis,1,1,1
+1988,TCH,Wrestling,Wrestling Free.,0,0,1
+1988,THA,Boxing,Boxing,0,0,1
+1988,TUR,Weightlifting,Weightlifting,1,0,0
+1988,TUR,Wrestling,Wrestling Free.,0,1,0
+1988,URS,Aquatics,Swimming,2,2,5
+1988,URS,Aquatics,Water polo,0,0,1
+1988,URS,Archery,Archery,0,0,1
+1988,URS,Athletics,Athletics,10,6,10
+1988,URS,Basketball,Basketball,1,0,1
+1988,URS,Boxing,Boxing,1,1,2
+1988,URS,Canoe / Kayak,Canoe / Kayak F,3,3,0
+1988,URS,Cycling,Cycling Road,0,0,1
+1988,URS,Cycling,Cycling Track,4,1,1
+1988,URS,Fencing,Fencing,1,1,3
+1988,URS,Football,Football,1,0,0
+1988,URS,Gymnastics,Artistic G.,10,5,3
+1988,URS,Gymnastics,Rhythmic G.,1,0,1
+1988,URS,Handball,Handball,1,0,1
+1988,URS,Judo,Judo,0,1,4
+1988,URS,Modern Pentathlon,Modern Pentath.,0,0,1
+1988,URS,Rowing,Rowing,0,2,1
+1988,URS,Sailing,Sailing,0,1,1
+1988,URS,Shooting,Shooting,4,1,6
+1988,URS,Volleyball,Volleyball,1,1,0
+1988,URS,Weightlifting,Weightlifting,6,2,0
+1988,URS,Wrestling,Wrestling Free.,4,3,2
+1988,URS,Wrestling,Wrestling Gre-R,4,1,1
+1988,USA,Aquatics,Diving,2,1,2
+1988,USA,Aquatics,Swimming,8,6,4
+1988,USA,Aquatics,Synchronized S.,0,2,0
+1988,USA,Aquatics,Water polo,0,1,0
+1988,USA,Archery,Archery,1,1,1
+1988,USA,Athletics,Athletics,13,7,6
+1988,USA,Basketball,Basketball,1,0,1
+1988,USA,Boxing,Boxing,3,3,2
+1988,USA,Canoe / Kayak,Canoe / Kayak F,2,0,0
+1988,USA,Cycling,Cycling Track,0,0,1
+1988,USA,Equestrian,Jumping,0,3,0
+1988,USA,Gymnastics,Artistic G.,0,0,1
+1988,USA,Judo,Judo,0,1,1
+1988,USA,Rowing,Rowing,0,2,1
+1988,USA,Sailing,Sailing,1,2,2
+1988,USA,Shooting,Shooting,0,1,0
+1988,USA,Tennis,Tennis,2,1,2
+1988,USA,Volleyball,Volleyball,1,0,0
+1988,USA,Wrestling,Wrestling Free.,2,1,2
+1988,USA,Wrestling,Wrestling Gre-R,0,0,1
+1988,YUG,Aquatics,Water polo,1,0,0
+1988,YUG,Basketball,Basketball,0,2,0
+1988,YUG,Boxing,Boxing,0,0,1
+1988,YUG,Handball,Handball,0,0,1
+1988,YUG,Rowing,Rowing,0,0,1
+1988,YUG,Shooting,Shooting,2,0,1
+1988,YUG,Table Tennis,Table Tennis,0,1,1
+1988,YUG,Wrestling,Wrestling Free.,0,1,0
+1992,ALG,Athletics,Athletics,1,0,0
+1992,ALG,Boxing,Boxing,0,0,1
+1992,ARG,Tennis,Tennis,0,0,1
+1992,AUS,Aquatics,Swimming,1,3,5
+1992,AUS,Athletics,Athletics,0,0,2
+1992,AUS,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1992,AUS,Canoe / Kayak,Canoe / Kayak S,0,1,0
+1992,AUS,Cycling,Cycling Road,1,0,0
+1992,AUS,Cycling,Cycling Track,0,4,0
+1992,AUS,Equestrian,Eventing,3,0,0
+1992,AUS,Hockey,Hockey,0,1,0
+1992,AUS,Rowing,Rowing,2,0,0
+1992,AUS,Sailing,Sailing,0,0,2
+1992,AUS,Tennis,Tennis,0,0,1
+1992,AUT,Equestrian,Jumping,0,1,0
+1992,AUT,Rowing,Rowing,0,1,0
+1992,BAH,Athletics,Athletics,0,0,1
+1992,BEL,Cycling,Cycling Track,0,0,1
+1992,BEL,Judo,Judo,0,0,1
+1992,BEL,Rowing,Rowing,0,1,0
+1992,BRA,Aquatics,Swimming,0,1,0
+1992,BRA,Judo,Judo,1,0,0
+1992,BRA,Volleyball,Volleyball,1,0,0
+1992,BUL,Athletics,Athletics,0,1,1
+1992,BUL,Boxing,Boxing,0,1,1
+1992,BUL,Canoe / Kayak,Canoe / Kayak F,2,0,1
+1992,BUL,Shooting,Shooting,0,2,1
+1992,BUL,Weightlifting,Weightlifting,1,2,1
+1992,BUL,Wrestling,Wrestling Free.,0,1,1
+1992,CAN,Aquatics,Swimming,1,0,1
+1992,CAN,Aquatics,Synchronized S.,1,1,0
+1992,CAN,Athletics,Athletics,1,1,1
+1992,CAN,Boxing,Boxing,0,1,1
+1992,CAN,Cycling,Cycling Track,0,0,1
+1992,CAN,Judo,Judo,0,0,1
+1992,CAN,Rowing,Rowing,4,0,1
+1992,CAN,Sailing,Sailing,0,0,1
+1992,CAN,Wrestling,Wrestling Free.,0,1,0
+1992,CHN,Aquatics,Diving,3,1,1
+1992,CHN,Aquatics,Swimming,4,5,0
+1992,CHN,Archery,Archery,0,1,0
+1992,CHN,Athletics,Athletics,1,1,2
+1992,CHN,Badminton,Badminton,0,1,3
+1992,CHN,Basketball,Basketball,0,1,0
+1992,CHN,Fencing,Fencing,0,1,0
+1992,CHN,Gymnastics,Artistic G.,2,4,2
+1992,CHN,Judo,Judo,1,0,2
+1992,CHN,Rowing,Rowing,0,0,1
+1992,CHN,Sailing,Sailing,0,1,0
+1992,CHN,Shooting,Shooting,2,2,0
+1992,CHN,Table Tennis,Table Tennis,3,2,1
+1992,CHN,Weightlifting,Weightlifting,0,2,2
+1992,CHN,Wrestling,Wrestling Gre-R,0,0,1
+1992,COL,Athletics,Athletics,0,0,1
+1992,CRO,Basketball,Basketball,0,1,0
+1992,CRO,Tennis,Tennis,0,0,2
+1992,CUB,Athletics,Athletics,2,1,4
+1992,CUB,Baseball,Baseball,1,0,0
+1992,CUB,Boxing,Boxing,7,2,0
+1992,CUB,Fencing,Fencing,0,1,1
+1992,CUB,Judo,Judo,1,1,3
+1992,CUB,Volleyball,Volleyball,1,0,0
+1992,CUB,Weightlifting,Weightlifting,0,1,0
+1992,CUB,Wrestling,Wrestling Free.,1,0,1
+1992,CUB,Wrestling,Wrestling Gre-R,1,0,2
+1992,DEN,Badminton,Badminton,0,0,1
+1992,DEN,Boxing,Boxing,0,0,1
+1992,DEN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1992,DEN,Cycling,Cycling Track,0,0,1
+1992,DEN,Sailing,Sailing,1,0,1
+1992,ESP,Aquatics,Swimming,1,0,0
+1992,ESP,Aquatics,Water polo,0,1,0
+1992,ESP,Archery,Archery,1,0,0
+1992,ESP,Athletics,Athletics,2,1,1
+1992,ESP,Boxing,Boxing,0,1,0
+1992,ESP,Cycling,Cycling Track,1,0,0
+1992,ESP,Football,Football,1,0,0
+1992,ESP,Gymnastics,Rhythmic G.,0,1,0
+1992,ESP,Hockey,Hockey,1,0,0
+1992,ESP,Judo,Judo,2,0,0
+1992,ESP,Sailing,Sailing,4,1,0
+1992,ESP,Tennis,Tennis,0,2,1
+1992,EST,Cycling,Cycling Track,1,0,0
+1992,EST,Sailing,Sailing,0,0,1
+1992,ETH,Athletics,Athletics,1,0,2
+1992,EUN,Aquatics,Diving,0,2,1
+1992,EUN,Aquatics,Swimming,6,3,1
+1992,EUN,Aquatics,Water polo,0,0,1
+1992,EUN,Archery,Archery,0,0,2
+1992,EUN,Athletics,Athletics,7,11,3
+1992,EUN,Basketball,Basketball,1,0,0
+1992,EUN,Boxing,Boxing,0,1,1
+1992,EUN,Canoe / Kayak,Canoe / Kayak F,1,1,0
+1992,EUN,Fencing,Fencing,1,2,2
+1992,EUN,Gymnastics,Artistic G.,9,5,4
+1992,EUN,Gymnastics,Rhythmic G.,1,0,1
+1992,EUN,Handball,Handball,1,0,1
+1992,EUN,Judo,Judo,2,0,2
+1992,EUN,Modern Pentathlon,Modern Pentath.,0,1,1
+1992,EUN,Rowing,Rowing,0,0,1
+1992,EUN,Shooting,Shooting,5,2,1
+1992,EUN,Tennis,Tennis,0,0,2
+1992,EUN,Volleyball,Volleyball,0,1,0
+1992,EUN,Weightlifting,Weightlifting,5,4,0
+1992,EUN,Wrestling,Wrestling Free.,3,2,2
+1992,EUN,Wrestling,Wrestling Gre-R,3,3,3
+1992,FIN,Aquatics,Swimming,0,0,1
+1992,FIN,Archery,Archery,0,1,0
+1992,FIN,Athletics,Athletics,0,1,0
+1992,FIN,Boxing,Boxing,0,0,1
+1992,FIN,Canoe / Kayak,Canoe / Kayak F,1,0,0
+1992,FRA,Aquatics,Swimming,0,0,3
+1992,FRA,Archery,Archery,1,0,0
+1992,FRA,Athletics,Athletics,1,0,0
+1992,FRA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1992,FRA,Canoe / Kayak,Canoe / Kayak S,0,1,2
+1992,FRA,Cycling,Cycling Road,0,1,1
+1992,FRA,Equestrian,Jumping,0,0,1
+1992,FRA,Fencing,Fencing,2,0,3
+1992,FRA,Handball,Handball,0,0,1
+1992,FRA,Judo,Judo,2,1,4
+1992,FRA,Sailing,Sailing,2,0,0
+1992,FRA,Shooting,Shooting,0,1,0
+1992,FRA,Table Tennis,Table Tennis,0,1,0
+1992,GBR,Aquatics,Swimming,0,0,1
+1992,GBR,Archery,Archery,0,0,2
+1992,GBR,Athletics,Athletics,2,0,4
+1992,GBR,Boxing,Boxing,0,0,1
+1992,GBR,Canoe / Kayak,Canoe / Kayak S,0,1,0
+1992,GBR,Cycling,Cycling Track,1,0,0
+1992,GBR,Hockey,Hockey,0,0,1
+1992,GBR,Judo,Judo,0,2,2
+1992,GBR,Rowing,Rowing,2,0,0
+1992,GBR,Sailing,Sailing,0,0,1
+1992,GER,Aquatics,Diving,0,0,1
+1992,GER,Aquatics,Swimming,1,3,7
+1992,GER,Athletics,Athletics,4,1,5
+1992,GER,Boxing,Boxing,2,1,1
+1992,GER,Canoe / Kayak,Canoe / Kayak F,6,2,1
+1992,GER,Canoe / Kayak,Canoe / Kayak S,1,0,1
+1992,GER,Cycling,Cycling Road,1,0,0
+1992,GER,Cycling,Cycling Track,3,2,0
+1992,GER,Equestrian,Dressage,3,1,1
+1992,GER,Equestrian,Eventing,0,1,1
+1992,GER,Equestrian,Jumping,1,0,0
+1992,GER,Fencing,Fencing,2,1,0
+1992,GER,Gymnastics,Artistic G.,0,1,2
+1992,GER,Hockey,Hockey,1,1,0
+1992,GER,Judo,Judo,0,0,2
+1992,GER,Rowing,Rowing,4,3,3
+1992,GER,Shooting,Shooting,2,0,1
+1992,GER,Table Tennis,Table Tennis,0,1,0
+1992,GER,Tennis,Tennis,1,1,0
+1992,GER,Weightlifting,Weightlifting,1,0,2
+1992,GER,Wrestling,Wrestling Free.,0,1,0
+1992,GER,Wrestling,Wrestling Gre-R,1,1,0
+1992,GHA,Football,Football,0,0,1
+1992,GRE,Athletics,Athletics,1,0,0
+1992,GRE,Weightlifting,Weightlifting,1,0,0
+1992,HUN,Aquatics,Swimming,5,3,1
+1992,HUN,Boxing,Boxing,0,0,3
+1992,HUN,Canoe / Kayak,Canoe / Kayak F,1,3,2
+1992,HUN,Fencing,Fencing,1,2,0
+1992,HUN,Gymnastics,Artistic G.,1,1,0
+1992,HUN,Judo,Judo,1,2,1
+1992,HUN,Modern Pentathlon,Modern Pentath.,0,1,0
+1992,HUN,Wrestling,Wrestling Gre-R,2,0,0
+1992,INA,Badminton,Badminton,2,2,1
+1992,IOP,Shooting,Shooting,0,1,2
+1992,IRI,Wrestling,Wrestling Free.,0,1,2
+1992,IRL,Boxing,Boxing,1,1,0
+1992,ISR,Judo,Judo,0,1,1
+1992,ITA,Aquatics,Swimming,0,0,2
+1992,ITA,Aquatics,Water polo,1,0,0
+1992,ITA,Athletics,Athletics,0,0,1
+1992,ITA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1992,ITA,Canoe / Kayak,Canoe / Kayak S,1,0,0
+1992,ITA,Cycling,Cycling Road,1,1,0
+1992,ITA,Cycling,Cycling Track,1,0,0
+1992,ITA,Fencing,Fencing,2,1,0
+1992,ITA,Judo,Judo,0,1,0
+1992,ITA,Modern Pentathlon,Modern Pentath.,0,0,1
+1992,ITA,Rowing,Rowing,0,1,1
+1992,ITA,Shooting,Shooting,0,0,2
+1992,ITA,Wrestling,Wrestling Gre-R,0,1,0
+1992,JAM,Athletics,Athletics,0,3,1
+1992,JPN,Aquatics,Swimming,1,0,0
+1992,JPN,Aquatics,Synchronized S.,0,0,2
+1992,JPN,Athletics,Athletics,0,2,0
+1992,JPN,Baseball,Baseball,0,0,1
+1992,JPN,Gymnastics,Artistic G.,0,1,2
+1992,JPN,Judo,Judo,2,4,4
+1992,JPN,Shooting,Shooting,0,1,1
+1992,JPN,Wrestling,Wrestling Free.,0,0,1
+1992,KEN,Athletics,Athletics,2,4,2
+1992,KOR,Archery,Archery,2,2,0
+1992,KOR,Athletics,Athletics,1,0,0
+1992,KOR,Badminton,Badminton,2,1,1
+1992,KOR,Boxing,Boxing,0,0,2
+1992,KOR,Gymnastics,Artistic G.,0,0,1
+1992,KOR,Handball,Handball,1,0,0
+1992,KOR,Judo,Judo,1,1,2
+1992,KOR,Shooting,Shooting,2,0,0
+1992,KOR,Table Tennis,Table Tennis,0,0,4
+1992,KOR,Weightlifting,Weightlifting,1,0,0
+1992,KOR,Wrestling,Wrestling Free.,1,1,0
+1992,KOR,Wrestling,Wrestling Gre-R,1,0,1
+1992,LAT,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1992,LAT,Cycling,Cycling Road,0,0,1
+1992,LAT,Shooting,Shooting,0,1,0
+1992,LTU,Athletics,Athletics,1,0,0
+1992,LTU,Basketball,Basketball,0,0,1
+1992,MAR,Athletics,Athletics,1,1,0
+1992,MAR,Boxing,Boxing,0,0,1
+1992,MAS,Badminton,Badminton,0,0,1
+1992,MEX,Athletics,Athletics,0,1,0
+1992,MGL,Boxing,Boxing,0,0,1
+1992,MGL,Shooting,Shooting,0,0,1
+1992,NAM,Athletics,Athletics,0,2,0
+1992,NED,Athletics,Athletics,1,0,0
+1992,NED,Boxing,Boxing,0,1,1
+1992,NED,Cycling,Cycling Road,0,1,1
+1992,NED,Cycling,Cycling Track,0,1,1
+1992,NED,Equestrian,Dressage,0,1,0
+1992,NED,Equestrian,Jumping,1,1,0
+1992,NED,Judo,Judo,0,0,2
+1992,NED,Rowing,Rowing,0,0,1
+1992,NED,Sailing,Sailing,0,0,1
+1992,NED,Volleyball,Volleyball,0,1,0
+1992,NGR,Athletics,Athletics,0,1,1
+1992,NGR,Boxing,Boxing,0,2,0
+1992,NOR,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1992,NOR,Handball,Handball,0,1,0
+1992,NOR,Rowing,Rowing,0,1,0
+1992,NOR,Sailing,Sailing,1,0,0
+1992,NOR,Shooting,Shooting,0,1,0
+1992,NOR,Wrestling,Wrestling Gre-R,1,0,0
+1992,NZL,Aquatics,Swimming,0,1,0
+1992,NZL,Athletics,Athletics,0,0,1
+1992,NZL,Boxing,Boxing,0,0,1
+1992,NZL,Cycling,Cycling Track,0,0,1
+1992,NZL,Equestrian,Eventing,0,2,1
+1992,NZL,Sailing,Sailing,1,2,1
+1992,PAK,Hockey,Hockey,0,0,1
+1992,PER,Shooting,Shooting,0,1,0
+1992,PHI,Boxing,Boxing,0,0,1
+1992,POL,Aquatics,Swimming,0,1,0
+1992,POL,Athletics,Athletics,0,0,1
+1992,POL,Boxing,Boxing,0,0,1
+1992,POL,Canoe / Kayak,Canoe / Kayak F,0,1,2
+1992,POL,Fencing,Fencing,0,0,1
+1992,POL,Football,Football,0,1,0
+1992,POL,Judo,Judo,1,0,0
+1992,POL,Modern Pentathlon,Modern Pentath.,2,0,0
+1992,POL,Rowing,Rowing,0,0,2
+1992,POL,Shooting,Shooting,0,0,1
+1992,POL,Weightlifting,Weightlifting,0,1,2
+1992,POL,Wrestling,Wrestling Gre-R,0,2,0
+1992,PRK,Boxing,Boxing,1,0,1
+1992,PRK,Gymnastics,Artistic G.,1,0,0
+1992,PRK,Table Tennis,Table Tennis,0,0,2
+1992,PRK,Weightlifting,Weightlifting,0,0,1
+1992,PRK,Wrestling,Wrestling Free.,2,0,1
+1992,PUR,Boxing,Boxing,0,0,1
+1992,QAT,Athletics,Athletics,0,0,1
+1992,ROU,Athletics,Athletics,0,1,0
+1992,ROU,Boxing,Boxing,0,0,1
+1992,ROU,Fencing,Fencing,0,0,1
+1992,ROU,Gymnastics,Artistic G.,2,1,2
+1992,ROU,Rowing,Rowing,2,4,1
+1992,ROU,Shooting,Shooting,0,0,1
+1992,ROU,Weightlifting,Weightlifting,0,0,1
+1992,ROU,Wrestling,Wrestling Gre-R,0,0,1
+1992,RSA,Athletics,Athletics,0,1,0
+1992,RSA,Tennis,Tennis,0,1,0
+1992,SLO,Rowing,Rowing,0,0,2
+1992,SUI,Tennis,Tennis,1,0,0
+1992,SUR,Aquatics,Swimming,0,0,1
+1992,SWE,Aquatics,Swimming,0,2,1
+1992,SWE,Athletics,Athletics,0,1,0
+1992,SWE,Canoe / Kayak,Canoe / Kayak F,0,2,1
+1992,SWE,Handball,Handball,0,1,0
+1992,SWE,Shooting,Shooting,0,0,1
+1992,SWE,Table Tennis,Table Tennis,1,0,0
+1992,SWE,Wrestling,Wrestling Gre-R,0,1,1
+1992,TCH,Athletics,Athletics,2,0,0
+1992,TCH,Canoe / Kayak,Canoe / Kayak S,1,1,0
+1992,TCH,Rowing,Rowing,0,1,0
+1992,TCH,Shooting,Shooting,1,0,1
+1992,THA,Boxing,Boxing,0,0,1
+1992,TPE,Baseball,Baseball,0,1,0
+1992,TUR,Judo,Judo,0,0,1
+1992,TUR,Weightlifting,Weightlifting,1,0,0
+1992,TUR,Wrestling,Wrestling Free.,0,1,1
+1992,TUR,Wrestling,Wrestling Gre-R,1,1,0
+1992,USA,Aquatics,Diving,1,1,1
+1992,USA,Aquatics,Swimming,11,9,7
+1992,USA,Aquatics,Synchronized S.,2,0,0
+1992,USA,Athletics,Athletics,12,8,10
+1992,USA,Basketball,Basketball,1,0,1
+1992,USA,Boxing,Boxing,1,1,1
+1992,USA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1992,USA,Canoe / Kayak,Canoe / Kayak S,1,0,1
+1992,USA,Cycling,Cycling Track,0,0,2
+1992,USA,Equestrian,Dressage,0,0,2
+1992,USA,Equestrian,Jumping,0,0,1
+1992,USA,Gymnastics,Artistic G.,1,2,3
+1992,USA,Judo,Judo,0,1,0
+1992,USA,Rowing,Rowing,0,2,1
+1992,USA,Sailing,Sailing,1,6,2
+1992,USA,Shooting,Shooting,1,1,0
+1992,USA,Tennis,Tennis,2,0,1
+1992,USA,Volleyball,Volleyball,0,0,2
+1992,USA,Wrestling,Wrestling Free.,3,2,1
+1992,USA,Wrestling,Wrestling Gre-R,0,1,1
+1996,ALG,Athletics,Athletics,1,0,0
+1996,ALG,Boxing,Boxing,1,0,1
+1996,ARG,Boxing,Boxing,0,0,1
+1996,ARG,Football,Football,0,1,0
+1996,ARG,Sailing,Sailing,0,1,0
+1996,ARM,Wrestling,Wrestling Free.,0,1,0
+1996,ARM,Wrestling,Wrestling Gre-R,1,0,0
+1996,AUS,Aquatics,Swimming,2,4,6
+1996,AUS,Athletics,Athletics,0,2,0
+1996,AUS,Basketball,Basketball,0,0,1
+1996,AUS,Canoe / Kayak,Canoe / Kayak F,0,0,3
+1996,AUS,Cycling,Cycling Track,0,1,4
+1996,AUS,Equestrian,Eventing,2,0,0
+1996,AUS,Hockey,Hockey,1,0,1
+1996,AUS,Rowing,Rowing,2,1,3
+1996,AUS,Sailing,Sailing,0,1,1
+1996,AUS,Shooting,Shooting,2,0,1
+1996,AUS,Softball,Softball,0,0,1
+1996,AUS,Tennis,Tennis,1,0,0
+1996,AUS,Volleyball,Beach volley.,0,0,1
+1996,AUS,Weightlifting,Weightlifting,0,0,1
+1996,AUT,Athletics,Athletics,0,0,1
+1996,AUT,Shooting,Shooting,0,1,1
+1996,AZE,Wrestling,Wrestling Free.,0,1,0
+1996,BAH,Athletics,Athletics,0,1,0
+1996,BDI,Athletics,Athletics,1,0,0
+1996,BEL,Aquatics,Swimming,1,0,0
+1996,BEL,Judo,Judo,1,1,2
+1996,BEL,Sailing,Sailing,0,1,0
+1996,BLR,Athletics,Athletics,0,2,2
+1996,BLR,Gymnastics,Artistic G.,0,0,4
+1996,BLR,Rowing,Rowing,1,0,1
+1996,BLR,Shooting,Shooting,0,1,0
+1996,BLR,Wrestling,Wrestling Free.,0,1,0
+1996,BLR,Wrestling,Wrestling Gre-R,0,2,1
+1996,BRA,Aquatics,Swimming,0,1,2
+1996,BRA,Athletics,Athletics,0,0,1
+1996,BRA,Basketball,Basketball,0,1,0
+1996,BRA,Equestrian,Jumping,0,0,1
+1996,BRA,Football,Football,0,0,1
+1996,BRA,Judo,Judo,0,0,2
+1996,BRA,Sailing,Sailing,2,0,1
+1996,BRA,Volleyball,Beach volley.,1,1,0
+1996,BRA,Volleyball,Volleyball,0,0,1
+1996,BUL,Athletics,Athletics,1,0,0
+1996,BUL,Boxing,Boxing,1,2,0
+1996,BUL,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1996,BUL,Gymnastics,Artistic G.,0,1,0
+1996,BUL,Gymnastics,Rhythmic G.,0,1,0
+1996,BUL,Shooting,Shooting,0,2,2
+1996,BUL,Weightlifting,Weightlifting,0,1,2
+1996,BUL,Wrestling,Wrestling Free.,1,0,0
+1996,CAN,Aquatics,Diving,0,0,1
+1996,CAN,Aquatics,Swimming,0,1,2
+1996,CAN,Aquatics,Synchronized S.,0,1,0
+1996,CAN,Athletics,Athletics,2,0,0
+1996,CAN,Boxing,Boxing,0,1,0
+1996,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1996,CAN,Cycling,Cycling Road,0,0,2
+1996,CAN,Cycling,Cycling Track,0,1,1
+1996,CAN,Cycling,Mountain Bike,0,1,0
+1996,CAN,Rowing,Rowing,1,4,1
+1996,CAN,Volleyball,Beach volley.,0,0,1
+1996,CAN,Wrestling,Wrestling Free.,0,1,0
+1996,CHN,Aquatics,Diving,3,1,1
+1996,CHN,Aquatics,Swimming,1,3,2
+1996,CHN,Archery,Archery,0,1,0
+1996,CHN,Athletics,Athletics,1,2,1
+1996,CHN,Badminton,Badminton,1,1,2
+1996,CHN,Football,Football,0,1,0
+1996,CHN,Gymnastics,Artistic G.,1,4,1
+1996,CHN,Judo,Judo,1,0,1
+1996,CHN,Rowing,Rowing,0,1,0
+1996,CHN,Shooting,Shooting,2,2,1
+1996,CHN,Softball,Softball,0,1,0
+1996,CHN,Table Tennis,Table Tennis,4,3,1
+1996,CHN,Volleyball,Volleyball,0,1,0
+1996,CHN,Weightlifting,Weightlifting,2,1,1
+1996,CHN,Wrestling,Wrestling Gre-R,0,0,1
+1996,CRC,Aquatics,Swimming,1,0,0
+1996,CRO,Aquatics,Water polo,0,1,0
+1996,CRO,Handball,Handball,1,0,0
+1996,CUB,Aquatics,Swimming,0,1,1
+1996,CUB,Athletics,Athletics,0,1,1
+1996,CUB,Baseball,Baseball,1,0,0
+1996,CUB,Boxing,Boxing,4,3,0
+1996,CUB,Fencing,Fencing,0,1,1
+1996,CUB,Judo,Judo,1,1,4
+1996,CUB,Volleyball,Volleyball,1,0,0
+1996,CUB,Weightlifting,Weightlifting,1,0,0
+1996,CUB,Wrestling,Wrestling Free.,0,0,1
+1996,CUB,Wrestling,Wrestling Gre-R,1,1,0
+1996,CZE,Athletics,Athletics,1,0,2
+1996,CZE,Canoe / Kayak,Canoe / Kayak F,2,0,0
+1996,CZE,Canoe / Kayak,Canoe / Kayak S,1,2,0
+1996,CZE,Shooting,Shooting,0,0,1
+1996,CZE,Tennis,Tennis,0,1,1
+1996,DEN,Badminton,Badminton,1,0,0
+1996,DEN,Cycling,Cycling Road,0,1,0
+1996,DEN,Handball,Handball,1,0,0
+1996,DEN,Rowing,Rowing,1,0,1
+1996,DEN,Sailing,Sailing,1,0,0
+1996,ECU,Athletics,Athletics,1,0,0
+1996,ESP,Aquatics,Water polo,1,0,0
+1996,ESP,Athletics,Athletics,0,1,1
+1996,ESP,Boxing,Boxing,0,0,1
+1996,ESP,Cycling,Cycling Road,1,1,0
+1996,ESP,Gymnastics,Rhythmic G.,1,0,0
+1996,ESP,Handball,Handball,0,0,1
+1996,ESP,Hockey,Hockey,0,1,0
+1996,ESP,Judo,Judo,0,1,2
+1996,ESP,Sailing,Sailing,2,0,0
+1996,ESP,Tennis,Tennis,0,2,1
+1996,ETH,Athletics,Athletics,2,0,1
+1996,FIN,Aquatics,Swimming,0,1,0
+1996,FIN,Athletics,Athletics,1,0,1
+1996,FIN,Wrestling,Wrestling Gre-R,0,1,0
+1996,FRA,Athletics,Athletics,3,0,1
+1996,FRA,Canoe / Kayak,Canoe / Kayak S,1,0,2
+1996,FRA,Cycling,Cycling Road,1,1,0
+1996,FRA,Cycling,Cycling Track,4,2,0
+1996,FRA,Cycling,Mountain Bike,0,0,1
+1996,FRA,Equestrian,Jumping,0,0,1
+1996,FRA,Fencing,Fencing,2,2,3
+1996,FRA,Judo,Judo,3,0,3
+1996,FRA,Rowing,Rowing,0,1,3
+1996,FRA,Shooting,Shooting,1,0,1
+1996,FRA,Wrestling,Wrestling Gre-R,0,1,0
+1996,GBR,Aquatics,Swimming,0,1,1
+1996,GBR,Athletics,Athletics,0,4,2
+1996,GBR,Cycling,Cycling Road,0,0,2
+1996,GBR,Rowing,Rowing,1,0,1
+1996,GBR,Sailing,Sailing,0,2,0
+1996,GBR,Tennis,Tennis,0,1,0
+1996,GEO,Judo,Judo,0,0,1
+1996,GEO,Wrestling,Wrestling Free.,0,0,1
+1996,GER,Aquatics,Diving,0,2,0
+1996,GER,Aquatics,Swimming,0,5,7
+1996,GER,Archery,Archery,0,1,0
+1996,GER,Athletics,Athletics,3,1,3
+1996,GER,Boxing,Boxing,0,1,3
+1996,GER,Canoe / Kayak,Canoe / Kayak F,4,2,0
+1996,GER,Canoe / Kayak,Canoe / Kayak S,1,0,2
+1996,GER,Cycling,Cycling Track,1,0,1
+1996,GER,Equestrian,Dressage,3,0,0
+1996,GER,Equestrian,Jumping,2,0,0
+1996,GER,Fencing,Fencing,0,0,1
+1996,GER,Gymnastics,Artistic G.,1,0,0
+1996,GER,Judo,Judo,1,0,4
+1996,GER,Rowing,Rowing,2,1,1
+1996,GER,Sailing,Sailing,1,0,0
+1996,GER,Shooting,Shooting,2,2,0
+1996,GER,Table Tennis,Table Tennis,0,0,1
+1996,GER,Tennis,Tennis,0,0,1
+1996,GER,Weightlifting,Weightlifting,0,2,1
+1996,GER,Wrestling,Wrestling Free.,0,0,1
+1996,GER,Wrestling,Wrestling Gre-R,0,1,1
+1996,GRE,Athletics,Athletics,0,1,0
+1996,GRE,Gymnastics,Artistic G.,1,0,0
+1996,GRE,Sailing,Sailing,1,0,0
+1996,GRE,Weightlifting,Weightlifting,2,3,0
+1996,HKG,Sailing,Sailing,1,0,0
+1996,HUN,Aquatics,Swimming,3,1,2
+1996,HUN,Athletics,Athletics,1,0,0
+1996,HUN,Boxing,Boxing,1,0,0
+1996,HUN,Canoe / Kayak,Canoe / Kayak F,2,1,3
+1996,HUN,Fencing,Fencing,0,1,2
+1996,HUN,Gymnastics,Artistic G.,0,1,0
+1996,HUN,Handball,Handball,0,0,1
+1996,HUN,Modern Pentathlon,Modern Pentath.,0,0,1
+1996,HUN,Weightlifting,Weightlifting,0,0,1
+1996,INA,Badminton,Badminton,1,1,2
+1996,IND,Tennis,Tennis,0,0,1
+1996,IRI,Wrestling,Wrestling Free.,1,1,1
+1996,IRL,Aquatics,Swimming,3,0,1
+1996,ISR,Sailing,Sailing,0,0,1
+1996,ITA,Aquatics,Swimming,0,0,1
+1996,ITA,Aquatics,Water polo,0,0,1
+1996,ITA,Archery,Archery,0,0,1
+1996,ITA,Athletics,Athletics,0,2,2
+1996,ITA,Canoe / Kayak,Canoe / Kayak F,2,2,1
+1996,ITA,Cycling,Cycling Road,0,1,0
+1996,ITA,Cycling,Cycling Track,3,0,0
+1996,ITA,Cycling,Mountain Bike,1,0,0
+1996,ITA,Fencing,Fencing,3,2,2
+1996,ITA,Gymnastics,Artistic G.,1,0,0
+1996,ITA,Judo,Judo,0,1,1
+1996,ITA,Rowing,Rowing,1,0,0
+1996,ITA,Sailing,Sailing,0,0,1
+1996,ITA,Shooting,Shooting,2,1,2
+1996,ITA,Volleyball,Volleyball,0,1,0
+1996,JAM,Athletics,Athletics,1,3,2
+1996,JPN,Aquatics,Synchronized S.,0,0,1
+1996,JPN,Athletics,Athletics,0,0,1
+1996,JPN,Baseball,Baseball,0,1,0
+1996,JPN,Cycling,Cycling Track,0,0,1
+1996,JPN,Judo,Judo,3,4,1
+1996,JPN,Sailing,Sailing,0,1,0
+1996,JPN,Wrestling,Wrestling Free.,0,0,1
+1996,KAZ,Boxing,Boxing,1,1,2
+1996,KAZ,Modern Pentathlon,Modern Pentath.,1,0,0
+1996,KAZ,Shooting,Shooting,0,2,1
+1996,KAZ,Weightlifting,Weightlifting,0,1,0
+1996,KAZ,Wrestling,Wrestling Free.,0,0,1
+1996,KAZ,Wrestling,Wrestling Gre-R,1,0,0
+1996,KEN,Athletics,Athletics,1,4,3
+1996,KOR,Archery,Archery,2,1,1
+1996,KOR,Athletics,Athletics,0,1,0
+1996,KOR,Badminton,Badminton,3,2,0
+1996,KOR,Boxing,Boxing,0,1,0
+1996,KOR,Gymnastics,Artistic G.,0,1,0
+1996,KOR,Handball,Handball,0,1,0
+1996,KOR,Hockey,Hockey,0,1,0
+1996,KOR,Judo,Judo,2,4,2
+1996,KOR,Table Tennis,Table Tennis,0,0,2
+1996,KOR,Wrestling,Wrestling Free.,0,3,0
+1996,KOR,Wrestling,Wrestling Gre-R,1,0,0
+1996,LAT,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1996,LTU,Basketball,Basketball,0,0,1
+1996,MAR,Athletics,Athletics,0,0,2
+1996,MAS,Badminton,Badminton,0,1,1
+1996,MDA,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1996,MDA,Wrestling,Wrestling Gre-R,0,0,1
+1996,MEX,Athletics,Athletics,0,0,1
+1996,MGL,Judo,Judo,0,0,1
+1996,MOZ,Athletics,Athletics,0,0,1
+1996,NAM,Athletics,Athletics,0,2,0
+1996,NED,Aquatics,Swimming,0,0,2
+1996,NED,Cycling,Cycling Track,0,1,1
+1996,NED,Cycling,Mountain Bike,1,0,0
+1996,NED,Equestrian,Dressage,0,3,1
+1996,NED,Hockey,Hockey,1,0,1
+1996,NED,Judo,Judo,0,0,3
+1996,NED,Rowing,Rowing,1,1,1
+1996,NED,Sailing,Sailing,0,1,1
+1996,NED,Volleyball,Volleyball,1,0,0
+1996,NGR,Athletics,Athletics,1,1,2
+1996,NGR,Boxing,Boxing,0,0,1
+1996,NGR,Football,Football,1,0,0
+1996,NOR,Athletics,Athletics,1,0,1
+1996,NOR,Canoe / Kayak,Canoe / Kayak F,1,1,0
+1996,NOR,Football,Football,0,0,1
+1996,NOR,Rowing,Rowing,0,1,0
+1996,NOR,Sailing,Sailing,0,0,1
+1996,NZL,Aquatics,Swimming,2,0,0
+1996,NZL,Equestrian,Eventing,1,1,2
+1996,NZL,Sailing,Sailing,0,1,0
+1996,PHI,Boxing,Boxing,0,1,0
+1996,POL,Archery,Archery,0,0,1
+1996,POL,Athletics,Athletics,1,1,0
+1996,POL,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1996,POL,Fencing,Fencing,0,1,0
+1996,POL,Judo,Judo,1,1,0
+1996,POL,Sailing,Sailing,1,0,0
+1996,POL,Shooting,Shooting,1,1,1
+1996,POL,Weightlifting,Weightlifting,0,0,1
+1996,POL,Wrestling,Wrestling Gre-R,3,1,1
+1996,POR,Athletics,Athletics,1,0,0
+1996,POR,Sailing,Sailing,0,0,1
+1996,PRK,Judo,Judo,1,0,0
+1996,PRK,Weightlifting,Weightlifting,0,1,1
+1996,PRK,Wrestling,Wrestling Free.,1,0,1
+1996,PUR,Boxing,Boxing,0,0,1
+1996,ROU,Athletics,Athletics,0,1,0
+1996,ROU,Boxing,Boxing,0,0,2
+1996,ROU,Canoe / Kayak,Canoe / Kayak F,0,1,1
+1996,ROU,Fencing,Fencing,1,1,0
+1996,ROU,Gymnastics,Artistic G.,1,4,4
+1996,ROU,Rowing,Rowing,2,0,0
+1996,ROU,Weightlifting,Weightlifting,0,0,1
+1996,RSA,Aquatics,Swimming,2,0,1
+1996,RSA,Athletics,Athletics,1,1,0
+1996,RUS,Aquatics,Diving,1,1,0
+1996,RUS,Aquatics,Swimming,4,2,2
+1996,RUS,Athletics,Athletics,3,6,1
+1996,RUS,Boxing,Boxing,1,0,3
+1996,RUS,Canoe / Kayak,Canoe / Kayak F,0,0,1
+1996,RUS,Cycling,Cycling Road,1,0,0
+1996,RUS,Cycling,Cycling Track,0,1,0
+1996,RUS,Fencing,Fencing,4,2,1
+1996,RUS,Gymnastics,Artistic G.,3,2,3
+1996,RUS,Gymnastics,Rhythmic G.,0,1,1
+1996,RUS,Modern Pentathlon,Modern Pentath.,0,1,0
+1996,RUS,Rowing,Rowing,0,0,1
+1996,RUS,Sailing,Sailing,0,1,0
+1996,RUS,Shooting,Shooting,3,2,1
+1996,RUS,Weightlifting,Weightlifting,2,1,0
+1996,RUS,Wrestling,Wrestling Free.,3,1,0
+1996,RUS,Wrestling,Wrestling Gre-R,1,0,2
+1996,SLO,Athletics,Athletics,0,1,0
+1996,SLO,Canoe / Kayak,Canoe / Kayak S,0,1,0
+1996,SUI,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1996,SUI,Cycling,Cycling Road,1,0,0
+1996,SUI,Cycling,Mountain Bike,0,1,0
+1996,SUI,Equestrian,Jumping,0,1,0
+1996,SUI,Gymnastics,Artistic G.,1,0,0
+1996,SUI,Rowing,Rowing,2,0,0
+1996,SVK,Canoe / Kayak,Canoe / Kayak F,0,1,0
+1996,SVK,Canoe / Kayak,Canoe / Kayak S,1,0,0
+1996,SVK,Shooting,Shooting,0,0,1
+1996,SWE,Aquatics,Swimming,0,1,0
+1996,SWE,Archery,Archery,0,1,0
+1996,SWE,Athletics,Athletics,1,0,0
+1996,SWE,Canoe / Kayak,Canoe / Kayak F,1,0,1
+1996,SWE,Handball,Handball,0,1,0
+1996,SWE,Sailing,Sailing,0,1,0
+1996,SWE,Wrestling,Wrestling Gre-R,0,0,1
+1996,SYR,Athletics,Athletics,1,0,0
+1996,TGA,Boxing,Boxing,0,1,0
+1996,THA,Boxing,Boxing,1,0,1
+1996,TPE,Table Tennis,Table Tennis,0,1,0
+1996,TRI,Athletics,Athletics,0,0,2
+1996,TUN,Boxing,Boxing,0,0,1
+1996,TUR,Boxing,Boxing,0,1,0
+1996,TUR,Weightlifting,Weightlifting,2,0,0
+1996,TUR,Wrestling,Wrestling Free.,1,0,0
+1996,TUR,Wrestling,Wrestling Gre-R,1,0,1
+1996,UGA,Athletics,Athletics,0,0,1
+1996,UKR,Archery,Archery,0,0,1
+1996,UKR,Athletics,Athletics,1,0,3
+1996,UKR,Boxing,Boxing,1,0,1
+1996,UKR,Gymnastics,Artistic G.,3,1,1
+1996,UKR,Gymnastics,Rhythmic G.,1,0,1
+1996,UKR,Rowing,Rowing,0,1,0
+1996,UKR,Sailing,Sailing,1,0,1
+1996,UKR,Weightlifting,Weightlifting,1,0,1
+1996,UKR,Wrestling,Wrestling Free.,0,0,2
+1996,UKR,Wrestling,Wrestling Gre-R,1,0,1
+1996,USA,Aquatics,Diving,0,0,2
+1996,USA,Aquatics,Swimming,13,11,2
+1996,USA,Aquatics,Synchronized S.,1,0,0
+1996,USA,Archery,Archery,2,0,0
+1996,USA,Athletics,Athletics,13,5,5
+1996,USA,Baseball,Baseball,0,0,1
+1996,USA,Basketball,Basketball,2,0,0
+1996,USA,Boxing,Boxing,1,0,5
+1996,USA,Canoe / Kayak,Canoe / Kayak S,0,1,0
+1996,USA,Cycling,Cycling Track,0,2,0
+1996,USA,Cycling,Mountain Bike,0,0,1
+1996,USA,Equestrian,Dressage,0,0,2
+1996,USA,Equestrian,Eventing,0,2,1
+1996,USA,Equestrian,Jumping,0,2,0
+1996,USA,Football,Football,1,0,0
+1996,USA,Gymnastics,Artistic G.,2,2,1
+1996,USA,Judo,Judo,0,0,1
+1996,USA,Rowing,Rowing,0,3,1
+1996,USA,Sailing,Sailing,0,0,2
+1996,USA,Shooting,Shooting,1,1,1
+1996,USA,Softball,Softball,1,0,0
+1996,USA,Tennis,Tennis,3,0,0
+1996,USA,Volleyball,Beach volley.,1,1,0
+1996,USA,Wrestling,Wrestling Free.,3,1,1
+1996,USA,Wrestling,Wrestling Gre-R,0,3,0
+1996,UZB,Boxing,Boxing,0,0,1
+1996,UZB,Judo,Judo,0,1,0
+1996,YUG,Basketball,Basketball,0,1,0
+1996,YUG,Shooting,Shooting,1,0,1
+1996,YUG,Volleyball,Volleyball,0,0,1
+1996,ZAM,Athletics,Athletics,0,1,0
+2000,ALG,Athletics,Athletics,1,1,2
+2000,ALG,Boxing,Boxing,0,0,1
+2000,ARG,Hockey,Hockey,0,1,0
+2000,ARG,Sailing,Sailing,0,1,2
+2000,ARM,Weightlifting,Weightlifting,0,0,1
+2000,AUS,Aquatics,Diving,0,0,2
+2000,AUS,Aquatics,Swimming,5,9,4
+2000,AUS,Aquatics,Water polo,1,0,0
+2000,AUS,Archery,Archery,1,0,0
+2000,AUS,Athletics,Athletics,1,2,0
+2000,AUS,Basketball,Basketball,0,1,0
+2000,AUS,Canoe / Kayak,Canoe / Kayak F,0,1,1
+2000,AUS,Cycling,Cycling Track,1,2,3
+2000,AUS,Equestrian,Eventing,1,1,0
+2000,AUS,Gymnastics,Trampoline,0,1,0
+2000,AUS,Hockey,Hockey,1,0,1
+2000,AUS,Judo,Judo,0,0,1
+2000,AUS,Rowing,Rowing,0,3,2
+2000,AUS,Sailing,Sailing,2,1,1
+2000,AUS,Shooting,Shooting,1,1,1
+2000,AUS,Softball,Softball,0,0,1
+2000,AUS,Taekwondo,Taekwondo,1,1,0
+2000,AUS,Tennis,Tennis,0,1,0
+2000,AUS,Triathlon,Triathlon,0,1,0
+2000,AUS,Volleyball,Beach volley.,1,0,0
+2000,AUT,Athletics,Athletics,0,1,0
+2000,AUT,Sailing,Sailing,2,0,0
+2000,AZE,Boxing,Boxing,0,0,1
+2000,AZE,Shooting,Shooting,1,0,0
+2000,AZE,Wrestling,Wrestling Free.,1,0,0
+2000,BAH,Athletics,Athletics,2,0,0
+2000,BAR,Athletics,Athletics,0,0,1
+2000,BEL,Cycling,Cycling Track,0,1,0
+2000,BEL,Cycling,Mountain Bike,0,1,0
+2000,BEL,Judo,Judo,0,0,2
+2000,BEL,Tennis,Tennis,0,0,1
+2000,BLR,Athletics,Athletics,2,0,3
+2000,BLR,Gymnastics,Rhythmic G.,0,2,0
+2000,BLR,Judo,Judo,0,0,1
+2000,BLR,Modern Pentathlon,Modern Pentath.,0,0,1
+2000,BLR,Rowing,Rowing,1,0,0
+2000,BLR,Shooting,Shooting,0,1,3
+2000,BLR,Weightlifting,Weightlifting,0,0,2
+2000,BLR,Wrestling,Wrestling Gre-R,0,0,1
+2000,BRA,Aquatics,Swimming,0,0,1
+2000,BRA,Athletics,Athletics,0,1,0
+2000,BRA,Basketball,Basketball,0,0,1
+2000,BRA,Equestrian,Jumping,0,0,1
+2000,BRA,Judo,Judo,0,2,0
+2000,BRA,Sailing,Sailing,0,1,1
+2000,BRA,Volleyball,Beach volley.,0,2,1
+2000,BRA,Volleyball,Volleyball,0,0,1
+2000,BUL,Athletics,Athletics,1,0,0
+2000,BUL,Canoe / Kayak,Canoe / Kayak F,0,2,0
+2000,BUL,Gymnastics,Artistic G.,0,0,2
+2000,BUL,Rowing,Rowing,0,1,0
+2000,BUL,Shooting,Shooting,2,0,0
+2000,BUL,Weightlifting,Weightlifting,1,2,0
+2000,BUL,Wrestling,Wrestling Free.,0,1,0
+2000,BUL,Wrestling,Wrestling Gre-R,1,0,0
+2000,CAN,Aquatics,Diving,0,1,1
+2000,CAN,Aquatics,Swimming,0,0,1
+2000,CAN,Aquatics,Synchronized S.,0,0,1
+2000,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,1
+2000,CAN,Gymnastics,Trampoline,0,0,2
+2000,CAN,Judo,Judo,0,1,0
+2000,CAN,Rowing,Rowing,0,0,1
+2000,CAN,Taekwondo,Taekwondo,0,0,1
+2000,CAN,Tennis,Tennis,1,0,0
+2000,CAN,Triathlon,Triathlon,1,0,0
+2000,CAN,Wrestling,Wrestling Free.,1,0,0
+2000,CHI,Football,Football,0,0,1
+2000,CHN,Aquatics,Diving,5,5,0
+2000,CHN,Athletics,Athletics,1,0,0
+2000,CHN,Badminton,Badminton,4,1,3
+2000,CHN,Cycling,Cycling Track,0,0,1
+2000,CHN,Fencing,Fencing,0,1,1
+2000,CHN,Gymnastics,Artistic G.,3,2,2
+2000,CHN,Judo,Judo,2,1,1
+2000,CHN,Shooting,Shooting,3,2,3
+2000,CHN,Table Tennis,Table Tennis,4,3,1
+2000,CHN,Taekwondo,Taekwondo,1,0,0
+2000,CHN,Weightlifting,Weightlifting,5,1,1
+2000,CHN,Wrestling,Wrestling Gre-R,0,0,1
+2000,CMR,Football,Football,1,0,0
+2000,COL,Weightlifting,Weightlifting,1,0,0
+2000,CRC,Aquatics,Swimming,0,0,2
+2000,CRO,Rowing,Rowing,0,0,1
+2000,CRO,Weightlifting,Weightlifting,1,0,0
+2000,CUB,Athletics,Athletics,2,2,2
+2000,CUB,Baseball,Baseball,0,1,0
+2000,CUB,Boxing,Boxing,4,0,2
+2000,CUB,Canoe / Kayak,Canoe / Kayak F,0,2,0
+2000,CUB,Fencing,Fencing,0,0,1
+2000,CUB,Judo,Judo,2,2,1
+2000,CUB,Taekwondo,Taekwondo,1,1,0
+2000,CUB,Volleyball,Volleyball,1,0,0
+2000,CUB,Wrestling,Wrestling Free.,0,1,1
+2000,CUB,Wrestling,Wrestling Gre-R,1,2,0
+2000,CZE,Athletics,Athletics,1,1,0
+2000,CZE,Boxing,Boxing,0,1,0
+2000,CZE,Canoe / Kayak,Canoe / Kayak S,1,0,1
+2000,CZE,Shooting,Shooting,0,1,1
+2000,CZE,Triathlon,Triathlon,0,0,1
+2000,DEN,Athletics,Athletics,0,1,0
+2000,DEN,Badminton,Badminton,0,1,0
+2000,DEN,Handball,Handball,1,0,0
+2000,DEN,Rowing,Rowing,0,0,1
+2000,DEN,Sailing,Sailing,1,0,0
+2000,DEN,Shooting,Shooting,0,1,0
+2000,ESP,Aquatics,Swimming,0,0,1
+2000,ESP,Athletics,Athletics,0,0,1
+2000,ESP,Boxing,Boxing,0,1,0
+2000,ESP,Cycling,Cycling Track,1,0,0
+2000,ESP,Cycling,Mountain Bike,0,0,1
+2000,ESP,Football,Football,0,1,0
+2000,ESP,Gymnastics,Artistic G.,1,0,0
+2000,ESP,Handball,Handball,0,0,1
+2000,ESP,Judo,Judo,1,0,0
+2000,ESP,Taekwondo,Taekwondo,0,1,0
+2000,ESP,Tennis,Tennis,0,0,1
+2000,EST,Athletics,Athletics,1,0,0
+2000,EST,Judo,Judo,0,0,2
+2000,ETH,Athletics,Athletics,4,1,3
+2000,FIN,Athletics,Athletics,1,0,0
+2000,FIN,Sailing,Sailing,1,0,0
+2000,FIN,Shooting,Shooting,0,1,0
+2000,FIN,Wrestling,Wrestling Gre-R,0,0,1
+2000,FRA,Aquatics,Swimming,0,1,0
+2000,FRA,Aquatics,Synchronized S.,0,0,1
+2000,FRA,Basketball,Basketball,0,1,0
+2000,FRA,Boxing,Boxing,1,0,1
+2000,FRA,Canoe / Kayak,Canoe / Kayak S,1,1,1
+2000,FRA,Cycling,Cycling Road,0,0,1
+2000,FRA,Cycling,Cycling Track,4,2,0
+2000,FRA,Cycling,Mountain Bike,1,0,0
+2000,FRA,Fencing,Fencing,1,4,1
+2000,FRA,Gymnastics,Artistic G.,0,2,0
+2000,FRA,Judo,Judo,2,2,2
+2000,FRA,Rowing,Rowing,2,0,1
+2000,FRA,Shooting,Shooting,1,1,0
+2000,FRA,Table Tennis,Table Tennis,0,0,1
+2000,FRA,Taekwondo,Taekwondo,0,0,1
+2000,FRA,Tennis,Tennis,0,0,1
+2000,GBR,Athletics,Athletics,2,2,2
+2000,GBR,Badminton,Badminton,0,0,2
+2000,GBR,Boxing,Boxing,1,0,0
+2000,GBR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2000,GBR,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2000,GBR,Cycling,Cycling Track,1,1,2
+2000,GBR,Equestrian,Eventing,0,2,0
+2000,GBR,Judo,Judo,0,1,0
+2000,GBR,Modern Pentathlon,Modern Pentath.,1,0,1
+2000,GBR,Rowing,Rowing,2,1,0
+2000,GBR,Sailing,Sailing,3,2,0
+2000,GBR,Shooting,Shooting,1,1,0
+2000,GEO,Boxing,Boxing,0,0,1
+2000,GEO,Judo,Judo,0,0,1
+2000,GEO,Weightlifting,Weightlifting,0,0,1
+2000,GEO,Wrestling,Wrestling Free.,0,0,1
+2000,GEO,Wrestling,Wrestling Gre-R,0,0,2
+2000,GER,Aquatics,Diving,0,0,2
+2000,GER,Aquatics,Swimming,0,0,3
+2000,GER,Archery,Archery,0,0,1
+2000,GER,Athletics,Athletics,2,1,2
+2000,GER,Boxing,Boxing,0,0,1
+2000,GER,Canoe / Kayak,Canoe / Kayak F,3,1,3
+2000,GER,Canoe / Kayak,Canoe / Kayak S,1,0,0
+2000,GER,Cycling,Cycling Road,1,2,1
+2000,GER,Cycling,Cycling Track,2,2,2
+2000,GER,Equestrian,Dressage,1,1,1
+2000,GER,Equestrian,Jumping,1,0,0
+2000,GER,Fencing,Fencing,0,2,3
+2000,GER,Football,Football,0,0,1
+2000,GER,Judo,Judo,0,0,1
+2000,GER,Rowing,Rowing,2,1,3
+2000,GER,Sailing,Sailing,0,2,1
+2000,GER,Taekwondo,Taekwondo,0,1,0
+2000,GER,Tennis,Tennis,0,1,0
+2000,GER,Triathlon,Triathlon,0,1,0
+2000,GER,Volleyball,Beach volley.,0,0,1
+2000,GER,Weightlifting,Weightlifting,0,2,0
+2000,GRE,Athletics,Athletics,1,3,0
+2000,GRE,Gymnastics,Artistic G.,0,1,0
+2000,GRE,Gymnastics,Rhythmic G.,0,0,1
+2000,GRE,Taekwondo,Taekwondo,1,0,0
+2000,GRE,Weightlifting,Weightlifting,2,2,1
+2000,GRE,Wrestling,Wrestling Free.,0,0,1
+2000,HUN,Aquatics,Swimming,1,0,0
+2000,HUN,Aquatics,Water polo,1,0,0
+2000,HUN,Boxing,Boxing,0,0,1
+2000,HUN,Canoe / Kayak,Canoe / Kayak F,4,2,1
+2000,HUN,Fencing,Fencing,1,0,0
+2000,HUN,Gymnastics,Artistic G.,1,0,0
+2000,HUN,Handball,Handball,0,1,0
+2000,HUN,Modern Pentathlon,Modern Pentath.,0,1,0
+2000,HUN,Shooting,Shooting,0,0,1
+2000,HUN,Weightlifting,Weightlifting,0,1,0
+2000,HUN,Wrestling,Wrestling Gre-R,0,1,0
+2000,INA,Badminton,Badminton,1,3,0
+2000,INA,Weightlifting,Weightlifting,0,1,2
+2000,IND,Weightlifting,Weightlifting,0,0,1
+2000,IRI,Taekwondo,Taekwondo,0,0,1
+2000,IRI,Weightlifting,Weightlifting,2,0,0
+2000,IRI,Wrestling,Wrestling Free.,1,0,0
+2000,IRL,Athletics,Athletics,0,1,0
+2000,ISL,Athletics,Athletics,0,0,1
+2000,ISR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2000,ITA,Aquatics,Swimming,3,1,2
+2000,ITA,Archery,Archery,0,1,0
+2000,ITA,Athletics,Athletics,0,2,0
+2000,ITA,Boxing,Boxing,0,0,1
+2000,ITA,Canoe / Kayak,Canoe / Kayak F,2,0,0
+2000,ITA,Canoe / Kayak,Canoe / Kayak S,0,0,1
+2000,ITA,Cycling,Cycling Track,1,0,1
+2000,ITA,Cycling,Mountain Bike,1,0,0
+2000,ITA,Fencing,Fencing,3,0,2
+2000,ITA,Judo,Judo,1,0,3
+2000,ITA,Rowing,Rowing,1,2,1
+2000,ITA,Sailing,Sailing,1,1,0
+2000,ITA,Shooting,Shooting,0,1,1
+2000,ITA,Volleyball,Volleyball,0,0,1
+2000,JAM,Athletics,Athletics,0,5,4
+2000,JPN,Aquatics,Swimming,0,2,2
+2000,JPN,Aquatics,Synchronized S.,0,2,0
+2000,JPN,Athletics,Athletics,1,0,0
+2000,JPN,Judo,Judo,4,2,2
+2000,JPN,Softball,Softball,0,1,0
+2000,JPN,Taekwondo,Taekwondo,0,0,1
+2000,JPN,Wrestling,Wrestling Gre-R,0,1,0
+2000,KAZ,Athletics,Athletics,1,0,0
+2000,KAZ,Boxing,Boxing,2,2,0
+2000,KAZ,Cycling,Cycling Road,0,1,0
+2000,KAZ,Wrestling,Wrestling Free.,0,1,0
+2000,KEN,Athletics,Athletics,2,3,2
+2000,KGZ,Judo,Judo,0,0,1
+2000,KOR,Archery,Archery,3,1,1
+2000,KOR,Badminton,Badminton,0,1,1
+2000,KOR,Baseball,Baseball,0,0,1
+2000,KOR,Fencing,Fencing,1,0,1
+2000,KOR,Gymnastics,Artistic G.,0,1,1
+2000,KOR,Hockey,Hockey,0,1,0
+2000,KOR,Judo,Judo,0,2,3
+2000,KOR,Shooting,Shooting,0,1,0
+2000,KOR,Table Tennis,Table Tennis,0,0,1
+2000,KOR,Taekwondo,Taekwondo,3,1,0
+2000,KOR,Wrestling,Wrestling Free.,0,1,1
+2000,KOR,Wrestling,Wrestling Gre-R,1,1,0
+2000,KSA,Athletics,Athletics,0,1,0
+2000,KSA,Equestrian,Jumping,0,0,1
+2000,KUW,Shooting,Shooting,0,0,1
+2000,LAT,Athletics,Athletics,0,1,0
+2000,LAT,Gymnastics,Artistic G.,1,0,0
+2000,LAT,Judo,Judo,0,0,1
+2000,LTU,Athletics,Athletics,1,0,0
+2000,LTU,Basketball,Basketball,0,0,1
+2000,LTU,Cycling,Cycling Road,0,0,1
+2000,LTU,Rowing,Rowing,0,0,1
+2000,LTU,Shooting,Shooting,1,0,0
+2000,MAR,Athletics,Athletics,0,1,3
+2000,MAR,Boxing,Boxing,0,0,1
+2000,MDA,Boxing,Boxing,0,0,1
+2000,MDA,Shooting,Shooting,0,1,0
+2000,MEX,Aquatics,Diving,0,1,0
+2000,MEX,Athletics,Athletics,0,1,1
+2000,MEX,Boxing,Boxing,0,0,1
+2000,MEX,Taekwondo,Taekwondo,0,0,1
+2000,MEX,Weightlifting,Weightlifting,1,0,0
+2000,MKD,Wrestling,Wrestling Free.,0,0,1
+2000,MOZ,Athletics,Athletics,1,0,0
+2000,NED,Aquatics,Swimming,5,1,2
+2000,NED,Archery,Archery,0,0,1
+2000,NED,Cycling,Cycling Road,2,0,0
+2000,NED,Cycling,Cycling Track,1,1,0
+2000,NED,Equestrian,Dressage,1,2,0
+2000,NED,Equestrian,Jumping,1,1,0
+2000,NED,Hockey,Hockey,1,0,1
+2000,NED,Judo,Judo,1,0,0
+2000,NED,Rowing,Rowing,0,3,0
+2000,NED,Sailing,Sailing,0,1,0
+2000,NED,Tennis,Tennis,0,1,0
+2000,NGR,Athletics,Athletics,0,2,0
+2000,NGR,Weightlifting,Weightlifting,0,1,0
+2000,NOR,Athletics,Athletics,1,1,0
+2000,NOR,Canoe / Kayak,Canoe / Kayak F,2,0,0
+2000,NOR,Football,Football,1,0,0
+2000,NOR,Handball,Handball,0,0,1
+2000,NOR,Rowing,Rowing,0,1,0
+2000,NOR,Sailing,Sailing,0,0,1
+2000,NOR,Shooting,Shooting,0,0,1
+2000,NOR,Taekwondo,Taekwondo,0,1,0
+2000,NZL,Equestrian,Eventing,0,0,1
+2000,NZL,Rowing,Rowing,1,0,0
+2000,NZL,Sailing,Sailing,0,0,2
+2000,POL,Athletics,Athletics,4,0,0
+2000,POL,Canoe / Kayak,Canoe / Kayak F,0,1,2
+2000,POL,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2000,POL,Fencing,Fencing,0,1,0
+2000,POL,Gymnastics,Artistic G.,0,0,1
+2000,POL,Rowing,Rowing,1,0,0
+2000,POL,Shooting,Shooting,1,0,0
+2000,POL,Weightlifting,Weightlifting,0,2,0
+2000,POR,Athletics,Athletics,0,0,1
+2000,POR,Judo,Judo,0,0,1
+2000,PRK,Boxing,Boxing,0,0,1
+2000,PRK,Judo,Judo,0,0,1
+2000,PRK,Weightlifting,Weightlifting,0,1,0
+2000,PRK,Wrestling,Wrestling Gre-R,0,0,1
+2000,QAT,Weightlifting,Weightlifting,0,0,1
+2000,ROU,Aquatics,Swimming,2,1,1
+2000,ROU,Athletics,Athletics,1,2,2
+2000,ROU,Boxing,Boxing,0,1,1
+2000,ROU,Canoe / Kayak,Canoe / Kayak F,1,0,2
+2000,ROU,Fencing,Fencing,1,0,0
+2000,ROU,Gymnastics,Artistic G.,3,2,1
+2000,ROU,Judo,Judo,0,0,1
+2000,ROU,Rowing,Rowing,3,0,0
+2000,ROU,Shooting,Shooting,0,0,1
+2000,RSA,Aquatics,Swimming,0,1,1
+2000,RSA,Athletics,Athletics,0,1,2
+2000,RUS,Aquatics,Diving,2,1,2
+2000,RUS,Aquatics,Swimming,0,1,1
+2000,RUS,Aquatics,Synchronized S.,2,0,0
+2000,RUS,Aquatics,Water polo,0,1,1
+2000,RUS,Athletics,Athletics,3,4,6
+2000,RUS,Boxing,Boxing,2,3,2
+2000,RUS,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2000,RUS,Cycling,Cycling Road,1,0,0
+2000,RUS,Cycling,Cycling Track,0,1,2
+2000,RUS,Fencing,Fencing,3,0,1
+2000,RUS,Gymnastics,Artistic G.,5,5,5
+2000,RUS,Gymnastics,Rhythmic G.,2,0,1
+2000,RUS,Gymnastics,Trampoline,2,0,0
+2000,RUS,Handball,Handball,1,0,0
+2000,RUS,Judo,Judo,0,1,2
+2000,RUS,Modern Pentathlon,Modern Pentath.,1,0,0
+2000,RUS,Rowing,Rowing,0,0,1
+2000,RUS,Shooting,Shooting,1,3,2
+2000,RUS,Taekwondo,Taekwondo,0,1,0
+2000,RUS,Tennis,Tennis,1,1,0
+2000,RUS,Volleyball,Volleyball,0,2,0
+2000,RUS,Weightlifting,Weightlifting,0,1,2
+2000,RUS,Wrestling,Wrestling Free.,4,1,0
+2000,RUS,Wrestling,Wrestling Gre-R,2,1,1
+2000,SLO,Rowing,Rowing,1,0,0
+2000,SLO,Shooting,Shooting,1,0,0
+2000,SRI,Athletics,Athletics,0,1,0
+2000,SUI,Cycling,Mountain Bike,0,1,1
+2000,SUI,Equestrian,Jumping,0,2,0
+2000,SUI,Fencing,Fencing,0,2,0
+2000,SUI,Rowing,Rowing,0,1,0
+2000,SUI,Shooting,Shooting,0,1,0
+2000,SUI,Triathlon,Triathlon,1,0,1
+2000,SVK,Aquatics,Swimming,0,2,0
+2000,SVK,Canoe / Kayak,Canoe / Kayak S,1,1,1
+2000,SWE,Aquatics,Swimming,1,2,1
+2000,SWE,Athletics,Athletics,0,0,1
+2000,SWE,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2000,SWE,Handball,Handball,0,1,0
+2000,SWE,Sailing,Sailing,0,0,1
+2000,SWE,Shooting,Shooting,2,0,0
+2000,SWE,Table Tennis,Table Tennis,0,1,0
+2000,SWE,Wrestling,Wrestling Gre-R,1,0,0
+2000,THA,Boxing,Boxing,1,0,1
+2000,THA,Weightlifting,Weightlifting,0,0,1
+2000,TPE,Table Tennis,Table Tennis,0,0,1
+2000,TPE,Taekwondo,Taekwondo,0,0,2
+2000,TPE,Weightlifting,Weightlifting,0,1,1
+2000,TRI,Athletics,Athletics,0,1,1
+2000,TUR,Judo,Judo,1,0,0
+2000,TUR,Taekwondo,Taekwondo,0,0,1
+2000,TUR,Weightlifting,Weightlifting,1,0,0
+2000,TUR,Wrestling,Wrestling Free.,0,0,1
+2000,TUR,Wrestling,Wrestling Gre-R,1,0,0
+2000,UKR,Aquatics,Diving,0,0,1
+2000,UKR,Aquatics,Swimming,2,2,0
+2000,UKR,Archery,Archery,0,1,0
+2000,UKR,Athletics,Athletics,0,0,2
+2000,UKR,Boxing,Boxing,0,2,3
+2000,UKR,Cycling,Cycling Track,0,1,1
+2000,UKR,Gymnastics,Artistic G.,0,1,1
+2000,UKR,Gymnastics,Trampoline,0,1,0
+2000,UKR,Judo,Judo,0,0,1
+2000,UKR,Sailing,Sailing,0,0,1
+2000,UKR,Shooting,Shooting,1,0,0
+2000,UKR,Wrestling,Wrestling Free.,0,1,0
+2000,UKR,Wrestling,Wrestling Gre-R,0,1,0
+2000,URU,Cycling,Cycling Track,0,1,0
+2000,USA,Aquatics,Diving,1,0,0
+2000,USA,Aquatics,Swimming,13,8,10
+2000,USA,Aquatics,Water polo,0,1,0
+2000,USA,Archery,Archery,0,1,1
+2000,USA,Athletics,Athletics,7,4,5
+2000,USA,Baseball,Baseball,1,0,0
+2000,USA,Basketball,Basketball,2,0,0
+2000,USA,Boxing,Boxing,0,2,2
+2000,USA,Cycling,Cycling Road,0,1,1
+2000,USA,Cycling,Cycling Track,1,0,0
+2000,USA,Equestrian,Dressage,0,0,2
+2000,USA,Equestrian,Eventing,1,0,2
+2000,USA,Football,Football,0,1,0
+2000,USA,Gymnastics,Artistic G.,0,0,1
+2000,USA,Modern Pentathlon,Modern Pentath.,0,1,0
+2000,USA,Rowing,Rowing,0,1,2
+2000,USA,Sailing,Sailing,1,2,1
+2000,USA,Shooting,Shooting,1,0,2
+2000,USA,Softball,Softball,1,0,0
+2000,USA,Taekwondo,Taekwondo,1,0,0
+2000,USA,Tennis,Tennis,2,0,1
+2000,USA,Volleyball,Beach volley.,1,0,0
+2000,USA,Weightlifting,Weightlifting,1,0,1
+2000,USA,Wrestling,Wrestling Free.,1,1,2
+2000,USA,Wrestling,Wrestling Gre-R,1,1,1
+2000,UZB,Boxing,Boxing,1,0,2
+2000,UZB,Wrestling,Wrestling Free.,0,1,0
+2000,VIE,Taekwondo,Taekwondo,0,1,0
+2000,YUG,Aquatics,Water polo,0,0,1
+2000,YUG,Shooting,Shooting,0,1,0
+2000,YUG,Volleyball,Volleyball,1,0,0
+2004,ARG,Aquatics,Swimming,0,0,1
+2004,ARG,Basketball,Basketball,1,0,0
+2004,ARG,Football,Football,1,0,0
+2004,ARG,Hockey,Hockey,0,0,1
+2004,ARG,Sailing,Sailing,0,0,1
+2004,ARG,Tennis,Tennis,0,0,1
+2004,AUS,Aquatics,Diving,1,1,4
+2004,AUS,Aquatics,Swimming,7,5,3
+2004,AUS,Archery,Archery,0,0,1
+2004,AUS,Athletics,Athletics,0,1,2
+2004,AUS,Baseball,Baseball,0,1,0
+2004,AUS,Basketball,Basketball,0,1,0
+2004,AUS,Canoe / Kayak,Canoe / Kayak F,0,2,0
+2004,AUS,Cycling,Cycling Road,1,0,0
+2004,AUS,Cycling,Cycling Track,5,2,2
+2004,AUS,Hockey,Hockey,1,0,0
+2004,AUS,Rowing,Rowing,1,1,2
+2004,AUS,Shooting,Shooting,1,0,1
+2004,AUS,Softball,Softball,0,1,0
+2004,AUS,Tennis,Tennis,0,0,1
+2004,AUS,Triathlon,Triathlon,0,1,0
+2004,AUT,Aquatics,Swimming,0,2,0
+2004,AUT,Judo,Judo,0,1,0
+2004,AUT,Sailing,Sailing,1,1,0
+2004,AUT,Shooting,Shooting,0,0,1
+2004,AUT,Triathlon,Triathlon,1,0,0
+2004,AZE,Boxing,Boxing,0,0,2
+2004,AZE,Shooting,Shooting,0,0,2
+2004,AZE,Wrestling,Wrestling Gre-R,1,0,0
+2004,BAH,Athletics,Athletics,1,0,1
+2004,BEL,Cycling,Cycling Road,0,0,1
+2004,BEL,Judo,Judo,0,0,1
+2004,BEL,Tennis,Tennis,1,0,0
+2004,BLR,Athletics,Athletics,1,1,1
+2004,BLR,Boxing,Boxing,0,2,0
+2004,BLR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2004,BLR,Cycling,Cycling Track,0,0,1
+2004,BLR,Judo,Judo,1,0,0
+2004,BLR,Rowing,Rowing,0,1,1
+2004,BLR,Shooting,Shooting,0,0,1
+2004,BLR,Weightlifting,Weightlifting,0,2,1
+2004,BLR,Wrestling,Wrestling Gre-R,0,0,1
+2004,BRA,Athletics,Athletics,0,0,1
+2004,BRA,Equestrian,Jumping,1,0,0
+2004,BRA,Football,Football,0,1,0
+2004,BRA,Judo,Judo,0,0,2
+2004,BRA,Sailing,Sailing,2,0,0
+2004,BRA,Volleyball,Beach volley.,1,1,0
+2004,BRA,Volleyball,Volleyball,1,0,0
+2004,BUL,Boxing,Boxing,0,0,1
+2004,BUL,Gymnastics,Artistic G.,0,1,1
+2004,BUL,Gymnastics,Rhythmic G.,0,0,1
+2004,BUL,Judo,Judo,0,0,1
+2004,BUL,Rowing,Rowing,0,0,2
+2004,BUL,Shooting,Shooting,1,0,1
+2004,BUL,Weightlifting,Weightlifting,1,0,1
+2004,BUL,Wrestling,Wrestling Gre-R,0,0,1
+2004,CAN,Aquatics,Diving,0,1,1
+2004,CAN,Canoe / Kayak,Canoe / Kayak F,1,0,2
+2004,CAN,Cycling,Cycling Track,1,0,0
+2004,CAN,Cycling,Mountain Bike,0,1,0
+2004,CAN,Gymnastics,Artistic G.,1,0,0
+2004,CAN,Gymnastics,Trampoline,0,1,0
+2004,CAN,Rowing,Rowing,0,1,0
+2004,CAN,Sailing,Sailing,0,1,0
+2004,CAN,Wrestling,Wrestling Free.,0,1,0
+2004,CHI,Tennis,Tennis,2,0,1
+2004,CHN,Aquatics,Diving,6,2,1
+2004,CHN,Aquatics,Swimming,1,1,0
+2004,CHN,Archery,Archery,0,1,0
+2004,CHN,Athletics,Athletics,2,0,0
+2004,CHN,Badminton,Badminton,3,1,1
+2004,CHN,Boxing,Boxing,0,0,1
+2004,CHN,Canoe / Kayak,Canoe / Kayak F,1,0,0
+2004,CHN,Cycling,Cycling Track,0,1,0
+2004,CHN,Fencing,Fencing,0,3,0
+2004,CHN,Gymnastics,Artistic G.,1,0,2
+2004,CHN,Gymnastics,Trampoline,0,0,1
+2004,CHN,Judo,Judo,1,1,3
+2004,CHN,Sailing,Sailing,0,1,0
+2004,CHN,Shooting,Shooting,4,2,3
+2004,CHN,Table Tennis,Table Tennis,3,1,2
+2004,CHN,Taekwondo,Taekwondo,2,0,0
+2004,CHN,Tennis,Tennis,1,0,0
+2004,CHN,Volleyball,Volleyball,1,0,0
+2004,CHN,Weightlifting,Weightlifting,5,3,0
+2004,CHN,Wrestling,Wrestling Free.,1,0,0
+2004,CMR,Athletics,Athletics,1,0,0
+2004,COL,Cycling,Cycling Track,0,0,1
+2004,COL,Weightlifting,Weightlifting,0,0,1
+2004,CRO,Aquatics,Swimming,0,1,0
+2004,CRO,Handball,Handball,1,0,0
+2004,CRO,Rowing,Rowing,0,1,0
+2004,CRO,Tennis,Tennis,0,0,1
+2004,CRO,Weightlifting,Weightlifting,0,0,1
+2004,CUB,Athletics,Athletics,2,1,2
+2004,CUB,Baseball,Baseball,1,0,0
+2004,CUB,Boxing,Boxing,5,2,1
+2004,CUB,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2004,CUB,Judo,Judo,0,1,5
+2004,CUB,Shooting,Shooting,0,0,1
+2004,CUB,Taekwondo,Taekwondo,0,1,0
+2004,CUB,Volleyball,Volleyball,0,0,1
+2004,CUB,Wrestling,Wrestling Free.,1,0,1
+2004,CUB,Wrestling,Wrestling Gre-R,0,1,0
+2004,CZE,Athletics,Athletics,1,0,1
+2004,CZE,Canoe / Kayak,Canoe / Kayak S,0,0,1
+2004,CZE,Modern Pentathlon,Modern Pentath.,0,0,1
+2004,CZE,Rowing,Rowing,0,1,0
+2004,CZE,Sailing,Sailing,0,1,0
+2004,CZE,Shooting,Shooting,0,1,1
+2004,DEN,Athletics,Athletics,0,0,2
+2004,DEN,Badminton,Badminton,0,0,2
+2004,DEN,Handball,Handball,1,0,0
+2004,DEN,Rowing,Rowing,1,0,0
+2004,DEN,Sailing,Sailing,0,0,2
+2004,DEN,Table Tennis,Table Tennis,0,0,1
+2004,DOM,Athletics,Athletics,1,0,0
+2004,EGY,Boxing,Boxing,0,1,2
+2004,EGY,Taekwondo,Taekwondo,0,0,1
+2004,EGY,Wrestling,Wrestling Gre-R,1,0,0
+2004,ERI,Athletics,Athletics,0,0,1
+2004,ESP,Athletics,Athletics,0,1,1
+2004,ESP,Canoe / Kayak,Canoe / Kayak F,1,1,0
+2004,ESP,Cycling,Cycling Track,0,2,2
+2004,ESP,Cycling,Mountain Bike,0,1,0
+2004,ESP,Equestrian,Dressage,0,2,1
+2004,ESP,Gymnastics,Artistic G.,1,0,1
+2004,ESP,Sailing,Sailing,1,2,0
+2004,ESP,Shooting,Shooting,0,1,0
+2004,ESP,Volleyball,Beach volley.,0,1,0
+2004,EST,Athletics,Athletics,0,0,1
+2004,EST,Judo,Judo,0,0,1
+2004,EST,Rowing,Rowing,0,1,0
+2004,ETH,Athletics,Athletics,2,3,2
+2004,FIN,Shooting,Shooting,0,1,0
+2004,FIN,Wrestling,Wrestling Gre-R,0,1,0
+2004,FRA,Aquatics,Swimming,1,2,3
+2004,FRA,Athletics,Athletics,0,0,2
+2004,FRA,Boxing,Boxing,0,1,0
+2004,FRA,Canoe / Kayak,Canoe / Kayak S,2,0,1
+2004,FRA,Cycling,Cycling Track,0,1,1
+2004,FRA,Cycling,Mountain Bike,1,0,0
+2004,FRA,Equestrian,Eventing,1,0,0
+2004,FRA,Fencing,Fencing,3,1,2
+2004,FRA,Gymnastics,Artistic G.,1,0,0
+2004,FRA,Judo,Judo,0,1,0
+2004,FRA,Rowing,Rowing,1,1,0
+2004,FRA,Sailing,Sailing,1,0,1
+2004,FRA,Taekwondo,Taekwondo,0,1,1
+2004,FRA,Tennis,Tennis,0,1,0
+2004,FRA,Wrestling,Wrestling Free.,0,0,2
+2004,GBR,Aquatics,Diving,0,1,0
+2004,GBR,Aquatics,Swimming,0,0,2
+2004,GBR,Archery,Archery,0,0,1
+2004,GBR,Athletics,Athletics,3,0,1
+2004,GBR,Badminton,Badminton,0,2,0
+2004,GBR,Boxing,Boxing,0,1,0
+2004,GBR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2004,GBR,Canoe / Kayak,Canoe / Kayak S,0,1,1
+2004,GBR,Cycling,Cycling Track,2,1,1
+2004,GBR,Equestrian,Eventing,1,2,1
+2004,GBR,Modern Pentathlon,Modern Pentath.,0,0,1
+2004,GBR,Rowing,Rowing,1,2,1
+2004,GBR,Sailing,Sailing,2,1,2
+2004,GEO,Judo,Judo,1,1,0
+2004,GEO,Weightlifting,Weightlifting,1,0,0
+2004,GEO,Wrestling,Wrestling Gre-R,0,1,0
+2004,GER,Aquatics,Diving,0,1,0
+2004,GER,Aquatics,Swimming,0,1,4
+2004,GER,Athletics,Athletics,0,2,0
+2004,GER,Boxing,Boxing,0,0,2
+2004,GER,Canoe / Kayak,Canoe / Kayak F,4,3,0
+2004,GER,Canoe / Kayak,Canoe / Kayak S,0,1,1
+2004,GER,Cycling,Cycling Road,0,1,0
+2004,GER,Cycling,Cycling Track,1,0,3
+2004,GER,Cycling,Mountain Bike,0,0,1
+2004,GER,Equestrian,Dressage,2,1,0
+2004,GER,Equestrian,Jumping,0,0,2
+2004,GER,Fencing,Fencing,0,1,1
+2004,GER,Football,Football,0,0,1
+2004,GER,Gymnastics,Trampoline,1,0,1
+2004,GER,Handball,Handball,0,1,0
+2004,GER,Hockey,Hockey,1,0,1
+2004,GER,Judo,Judo,1,0,3
+2004,GER,Rowing,Rowing,2,2,0
+2004,GER,Shooting,Shooting,2,1,0
+2004,GER,Tennis,Tennis,0,1,0
+2004,GRE,Aquatics,Diving,1,0,0
+2004,GRE,Aquatics,Water polo,0,1,0
+2004,GRE,Athletics,Athletics,2,2,1
+2004,GRE,Gymnastics,Artistic G.,1,0,0
+2004,GRE,Judo,Judo,1,0,0
+2004,GRE,Rowing,Rowing,0,0,1
+2004,GRE,Sailing,Sailing,1,1,0
+2004,GRE,Taekwondo,Taekwondo,0,2,0
+2004,GRE,Weightlifting,Weightlifting,0,0,1
+2004,GRE,Wrestling,Wrestling Gre-R,0,0,1
+2004,HKG,Table Tennis,Table Tennis,0,1,0
+2004,HUN,Aquatics,Swimming,0,1,1
+2004,HUN,Aquatics,Water polo,1,0,0
+2004,HUN,Athletics,Athletics,0,1,0
+2004,HUN,Canoe / Kayak,Canoe / Kayak F,3,1,2
+2004,HUN,Fencing,Fencing,1,2,0
+2004,HUN,Modern Pentathlon,Modern Pentath.,1,0,0
+2004,HUN,Shooting,Shooting,1,0,0
+2004,HUN,Weightlifting,Weightlifting,0,1,0
+2004,HUN,Wrestling,Wrestling Gre-R,1,0,0
+2004,INA,Badminton,Badminton,1,0,2
+2004,INA,Weightlifting,Weightlifting,0,1,0
+2004,IND,Shooting,Shooting,0,1,0
+2004,IRI,Taekwondo,Taekwondo,1,0,1
+2004,IRI,Weightlifting,Weightlifting,1,0,0
+2004,IRI,Wrestling,Wrestling Free.,0,2,1
+2004,ISR,Judo,Judo,0,0,1
+2004,ISR,Sailing,Sailing,1,0,0
+2004,ITA,Aquatics,Swimming,0,1,1
+2004,ITA,Aquatics,Water polo,1,0,0
+2004,ITA,Archery,Archery,1,0,0
+2004,ITA,Athletics,Athletics,2,0,1
+2004,ITA,Basketball,Basketball,0,1,0
+2004,ITA,Boxing,Boxing,0,0,1
+2004,ITA,Canoe / Kayak,Canoe / Kayak F,0,2,0
+2004,ITA,Cycling,Cycling Road,1,0,0
+2004,ITA,Fencing,Fencing,3,3,1
+2004,ITA,Football,Football,0,0,1
+2004,ITA,Gymnastics,Artistic G.,1,0,1
+2004,ITA,Gymnastics,Rhythmic G.,0,1,0
+2004,ITA,Judo,Judo,0,0,1
+2004,ITA,Rowing,Rowing,0,0,3
+2004,ITA,Sailing,Sailing,0,0,1
+2004,ITA,Shooting,Shooting,1,2,0
+2004,ITA,Volleyball,Volleyball,0,1,0
+2004,JAM,Athletics,Athletics,2,1,2
+2004,JPN,Aquatics,Swimming,3,1,4
+2004,JPN,Aquatics,Synchronized S.,0,2,0
+2004,JPN,Archery,Archery,0,1,0
+2004,JPN,Athletics,Athletics,2,0,0
+2004,JPN,Baseball,Baseball,0,0,1
+2004,JPN,Cycling,Cycling Track,0,1,0
+2004,JPN,Gymnastics,Artistic G.,1,1,2
+2004,JPN,Judo,Judo,8,2,0
+2004,JPN,Sailing,Sailing,0,0,1
+2004,JPN,Softball,Softball,0,0,1
+2004,JPN,Wrestling,Wrestling Free.,2,1,3
+2004,KAZ,Athletics,Athletics,0,0,1
+2004,KAZ,Boxing,Boxing,1,1,1
+2004,KAZ,Weightlifting,Weightlifting,0,1,0
+2004,KAZ,Wrestling,Wrestling Free.,0,1,0
+2004,KAZ,Wrestling,Wrestling Gre-R,0,1,1
+2004,KEN,Athletics,Athletics,1,4,2
+2004,KOR,Archery,Archery,3,1,0
+2004,KOR,Badminton,Badminton,1,2,1
+2004,KOR,Boxing,Boxing,0,0,2
+2004,KOR,Gymnastics,Artistic G.,0,1,1
+2004,KOR,Handball,Handball,0,1,0
+2004,KOR,Judo,Judo,1,1,1
+2004,KOR,Shooting,Shooting,0,2,1
+2004,KOR,Table Tennis,Table Tennis,1,1,1
+2004,KOR,Taekwondo,Taekwondo,2,0,2
+2004,KOR,Weightlifting,Weightlifting,0,2,0
+2004,KOR,Wrestling,Wrestling Free.,0,1,0
+2004,KOR,Wrestling,Wrestling Gre-R,1,0,0
+2004,LAT,Athletics,Athletics,0,1,0
+2004,LAT,Gymnastics,Artistic G.,0,1,0
+2004,LAT,Modern Pentathlon,Modern Pentath.,0,1,0
+2004,LAT,Weightlifting,Weightlifting,0,1,0
+2004,LTU,Athletics,Athletics,1,1,0
+2004,LTU,Modern Pentathlon,Modern Pentath.,0,1,0
+2004,MAR,Athletics,Athletics,2,1,0
+2004,MEX,Athletics,Athletics,0,1,0
+2004,MEX,Cycling,Cycling Track,0,1,0
+2004,MEX,Taekwondo,Taekwondo,0,1,1
+2004,MGL,Judo,Judo,0,0,1
+2004,NED,Aquatics,Swimming,2,3,2
+2004,NED,Badminton,Badminton,0,1,0
+2004,NED,Cycling,Cycling Road,1,0,0
+2004,NED,Cycling,Cycling Track,0,1,1
+2004,NED,Cycling,Mountain Bike,0,0,1
+2004,NED,Equestrian,Dressage,1,0,0
+2004,NED,Hockey,Hockey,0,2,0
+2004,NED,Judo,Judo,0,1,3
+2004,NED,Rowing,Rowing,0,1,2
+2004,NGR,Athletics,Athletics,0,0,2
+2004,NOR,Athletics,Athletics,1,0,0
+2004,NOR,Canoe / Kayak,Canoe / Kayak F,1,0,1
+2004,NOR,Cycling,Mountain Bike,1,0,0
+2004,NOR,Rowing,Rowing,1,0,0
+2004,NOR,Sailing,Sailing,1,0,0
+2004,NZL,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2004,NZL,Cycling,Cycling Track,1,0,0
+2004,NZL,Rowing,Rowing,1,0,0
+2004,NZL,Triathlon,Triathlon,1,1,0
+2004,PAR,Football,Football,0,1,0
+2004,POL,Aquatics,Swimming,1,2,0
+2004,POL,Athletics,Athletics,1,0,1
+2004,POL,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2004,POL,Fencing,Fencing,0,0,1
+2004,POL,Rowing,Rowing,1,0,0
+2004,POL,Sailing,Sailing,0,0,1
+2004,POL,Weightlifting,Weightlifting,0,0,1
+2004,POR,Athletics,Athletics,0,1,1
+2004,POR,Cycling,Cycling Road,0,1,0
+2004,PRK,Boxing,Boxing,0,1,0
+2004,PRK,Judo,Judo,0,1,0
+2004,PRK,Shooting,Shooting,0,0,1
+2004,PRK,Table Tennis,Table Tennis,0,1,0
+2004,PRK,Weightlifting,Weightlifting,0,1,0
+2004,ROU,Aquatics,Swimming,1,0,1
+2004,ROU,Athletics,Athletics,0,2,1
+2004,ROU,Boxing,Boxing,0,0,1
+2004,ROU,Gymnastics,Artistic G.,4,3,3
+2004,ROU,Rowing,Rowing,3,0,0
+2004,RSA,Aquatics,Swimming,1,1,1
+2004,RSA,Athletics,Athletics,0,2,0
+2004,RSA,Rowing,Rowing,0,0,1
+2004,RUS,Aquatics,Diving,0,2,2
+2004,RUS,Aquatics,Swimming,0,1,0
+2004,RUS,Aquatics,Synchronized S.,2,0,0
+2004,RUS,Aquatics,Water polo,0,0,1
+2004,RUS,Athletics,Athletics,6,7,7
+2004,RUS,Basketball,Basketball,0,0,1
+2004,RUS,Boxing,Boxing,3,0,3
+2004,RUS,Canoe / Kayak,Canoe / Kayak F,0,1,2
+2004,RUS,Cycling,Cycling Road,0,1,1
+2004,RUS,Cycling,Cycling Track,2,1,0
+2004,RUS,Fencing,Fencing,1,0,3
+2004,RUS,Gymnastics,Artistic G.,0,1,2
+2004,RUS,Gymnastics,Rhythmic G.,2,1,0
+2004,RUS,Gymnastics,Trampoline,0,1,0
+2004,RUS,Handball,Handball,0,0,1
+2004,RUS,Judo,Judo,0,2,3
+2004,RUS,Modern Pentathlon,Modern Pentath.,1,0,0
+2004,RUS,Rowing,Rowing,1,0,0
+2004,RUS,Shooting,Shooting,3,4,3
+2004,RUS,Volleyball,Volleyball,0,1,1
+2004,RUS,Weightlifting,Weightlifting,1,2,5
+2004,RUS,Wrestling,Wrestling Free.,3,1,2
+2004,RUS,Wrestling,Wrestling Gre-R,2,1,1
+2004,SCG,Aquatics,Water polo,0,1,0
+2004,SCG,Shooting,Shooting,0,1,0
+2004,SLO,Athletics,Athletics,0,0,1
+2004,SLO,Judo,Judo,0,0,1
+2004,SLO,Rowing,Rowing,0,1,0
+2004,SLO,Sailing,Sailing,0,0,1
+2004,SUI,Cycling,Cycling Road,0,0,1
+2004,SUI,Cycling,Cycling Track,0,1,0
+2004,SUI,Fencing,Fencing,1,0,0
+2004,SUI,Triathlon,Triathlon,0,0,1
+2004,SUI,Volleyball,Beach volley.,0,0,1
+2004,SVK,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2004,SVK,Canoe / Kayak,Canoe / Kayak S,2,1,0
+2004,SVK,Judo,Judo,0,1,0
+2004,SVK,Shooting,Shooting,0,0,1
+2004,SWE,Athletics,Athletics,3,0,0
+2004,SWE,Canoe / Kayak,Canoe / Kayak F,1,0,0
+2004,SWE,Equestrian,Jumping,0,2,0
+2004,SWE,Sailing,Sailing,0,0,1
+2004,SWE,Wrestling,Wrestling Gre-R,0,1,0
+2004,SYR,Boxing,Boxing,0,0,1
+2004,THA,Boxing,Boxing,1,1,1
+2004,THA,Taekwondo,Taekwondo,0,0,1
+2004,THA,Weightlifting,Weightlifting,2,0,2
+2004,TPE,Archery,Archery,0,1,1
+2004,TPE,Taekwondo,Taekwondo,2,1,0
+2004,TRI,Aquatics,Swimming,0,0,1
+2004,TUR,Athletics,Athletics,0,0,1
+2004,TUR,Boxing,Boxing,0,1,0
+2004,TUR,Taekwondo,Taekwondo,0,1,0
+2004,TUR,Weightlifting,Weightlifting,3,0,1
+2004,TUR,Wrestling,Wrestling Free.,0,0,1
+2004,TUR,Wrestling,Wrestling Gre-R,0,1,1
+2004,UAE,Shooting,Shooting,1,0,0
+2004,UKR,Aquatics,Swimming,2,0,1
+2004,UKR,Archery,Archery,0,0,1
+2004,UKR,Athletics,Athletics,1,1,2
+2004,UKR,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2004,UKR,Fencing,Fencing,0,0,1
+2004,UKR,Gymnastics,Artistic G.,1,0,0
+2004,UKR,Gymnastics,Rhythmic G.,0,0,1
+2004,UKR,Gymnastics,Trampoline,1,0,0
+2004,UKR,Handball,Handball,0,0,1
+2004,UKR,Judo,Judo,0,1,0
+2004,UKR,Rowing,Rowing,0,0,1
+2004,UKR,Sailing,Sailing,0,2,0
+2004,UKR,Shooting,Shooting,1,0,0
+2004,UKR,Weightlifting,Weightlifting,1,1,0
+2004,UKR,Wrestling,Wrestling Free.,2,0,0
+2004,USA,Aquatics,Swimming,12,9,7
+2004,USA,Aquatics,Synchronized S.,0,0,2
+2004,USA,Aquatics,Water polo,0,0,1
+2004,USA,Athletics,Athletics,8,12,5
+2004,USA,Basketball,Basketball,1,0,1
+2004,USA,Boxing,Boxing,1,0,1
+2004,USA,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2004,USA,Cycling,Cycling Road,1,1,1
+2004,USA,Equestrian,Dressage,0,0,2
+2004,USA,Equestrian,Eventing,0,1,2
+2004,USA,Equestrian,Jumping,2,1,0
+2004,USA,Fencing,Fencing,1,0,1
+2004,USA,Football,Football,1,0,0
+2004,USA,Gymnastics,Artistic G.,2,6,1
+2004,USA,Judo,Judo,0,0,1
+2004,USA,Rowing,Rowing,1,1,0
+2004,USA,Sailing,Sailing,1,1,0
+2004,USA,Shooting,Shooting,2,1,0
+2004,USA,Softball,Softball,1,0,0
+2004,USA,Taekwondo,Taekwondo,1,1,0
+2004,USA,Tennis,Tennis,0,1,0
+2004,USA,Triathlon,Triathlon,0,0,1
+2004,USA,Volleyball,Beach volley.,1,0,1
+2004,USA,Wrestling,Wrestling Free.,1,3,1
+2004,USA,Wrestling,Wrestling Gre-R,0,0,1
+2004,UZB,Boxing,Boxing,0,0,2
+2004,UZB,Wrestling,Wrestling Free.,1,1,0
+2004,UZB,Wrestling,Wrestling Gre-R,1,0,0
+2004,VEN,Taekwondo,Taekwondo,0,0,1
+2004,VEN,Weightlifting,Weightlifting,0,0,1
+2004,ZIM,Aquatics,Swimming,1,1,1
+2008,AFG,Taekwondo,Taekwondo,0,0,1
+2008,ALG,Judo,Judo,0,1,1
+2008,ARG,Basketball,Basketball,0,0,1
+2008,ARG,Cycling,Cycling Track,1,0,0
+2008,ARG,Football,Football,1,0,0
+2008,ARG,Hockey,Hockey,0,0,1
+2008,ARG,Judo,Judo,0,0,1
+2008,ARG,Sailing,Sailing,0,0,1
+2008,ARM,Boxing,Boxing,0,0,1
+2008,ARM,Weightlifting,Weightlifting,0,0,3
+2008,ARM,Wrestling,Wrestling Gre-R,0,0,2
+2008,AUS,Aquatics,Diving,1,1,0
+2008,AUS,Aquatics,Swimming,6,6,8
+2008,AUS,Aquatics,Water polo,0,0,1
+2008,AUS,Athletics,Athletics,1,2,1
+2008,AUS,Basketball,Basketball,0,1,0
+2008,AUS,Canoe / Kayak,Canoe / Kayak F,1,0,2
+2008,AUS,Canoe / Kayak,Canoe / Kayak S,0,1,1
+2008,AUS,Cycling,Cycling Track,0,1,0
+2008,AUS,Equestrian,Eventing,0,2,0
+2008,AUS,Hockey,Hockey,0,0,1
+2008,AUS,Rowing,Rowing,2,1,0
+2008,AUS,Sailing,Sailing,2,1,0
+2008,AUS,Shooting,Shooting,0,0,1
+2008,AUS,Softball,Softball,0,0,1
+2008,AUS,Triathlon,Triathlon,1,0,1
+2008,AUT,Aquatics,Swimming,0,0,1
+2008,AUT,Canoe / Kayak,Canoe / Kayak S,0,0,1
+2008,AUT,Judo,Judo,0,1,0
+2008,AZE,Boxing,Boxing,0,0,1
+2008,AZE,Judo,Judo,1,0,1
+2008,AZE,Wrestling,Wrestling Free.,0,0,2
+2008,AZE,Wrestling,Wrestling Gre-R,0,2,0
+2008,BAH,Athletics,Athletics,0,1,1
+2008,BEL,Athletics,Athletics,1,1,0
+2008,BLR,Athletics,Athletics,1,3,3
+2008,BLR,Canoe / Kayak,Canoe / Kayak F,2,0,1
+2008,BLR,Gymnastics,Rhythmic G.,0,1,1
+2008,BLR,Rowing,Rowing,0,0,2
+2008,BLR,Weightlifting,Weightlifting,1,1,1
+2008,BLR,Wrestling,Wrestling Free.,0,0,1
+2008,BLR,Wrestling,Wrestling Gre-R,0,0,1
+2008,BRA,Aquatics,Swimming,1,0,1
+2008,BRA,Athletics,Athletics,1,0,0
+2008,BRA,Football,Football,0,1,1
+2008,BRA,Judo,Judo,0,0,3
+2008,BRA,Sailing,Sailing,0,1,1
+2008,BRA,Taekwondo,Taekwondo,0,0,1
+2008,BRA,Volleyball,Beach volley.,0,1,1
+2008,BRA,Volleyball,Volleyball,1,1,0
+2008,BUL,Rowing,Rowing,1,0,0
+2008,BUL,Wrestling,Wrestling Free.,0,1,2
+2008,BUL,Wrestling,Wrestling Gre-R,0,0,1
+2008,CAN,Aquatics,Diving,0,2,0
+2008,CAN,Aquatics,Swimming,0,0,1
+2008,CAN,Athletics,Athletics,0,0,1
+2008,CAN,Canoe / Kayak,Canoe / Kayak F,0,1,1
+2008,CAN,Equestrian,Jumping,1,2,0
+2008,CAN,Gymnastics,Trampoline,0,2,0
+2008,CAN,Rowing,Rowing,1,1,2
+2008,CAN,Taekwondo,Taekwondo,0,1,0
+2008,CAN,Triathlon,Triathlon,0,1,0
+2008,CAN,Wrestling,Wrestling Free.,1,0,1
+2008,CHI,Tennis,Tennis,0,1,0
+2008,CHN,Aquatics,Diving,7,1,3
+2008,CHN,Aquatics,Swimming,1,3,2
+2008,CHN,Aquatics,Synchronized S.,0,0,1
+2008,CHN,Archery,Archery,1,1,1
+2008,CHN,Athletics,Athletics,0,0,2
+2008,CHN,Badminton,Badminton,3,2,3
+2008,CHN,Boxing,Boxing,2,1,1
+2008,CHN,Canoe / Kayak,Canoe / Kayak F,1,0,0
+2008,CHN,Cycling,Cycling Track,0,0,1
+2008,CHN,Fencing,Fencing,1,1,0
+2008,CHN,Gymnastics,Artistic G.,9,1,4
+2008,CHN,Gymnastics,Rhythmic G.,0,1,0
+2008,CHN,Gymnastics,Trampoline,2,0,1
+2008,CHN,Hockey,Hockey,0,1,0
+2008,CHN,Judo,Judo,3,0,1
+2008,CHN,Rowing,Rowing,1,1,0
+2008,CHN,Sailing,Sailing,1,0,1
+2008,CHN,Shooting,Shooting,5,2,1
+2008,CHN,Table Tennis,Table Tennis,4,2,2
+2008,CHN,Taekwondo,Taekwondo,1,0,1
+2008,CHN,Tennis,Tennis,0,0,1
+2008,CHN,Volleyball,Beach volley.,0,1,1
+2008,CHN,Volleyball,Volleyball,0,0,1
+2008,CHN,Weightlifting,Weightlifting,8,1,0
+2008,CHN,Wrestling,Wrestling Free.,1,1,0
+2008,CHN,Wrestling,Wrestling Gre-R,0,1,0
+2008,CMR,Athletics,Athletics,1,0,0
+2008,COL,Weightlifting,Weightlifting,0,1,0
+2008,COL,Wrestling,Wrestling Free.,0,0,1
+2008,CRO,Athletics,Athletics,0,1,0
+2008,CRO,Gymnastics,Artistic G.,0,1,0
+2008,CRO,Shooting,Shooting,0,0,1
+2008,CRO,Taekwondo,Taekwondo,0,0,2
+2008,CUB,Athletics,Athletics,1,2,2
+2008,CUB,Baseball,Baseball,0,1,0
+2008,CUB,Boxing,Boxing,0,4,4
+2008,CUB,Cycling,Cycling Track,0,1,0
+2008,CUB,Judo,Judo,0,3,3
+2008,CUB,Shooting,Shooting,0,0,1
+2008,CUB,Taekwondo,Taekwondo,0,0,1
+2008,CUB,Wrestling,Wrestling Gre-R,1,0,0
+2008,CZE,Athletics,Athletics,1,0,0
+2008,CZE,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2008,CZE,Rowing,Rowing,0,1,0
+2008,CZE,Shooting,Shooting,2,1,0
+2008,DEN,Aquatics,Swimming,0,0,1
+2008,DEN,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2008,DEN,Cycling,Cycling Track,0,1,0
+2008,DEN,Equestrian,Dressage,0,0,2
+2008,DEN,Rowing,Rowing,1,0,1
+2008,DEN,Sailing,Sailing,1,0,0
+2008,DOM,Boxing,Boxing,1,0,0
+2008,DOM,Taekwondo,Taekwondo,0,1,0
+2008,ECU,Athletics,Athletics,0,1,0
+2008,EGY,Judo,Judo,0,0,1
+2008,ESP,Aquatics,Synchronized S.,0,2,0
+2008,ESP,Basketball,Basketball,0,1,0
+2008,ESP,Canoe / Kayak,Canoe / Kayak F,1,2,0
+2008,ESP,Cycling,Cycling Road,1,0,0
+2008,ESP,Cycling,Cycling Track,1,1,1
+2008,ESP,Fencing,Fencing,0,0,1
+2008,ESP,Gymnastics,Artistic G.,0,1,0
+2008,ESP,Handball,Handball,0,0,1
+2008,ESP,Hockey,Hockey,0,1,0
+2008,ESP,Sailing,Sailing,1,1,0
+2008,ESP,Tennis,Tennis,1,1,0
+2008,EST,Athletics,Athletics,1,0,0
+2008,EST,Rowing,Rowing,0,1,0
+2008,ETH,Athletics,Athletics,4,1,2
+2008,FIN,Athletics,Athletics,0,0,1
+2008,FIN,Rowing,Rowing,0,1,0
+2008,FIN,Shooting,Shooting,1,0,1
+2008,FRA,Aquatics,Swimming,1,2,3
+2008,FRA,Archery,Archery,0,0,1
+2008,FRA,Athletics,Athletics,0,1,1
+2008,FRA,Boxing,Boxing,0,2,1
+2008,FRA,Canoe / Kayak,Canoe / Kayak F,0,0,1
+2008,FRA,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2008,FRA,Cycling,BMX,1,1,0
+2008,FRA,Cycling,Cycling Track,0,1,1
+2008,FRA,Cycling,Mountain Bike,1,1,0
+2008,FRA,Fencing,Fencing,2,2,0
+2008,FRA,Gymnastics,Artistic G.,0,1,1
+2008,FRA,Handball,Handball,1,0,0
+2008,FRA,Judo,Judo,0,2,2
+2008,FRA,Rowing,Rowing,0,0,2
+2008,FRA,Sailing,Sailing,0,1,2
+2008,FRA,Shooting,Shooting,0,0,1
+2008,FRA,Taekwondo,Taekwondo,0,0,1
+2008,FRA,Weightlifting,Weightlifting,0,1,0
+2008,FRA,Wrestling,Wrestling Gre-R,1,0,1
+2008,GBR,Aquatics,Swimming,2,2,2
+2008,GBR,Athletics,Athletics,1,2,1
+2008,GBR,Boxing,Boxing,1,0,2
+2008,GBR,Canoe / Kayak,Canoe / Kayak F,1,0,1
+2008,GBR,Canoe / Kayak,Canoe / Kayak S,0,1,0
+2008,GBR,Cycling,Cycling Road,1,1,0
+2008,GBR,Cycling,Cycling Track,7,3,2
+2008,GBR,Equestrian,Eventing,0,0,3
+2008,GBR,Gymnastics,Artistic G.,0,0,1
+2008,GBR,Modern Pentathlon,Modern Pentath.,0,1,0
+2008,GBR,Rowing,Rowing,2,2,2
+2008,GBR,Sailing,Sailing,4,1,1
+2008,GBR,Taekwondo,Taekwondo,0,0,1
+2008,GEO,Judo,Judo,1,0,0
+2008,GEO,Shooting,Shooting,0,0,1
+2008,GEO,Wrestling,Wrestling Free.,1,0,2
+2008,GEO,Wrestling,Wrestling Gre-R,1,0,0
+2008,GER,Aquatics,Diving,0,1,1
+2008,GER,Aquatics,Swimming,2,0,1
+2008,GER,Athletics,Athletics,0,0,1
+2008,GER,Canoe / Kayak,Canoe / Kayak F,2,2,3
+2008,GER,Canoe / Kayak,Canoe / Kayak S,1,0,0
+2008,GER,Cycling,Cycling Track,0,1,1
+2008,GER,Cycling,Mountain Bike,1,0,0
+2008,GER,Equestrian,Dressage,1,1,1
+2008,GER,Equestrian,Eventing,3,0,0
+2008,GER,Fencing,Fencing,2,0,0
+2008,GER,Football,Football,0,0,1
+2008,GER,Gymnastics,Artistic G.,0,1,1
+2008,GER,Hockey,Hockey,1,0,0
+2008,GER,Judo,Judo,1,0,0
+2008,GER,Modern Pentathlon,Modern Pentath.,1,0,0
+2008,GER,Rowing,Rowing,0,1,1
+2008,GER,Sailing,Sailing,0,0,1
+2008,GER,Shooting,Shooting,0,1,3
+2008,GER,Table Tennis,Table Tennis,0,1,0
+2008,GER,Triathlon,Triathlon,1,0,0
+2008,GER,Weightlifting,Weightlifting,1,0,0
+2008,GER,Wrestling,Wrestling Gre-R,0,1,0
+2008,GRE,Athletics,Athletics,0,0,1
+2008,GRE,Rowing,Rowing,0,1,0
+2008,GRE,Sailing,Sailing,0,0,1
+2008,GRE,Taekwondo,Taekwondo,0,1,0
+2008,HUN,Aquatics,Swimming,0,3,0
+2008,HUN,Aquatics,Water polo,1,0,0
+2008,HUN,Canoe / Kayak,Canoe / Kayak F,2,1,1
+2008,HUN,Fencing,Fencing,0,0,1
+2008,HUN,Wrestling,Wrestling Gre-R,0,1,0
+2008,INA,Badminton,Badminton,1,2,1
+2008,INA,Weightlifting,Weightlifting,0,0,2
+2008,IND,Boxing,Boxing,0,0,1
+2008,IND,Shooting,Shooting,1,0,0
+2008,IND,Wrestling,Wrestling Free.,0,0,1
+2008,IRI,Taekwondo,Taekwondo,1,0,0
+2008,IRI,Wrestling,Wrestling Free.,0,0,1
+2008,IRL,Boxing,Boxing,0,1,2
+2008,ISL,Handball,Handball,0,1,0
+2008,ISR,Sailing,Sailing,0,0,1
+2008,ITA,Aquatics,Swimming,1,1,0
+2008,ITA,Archery,Archery,0,1,0
+2008,ITA,Athletics,Athletics,1,0,1
+2008,ITA,Boxing,Boxing,1,1,1
+2008,ITA,Canoe / Kayak,Canoe / Kayak F,0,1,1
+2008,ITA,Cycling,Cycling Road,0,0,1
+2008,ITA,Fencing,Fencing,2,0,5
+2008,ITA,Judo,Judo,1,0,0
+2008,ITA,Rowing,Rowing,0,1,0
+2008,ITA,Sailing,Sailing,0,1,1
+2008,ITA,Shooting,Shooting,1,2,0
+2008,ITA,Taekwondo,Taekwondo,0,1,0
+2008,ITA,Wrestling,Wrestling Gre-R,1,0,0
+2008,JAM,Athletics,Athletics,6,2,2
+2008,JPN,Aquatics,Swimming,2,0,3
+2008,JPN,Aquatics,Synchronized S.,0,0,1
+2008,JPN,Athletics,Athletics,0,0,1
+2008,JPN,Cycling,Cycling Track,0,0,1
+2008,JPN,Fencing,Fencing,0,1,0
+2008,JPN,Gymnastics,Artistic G.,0,2,0
+2008,JPN,Judo,Judo,4,1,2
+2008,JPN,Softball,Softball,1,0,0
+2008,JPN,Wrestling,Wrestling Free.,2,2,2
+2008,KAZ,Boxing,Boxing,1,0,1
+2008,KAZ,Judo,Judo,0,1,0
+2008,KAZ,Taekwondo,Taekwondo,0,0,1
+2008,KAZ,Weightlifting,Weightlifting,1,2,1
+2008,KAZ,Wrestling,Wrestling Free.,0,1,2
+2008,KAZ,Wrestling,Wrestling Gre-R,0,0,2
+2008,KEN,Athletics,Athletics,6,4,4
+2008,KGZ,Wrestling,Wrestling Gre-R,0,1,1
+2008,KOR,Aquatics,Swimming,1,1,0
+2008,KOR,Archery,Archery,2,2,1
+2008,KOR,Badminton,Badminton,2,1,1
+2008,KOR,Baseball,Baseball,1,0,0
+2008,KOR,Boxing,Boxing,0,0,1
+2008,KOR,Fencing,Fencing,0,1,0
+2008,KOR,Gymnastics,Artistic G.,0,1,0
+2008,KOR,Handball,Handball,0,0,1
+2008,KOR,Judo,Judo,1,2,1
+2008,KOR,Shooting,Shooting,1,1,0
+2008,KOR,Table Tennis,Table Tennis,0,0,2
+2008,KOR,Taekwondo,Taekwondo,4,0,0
+2008,KOR,Weightlifting,Weightlifting,2,1,0
+2008,KOR,Wrestling,Wrestling Gre-R,0,0,1
+2008,LAT,Athletics,Athletics,0,1,0
+2008,LAT,Cycling,BMX,1,0,0
+2008,LAT,Weightlifting,Weightlifting,0,0,1
+2008,LTU,Athletics,Athletics,0,0,1
+2008,LTU,Modern Pentathlon,Modern Pentath.,0,1,1
+2008,LTU,Sailing,Sailing,0,1,0
+2008,LTU,Wrestling,Wrestling Gre-R,0,0,1
+2008,MAR,Athletics,Athletics,0,1,1
+2008,MAS,Badminton,Badminton,0,1,0
+2008,MDA,Boxing,Boxing,0,0,1
+2008,MEX,Aquatics,Diving,0,0,1
+2008,MEX,Taekwondo,Taekwondo,2,0,0
+2008,MGL,Boxing,Boxing,1,1,0
+2008,MGL,Judo,Judo,1,0,0
+2008,MGL,Shooting,Shooting,0,1,0
+2008,MRI,Boxing,Boxing,0,0,1
+2008,NED,Aquatics,Swimming,2,0,0
+2008,NED,Aquatics,Water polo,1,0,0
+2008,NED,Cycling,Cycling Track,1,0,0
+2008,NED,Equestrian,Dressage,1,2,0
+2008,NED,Hockey,Hockey,1,0,0
+2008,NED,Judo,Judo,0,1,4
+2008,NED,Rowing,Rowing,1,1,0
+2008,NED,Sailing,Sailing,0,2,0
+2008,NGR,Athletics,Athletics,0,0,2
+2008,NGR,Football,Football,0,1,0
+2008,NGR,Taekwondo,Taekwondo,0,0,1
+2008,NOR,Aquatics,Swimming,0,1,1
+2008,NOR,Athletics,Athletics,1,1,0
+2008,NOR,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2008,NOR,Handball,Handball,1,0,0
+2008,NOR,Rowing,Rowing,1,0,0
+2008,NOR,Shooting,Shooting,0,1,0
+2008,NOR,Taekwondo,Taekwondo,0,1,0
+2008,NZL,Athletics,Athletics,1,1,0
+2008,NZL,Cycling,Cycling Track,0,1,1
+2008,NZL,Rowing,Rowing,1,0,2
+2008,NZL,Sailing,Sailing,1,0,0
+2008,NZL,Triathlon,Triathlon,0,0,1
+2008,PAN,Athletics,Athletics,1,0,0
+2008,POL,Athletics,Athletics,1,1,0
+2008,POL,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2008,POL,Cycling,Mountain Bike,0,1,0
+2008,POL,Fencing,Fencing,0,1,0
+2008,POL,Gymnastics,Artistic G.,1,0,0
+2008,POL,Rowing,Rowing,1,1,0
+2008,POL,Weightlifting,Weightlifting,0,1,0
+2008,POL,Wrestling,Wrestling Free.,0,0,1
+2008,POR,Athletics,Athletics,1,0,0
+2008,POR,Triathlon,Triathlon,0,1,0
+2008,PRK,Gymnastics,Artistic G.,1,0,0
+2008,PRK,Judo,Judo,0,1,2
+2008,PRK,Weightlifting,Weightlifting,1,0,1
+2008,ROU,Athletics,Athletics,1,0,0
+2008,ROU,Fencing,Fencing,0,1,1
+2008,ROU,Gymnastics,Artistic G.,1,0,1
+2008,ROU,Judo,Judo,1,0,0
+2008,ROU,Rowing,Rowing,1,0,1
+2008,RSA,Athletics,Athletics,0,1,0
+2008,RUS,Aquatics,Diving,0,3,2
+2008,RUS,Aquatics,Swimming,1,1,2
+2008,RUS,Aquatics,Synchronized S.,2,0,0
+2008,RUS,Archery,Archery,0,0,1
+2008,RUS,Athletics,Athletics,6,5,7
+2008,RUS,Basketball,Basketball,0,0,1
+2008,RUS,Boxing,Boxing,2,0,1
+2008,RUS,Canoe / Kayak,Canoe / Kayak F,1,1,0
+2008,RUS,Canoe / Kayak,Canoe / Kayak S,0,0,1
+2008,RUS,Cycling,Cycling Track,0,0,1
+2008,RUS,Cycling,Mountain Bike,0,0,1
+2008,RUS,Fencing,Fencing,1,0,0
+2008,RUS,Gymnastics,Artistic G.,0,0,2
+2008,RUS,Gymnastics,Rhythmic G.,2,0,0
+2008,RUS,Handball,Handball,0,1,0
+2008,RUS,Modern Pentathlon,Modern Pentath.,1,0,0
+2008,RUS,Shooting,Shooting,0,2,2
+2008,RUS,Tennis,Tennis,1,1,1
+2008,RUS,Volleyball,Volleyball,0,0,1
+2008,RUS,Weightlifting,Weightlifting,0,4,3
+2008,RUS,Wrestling,Wrestling Free.,3,2,2
+2008,RUS,Wrestling,Wrestling Gre-R,3,1,0
+2008,SIN,Table Tennis,Table Tennis,0,1,0
+2008,SLO,Aquatics,Swimming,0,1,0
+2008,SLO,Athletics,Athletics,1,0,0
+2008,SLO,Judo,Judo,0,0,1
+2008,SLO,Sailing,Sailing,0,1,0
+2008,SLO,Shooting,Shooting,0,0,1
+2008,SRB,Aquatics,Swimming,0,1,0
+2008,SRB,Aquatics,Water polo,0,0,1
+2008,SRB,Tennis,Tennis,0,0,1
+2008,SUD,Athletics,Athletics,0,1,0
+2008,SUI,Cycling,Cycling Road,1,0,2
+2008,SUI,Cycling,Mountain Bike,0,0,1
+2008,SUI,Equestrian,Jumping,0,0,2
+2008,SUI,Judo,Judo,0,0,1
+2008,SUI,Tennis,Tennis,1,0,0
+2008,SVK,Canoe / Kayak,Canoe / Kayak F,0,1,0
+2008,SVK,Canoe / Kayak,Canoe / Kayak S,3,0,0
+2008,SVK,Shooting,Shooting,0,1,0
+2008,SVK,Wrestling,Wrestling Free.,0,0,1
+2008,SWE,Cycling,Cycling Road,0,2,0
+2008,SWE,Equestrian,Jumping,0,1,0
+2008,SWE,Sailing,Sailing,0,0,1
+2008,SWE,Tennis,Tennis,0,1,0
+2008,THA,Boxing,Boxing,1,1,0
+2008,THA,Taekwondo,Taekwondo,0,1,0
+2008,THA,Weightlifting,Weightlifting,1,0,0
+2008,TJK,Judo,Judo,0,0,1
+2008,TJK,Wrestling,Wrestling Free.,0,1,0
+2008,TOG,Canoe / Kayak,Canoe / Kayak S,0,0,1
+2008,TPE,Taekwondo,Taekwondo,0,0,2
+2008,TPE,Weightlifting,Weightlifting,0,0,2
+2008,TRI,Athletics,Athletics,0,2,0
+2008,TUN,Aquatics,Swimming,1,0,0
+2008,TUR,Athletics,Athletics,0,2,0
+2008,TUR,Boxing,Boxing,0,0,1
+2008,TUR,Taekwondo,Taekwondo,0,1,1
+2008,TUR,Weightlifting,Weightlifting,0,1,0
+2008,TUR,Wrestling,Wrestling Free.,1,0,0
+2008,TUR,Wrestling,Wrestling Gre-R,0,0,1
+2008,UKR,Aquatics,Diving,0,0,1
+2008,UKR,Archery,Archery,1,0,0
+2008,UKR,Athletics,Athletics,1,1,3
+2008,UKR,Boxing,Boxing,1,0,1
+2008,UKR,Canoe / Kayak,Canoe / Kayak F,1,0,1
+2008,UKR,Cycling,Cycling Track,0,0,1
+2008,UKR,Fencing,Fencing,1,0,0
+2008,UKR,Gymnastics,Artistic G.,0,0,1
+2008,UKR,Gymnastics,Rhythmic G.,0,0,1
+2008,UKR,Judo,Judo,0,0,1
+2008,UKR,Modern Pentathlon,Modern Pentath.,0,0,1
+2008,UKR,Shooting,Shooting,2,1,0
+2008,UKR,Weightlifting,Weightlifting,0,1,1
+2008,UKR,Wrestling,Wrestling Free.,0,2,2
+2008,UKR,Wrestling,Wrestling Gre-R,0,0,1
+2008,USA,Aquatics,Swimming,12,9,10
+2008,USA,Aquatics,Water polo,0,2,0
+2008,USA,Athletics,Athletics,7,9,7
+2008,USA,Baseball,Baseball,0,0,1
+2008,USA,Basketball,Basketball,2,0,0
+2008,USA,Boxing,Boxing,0,0,1
+2008,USA,Cycling,BMX,0,1,2
+2008,USA,Cycling,Cycling Road,1,0,1
+2008,USA,Equestrian,Eventing,0,1,0
+2008,USA,Equestrian,Jumping,2,0,1
+2008,USA,Fencing,Fencing,1,3,2
+2008,USA,Football,Football,1,0,0
+2008,USA,Gymnastics,Artistic G.,2,6,2
+2008,USA,Judo,Judo,0,0,1
+2008,USA,Rowing,Rowing,1,1,1
+2008,USA,Sailing,Sailing,1,1,0
+2008,USA,Shooting,Shooting,2,2,2
+2008,USA,Softball,Softball,0,1,0
+2008,USA,Taekwondo,Taekwondo,0,1,2
+2008,USA,Tennis,Tennis,1,0,1
+2008,USA,Volleyball,Beach volley.,2,0,0
+2008,USA,Volleyball,Volleyball,1,1,0
+2008,USA,Wrestling,Wrestling Free.,1,0,1
+2008,USA,Wrestling,Wrestling Gre-R,0,0,1
+2008,UZB,Gymnastics,Artistic G.,0,0,1
+2008,UZB,Gymnastics,Trampoline,0,0,1
+2008,UZB,Judo,Judo,0,1,1
+2008,UZB,Wrestling,Wrestling Free.,1,1,0
+2008,VEN,Taekwondo,Taekwondo,0,0,1
+2008,VIE,Weightlifting,Weightlifting,0,1,0
+2008,ZIM,Aquatics,Swimming,1,3,0
+2012,,Wrestling,Wrestling Freestyle,0,1,0
+2012,AFG,Taekwondo,Taekwondo,0,0,1
+2012,ALG,Athletics,Athletics,1,0,0
+2012,ARG,Hockey,Hockey,0,1,0
+2012,ARG,Sailing,Sailing,0,0,1
+2012,ARG,Taekwondo,Taekwondo,1,0,0
+2012,ARG,Tennis,Tennis,0,0,1
+2012,ARM,Wrestling,Wrestling Freestyle,0,1,1
+2012,AUS,Aquatics,Diving,0,1,0
+2012,AUS,Aquatics,Swimming,1,6,3
+2012,AUS,Aquatics,Water Polo,0,0,1
+2012,AUS,Athletics,Athletics,2,1,0
+2012,AUS,Basketball,Basketball,0,0,1
+2012,AUS,Canoe,Canoe Slalom,0,1,0
+2012,AUS,Canoe,Canoe Sprint,1,0,0
+2012,AUS,Cycling,Cycling BMX,0,1,0
+2012,AUS,Cycling,Cycling Track,1,1,3
+2012,AUS,Hockey,Hockey,0,0,1
+2012,AUS,Rowing,Rowing,0,3,2
+2012,AUS,Sailing,Sailing,3,1,0
+2012,AUS,Triathlon,Triathlon,0,0,1
+2012,AZE,Boxing,Boxing,0,0,2
+2012,AZE,Weightlifting,Weightlifting,0,0,1
+2012,AZE,Wrestling,Wrestling Freestyle,2,2,3
+2012,BAH,Athletics,Athletics,1,0,0
+2012,BEL,Judo,Judo,0,0,1
+2012,BEL,Sailing,Sailing,0,0,1
+2012,BEL,Shooting,Shooting,0,1,0
+2012,BLR,Aquatics,Swimming,0,2,0
+2012,BLR,Canoe,Canoe Sprint,0,2,1
+2012,BLR,Gymnastics,Gymnastics Rhythmic,0,1,1
+2012,BLR,Shooting,Shooting,1,0,0
+2012,BLR,Tennis,Tennis,2,0,1
+2012,BOT,Athletics,Athletics,0,1,0
+2012,BRA,Aquatics,Swimming,0,1,1
+2012,BRA,Boxing,Boxing,0,1,2
+2012,BRA,Football,Football,0,1,0
+2012,BRA,Gymnastics,Gymnastics Artistic,1,0,0
+2012,BRA,Judo,Judo,1,0,3
+2012,BRA,Modern Pentathlon,Modern Pentathlon,0,0,1
+2012,BRA,Sailing,Sailing,0,0,1
+2012,BRA,Volleyball,Beach Volleyball,0,1,1
+2012,BRA,Volleyball,Volleyball,1,1,0
+2012,BRN,Athletics,Athletics,0,0,1
+2012,BUL,Boxing,Boxing,0,0,1
+2012,BUL,Wrestling,Wrestling Freestyle,0,1,0
+2012,CAN,Aquatics,Diving,0,0,2
+2012,CAN,Aquatics,Marathon swimming,0,0,1
+2012,CAN,Aquatics,Swimming,0,1,1
+2012,CAN,Athletics,Athletics,0,0,1
+2012,CAN,Canoe,Canoe Sprint,0,1,2
+2012,CAN,Cycling,Cycling Track,0,0,1
+2012,CAN,Football,Football,0,0,1
+2012,CAN,Gymnastics,Trampoline,1,0,0
+2012,CAN,Judo,Judo,0,0,1
+2012,CAN,Rowing,Rowing,0,2,0
+2012,CAN,Weightlifting,Weightlifting,0,0,1
+2012,CAN,Wrestling,Wrestling Freestyle,0,1,1
+2012,CHN,Aquatics,Diving,6,3,1
+2012,CHN,Aquatics,Swimming,5,2,3
+2012,CHN,Aquatics,Synchronized Swimming,0,1,1
+2012,CHN,Archery,Archery,0,1,1
+2012,CHN,Athletics,Athletics,1,4,4
+2012,CHN,Badminton,Badminton,4,3,1
+2012,CHN,Boxing,Boxing,1,1,1
+2012,CHN,Cycling,Cycling Track,0,2,1
+2012,CHN,Fencing,Fencing,2,0,1
+2012,CHN,Gymnastics,Gymnastics Artistic,4,3,1
+2012,CHN,Gymnastics,Trampoline,1,1,2
+2012,CHN,Judo,Judo,0,1,1
+2012,CHN,Modern Pentathlon,Modern Pentathlon,0,1,0
+2012,CHN,Rowing,Rowing,0,1,0
+2012,CHN,Sailing,Sailing,1,0,0
+2012,CHN,Shooting,Shooting,2,2,3
+2012,CHN,Table Tennis,Table Tennis,4,2,0
+2012,CHN,Taekwondo,Taekwondo,1,1,1
+2012,CHN,Weightlifting,Weightlifting,5,2,0
+2012,CHN,Wrestling,Wrestling Freestyle,0,1,0
+2012,CMR,Weightlifting,Weightlifting,0,0,1
+2012,COL,Athletics,Athletics,0,1,0
+2012,COL,Cycling,Cycling BMX,1,0,1
+2012,COL,Cycling,Cycling Road,0,1,0
+2012,COL,Judo,Judo,0,0,1
+2012,COL,Taekwondo,Taekwondo,0,0,1
+2012,COL,Weightlifting,Weightlifting,0,1,0
+2012,COL,Wrestling,Wrestling Freestyle,0,0,1
+2012,CRO,Aquatics,Water Polo,1,0,0
+2012,CRO,Athletics,Athletics,1,0,0
+2012,CRO,Handball,Handball,0,0,1
+2012,CRO,Rowing,Rowing,0,1,0
+2012,CRO,Shooting,Shooting,1,0,0
+2012,CRO,Taekwondo,Taekwondo,0,0,1
+2012,CUB,Athletics,Athletics,0,1,2
+2012,CUB,Boxing,Boxing,2,0,2
+2012,CUB,Judo,Judo,1,2,0
+2012,CUB,Shooting,Shooting,1,0,0
+2012,CUB,Taekwondo,Taekwondo,0,0,1
+2012,CUB,Weightlifting,Weightlifting,0,0,1
+2012,CUB,Wrestling,Wrestling Freestyle,1,0,1
+2012,CYP,Sailing,Sailing,0,1,0
+2012,CZE,Athletics,Athletics,1,0,2
+2012,CZE,Canoe,Canoe Slalom,0,1,0
+2012,CZE,Canoe,Canoe Sprint,0,0,1
+2012,CZE,Cycling,Mountain Bike,1,0,0
+2012,CZE,Modern Pentathlon,Modern Pentathlon,1,0,0
+2012,CZE,Rowing,Rowing,1,1,0
+2012,CZE,Shooting,Shooting,0,0,1
+2012,CZE,Tennis,Tennis,0,1,0
+2012,DEN,Badminton,Badminton,0,1,2
+2012,DEN,Cycling,Cycling Track,1,0,0
+2012,DEN,Rowing,Rowing,1,1,1
+2012,DEN,Sailing,Sailing,0,1,1
+2012,DEN,Shooting,Shooting,0,1,0
+2012,DOM,Athletics,Athletics,1,1,0
+2012,EGY,Fencing,Fencing,0,1,0
+2012,EGY,Weightlifting,Weightlifting,0,1,1
+2012,EGY,Wrestling,Wrestling Freestyle,0,1,0
+2012,ESP,Aquatics,Swimming,0,2,0
+2012,ESP,Aquatics,Synchronized Swimming,0,1,1
+2012,ESP,Aquatics,Water Polo,0,1,0
+2012,ESP,Basketball,Basketball,0,1,0
+2012,ESP,Canoe,Canoe Slalom,0,0,1
+2012,ESP,Canoe,Canoe Sprint,0,2,0
+2012,ESP,Handball,Handball,0,0,1
+2012,ESP,Sailing,Sailing,2,0,0
+2012,ESP,Taekwondo,Taekwondo,1,2,0
+2012,ESP,Triathlon,Triathlon,0,1,0
+2012,ESP,Weightlifting,Weightlifting,1,0,0
+2012,ESP,Wrestling,Wrestling Freestyle,0,0,1
+2012,EST,Athletics,Athletics,0,0,1
+2012,EST,Wrestling,Wrestling Freestyle,0,1,0
+2012,ETH,Athletics,Athletics,3,2,2
+2012,FIN,Athletics,Athletics,0,1,0
+2012,FIN,Sailing,Sailing,0,1,1
+2012,FRA,Aquatics,Swimming,4,2,1
+2012,FRA,Athletics,Athletics,1,1,1
+2012,FRA,Basketball,Basketball,0,1,0
+2012,FRA,Canoe,Canoe Slalom,2,0,0
+2012,FRA,Cycling,Cycling Track,0,3,0
+2012,FRA,Cycling,Mountain Bike,1,0,0
+2012,FRA,Gymnastics,Gymnastics Artistic,0,0,1
+2012,FRA,Handball,Handball,1,0,0
+2012,FRA,Judo,Judo,2,0,5
+2012,FRA,Rowing,Rowing,0,1,0
+2012,FRA,Sailing,Sailing,0,0,1
+2012,FRA,Shooting,Shooting,0,1,1
+2012,FRA,Taekwondo,Taekwondo,0,1,1
+2012,FRA,Tennis,Tennis,0,1,1
+2012,FRA,Wrestling,Wrestling Freestyle,0,0,1
+2012,GAB,Taekwondo,Taekwondo,0,1,0
+2012,GBR,Aquatics,Diving,0,0,1
+2012,GBR,Aquatics,Swimming,0,1,2
+2012,GBR,Athletics,Athletics,4,1,1
+2012,GBR,Boxing,Boxing,3,1,1
+2012,GBR,Canoe,Canoe Slalom,1,1,0
+2012,GBR,Canoe,Canoe Sprint,1,0,1
+2012,GBR,Cycling,Cycling Road,1,1,1
+2012,GBR,Cycling,Cycling Track,7,1,1
+2012,GBR,Equestrian,Dressage,3,0,1
+2012,GBR,Equestrian,Eventing,0,2,0
+2012,GBR,Equestrian,Jumping,1,0,0
+2012,GBR,Gymnastics,Gymnastics Artistic,0,1,3
+2012,GBR,Hockey,Hockey,0,0,1
+2012,GBR,Judo,Judo,0,1,1
+2012,GBR,Modern Pentathlon,Modern Pentathlon,0,1,0
+2012,GBR,Rowing,Rowing,4,2,3
+2012,GBR,Sailing,Sailing,1,4,0
+2012,GBR,Shooting,Shooting,1,0,0
+2012,GBR,Taekwondo,Taekwondo,1,0,1
+2012,GBR,Tennis,Tennis,1,2,0
+2012,GBR,Triathlon,Triathlon,1,0,1
+2012,GEO,Judo,Judo,1,0,0
+2012,GEO,Wrestling,Wrestling Freestyle,0,3,3
+2012,GER,Aquatics,Marathon swimming,0,1,0
+2012,GER,Athletics,Athletics,1,5,2
+2012,GER,Canoe,Canoe Slalom,0,1,1
+2012,GER,Canoe,Canoe Sprint,3,1,2
+2012,GER,Cycling,Cycling Road,0,2,0
+2012,GER,Cycling,Cycling Track,1,1,1
+2012,GER,Cycling,Mountain Bike,0,1,0
+2012,GER,Equestrian,Dressage,0,1,0
+2012,GER,Equestrian,Eventing,3,0,1
+2012,GER,Fencing,Fencing,0,1,1
+2012,GER,Gymnastics,Gymnastics Artistic,0,3,0
+2012,GER,Hockey,Hockey,1,0,0
+2012,GER,Judo,Judo,0,2,2
+2012,GER,Rowing,Rowing,2,1,0
+2012,GER,Table Tennis,Table Tennis,0,0,2
+2012,GER,Taekwondo,Taekwondo,0,0,1
+2012,GER,Volleyball,Beach Volleyball,1,0,0
+2012,GRE,Judo,Judo,0,0,1
+2012,GRE,Rowing,Rowing,0,0,1
+2012,GRN,Athletics,Athletics,1,0,0
+2012,GUA,Athletics,Athletics,0,1,0
+2012,HKG,Cycling,Cycling Track,0,0,1
+2012,HUN,Aquatics,Marathon swimming,1,0,0
+2012,HUN,Aquatics,Swimming,1,0,1
+2012,HUN,Athletics,Athletics,1,0,0
+2012,HUN,Canoe,Canoe Sprint,3,2,1
+2012,HUN,Fencing,Fencing,1,0,0
+2012,HUN,Gymnastics,Gymnastics Artistic,1,0,0
+2012,HUN,Judo,Judo,0,1,1
+2012,HUN,Modern Pentathlon,Modern Pentathlon,0,0,1
+2012,HUN,Wrestling,Wrestling Freestyle,0,1,2
+2012,INA,Weightlifting,Weightlifting,0,2,1
+2012,IND,Badminton,Badminton,0,0,1
+2012,IND,Boxing,Boxing,0,0,1
+2012,IND,Shooting,Shooting,0,1,1
+2012,IND,Wrestling,Wrestling Freestyle,0,1,1
+2012,IRI,Athletics,Athletics,0,1,0
+2012,IRI,Taekwondo,Taekwondo,0,1,0
+2012,IRI,Weightlifting,Weightlifting,2,3,0
+2012,IRI,Wrestling,Wrestling Freestyle,3,1,2
+2012,IRL,Athletics,Athletics,0,0,1
+2012,IRL,Boxing,Boxing,1,1,2
+2012,IRL,Equestrian,Jumping,0,0,1
+2012,ITA,Aquatics,Marathon swimming,0,0,1
+2012,ITA,Aquatics,Water Polo,0,1,0
+2012,ITA,Archery,Archery,1,0,0
+2012,ITA,Athletics,Athletics,0,0,1
+2012,ITA,Boxing,Boxing,0,2,1
+2012,ITA,Canoe,Canoe Slalom,1,0,0
+2012,ITA,Cycling,Mountain Bike,0,0,1
+2012,ITA,Fencing,Fencing,3,2,2
+2012,ITA,Gymnastics,Gymnastics Artistic,0,0,1
+2012,ITA,Gymnastics,Gymnastics Rhythmic,0,0,1
+2012,ITA,Judo,Judo,0,0,1
+2012,ITA,Rowing,Rowing,0,1,0
+2012,ITA,Shooting,Shooting,2,3,0
+2012,ITA,Taekwondo,Taekwondo,1,0,1
+2012,ITA,Volleyball,Volleyball,0,0,1
+2012,JAM,Athletics,Athletics,4,4,4
+2012,JPN,Aquatics,Swimming,0,3,8
+2012,JPN,Archery,Archery,0,1,1
+2012,JPN,Athletics,Athletics,0,0,1
+2012,JPN,Badminton,Badminton,0,1,0
+2012,JPN,Boxing,Boxing,1,0,1
+2012,JPN,Fencing,Fencing,0,1,0
+2012,JPN,Football,Football,0,1,0
+2012,JPN,Gymnastics,Gymnastics Artistic,1,2,0
+2012,JPN,Judo,Judo,1,3,3
+2012,JPN,Table Tennis,Table Tennis,0,1,0
+2012,JPN,Volleyball,Volleyball,0,0,1
+2012,JPN,Weightlifting,Weightlifting,0,1,0
+2012,JPN,Wrestling,Wrestling Freestyle,4,0,2
+2012,KAZ,Athletics,Athletics,1,0,0
+2012,KAZ,Boxing,Boxing,1,1,2
+2012,KAZ,Cycling,Cycling Road,1,0,0
+2012,KAZ,Weightlifting,Weightlifting,0,0,1
+2012,KAZ,Wrestling,Wrestling Freestyle,0,0,3
+2012,KEN,Athletics,Athletics,2,4,6
+2012,KOR,Aquatics,Swimming,0,2,0
+2012,KOR,Archery,Archery,3,0,1
+2012,KOR,Badminton,Badminton,0,0,1
+2012,KOR,Boxing,Boxing,0,1,0
+2012,KOR,Fencing,Fencing,2,1,3
+2012,KOR,Football,Football,0,0,1
+2012,KOR,Gymnastics,Gymnastics Artistic,1,0,0
+2012,KOR,Judo,Judo,2,0,1
+2012,KOR,Shooting,Shooting,3,2,0
+2012,KOR,Table Tennis,Table Tennis,0,1,0
+2012,KOR,Taekwondo,Taekwondo,1,1,0
+2012,KOR,Weightlifting,Weightlifting,0,0,2
+2012,KOR,Wrestling,Wrestling Freestyle,1,0,0
+2012,KSA,Equestrian,Jumping,0,0,1
+2012,KUW,Shooting,Shooting,0,0,1
+2012,LAT,Cycling,Cycling BMX,1,0,0
+2012,LAT,Volleyball,Beach Volleyball,0,0,1
+2012,LTU,Aquatics,Swimming,1,0,0
+2012,LTU,Boxing,Boxing,0,0,1
+2012,LTU,Canoe,Canoe Sprint,0,1,0
+2012,LTU,Modern Pentathlon,Modern Pentathlon,1,0,0
+2012,LTU,Wrestling,Wrestling Freestyle,0,0,1
+2012,MAR,Athletics,Athletics,0,0,1
+2012,MAS,Aquatics,Diving,0,0,1
+2012,MAS,Badminton,Badminton,0,1,0
+2012,MEX,Aquatics,Diving,0,2,1
+2012,MEX,Archery,Archery,0,1,1
+2012,MEX,Football,Football,1,0,0
+2012,MEX,Taekwondo,Taekwondo,0,0,1
+2012,MGL,Boxing,Boxing,0,1,1
+2012,MGL,Judo,Judo,0,1,1
+2012,MGL,Wrestling,Wrestling Freestyle,0,0,1
+2012,MNE,Handball,Handball,0,1,0
+2012,NED,Aquatics,Swimming,2,1,1
+2012,NED,Cycling,Cycling BMX,0,0,1
+2012,NED,Cycling,Cycling Road,1,0,0
+2012,NED,Cycling,Cycling Track,0,0,1
+2012,NED,Equestrian,Dressage,0,1,2
+2012,NED,Equestrian,Jumping,0,2,0
+2012,NED,Gymnastics,Gymnastics Artistic,1,0,0
+2012,NED,Hockey,Hockey,1,1,0
+2012,NED,Judo,Judo,0,0,2
+2012,NED,Rowing,Rowing,0,0,1
+2012,NED,Sailing,Sailing,1,1,1
+2012,NOR,Canoe,Canoe Sprint,1,0,0
+2012,NOR,Cycling,Cycling Road,0,0,1
+2012,NOR,Fencing,Fencing,0,1,0
+2012,NOR,Handball,Handball,1,0,0
+2012,NZL,Athletics,Athletics,1,0,0
+2012,NZL,Canoe,Canoe Sprint,1,0,0
+2012,NZL,Cycling,Cycling BMX,0,1,0
+2012,NZL,Cycling,Cycling Track,0,0,2
+2012,NZL,Equestrian,Eventing,0,0,2
+2012,NZL,Rowing,Rowing,3,0,2
+2012,NZL,Sailing,Sailing,1,1,0
+2012,POL,Athletics,Athletics,2,0,0
+2012,POL,Canoe,Canoe Sprint,0,0,1
+2012,POL,Rowing,Rowing,0,0,1
+2012,POL,Sailing,Sailing,0,0,2
+2012,POL,Shooting,Shooting,0,1,0
+2012,POL,Weightlifting,Weightlifting,1,0,1
+2012,POL,Wrestling,Wrestling Freestyle,0,0,1
+2012,POR,Canoe,Canoe Sprint,0,1,0
+2012,PRK,Judo,Judo,1,0,0
+2012,PRK,Weightlifting,Weightlifting,3,0,1
+2012,PRK,Wrestling,Wrestling Freestyle,0,0,1
+2012,PUR,Athletics,Athletics,0,0,1
+2012,PUR,Wrestling,Wrestling Freestyle,0,1,0
+2012,QAT,Athletics,Athletics,0,0,1
+2012,QAT,Shooting,Shooting,0,0,1
+2012,ROU,Fencing,Fencing,0,1,0
+2012,ROU,Gymnastics,Gymnastics Artistic,1,1,1
+2012,ROU,Judo,Judo,0,2,0
+2012,ROU,Shooting,Shooting,1,0,0
+2012,ROU,Weightlifting,Weightlifting,0,1,1
+2012,RSA,Aquatics,Swimming,2,1,0
+2012,RSA,Athletics,Athletics,0,1,0
+2012,RSA,Canoe,Canoe Sprint,0,0,1
+2012,RSA,Rowing,Rowing,1,0,0
+2012,RUS,Aquatics,Diving,1,1,0
+2012,RUS,Aquatics,Swimming,0,2,2
+2012,RUS,Aquatics,Synchronized Swimming,2,0,0
+2012,RUS,Athletics,Athletics,5,2,5
+2012,RUS,Badminton,Badminton,0,0,1
+2012,RUS,Basketball,Basketball,0,0,1
+2012,RUS,Boxing,Boxing,1,2,3
+2012,RUS,Canoe,Canoe Sprint,1,0,2
+2012,RUS,Cycling,Cycling Road,0,0,2
+2012,RUS,Fencing,Fencing,0,2,1
+2012,RUS,Gymnastics,Gymnastics Artistic,1,3,4
+2012,RUS,Gymnastics,Gymnastics Rhythmic,2,1,0
+2012,RUS,Gymnastics,Trampoline,0,1,0
+2012,RUS,Judo,Judo,3,1,1
+2012,RUS,Shooting,Shooting,0,0,1
+2012,RUS,Taekwondo,Taekwondo,0,0,2
+2012,RUS,Tennis,Tennis,0,1,1
+2012,RUS,Volleyball,Volleyball,1,0,0
+2012,RUS,Weightlifting,Weightlifting,0,2,1
+2012,RUS,Wrestling,Wrestling Freestyle,4,1,5
+2012,SGP,Table Tennis,Table Tennis,0,0,2
+2012,SLO,Athletics,Athletics,0,1,0
+2012,SLO,Judo,Judo,1,0,0
+2012,SLO,Rowing,Rowing,0,0,1
+2012,SLO,Shooting,Shooting,0,0,1
+2012,SRB,Aquatics,Water Polo,0,0,1
+2012,SRB,Shooting,Shooting,0,1,1
+2012,SRB,Taekwondo,Taekwondo,1,0,0
+2012,SUI,Cycling,Mountain Bike,0,1,0
+2012,SUI,Equestrian,Jumping,1,0,0
+2012,SUI,Tennis,Tennis,0,1,0
+2012,SUI,Triathlon,Triathlon,1,0,0
+2012,SVK,Canoe,Canoe Slalom,0,0,2
+2012,SVK,Shooting,Shooting,0,1,1
+2012,SWE,Equestrian,Eventing,0,1,0
+2012,SWE,Handball,Handball,0,1,0
+2012,SWE,Sailing,Sailing,1,0,1
+2012,SWE,Shooting,Shooting,0,1,0
+2012,SWE,Triathlon,Triathlon,0,1,0
+2012,SWE,Wrestling,Wrestling Freestyle,0,0,2
+2012,THA,Boxing,Boxing,0,1,0
+2012,THA,Taekwondo,Taekwondo,0,0,1
+2012,THA,Weightlifting,Weightlifting,0,1,1
+2012,TJK,Boxing,Boxing,0,0,1
+2012,TPE,Taekwondo,Taekwondo,0,0,1
+2012,TPE,Weightlifting,Weightlifting,1,0,0
+2012,TTO,Athletics,Athletics,1,1,2
+2012,TUN,Aquatics,Marathon swimming,1,0,0
+2012,TUN,Aquatics,Swimming,0,0,1
+2012,TUN,Athletics,Athletics,1,0,0
+2012,TUR,Athletics,Athletics,0,1,0
+2012,TUR,Taekwondo,Taekwondo,1,1,0
+2012,TUR,Wrestling,Wrestling Freestyle,0,0,1
+2012,UGA,Athletics,Athletics,1,0,0
+2012,UKR,Athletics,Athletics,0,0,2
+2012,UKR,Boxing,Boxing,2,1,2
+2012,UKR,Canoe,Canoe Sprint,1,2,0
+2012,UKR,Fencing,Fencing,1,0,1
+2012,UKR,Gymnastics,Gymnastics Artistic,0,0,1
+2012,UKR,Rowing,Rowing,1,0,0
+2012,UKR,Shooting,Shooting,0,0,2
+2012,UKR,Weightlifting,Weightlifting,1,0,1
+2012,UKR,Wrestling,Wrestling Freestyle,0,1,0
+2012,USA,Aquatics,Diving,1,1,2
+2012,USA,Aquatics,Marathon swimming,0,1,0
+2012,USA,Aquatics,Swimming,16,8,6
+2012,USA,Aquatics,Water Polo,1,0,0
+2012,USA,Archery,Archery,0,1,0
+2012,USA,Athletics,Athletics,9,12,7
+2012,USA,Basketball,Basketball,2,0,0
+2012,USA,Boxing,Boxing,1,0,1
+2012,USA,Cycling,Cycling Road,1,0,0
+2012,USA,Cycling,Cycling Track,0,2,0
+2012,USA,Cycling,Mountain Bike,0,0,1
+2012,USA,Fencing,Fencing,0,0,1
+2012,USA,Football,Football,1,0,0
+2012,USA,Gymnastics,Gymnastics Artistic,3,1,2
+2012,USA,Judo,Judo,1,0,1
+2012,USA,Rowing,Rowing,1,0,2
+2012,USA,Shooting,Shooting,3,0,1
+2012,USA,Taekwondo,Taekwondo,0,0,2
+2012,USA,Tennis,Tennis,3,0,2
+2012,USA,Volleyball,Beach Volleyball,1,1,0
+2012,USA,Volleyball,Volleyball,0,1,0
+2012,USA,Wrestling,Wrestling Freestyle,2,0,2
+2012,UZB,Boxing,Boxing,0,0,1
+2012,UZB,Judo,Judo,0,0,1
+2012,UZB,Wrestling,Wrestling Freestyle,1,0,0
+2012,VEN,Fencing,Fencing,1,0,0
