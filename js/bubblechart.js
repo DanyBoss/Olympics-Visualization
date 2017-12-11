@@ -83,29 +83,32 @@ function genBubblechart(update, isGoingLower) {
     
             // select the dataset to use according to the level we're in, 
             // and also update css global variables
+
+            var yearsText = (endYearFilter == initialYearFilter ? " in <strong>" + initialYearFilter + "</strong>" : 
+            "from <strong>" +  initialYearFilter + "</strong> to <strong>" + endYearFilter + "</strong>");
+            console.log(yearsText);
+
+
             switch(currentLevel) {
                 case 1:
                     sportFilter = "All";
                     currentFilterKeyword = "Sport";
                     $('#statelabel').html("<strong>" + countryName 
-                        + "</strong> on <strong> every Event </strong> from <strong>" + initialYearFilter 
-                        + "</strong> to <strong>" + endYearFilter + "</strong>");
+                        + "</strong> on <strong> every Event </strong>" + yearsText);
                     $('#back-icon').hide(250);
                     break;
                 case 2:
                     sportFilter = selectedNode.Sport;
                     currentFilterKeyword = "Discipline";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
-                        + sportFilter + "</strong> from <strong>" 
-                        + initialYearFilter + "</strong> to <strong>" + endYearFilter+ "</strong>");
+                        + sportFilter + "</strong>" + yearsText);
                     $('#back-icon').show(250);
                     break;
                 case 3:
                     disciplineFilter = selectedNode.Discipline;
                     currentFilterKeyword = "Event";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
-                        + disciplineFilter + "</strong> from <strong>" + initialYearFilter 
-                        + "</strong> to <strong>" + endYearFilter+ "</strong>");
+                        + disciplineFilter + "</strong>" + yearsText);
                     $('#back-icon').show(250);
                     break;
             }
@@ -252,7 +255,7 @@ function genBubblechart(update, isGoingLower) {
                 // restart the animation with a new alpha value
                 simulation.nodes(processedData)
                     .alpha(1)
-                    .alphaDecay(0.6)
+                    .alphaDecay(0.4)
                     .on('tick', ticked)
                     .restart();
     

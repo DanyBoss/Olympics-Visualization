@@ -1,7 +1,7 @@
 
 // generates the timeSlider in the vis
 function genTimeSlider() {
-    var margin = {top: 10, right: 50, bottom: 10, left: 25}
+    var margin = {top: 10, right: 50, bottom: 10, left: 30}
         width = $("#timeslider").width(),
         height = $("#timeslider").height();
 
@@ -19,7 +19,7 @@ function genTimeSlider() {
 
     var slider = svg.append("g")
         .attr("class", "slider")
-        .attr("transform", "translate(10,15)");
+        .attr("transform", "translate(15,15)");
 
     slider.append("line")
         .attr("class", "track")
@@ -46,8 +46,8 @@ function genTimeSlider() {
                 
                 // if both handles are the same year make them bigger
                 if(handle1.attr("cx") == handle2.attr("cx")){
-                    handle1.attr("r", 10);
-                    handle2.attr("r", 10);
+                    handle1.attr("r", 12);
+                    handle2.attr("r", 12);
                 }
 
                 selectedHandle = null;
@@ -62,7 +62,7 @@ function genTimeSlider() {
 
     slider.insert("g", ".track-overlay")
         .attr("class", "ticks unselectable")
-        .attr("transform", "translate(0," + 18 + ")")
+        .attr("transform", "translate(0," + 20 + ")")
         .selectAll("text")
         .data(xScale.ticks(years.length-1))
         .enter().append("text")

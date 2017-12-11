@@ -78,6 +78,8 @@ function changeTimeline(begin, end){
     if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)] ){
         initialYearFilter = years[Math.round(begin)];
         endYearFilter = years[Math.round(end)];
+
+        $("#header #statelabel").text("HELLOOOOO");
     
         genBubblechart(true, 0);
         updateLinechart();
