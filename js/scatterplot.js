@@ -103,7 +103,7 @@ function genScatterplot(update) {
             .key(function(d) { return d.Country; })
             .rollup(function(leaves) {
                     switch(currentLevel) {
-                        case 1:
+                        case 0:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year)){
@@ -112,7 +112,7 @@ function genScatterplot(update) {
                                 })
                             };
                             break;
-                        case 2:
+                        case 1:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter){
@@ -121,10 +121,19 @@ function genScatterplot(update) {
                                 })
                             };
                             break;
-                        case 3:
+                        case 2:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter){
+                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                    }
+                                })
+                            };
+                            break;
+                        case 3:
+                            return {
+                                "TotalMedals" : d3.sum(leaves, function(d) {
+                                    if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter){
                                         return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
                                     }
                                 })

@@ -1,5 +1,3 @@
-
-
 function genLinechart() {
     var margin = {top: 50, right: 50, bottom: 50, left: 50}
         width = $("#linechart").width() - margin.left - margin.right,
@@ -30,12 +28,20 @@ function genLinechart() {
         .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
         .curve(d3.curveMonotoneX); // apply smoothing to the line
 
-    // tooltip generator
+    // dots tooltip
     var tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
           return "<strong>" + d.value.TotalMedals + "</strong> Medals in <strong>" + d.key + "</strong>";
+        });
+
+    // line tooltip
+    var lineTip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function(d) {
+          return "<strong>" + d.key + "</strong>";
         });
 
     // start drawing the Linechart from the csv
@@ -60,12 +66,14 @@ function genLinechart() {
             })
             .map(data);
 
-            //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
-            for(var i = 0; i < years.length; i++){
-                if(!(processedData.get(countryFilter).has(years[i]))){
-                    processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
-                }
+        //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
+        for(var i = 0; i < years.length; i++){
+            if(!(processedData.get(countryFilter).has(years[i]))){
+                processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
             }
+        }
+
+        console.log(processedData.get(countryFilter));
 
         // automatically resize yScale according to max value of linechart
         yScale.domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
@@ -79,6 +87,7 @@ function genLinechart() {
     
         // initialize tooltip generator
         svg.call(tip);
+        svg.call(lineTip);
         
         // Call the x axis in a group tag
         svg.append("g")
@@ -175,17 +184,23 @@ function updateLinechart(){
                 return { 
                     "TotalMedals" : d3.sum(values, function(d) {
                         switch(currentLevel){
-                            case 1:
+                            case 0:
                                 return parseFloat(d.TotalMedals);
                                 break;
-                            case 2:
+                            case 1:
                                 if (d.Sport == sportFilter) { 
                                     return parseFloat(d.TotalMedals);
                                 }
                                     return parseFloat(0);
                                 break;
-                            case 3:
+                            case 2:
                                 if (d.Discipline == disciplineFilter) {
+                                    return parseFloat(d.TotalMedals);
+                                }
+                                    return parseFloat(0);
+                                break;
+                            case 3:
+                                if (d.Event == eventFilter) {
                                     return parseFloat(d.TotalMedals);
                                 }
                                     return parseFloat(0);
