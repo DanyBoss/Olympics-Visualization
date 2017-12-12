@@ -119,7 +119,8 @@ function genLinechart() {
 
         svg.append("path")
             .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
-            .attr("class", "line") // Assign a class for styling 
+            .attr("class", "line") // Assign a class for styling
+            .attr("stroke", function(d) {return color(countryFilter)})
             .attr("d", line); // Calls the line generator 
 
         // Appends a circle for each datapoint 
@@ -127,11 +128,11 @@ function genLinechart() {
             .data(processedData.get(countryFilter).entries().sort(descending))
             .enter().append("circle") // Uses the enter().append() method
             .attr("class", "dot") // Assign a class for styling
-            .attr("fill", function() { return getCSSColor('--linechart-dot-color') })
+            .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
             .attr("cx", function(d, i) { return xScale(i) })
             .attr("cy", function(d) { 
                 return yScale(d.value.TotalMedals) })
-            .attr("r", 5)
+            .attr("r", 8)
             .attr("opacity",1)
             .on('mouseover', function(d){
                 tip.show(d);
@@ -152,7 +153,7 @@ function genLinechart() {
                     .attr("stroke-width", 1);
             });
     });
-    updateLinechart();
+    
 };
 
 //updates linechart dots with a transition when called
@@ -239,6 +240,7 @@ function updateLinechart(){
             .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line
             .transition().duration(animationTime)
             .ease(d3.easeExp)
+            .attr("stroke", function(d) {return color(countryFilter)})
             .attr("d", lineGenerator); // Calls the line generator 
 
         var dots = svg.selectAll(".dot")
@@ -252,8 +254,8 @@ function updateLinechart(){
             })
             .attr("fill", function(d){
                 return (checkIfYearInInterval(d.key) ? 
-                    getCSSColor('--linechart-dot-highlight-color') 
-                    : getCSSColor('--linechart-dot-color'));
+                    d3.rgb(color(countryFilter))
+                    :  d3.rgb(color(countryFilter)).brighter());
             })
             .attr("opacity",function(d){
                 return (checkIfYearInInterval(d.key) ? 1 : 0.6);

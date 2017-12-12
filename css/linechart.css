@@ -14,7 +14,6 @@
 
 #linechart .line {
     fill: none;
-    stroke: var(--linechart-line-color);
     stroke-width: 3;
 }
 
