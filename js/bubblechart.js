@@ -93,28 +93,29 @@ function genBubblechart(update, isGoingLower) {
                     currentFilterKeyword = "Sport";
                     $('#statelabel').html("<strong>" + countryName 
                         + "</strong> on <strong> every Event </strong>" + yearsText);
-                    $('#back-icon').hide(250);
+                    $('#back-icon-container').hide();
                     break;
                 case 1:
                     sportFilter = selectedNode.Sport;
                     currentFilterKeyword = "Discipline";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
                         + sportFilter + "</strong>" + yearsText);
-                    $('#back-icon').show(250);
+                    $('#back-icon-container').show();
+                    $('#back-subtitle').text("All");
                     break;
                 case 2:
                     disciplineFilter = selectedNode.Discipline;
                     currentFilterKeyword = "Event";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
                         + disciplineFilter + "</strong>" + yearsText);
-                    $('#back-icon').show(250);
+                    $('#back-subtitle').text(sportFilter);
                     break;
                 case 3:
                     eventFilter = selectedNode.Event;
                     currentFilterKeyword = "Event";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
                         + eventFilter + "</strong>" + yearsText);
-                    $('#back-icon').show(250);
+                    $('#back-subtitle').text(disciplineFilter);
                     break;
             }
     

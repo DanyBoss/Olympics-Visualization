@@ -1,7 +1,8 @@
 :root {
     --main-dark-color:#333333;
     --main-white-color:#FCFBE3;
-    --main-bg-color:#E3E5E4;
+    --main-bg-color:#D2D4D3;
+    --old-main-bg-color: #E3E5E4;
 
     --main-dark-trans-color: rgba(51,51,51,0.9);
 

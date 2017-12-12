@@ -36,14 +36,6 @@ function genLinechart() {
           return "<strong>" + d.value.TotalMedals + "</strong> Medals in <strong>" + d.key + "</strong>";
         });
 
-    // line tooltip
-    var lineTip = d3.tip()
-        .attr('class', 'd3-tip')
-        .offset([-10, 0])
-        .html(function(d) {
-          return "<strong>" + d.key + "</strong>";
-        });
-
     // start drawing the Linechart from the csv
     d3.csv("csv/summer_year_country_event.csv", function(error, data) {
         if (error) throw error;
@@ -85,7 +77,6 @@ function genLinechart() {
     
         // initialize tooltip generator
         svg.call(tip);
-        svg.call(lineTip);
         
         // Call the x axis in a group tag
         svg.append("g")
