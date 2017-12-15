@@ -69,10 +69,10 @@ function genBubblechart(update, isGoingLower) {
     
             //check if currentLevel is possible [1,3]
             //early exit if not possible, and set the currentLevel to regular values
-            if( (1 > currentLevel || currentLevel > 3) ){
+            if( (0 > currentLevel || currentLevel > 3) ){
                 switch(currentLevel){
-                    case 0:
-                        currentLevel = 1;
+                    case -1:
+                        currentLevel = 0;
                         break;
                     case 4:
                         currentLevel = 3;
@@ -83,30 +83,39 @@ function genBubblechart(update, isGoingLower) {
     
             // select the dataset to use according to the level we're in, 
             // and also update css global variables
+
+            var yearsText = (endYearFilter == initialYearFilter ? " in <strong>" + initialYearFilter + "</strong>" : 
+            " from <strong>" +  initialYearFilter + "</strong> to <strong>" + endYearFilter + "</strong>");
+            
             switch(currentLevel) {
-                case 1:
+                case 0:
                     sportFilter = "All";
                     currentFilterKeyword = "Sport";
                     $('#statelabel').html("<strong>" + countryName 
-                        + "</strong> on <strong> every Event </strong> from <strong>" + initialYearFilter 
-                        + "</strong> to <strong>" + endYearFilter + "</strong>");
-                    $('#back-icon').hide(250);
+                        + "</strong> on <strong> every Event </strong>" + yearsText);
+                    $('#back-icon-container').hide();
                     break;
-                case 2:
+                case 1:
                     sportFilter = selectedNode.Sport;
                     currentFilterKeyword = "Discipline";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
-                        + sportFilter + "</strong> from <strong>" 
-                        + initialYearFilter + "</strong> to <strong>" + endYearFilter+ "</strong>");
-                    $('#back-icon').show(250);
+                        + sportFilter + "</strong>" + yearsText);
+                    $('#back-icon-container').show();
+                    $('#back-subtitle').text("All");
                     break;
-                case 3:
+                case 2:
                     disciplineFilter = selectedNode.Discipline;
                     currentFilterKeyword = "Event";
                     $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
-                        + disciplineFilter + "</strong> from <strong>" + initialYearFilter 
-                        + "</strong> to <strong>" + endYearFilter+ "</strong>");
-                    $('#back-icon').show(250);
+                        + disciplineFilter + "</strong>" + yearsText);
+                    $('#back-subtitle').text(sportFilter);
+                    break;
+                case 3:
+                    eventFilter = selectedNode.Event;
+                    currentFilterKeyword = "Event";
+                    $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
+                        + eventFilter + "</strong>" + yearsText);
+                    $('#back-subtitle').text(disciplineFilter);
                     break;
             }
     
@@ -131,21 +140,25 @@ function genBubblechart(update, isGoingLower) {
                 var filteredData = data.filter(function(d, i){
                     if(d["Country"] == countryFilter && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter){
                         switch(currentLevel){
-                            case 1:
+                            case 0: //all information
                                 return d;
                                 break;
-                            case 2:
+                            case 1: // Specific Sport
                                 if (d["Sport"] == sportFilter)
                                     return d;
                                 break;
-                            case 3:
+                            case 2: // Specific Discipline
                                 if  (d["Discipline"] == disciplineFilter)
                                     return d;
+                                break;
+                            case 3: // Specific Event
+                                if (d["Event"] == eventFilter)
+                                return d;
                                 break;
                         }
                     }
                 })
-    
+
                 // create a new array with adding up information from different years of the olympics using a specified filter
                 var processedData = [];
                 filteredData.forEach(function(d, i, filteredData){
@@ -201,7 +214,7 @@ function genBubblechart(update, isGoingLower) {
                             .attr("r", function(d){
                                 return radiusScale(d.TotalMedals) + offsetBetweenBubbles;
                             })
-                            .style("cursor", "pointer"); 
+                            .style("cursor", (currentLevel == 3 ? "default" : "pointer")); 
                         })
                     .on('mouseout', function(d){
                         tip.hide(d);
@@ -217,17 +230,19 @@ function genBubblechart(update, isGoingLower) {
                         tip.hide(d);
                         // update global variable
                         selectedNode = d;
-    
-                        drawBubbles(-1); //going deeper
-                        updateLinechart();
-                        genScatterplot(true);
+                        
+                        if(currentLevel != 3){
+                            drawBubbles(-1); //going deeper
+                            updateLinechart();
+                            genScatterplot(true);
+                        }
                     });
-    
+
                 // text labels that appear on top of the bubbles
                 var labels = bubbleGroup.append("text")
                     .attr("class","label unselectable")
                     .text(function(d){ 
-                        if((radiusScale(d.TotalMedals) < 30 && d[currentFilterKeyword].length > 6) || d[currentFilterKeyword].length > 15){
+                        if((radiusScale(d.TotalMedals) < 30 && d[currentFilterKeyword].length > 6) || d[currentFilterKeyword].length > 10){
                             return  d[currentFilterKeyword].substring(0, 4) + "...";
                         } else
                             return d[currentFilterKeyword]; 
@@ -252,7 +267,7 @@ function genBubblechart(update, isGoingLower) {
                 // restart the animation with a new alpha value
                 simulation.nodes(processedData)
                     .alpha(1)
-                    .alphaDecay(0.6)
+                    .alphaDecay(0.4)
                     .on('tick', ticked)
                     .restart();
     

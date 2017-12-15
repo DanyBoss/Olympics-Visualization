@@ -5,13 +5,26 @@
     background: var(--main-bg-color); 
 }
 
-#bubblechart #back-icon {
-    top: 70px;
-    left: 5px;
-    width: 48px;
+#bubblechart #back-icon-container {
     position: absolute;
+    top: 10%;
+    left: 2%;
     display: none;
     margin: auto;
+}
+
+#bubblechart #back-icon {
+    width: 48px;
+}
+
+#bubblechart #back-subtitle {
+    position:absolute;
+    left: 50%;
+    bottom: -7px;
+    font-size: 1em;
+    font-weight: bold;
+    white-space:nowrap;
+    
 }
 
 #bubblechart .label {

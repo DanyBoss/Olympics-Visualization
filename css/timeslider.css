@@ -1,14 +1,15 @@
 #timeslider {
     position: absolute;
-    width: 40%;
+    width: 95%;
     height: 50px;
-    left: 40%;
-    top: 10px;
+    left: 2.5%;
+    top: 4.5%;
     margin: 2px 2px 2px 2px;
 }
 
-#timeslider .ticks {
-    font: 10px 'Roboto', sans-serif;
+#timeslider .ticks text {
+    font: 12px 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 #timeslider .track,

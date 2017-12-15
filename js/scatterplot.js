@@ -12,13 +12,25 @@ function genScatterplot(update) {
     var xScale = d3.scaleLinear()
         .range([0, width]);
     
+
+    var xScale2 = d3.scaleLinear()
+        .range([0, width]);
+
     var yScale = d3.scaleLinear()
+        .range([height, 0]);
+
+    var yScale2 = d3.scaleLinear()
         .range([height, 0]);
 
     var xAxis = d3.axisBottom(xScale)
         .tickFormat(d3.format("s"));
 
     var yAxis = d3.axisLeft(yScale);
+
+    var zoom = d3.zoom()
+        .scaleExtent([1, 5])
+       // .translateExtent([[0, 0], [width, height]])
+        .on("zoom", zoomed);
 
     // tooltip generator
     var tip = d3.tip()
@@ -27,17 +39,8 @@ function genScatterplot(update) {
         .html(function(d) {
         return "<strong>" + convertIOCCodeToName(d.key) + "</strong> with <strong>" + d.value[1] + "</strong> Medals";
     });
-
-    var zoom = d3.zoom()
-        .scaleExtent([1, 5])
-        .on("zoom", zoomed);
     
-
-    // append the svg obgect to the body of the page
-    // appends a 'group' element to 'svg'
-    // moves the 'group' element to the top left margin
     if(update){
-
         if(checkIfTimelineIsBetween(1896, 1960)){
             alert("You tried picking an interval in which there is no Demographic information, Scatterplot will not update with this interval");
             return;
@@ -48,10 +51,10 @@ function genScatterplot(update) {
         var svg = d3.select("#scatterplot").append("svg")
             .attr("width", width + margin.right + 20)
             .attr("height", height + margin.top + margin.bottom)
-  //          .call(zoom)
+            //.call(zoom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+        
         svg.call(tip);
     }
     d3.queue(2)
@@ -66,15 +69,11 @@ function genScatterplot(update) {
             }
         });
 
-    function zoomed() {
+        function zoomed() {
             svg.select(".xAxis").call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
             svg.select(".yAxis").call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
 
             svg.selectAll(".dot").attr("transform", d3.event.transform);
-        }
-
-    function transform(d) {
-        return "translate(" + x(d.value[0]) + "," + y(d.value[1]) + ")";
         }
 
     function processData(population, countries){
@@ -104,7 +103,7 @@ function genScatterplot(update) {
             .key(function(d) { return d.Country; })
             .rollup(function(leaves) {
                     switch(currentLevel) {
-                        case 1:
+                        case 0:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year)){
@@ -113,7 +112,7 @@ function genScatterplot(update) {
                                 })
                             };
                             break;
-                        case 2:
+                        case 1:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter){
@@ -122,10 +121,19 @@ function genScatterplot(update) {
                                 })
                             };
                             break;
-                        case 3:
+                        case 2:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
                                     if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter){
+                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                    }
+                                })
+                            };
+                            break;
+                        case 3:
+                            return {
+                                "TotalMedals" : d3.sum(leaves, function(d) {
+                                    if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter){
                                         return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
                                     }
                                 })
@@ -153,7 +161,7 @@ function genScatterplot(update) {
         svg.append("g")
             .attr("class", "xAxis unselectable")
             .attr("transform", "translate(0," + height + ")")
-            .call(xAxis)
+            .call(xAxis);
         
         // text label for the x axis
         svg.append("text")
@@ -163,32 +171,32 @@ function genScatterplot(update) {
             .style("text-anchor", "middle")
             .text("Population");
     
+        // y axis
         svg.append("g")
             .attr("class", "yAxis unselectable")
-            .call(yAxis)
+            .call(yAxis);
         
         // text label for the y axis
         svg.append("text")
-           .attr("class", "axislabel unselectable")
-           .attr("transform", "rotate(-90)")
-           .attr("y", 0 - margin.left + 5)
-           .attr("x",0 - (height / 2))
-           .attr("dy", "1em")
-           .style("text-anchor", "middle")
-           .text("Medals");
+            .attr("class", "axislabel unselectable")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left + 5)
+            .attr("x",0 - (height / 2))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Medals");
 
         svg.selectAll("dot")
             .data(processedData.entries())
             .enter().append("circle")
             .attr("class", "dot") // Assign a class for styling
             .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
-            .attr("opacity", function(d) { return (d.key == countryFilter ? 1 : 0.3)})
+            .attr("opacity", function(d) { return (d.key == countryFilter ? 1 : 0.5)})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); })
             .style("fill", function(d) { return color(d.key); })
             .on('mouseover', function(d){
                 tip.show(d);
-                this.parentElement.appendChild(this); //make it be on top
                 d3.select(this).transition()
                     .ease(d3.easeElastic)
                     .duration(animationTime)
@@ -203,7 +211,6 @@ function genScatterplot(update) {
                 .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
                 .attr("stroke-width", 1);
             });
-
     };
 
     function updateScatterplot() {
@@ -221,17 +228,12 @@ function genScatterplot(update) {
             .ease(d3.easeExp)
             .call(xAxis); // Create an axis component with d3.axisLeft
 
-        var dots = svg.selectAll(".dot")
+        var dots =svg.selectAll(".dot")
             .data(processedData.entries())
 
         dots.transition()
             .duration(animationTime)
             .ease(d3.easeExp)
-            .on("end", function(d){
-                if(d.key == countryFilter){
-                    this.parentElement.appendChild(this);
-                }
-            })
             .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
             .attr("opacity", function(d) { return (d.key == countryFilter ? 1 : 0.3)})
             .attr("cx", function(d) { return xScale(d.value[0]); })

@@ -1,5 +1,3 @@
-
-
 function genLinechart() {
     var margin = {top: 50, right: 50, bottom: 50, left: 50}
         width = $("#linechart").width() - margin.left - margin.right,
@@ -30,7 +28,7 @@ function genLinechart() {
         .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
         .curve(d3.curveMonotoneX); // apply smoothing to the line
 
-    // tooltip generator
+    // dots tooltip
     var tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-10, 0])
@@ -60,12 +58,12 @@ function genLinechart() {
             })
             .map(data);
 
-            //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
-            for(var i = 0; i < years.length; i++){
-                if(!(processedData.get(countryFilter).has(years[i]))){
-                    processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
-                }
+        //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
+        for(var i = 0; i < years.length; i++){
+            if(!(processedData.get(countryFilter).has(years[i]))){
+                processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
             }
+        }
 
         // automatically resize yScale according to max value of linechart
         yScale.domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
@@ -112,7 +110,8 @@ function genLinechart() {
 
         svg.append("path")
             .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
-            .attr("class", "line") // Assign a class for styling 
+            .attr("class", "line") // Assign a class for styling
+            .attr("stroke", function(d) {return color(countryFilter)})
             .attr("d", line); // Calls the line generator 
 
         // Appends a circle for each datapoint 
@@ -120,11 +119,11 @@ function genLinechart() {
             .data(processedData.get(countryFilter).entries().sort(descending))
             .enter().append("circle") // Uses the enter().append() method
             .attr("class", "dot") // Assign a class for styling
-            .attr("fill", function() { return getCSSColor('--linechart-dot-color') })
+            .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
             .attr("cx", function(d, i) { return xScale(i) })
             .attr("cy", function(d) { 
                 return yScale(d.value.TotalMedals) })
-            .attr("r", 5)
+            .attr("r", 8)
             .attr("opacity",1)
             .on('mouseover', function(d){
                 tip.show(d);
@@ -145,7 +144,7 @@ function genLinechart() {
                     .attr("stroke-width", 1);
             });
     });
-    updateLinechart();
+    
 };
 
 //updates linechart dots with a transition when called
@@ -175,17 +174,23 @@ function updateLinechart(){
                 return { 
                     "TotalMedals" : d3.sum(values, function(d) {
                         switch(currentLevel){
-                            case 1:
+                            case 0:
                                 return parseFloat(d.TotalMedals);
                                 break;
-                            case 2:
+                            case 1:
                                 if (d.Sport == sportFilter) { 
                                     return parseFloat(d.TotalMedals);
                                 }
                                     return parseFloat(0);
                                 break;
-                            case 3:
+                            case 2:
                                 if (d.Discipline == disciplineFilter) {
+                                    return parseFloat(d.TotalMedals);
+                                }
+                                    return parseFloat(0);
+                                break;
+                            case 3:
+                                if (d.Event == eventFilter) {
                                     return parseFloat(d.TotalMedals);
                                 }
                                     return parseFloat(0);
@@ -226,6 +231,7 @@ function updateLinechart(){
             .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line
             .transition().duration(animationTime)
             .ease(d3.easeExp)
+            .attr("stroke", function(d) {return color(countryFilter)})
             .attr("d", lineGenerator); // Calls the line generator 
 
         var dots = svg.selectAll(".dot")
@@ -239,8 +245,8 @@ function updateLinechart(){
             })
             .attr("fill", function(d){
                 return (checkIfYearInInterval(d.key) ? 
-                    getCSSColor('--linechart-dot-highlight-color') 
-                    : getCSSColor('--linechart-dot-color'));
+                    d3.rgb(color(countryFilter))
+                    :  d3.rgb(color(countryFilter)).brighter());
             })
             .attr("opacity",function(d){
                 return (checkIfYearInInterval(d.key) ? 1 : 0.6);
