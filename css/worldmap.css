@@ -14,6 +14,9 @@
     stroke-width: 1px;
 }
 
+/* #worldmap .country-on {
+} */
+
 #worldmap .hidden { 
     display: none; 
 }
@@ -28,4 +31,9 @@
     border-radius: 4px;
     opacity: 0.9; 
     position: absolute;
+}
+
+#worldmap .non-selectable-country {
+    /* background-color: gray; */
+   /* fill: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px); */
 }

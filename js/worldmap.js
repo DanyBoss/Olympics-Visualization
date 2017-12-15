@@ -1,3 +1,8 @@
+var MAX_SELECTED_COUNTRIES = 5;
+var currentSelectedCountriesNumber = 0;
+var isZoomed = false;
+var NOT_SELECTED_COUNTRY_COLOR = "#b8b894"
+
 function genWorldMap() {
     // Define size of map group
     // Full world map is 2:1 ratio
@@ -6,7 +11,12 @@ function genWorldMap() {
         width = 2400,
         height = 1000,
         minZoom,
-        maxZoom;
+        maxZoom,
+        midX,
+        midY,
+        currentX,
+        currentY,
+        currentZoom;
 
     // Define map projection
     var projection = d3.geoMercator()
@@ -30,7 +40,7 @@ function genWorldMap() {
 
     function initiateZoom() {
         // Define a "minzoom" whereby the "Countries" is as small possible without leaving white space at top/bottom or sides  
-        minZoom = Math.max($("#worldmap").width() / width, $("#worldmap").height() / height);
+        minZoom = Math.max( 2 * $("#worldmap").width() / width, 2 * $("#worldmap").height() / height);
 
         maxZoom = 20 * minZoom;
 
@@ -62,6 +72,7 @@ function genWorldMap() {
         .attr("width", $("#worldmap").width()-10)
         .attr("height", $("#worldmap").height()-10)
         .attr("fill", "rgb(255,255,255)")
+        
         // add zoom functionality 
         .call(zoom);
 
@@ -69,6 +80,17 @@ function genWorldMap() {
         selection.each(function (d) { d.bbox = this.getBBox(); })
     }
 
+
+    svg.append('defs')
+    .append('pattern')
+      .attr('id', 'diagonalHatch')
+      .attr('patternUnits', 'userSpaceOnUse')
+      .attr('width', 4)
+      .attr('height', 4)
+      .append('path')
+      .attr('d', 'M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2')
+      .attr('stroke', '#000000')
+      .attr('stroke-width', 1);
     // get map data
     d3.json("js/worldmap/simple_map.json", function (json) {
         //Bind data and create one path per GeoJSON feature
@@ -90,9 +112,9 @@ function genWorldMap() {
             })
             .attr("fill", function(d) {
                 if (d3.select(this).classed("country"))
-                    return color(d.properties.iso_a3);
+                    return NOT_SELECTED_COUNTRY_COLOR;
                 else
-                    return "rgba(148, 148, 156, 0.692)"
+                    return "url(#diagonalHatch)";
             })
             // add a mouseover action to show name label for feature/country
             .on("mouseover", function (d) {
@@ -115,11 +137,17 @@ function genWorldMap() {
                     if (d3.event.shiftKey) {
                         if (d3.select(this).classed("country-on") == true) {
                             d3.select(this).classed("country-on", false);
+                            d3.select(this).attr("fill", function(d){
+                                return NOT_SELECTED_COUNTRY_COLOR;
+                            })
                             currentSelectedCountriesNumber--;
                         }
                         else {
                             if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
                                 d3.select(this).classed("country-on", true);
+                                d3.select(this).attr("fill", function(d){
+                                    return color(d.properties.name_long);
+                                })
                                 currentSelectedCountriesNumber++;
                             }
                         }
@@ -127,11 +155,33 @@ function genWorldMap() {
                     }
     
                     else {
-                        d3.selectAll(".country").classed("country-on", false);
-                        d3.select(this).classed("country-on", true);
-                        currentSelectedCountriesNumber = 1;
-                        boxZoom(path.bounds(d), path.centroid(d), 20);
-                        changeCountry(convertNameToIOCCode(d.properties.name_long));
+                        if (isZoomed && d3.select(this).classed("country-on")) {
+                            d3.selectAll(".country").classed("country-on", false);
+                            d3.selectAll(".country").attr("fill", function(d){
+                                return NOT_SELECTED_COUNTRY_COLOR;
+                            })
+                            d3.select(this).attr("fill", function(d){
+                                return "#d6d6c2";
+                            })
+                            zoomOut();
+                            isZoomed = false;
+                            currentSelectedCountriesNumber = 0;
+                        }
+                        else {
+                            d3.selectAll(".country").classed("country-on", false);
+                            d3.selectAll(".country").attr("fill", function(d){
+                                return NOT_SELECTED_COUNTRY_COLOR;
+                            })
+                            d3.select(this).classed("country-on", true);
+                            d3.select(this).attr("fill", function(d){
+                                return color(d.properties.name_long);
+                            })
+                            currentSelectedCountriesNumber = 1;
+                            boxZoom(path.bounds(d), path.centroid(d), 20);
+                            changeCountry(convertNameToIOCCode(d.properties.name_long));
+                            isZoomed = true;
+                        }
+                      
                     }
     
                 } 
@@ -140,25 +190,41 @@ function genWorldMap() {
     });
     // apply zoom to countriesGroup
     function zoomed() {
-        countriesGroup.attr("transform", d3.event.transform);
+        t = d3.event.transform;
+        countriesGroup.attr(
+            "transform", "translate(" + [t.x, t.y] + ")scale(" + t.k + ")"
+        );   
     }
+
+    function zoomOut() {
+        svg.transition()
+        .duration(500)
+        .call(zoom.transform, d3.zoomIdentity.translate(midX, midY).scale(minZoom));
+    };
 
     // zoom to show a bounding box, with optional additional padding as percentage of box size
     function boxZoom(box, centroid, paddingPerc) {
+        var svg_width = $("#worldmap").width() - 10;
+        var svg_height = $("#worldmap").height() - 10
+        
         minXY = box[0];
         maxXY = box[1];
+        
         // find size of map area defined
         zoomWidth = Math.abs(minXY[0] - maxXY[0]);
         zoomHeight = Math.abs(minXY[1] - maxXY[1]);
-        // find midpoint of map area defined
+       // find midpoint of map area defined
         zoomMidX = centroid[0];
         zoomMidY = centroid[1];
+        currentX = centroid[0];
+        currentY = centroid[1];
         // increase map area to include padding
         zoomWidth = zoomWidth * (1 + paddingPerc / 100);
         zoomHeight = zoomHeight * (1 + paddingPerc / 100);
+
         // find scale required for area to fill svg
-        maxXscale = $("svg").width() / zoomWidth;
-        maxYscale = $("svg").height() / zoomHeight;
+        maxXscale = svg_width / zoomWidth;
+        maxYscale = svg_height / zoomHeight;
         zoomScale = Math.min(maxXscale, maxYscale);
         // handle some edge cases
         // limit to max zoom (handles tiny countries)
@@ -168,13 +234,16 @@ function genWorldMap() {
         // Find screen pixel equivalent once scaled
         offsetX = zoomScale * zoomMidX;
         offsetY = zoomScale * zoomMidY;
+
         // Find offset to centre, making sure no gap at left or top of holder
-        dleft = Math.min(0, $("svg").width() / 2 - offsetX);
-        dtop = Math.min(0, $("svg").height() / 2 - offsetY);
+        dleft = Math.min(0, svg_width / 2 - offsetX);
+        dtop = Math.min(0, svg_height/ 2 - offsetY);
         // Make sure no gap at bottom or right of holder
-        dleft = Math.max($("svg").width() - width * zoomScale, dleft);
-        dtop = Math.max($("svg").height() - height * zoomScale, dtop);
+        dleft = Math.max(svg_width - width * zoomScale, dleft);
+        dtop = Math.max(svg_height - height * zoomScale, dtop);
         // set zoom
+
+        currentZoom = zoomScale;
         svg.transition()
             .duration(500)
             .call(zoom.transform,d3.zoomIdentity.translate(dleft, dtop).scale(zoomScale));
