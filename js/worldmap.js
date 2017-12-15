@@ -1,7 +1,7 @@
 var MAX_SELECTED_COUNTRIES = 5;
 var currentSelectedCountriesNumber = 0;
 var isZoomed = false;
-var NOT_SELECTED_COUNTRY_COLOR = "#b8b894"
+var NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
 
 function genWorldMap() {
     // Define size of map group
@@ -146,7 +146,7 @@ function genWorldMap() {
                             if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
                                 d3.select(this).classed("country-on", true);
                                 d3.select(this).attr("fill", function(d){
-                                    return color(d.properties.name_long);
+                                    return color(convertNameToIOCCode(d.properties.name_long));
                                 })
                                 currentSelectedCountriesNumber++;
                             }
@@ -161,7 +161,7 @@ function genWorldMap() {
                                 return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             d3.select(this).attr("fill", function(d){
-                                return "#d6d6c2";
+                                return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             zoomOut();
                             isZoomed = false;
@@ -174,7 +174,7 @@ function genWorldMap() {
                             })
                             d3.select(this).classed("country-on", true);
                             d3.select(this).attr("fill", function(d){
-                                return color(d.properties.name_long);
+                                return color(convertNameToIOCCode(d.properties.name_long));
                             })
                             currentSelectedCountriesNumber = 1;
                             boxZoom(path.bounds(d), path.centroid(d), 20);
