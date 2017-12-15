@@ -149,6 +149,8 @@ function genWorldMap() {
                                     return color(convertNameToIOCCode(d.properties.name_long));
                                 })
                                 currentSelectedCountriesNumber++;
+                            } else {
+                                alert("Max country selected reached, more can't be selected!");
                             }
                         }
                             
