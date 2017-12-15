@@ -1,6 +1,7 @@
 var MAX_SELECTED_COUNTRIES = 5;
 var currentSelectedCountriesNumber = 0;
 var isZoomed = false;
+var NOT_SELECTED_COUNTRY_COLOR = "#b8b894"
 
 function genWorldMap() {
     // Define size of map group
@@ -111,7 +112,7 @@ function genWorldMap() {
             })
             .attr("fill", function(d) {
                 if (d3.select(this).classed("country"))
-                    return "#000000";
+                    return NOT_SELECTED_COUNTRY_COLOR;
                 else
                     return "url(#diagonalHatch)";
             })
@@ -137,7 +138,7 @@ function genWorldMap() {
                         if (d3.select(this).classed("country-on") == true) {
                             d3.select(this).classed("country-on", false);
                             d3.select(this).attr("fill", function(d){
-                                return "#000000";
+                                return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             currentSelectedCountriesNumber--;
                         }
@@ -157,10 +158,10 @@ function genWorldMap() {
                         if (isZoomed && d3.select(this).classed("country-on")) {
                             d3.selectAll(".country").classed("country-on", false);
                             d3.selectAll(".country").attr("fill", function(d){
-                                return "#000000";
+                                return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             d3.select(this).attr("fill", function(d){
-                                return "#000000";
+                                return "#d6d6c2";
                             })
                             zoomOut();
                             isZoomed = false;
@@ -169,7 +170,7 @@ function genWorldMap() {
                         else {
                             d3.selectAll(".country").classed("country-on", false);
                             d3.selectAll(".country").attr("fill", function(d){
-                                return "#000000";
+                                return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             d3.select(this).classed("country-on", true);
                             d3.select(this).attr("fill", function(d){
