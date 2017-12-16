@@ -1,5 +1,5 @@
-var MAX_SELECTED_COUNTRIES = 5;
-var currentSelectedCountriesNumber = 0;
+var MAX_SELECTED_COUNTRIES = 4;
+var currentSelectedCountriesNumber = 1;
 var isZoomed = false;
 var NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
 
@@ -108,9 +108,15 @@ function genWorldMap() {
                 if(getCountryIDinDB(d.properties.name_long) == -1)
                     return "non-selectable-country";
                 else
-                    return "country";
+                    if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                        return "country country-on";
+                    } else 
+                        return "country";
             })
             .attr("fill", function(d) {
+                if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                    return color(convertNameToIOCCode(d.properties.name_long))
+                }
                 if (d3.select(this).classed("country"))
                     return NOT_SELECTED_COUNTRY_COLOR;
                 else
@@ -132,42 +138,12 @@ function genWorldMap() {
                 d3.select(this).attr("stroke", function() { return getCSSColor('--main-dark-color') });
                 tooltip.classed("hidden", true);
             })
-            .on("click", function (d, i) {
+            .on("click", function (d) {
                 if (d3.select(this).classed("country")){
-                    if (d3.event.shiftKey) {
-                        if (d3.select(this).classed("country-on") == true) {
-                            d3.select(this).classed("country-on", false);
-                            d3.select(this).attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
-                            currentSelectedCountriesNumber--;
-                        }
-                        else {
-                            if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
-                                d3.select(this).classed("country-on", true);
-                                d3.select(this).attr("fill", function(d){
-                                    return color(convertNameToIOCCode(d.properties.name_long));
-                                })
-                                currentSelectedCountriesNumber++;
-                            } else {
-                                alert("Max country selected reached, more can't be selected!");
-                            }
-                        }
-                            
-                    }
-    
-                    else {
+                    if(d3.event.ctrlKey) {
                         if (isZoomed && d3.select(this).classed("country-on")) {
-                            d3.selectAll(".country").classed("country-on", false);
-                            d3.selectAll(".country").attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
-                            d3.select(this).attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
                             zoomOut();
                             isZoomed = false;
-                            currentSelectedCountriesNumber = 0;
                         }
                         else {
                             d3.selectAll(".country").classed("country-on", false);
@@ -183,10 +159,30 @@ function genWorldMap() {
                             changeCountry(convertNameToIOCCode(d.properties.name_long));
                             isZoomed = true;
                         }
-                      
                     }
-    
-                } 
+                    if (!(countryFilter.length == 1 && countryFilter.includes(convertNameToIOCCode(d.properties.name_long)))) {
+                        if (d3.select(this).classed("country-on")) {
+                            d3.select(this).classed("country-on", false);
+                            d3.select(this).attr("fill", function(d){
+                                return NOT_SELECTED_COUNTRY_COLOR;
+                            })
+                            currentSelectedCountriesNumber--;
+                            removeCountryFromSelection(convertNameToIOCCode(d.properties.name_long));
+                        }
+                        else {
+                            if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
+                                d3.select(this).classed("country-on", true);
+                                d3.select(this).attr("fill", function(d){
+                                    return color(convertNameToIOCCode(d.properties.name_long));
+                                })
+                                currentSelectedCountriesNumber++;
+                                addCountryToSelection(convertNameToIOCCode(d.properties.name_long));
+                            } else {
+                                alert("Maximum number of countries selected is 4 and was reached!\nTo start a new group try Control + Left Click!");
+                            }
+                        }
+                    }
+                }
             });
         initiateZoom();
     });

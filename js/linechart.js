@@ -64,7 +64,7 @@ function genLinechart() {
                 processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
             }
         }
-
+        
         // automatically resize yScale according to max value of linechart
         yScale.domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
 
@@ -108,58 +108,74 @@ function genLinechart() {
             .style("text-anchor", "middle")
             .text("Medals");  
 
-        svg.append("path")
-            .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
-            .attr("class", "line") // Assign a class for styling
-            .attr("stroke", function(d) {return color(countryFilter)})
-            .attr("d", line); // Calls the line generator 
-
-        // Appends a circle for each datapoint 
-        svg.selectAll(".dot")
-            .data(processedData.get(countryFilter).entries().sort(descending))
-            .enter().append("circle") // Uses the enter().append() method
-            .attr("class", "dot") // Assign a class for styling
-            .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
-            .attr("cx", function(d, i) { return xScale(i) })
-            .attr("cy", function(d) { 
-                return yScale(d.value.TotalMedals) })
-            .attr("r", 8)
-            .attr("opacity",1)
-            .on('mouseover', function(d){
-                tip.show(d);
-                d3.select(this).transition()
-                    .ease(d3.easeElastic)
-                    .duration(animationTime)
-                    .attr("r", 10)
-                    .attr("stroke-width", 2);
+        // cicle to create the multiple lines/dots 
+        for(i = 0; i < 4; i++){
+            svg.append("path")
+                .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
+                .attr("class", function(d){
+                    return (i == 0 ? "line id"+i : "line id" + i +" hidden");
                 })
-            .on('mouseout', function(d){
-                tip.hide(d);
-                d3.select(this).transition()
-                    .ease(d3.easeElastic)
-                    .duration(animationTime)
-                    .attr("r", function(d){
-                        return (checkIfYearInInterval(d.key) ? 8 : 4);
+                .attr("stroke", function(d) {return color(countryFilter)})
+                .attr("d", line); // Calls the line generator 
+
+            // Appends a circle for each datapoint 
+            svg.selectAll(".dot id" + i)
+                .data(processedData.get(countryFilter).entries().sort(descending))
+                .enter().append("circle") // Uses the enter().append() method
+                .attr("class", function(d){
+                    return (i == 0 ? "dot id"+i : "dot id" + i +" hidden");
+                })
+                .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
+                .attr("cx", function(d, i) { return xScale(i) })
+                .attr("cy", function(d) { 
+                    return yScale(d.value.TotalMedals) })
+                .attr("r", 8)
+                .attr("opacity",1)
+                .on('mouseover', function(d){
+                    tip.show(d);
+                    d3.select(this).transition()
+                        .ease(d3.easeElastic)
+                        .duration(animationTime)
+                        .attr("r", 10)
+                        .attr("stroke-width", 2);
                     })
-                    .attr("stroke-width", 1);
-            });
+                .on('mouseout', function(d){
+                    tip.hide(d);
+                    d3.select(this).transition()
+                        .ease(d3.easeElastic)
+                        .duration(animationTime)
+                        .attr("r", function(d){
+                            return (checkIfYearInInterval(d.key) ? 8 : 4);
+                        })
+                        .attr("stroke-width", 1);
+                });
+            }
+
+        //initial vis state
+        setLineID("USA", 0);
     });
-    
 };
 
 //updates linechart dots with a transition when called
-function updateLinechart(){
+// if forceRefresh is true then the linechart will be refreshed
+function updateLinechart(forceRefresh = false){
     var margin = {top: 50, right: 50, bottom: 50, left: 50}
         width = $("#linechart").width() - margin.left - margin.right,
         height = $("#linechart").height() - margin.left - margin.right;
 
     // The number of olympics
     var n = 27;
+    var best_domain = [0 , 1];
 
     // linear xScale to draw the dots
     var xScale = d3.scaleLinear()
         .domain([0, n-1]) // input
         .range([0, width]); // output
+
+    var yScale = d3.scaleLinear()
+        .range([height, 0]);
+
+    var svg = d3.select("#linechart");
   
     d3.csv("csv/summer_year_country_event.csv", function(error, data) {
         data.forEach(function(d){
@@ -196,63 +212,87 @@ function updateLinechart(){
                                     return parseFloat(0);
                                 break;
                         }
-                     })
+                    })
                 };
             })
-            .map(data);
+        .map(data);
             
         // fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
-        for(var i = 0; i < years.length; i++){
-            if(!(processedData.get(countryFilter).has(years[i]))){
-                processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
+        countryFilter.forEach(function(element){
+            for(var i = 0; i < years.length; i++){
+                if(!(processedData.get(element).has(years[i]))){
+                    processedData.get(element).set(years[i], { TotalMedals:0 });
+                }
             }
-        }
-
-        // adjust y axis component
-        var YScale = d3.scaleLinear()
-            .domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]) // input 
-            .range([height, 0]); // output
+            
+            // adjust the y axis componenent with the bigger interval
+            if(best_domain[1] < d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; })[1]){
+                best_domain = d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; });
+                yScale.domain(best_domain).nice()
+            }
+        });
 
         // update line generator for new values
         var lineGenerator = d3.line()
             .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
-            .y(function(d) { return YScale(d.value.TotalMedals); }) // set the y values for the line generator 
+            .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
             .curve(d3.curveMonotoneX) // apply smoothing to the line
-
-        // update linechart in vis
-        var svg = d3.select("#linechart");
             
         svg.select(".yAxis")
             .transition().duration(animationTime)
             .ease(d3.easeExp)
-            .call(d3.axisLeft(YScale)); // Create an axis component with d3.axisLeft
+            .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
 
-        svg.select(".line")
-            .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line
-            .transition().duration(animationTime)
-            .ease(d3.easeExp)
-            .attr("stroke", function(d) {return color(countryFilter)})
-            .attr("d", lineGenerator); // Calls the line generator 
+        countryFilter.forEach(function(element){
+            //if element doesn't exist add it to the next open value
+            if(forceRefresh){
+                clearLineIDArray();
+                setNextFreeLineID(element);
+            } 
+            else if(getLineID(element) == -1){
+                setNextFreeLineID(element);
+            }
 
-        var dots = svg.selectAll(".dot")
-            .data(processedData.get(countryFilter).entries().sort(descending));
+            var currentCountryID = getLineID(element);
 
-        dots.transition()
-            .duration(animationTime)
-            .ease(d3.easeExp)
-            .attr("cy", function(d) {
-                return YScale(d.value.TotalMedals)
-            })
-            .attr("fill", function(d){
-                return (checkIfYearInInterval(d.key) ? 
-                    d3.rgb(color(countryFilter))
-                    :  d3.rgb(color(countryFilter)).brighter());
-            })
-            .attr("opacity",function(d){
-                return (checkIfYearInInterval(d.key) ? 1 : 0.6);
-            })
-            .attr("r", function(d){
-                return (checkIfYearInInterval(d.key) ? 8 : 4);
-            });
-    });
+            svg.select(".line.id" + currentCountryID)
+                .datum(processedData.get(element).entries().sort(descending)) // Binds data to the line
+                .transition().duration(animationTime)
+                .ease(d3.easeExp)
+                .attr("stroke", function(d) { return color(element)} )
+                .attr("d", lineGenerator); // Calls the line generator 
+
+            var dots = svg.selectAll(".dot.id" + currentCountryID)
+                .data(processedData.get(element).entries().sort(descending));
+
+            dots.transition()
+                .duration(animationTime)
+                .ease(d3.easeExp)
+                .attr("cy", function(d) {
+                    return yScale(d.value.TotalMedals)
+                })
+                .attr("fill", function(d){
+                    return (checkIfYearInInterval(d.key) ? 
+                        d3.rgb(color(element))
+                        :  d3.rgb(color(element)).brighter());
+                })
+                .attr("opacity",function(d){
+                    return (checkIfYearInInterval(d.key) ? 1 : 0.6);
+                })
+                .attr("r", function(d){
+                    return (checkIfYearInInterval(d.key) ? 8 : 4);
+                });
+
+        });
+    }) 
 };
+
+function hideLine(lineID){
+    d3.select("#linechart .line.id" + lineID).classed("hidden", true);
+    d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", true);
+}
+
+function showLine(lineID){
+    d3.select("#linechart .line.id" + lineID).classed("hidden", false)
+    d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", false);
+}
