@@ -138,10 +138,30 @@ function genWorldMap() {
                 d3.select(this).attr("stroke", function() { return getCSSColor('--main-dark-color') });
                 tooltip.classed("hidden", true);
             })
-            .on("click", function (d, i) {
+            .on("click", function (d) {
                 if (d3.select(this).classed("country")){
-                    if (d3.event.shiftKey) {
-                        if (d3.select(this).classed("country-on") == true && (countryFilter.length != 1)) {
+                    if(d3.event.ctrlKey) {
+                        if (isZoomed && d3.select(this).classed("country-on")) {
+                            zoomOut();
+                            isZoomed = false;
+                        }
+                        else {
+                            d3.selectAll(".country").classed("country-on", false);
+                            d3.selectAll(".country").attr("fill", function(d){
+                                return NOT_SELECTED_COUNTRY_COLOR;
+                            })
+                            d3.select(this).classed("country-on", true);
+                            d3.select(this).attr("fill", function(d){
+                                return color(convertNameToIOCCode(d.properties.name_long));
+                            })
+                            currentSelectedCountriesNumber = 1;
+                            boxZoom(path.bounds(d), path.centroid(d), 20);
+                            changeCountry(convertNameToIOCCode(d.properties.name_long));
+                            isZoomed = true;
+                        }
+                    }
+                    if (!(countryFilter.length == 1 && countryFilter.includes(convertNameToIOCCode(d.properties.name_long)))) {
+                        if (d3.select(this).classed("country-on")) {
                             d3.select(this).classed("country-on", false);
                             d3.select(this).attr("fill", function(d){
                                 return NOT_SELECTED_COUNTRY_COLOR;
@@ -158,41 +178,11 @@ function genWorldMap() {
                                 currentSelectedCountriesNumber++;
                                 addCountryToSelection(convertNameToIOCCode(d.properties.name_long));
                             } else {
-                                alert("Max country selected reached, more can't be selected!");
+                                alert("Maximum number of countries selected reached!\nTo start a new group try Control + Left Click!");
                             }
                         }
                     }
-                    else {
-                        if (isZoomed && d3.select(this).classed("country-on")) {
-                            d3.selectAll(".country").classed("country-on", false);
-                            d3.selectAll(".country").attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
-                            d3.select(this).attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
-                            zoomOut();
-                            isZoomed = false;
-                            currentSelectedCountriesNumber = 0;
-                        }
-                        else {
-                            d3.selectAll(".country").classed("country-on", false);
-                            d3.selectAll(".country").attr("fill", function(d){
-                                return NOT_SELECTED_COUNTRY_COLOR;
-                            })
-                            d3.select(this).classed("country-on", true);
-                            d3.select(this).attr("fill", function(d){
-                                return color(convertNameToIOCCode(d.properties.name_long));
-                            })
-                            currentSelectedCountriesNumber = 1;
-                            boxZoom(path.bounds(d), path.centroid(d), 20);
-                            changeCountry(convertNameToIOCCode(d.properties.name_long));
-                            isZoomed = true;
-                        }
-                      
-                    }
-    
-                } 
+                }
             });
         initiateZoom();
     });

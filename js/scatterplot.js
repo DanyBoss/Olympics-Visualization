@@ -184,9 +184,8 @@ function genScatterplot(update) {
         svg.selectAll("dot")
             .data(processedData.entries())
             .enter().append("circle")
-            .attr("class", "dot") // Assign a class for styling
+            .attr("class", function(d) { return (countryFilter.includes(d.key) ? "dot" : "dot hidden")})
             .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
-            .attr("opacity", function(d) { return (countryFilter.includes(d.key) ? 1 : 0)})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); })
             .style("fill", function(d) { return color(d.key); })
@@ -230,7 +229,7 @@ function genScatterplot(update) {
             .duration(animationTime)
             .ease(d3.easeExp)
             .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
-            .attr("opacity", function(d) { return (countryFilter.includes(d.key) ? 1 : 0)})
+            .attr("class", function(d) { return (countryFilter.includes(d.key) ? "dot" : "dot hidden")})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); });
     };

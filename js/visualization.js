@@ -3,8 +3,8 @@
 var selectedNode = null,
     currentLevel = 0,   // defines the deepness we're seeing in the vis (All = 0, Sport = 1; Discipline = 2; Event = 3)
     countryFilter = ["USA"],
-    countryLineIdentifier = [[null , 0],[null , 1],[null , 2],[null , 3]]
     countryName = "United States"
+    countryLineIdentifier = [["USA" , 0],[null , 1],[null , 2],[null , 3]]
     sportFilter = "All",
     disciplineFilter = "All",
     eventFilter = "All",
@@ -45,11 +45,13 @@ function loadDictionary(){
         if (error) throw error;
         
         color = d3.scaleOrdinal()
-        .domain(data)
-        .range(colorArray);
+             .domain(data)
+            .range(colorArray);
 
         dictionary = data;
     })
+
+
 };
 
 // return the country ID if it exists in the dictionary
@@ -69,6 +71,31 @@ function convertNameToIOCCode(countryName){
 // converts a IOC code to the country name
 function convertIOCCodeToName(iocCode){
     return dictionary[getCountryIDinDBByCode(iocCode)].CountryName;
+}
+
+function countryFilterToString(){
+    var result = "";
+
+    if(dictionary === null)
+        return "United States";
+
+    if(countryFilter.length == 1)
+        return convertIOCCodeToName(countryFilter[0]);
+
+    for(i = 0; i < countryFilter.length; i++){
+        result += convertIOCCodeToName(countryFilter[i])
+
+        if(countryFilter.length - i == 2){
+           result += " and "
+        } 
+        else if(countryFilter.length - i == 1){
+            result += ""
+        } else {
+            result += ", "
+        }
+    }
+
+    return result;
 }
 
 function changeCountry(country){
@@ -136,7 +163,6 @@ function removeLineID(country){
 function setLineID(country, id){
     countryLineIdentifier[id] = [country, id]
 }
-
 
 function changeTimeline(begin, end){
     //check if a update is necessary

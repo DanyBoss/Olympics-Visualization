@@ -108,10 +108,13 @@ function genLinechart() {
             .style("text-anchor", "middle")
             .text("Medals");  
 
+        // cicle to create the multiple lines/dots 
         for(i = 0; i < 4; i++){
             svg.append("path")
                 .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
-                .attr("class", "line id"+i) // Assign a class for styling
+                .attr("class", function(d){
+                    return (i == 0 ? "line id"+i : "line id" + i +" hidden");
+                })
                 .attr("stroke", function(d) {return color(countryFilter)})
                 .attr("d", line); // Calls the line generator 
 
@@ -119,7 +122,9 @@ function genLinechart() {
             svg.selectAll(".dot id" + i)
                 .data(processedData.get(countryFilter).entries().sort(descending))
                 .enter().append("circle") // Uses the enter().append() method
-                .attr("class", "dot id" + i) // Assign a class for styling
+                .attr("class", function(d){
+                    return (i == 0 ? "dot id"+i : "dot id" + i +" hidden");
+                })
                 .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
                 .attr("cx", function(d, i) { return xScale(i) })
                 .attr("cy", function(d) { 
@@ -145,6 +150,8 @@ function genLinechart() {
                         .attr("stroke-width", 1);
                 });
             }
+
+        //initial vis state
         setLineID("USA", 0);
     });
 };
@@ -158,7 +165,6 @@ function updateLinechart(forceRefresh = false){
 
     // The number of olympics
     var n = 27;
-
     var best_domain = [0 , 1];
 
     // linear xScale to draw the dots
@@ -219,7 +225,7 @@ function updateLinechart(forceRefresh = false){
                 }
             }
             
-            // adjust y axis component
+            // adjust the y axis componenent with the bigger interval
             if(best_domain[1] < d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; })[1]){
                 best_domain = d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; });
                 yScale.domain(best_domain).nice()
@@ -238,7 +244,6 @@ function updateLinechart(forceRefresh = false){
             .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
 
         countryFilter.forEach(function(element){
-
             //if element doesn't exist add it to the next open value
             if(forceRefresh){
                 clearLineIDArray();
@@ -282,22 +287,12 @@ function updateLinechart(forceRefresh = false){
     }) 
 };
 
-function toggleLine(number){
-    var line = d3.select("#linechart .line.id" + number);
-
-    if(line.classed("hidden")){
-        showLine(number);
-    } else {
-        hideLine(number);
-    }
+function hideLine(lineID){
+    d3.select("#linechart .line.id" + lineID).classed("hidden", true);
+    d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", true);
 }
 
-function hideLine(number){
-    d3.select("#linechart .line.id" + number).classed("hidden", true);
-    d3.selectAll("#linechart .dot.id" + number).classed("hidden", true);
-}
-
-function showLine(number){
-    d3.select("#linechart .line.id" + number).classed("hidden", false)
-    d3.selectAll("#linechart .dot.id" + number).classed("hidden", false);
+function showLine(lineID){
+    d3.select("#linechart .line.id" + lineID).classed("hidden", false)
+    d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", false);
 }

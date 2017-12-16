@@ -81,24 +81,23 @@ function genBubblechart(update, isGoingLower) {
                 return;
             }
     
-            // select the dataset to use according to the level we're in, 
             // and also update css global variables
-
             var yearsText = (endYearFilter == initialYearFilter ? " in <strong>" + initialYearFilter + "</strong>" : 
             " from <strong>" +  initialYearFilter + "</strong> to <strong>" + endYearFilter + "</strong>");
+            countryName = countryFilterToString();
             
             switch(currentLevel) {
                 case 0:
                     sportFilter = "All";
                     currentFilterKeyword = "Sport";
-                    $('#statelabel').html("<strong>" + countryFilter.toString() 
+                    $('#statelabel').html("<strong>" + countryName
                         + "</strong> on <strong> every Event </strong>" + yearsText);
                     $('#back-icon-container').hide();
                     break;
                 case 1:
                     sportFilter = selectedNode.Sport;
                     currentFilterKeyword = "Discipline";
-                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryName  + "</strong> on <strong>" 
                         + sportFilter + "</strong>" + yearsText);
                     $('#back-icon-container').show();
                     $('#back-subtitle').text("All");
@@ -106,14 +105,14 @@ function genBubblechart(update, isGoingLower) {
                 case 2:
                     disciplineFilter = selectedNode.Discipline;
                     currentFilterKeyword = "Event";
-                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryName  + "</strong> on <strong>" 
                         + disciplineFilter + "</strong>" + yearsText);
                     $('#back-subtitle').text(sportFilter);
                     break;
                 case 3:
                     eventFilter = selectedNode.Event;
                     currentFilterKeyword = "Event";
-                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryName  + "</strong> on <strong>" 
                         + eventFilter + "</strong>" + yearsText);
                     $('#back-subtitle').text(disciplineFilter);
                     break;
