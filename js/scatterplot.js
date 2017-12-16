@@ -41,11 +41,6 @@ function genScatterplot(update) {
     });
     
     if(update){
-        if(checkIfTimelineIsBetween(1896, 1960)){
-            alert("You tried picking an interval in which there is no Demographic information, Scatterplot will not update with this interval");
-            return;
-        }
-
         var svg = d3.select("#scatterplot");
     } else {
         var svg = d3.select("#scatterplot").append("svg")
@@ -58,7 +53,7 @@ function genScatterplot(update) {
         svg.call(tip);
     }
     d3.queue(2)
-        .defer(d3.csv, "csv/world_population.csv")
+        .defer(d3.csv, "csv/world_population_full.csv")
         .defer(d3.csv, "csv/summer_year_country_event.csv")
         .await(function(error, population, countries) {
             if (error) throw error;
@@ -190,8 +185,8 @@ function genScatterplot(update) {
             .data(processedData.entries())
             .enter().append("circle")
             .attr("class", "dot") // Assign a class for styling
-            .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
-            .attr("opacity", function(d) { return (d.key == countryFilter ? 1 : 0.5)})
+            .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
+            .attr("opacity", function(d) { return (countryFilter.includes(d.key) ? 1 : 0)})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); })
             .style("fill", function(d) { return color(d.key); })
@@ -200,7 +195,7 @@ function genScatterplot(update) {
                 d3.select(this).transition()
                     .ease(d3.easeElastic)
                     .duration(animationTime)
-                    .attr("r", function(d) { return (d.key == countryFilter ? 15 : 8)})
+                    .attr("r", function(d) { return (countryFilter.includes(d.key) ? 15 : 8)})
                     .attr("stroke-width", 2);
             })
             .on('mouseout', function(d){
@@ -208,7 +203,7 @@ function genScatterplot(update) {
                 d3.select(this).transition()
                 .ease(d3.easeElastic)
                 .duration(animationTime)
-                .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
+                .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
                 .attr("stroke-width", 1);
             });
     };
@@ -234,8 +229,8 @@ function genScatterplot(update) {
         dots.transition()
             .duration(animationTime)
             .ease(d3.easeExp)
-            .attr("r", function(d) { return (d.key == countryFilter ? 10 : 5)})
-            .attr("opacity", function(d) { return (d.key == countryFilter ? 1 : 0.3)})
+            .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
+            .attr("opacity", function(d) { return (countryFilter.includes(d.key) ? 1 : 0)})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); });
     };

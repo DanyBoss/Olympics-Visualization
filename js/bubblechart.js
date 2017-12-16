@@ -91,14 +91,14 @@ function genBubblechart(update, isGoingLower) {
                 case 0:
                     sportFilter = "All";
                     currentFilterKeyword = "Sport";
-                    $('#statelabel').html("<strong>" + countryName 
+                    $('#statelabel').html("<strong>" + countryFilter.toString() 
                         + "</strong> on <strong> every Event </strong>" + yearsText);
                     $('#back-icon-container').hide();
                     break;
                 case 1:
                     sportFilter = selectedNode.Sport;
                     currentFilterKeyword = "Discipline";
-                    $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
                         + sportFilter + "</strong>" + yearsText);
                     $('#back-icon-container').show();
                     $('#back-subtitle').text("All");
@@ -106,14 +106,14 @@ function genBubblechart(update, isGoingLower) {
                 case 2:
                     disciplineFilter = selectedNode.Discipline;
                     currentFilterKeyword = "Event";
-                    $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
                         + disciplineFilter + "</strong>" + yearsText);
                     $('#back-subtitle').text(sportFilter);
                     break;
                 case 3:
                     eventFilter = selectedNode.Event;
                     currentFilterKeyword = "Event";
-                    $('#statelabel').html("<strong>" + countryName + "</strong> on <strong>" 
+                    $('#statelabel').html("<strong>" + countryFilter.toString()  + "</strong> on <strong>" 
                         + eventFilter + "</strong>" + yearsText);
                     $('#back-subtitle').text(disciplineFilter);
                     break;
@@ -138,7 +138,7 @@ function genBubblechart(update, isGoingLower) {
     
                 // filter the data, first by year and then by Country
                 var filteredData = data.filter(function(d, i){
-                    if(d["Country"] == countryFilter && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter){
+                    if(countryFilter.includes(d["Country"]) && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter){
                         switch(currentLevel){
                             case 0: //all information
                                 return d;

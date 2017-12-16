@@ -1,5 +1,5 @@
-var MAX_SELECTED_COUNTRIES = 5;
-var currentSelectedCountriesNumber = 0;
+var MAX_SELECTED_COUNTRIES = 4;
+var currentSelectedCountriesNumber = 1;
 var isZoomed = false;
 var NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
 
@@ -108,9 +108,15 @@ function genWorldMap() {
                 if(getCountryIDinDB(d.properties.name_long) == -1)
                     return "non-selectable-country";
                 else
-                    return "country";
+                    if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                        return "country country-on";
+                    } else 
+                        return "country";
             })
             .attr("fill", function(d) {
+                if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                    return color(convertNameToIOCCode(d.properties.name_long))
+                }
                 if (d3.select(this).classed("country"))
                     return NOT_SELECTED_COUNTRY_COLOR;
                 else
@@ -135,12 +141,13 @@ function genWorldMap() {
             .on("click", function (d, i) {
                 if (d3.select(this).classed("country")){
                     if (d3.event.shiftKey) {
-                        if (d3.select(this).classed("country-on") == true) {
+                        if (d3.select(this).classed("country-on") == true && (countryFilter.length != 1)) {
                             d3.select(this).classed("country-on", false);
                             d3.select(this).attr("fill", function(d){
                                 return NOT_SELECTED_COUNTRY_COLOR;
                             })
                             currentSelectedCountriesNumber--;
+                            removeCountryFromSelection(convertNameToIOCCode(d.properties.name_long));
                         }
                         else {
                             if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
@@ -149,13 +156,12 @@ function genWorldMap() {
                                     return color(convertNameToIOCCode(d.properties.name_long));
                                 })
                                 currentSelectedCountriesNumber++;
+                                addCountryToSelection(convertNameToIOCCode(d.properties.name_long));
                             } else {
                                 alert("Max country selected reached, more can't be selected!");
                             }
                         }
-                            
                     }
-    
                     else {
                         if (isZoomed && d3.select(this).classed("country-on")) {
                             d3.selectAll(".country").classed("country-on", false);

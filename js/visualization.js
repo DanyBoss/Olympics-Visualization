@@ -2,7 +2,8 @@
 // global variables
 var selectedNode = null,
     currentLevel = 0,   // defines the deepness we're seeing in the vis (All = 0, Sport = 1; Discipline = 2; Event = 3)
-    countryFilter = "USA",
+    countryFilter = ["USA"],
+    countryLineIdentifier = [[null , 0],[null , 1],[null , 2],[null , 3]]
     countryName = "United States"
     sportFilter = "All",
     disciplineFilter = "All",
@@ -71,13 +72,71 @@ function convertIOCCodeToName(iocCode){
 }
 
 function changeCountry(country){
-    countryFilter = String(country);
+    countryFilter = [String(country)];
     countryName = convertIOCCodeToName(country);
+
+
+    genBubblechart(true, 0);
+    updateLinechart(true);
+    genScatterplot(true);
+};
+
+function addCountryToSelection(country){
+    
+    countryFilter.push(String(country));
 
     genBubblechart(true, 0);
     updateLinechart();
     genScatterplot(true);
-};
+}
+
+function removeCountryFromSelection(country){
+
+    countryFilter.splice(countryFilter.indexOf(String(country)), 1);
+    removeLineID(country);
+
+    genBubblechart(true, 0);
+    updateLinechart();
+    genScatterplot(true);
+
+}
+
+function clearLineIDArray(){
+    for(i = 0; i < countryLineIdentifier.length; i++){
+        countryLineIdentifier[i][0] = null;
+        hideLine(i);
+    }
+}
+
+function getLineID(country){
+    for(i = 0; i < countryLineIdentifier.length; i++){
+        if(countryLineIdentifier[i][0] === country){
+            return i;
+        }
+    }
+    return -1;
+}
+
+function setNextFreeLineID(country){
+    for(i = 0; i < countryLineIdentifier.length; i++){
+        if(countryLineIdentifier[i][0] === null){
+            setLineID(country, i);
+            showLine(i);
+            return i;
+        }
+    }
+    return -1;
+}
+
+function removeLineID(country){
+    hideLine(getLineID(country));
+    countryLineIdentifier[getLineID(country)][0] = null;
+}
+
+function setLineID(country, id){
+    countryLineIdentifier[id] = [country, id]
+}
+
 
 function changeTimeline(begin, end){
     //check if a update is necessary
