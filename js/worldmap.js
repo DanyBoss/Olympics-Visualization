@@ -108,13 +108,13 @@ function genWorldMap() {
                 if(getCountryIDinDB(d.properties.name_long) == -1)
                     return "non-selectable-country";
                 else
-                    if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                    if(d.properties.name_long == "France"){ //ugly hack for the initial state
                         return "country country-on";
                     } else 
                         return "country";
             })
             .attr("fill", function(d) {
-                if(d.properties.name_long == "United States"){ //ugly hack for the initial state
+                if(d.properties.name_long == "France"){ //ugly hack for the initial state
                     return color(convertNameToIOCCode(d.properties.name_long))
                 }
                 if (d3.select(this).classed("country"))
@@ -178,7 +178,7 @@ function genWorldMap() {
                                 currentSelectedCountriesNumber++;
                                 addCountryToSelection(convertNameToIOCCode(d.properties.name_long));
                             } else {
-                                alert("Maximum number of countries selected is 4 and was reached!\nTo start a new group try Control + Left Click!");
+                                alert("Maximum number of countries selected is 4 and was!\nTo start a new group try Control + Left Click!");
                             }
                         }
                     }

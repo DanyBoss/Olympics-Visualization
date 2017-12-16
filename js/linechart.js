@@ -152,7 +152,7 @@ function genLinechart() {
             }
 
         //initial vis state
-        setLineID("USA", 0);
+        setLineID("FRA", 0);
     });
 };
 

@@ -2,9 +2,9 @@
 // global variables
 var selectedNode = null,
     currentLevel = 0,   // defines the deepness we're seeing in the vis (All = 0, Sport = 1; Discipline = 2; Event = 3)
-    countryFilter = ["USA"],
-    countryName = "United States"
-    countryLineIdentifier = [["USA" , 0],[null , 1],[null , 2],[null , 3]]
+    countryFilter = ["FRA"],
+    countryName = "France"
+    countryLineIdentifier = [["FRA" , 0],[null , 1],[null , 2],[null , 3]]
     sportFilter = "All",
     disciplineFilter = "All",
     eventFilter = "All",
@@ -73,7 +73,7 @@ function countryFilterToString(){
     var result = "";
 
     if(dictionary === null)
-        return "United States";
+        return "France";
 
     if(countryFilter.length == 1)
         return convertIOCCodeToName(countryFilter[0]);
