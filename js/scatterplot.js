@@ -12,14 +12,7 @@ function genScatterplot(update) {
     var xScale = d3.scaleLinear()
         .range([0, width]);
     
-
-    var xScale2 = d3.scaleLinear()
-        .range([0, width]);
-
     var yScale = d3.scaleLinear()
-        .range([height, 0]);
-
-    var yScale2 = d3.scaleLinear()
         .range([height, 0]);
 
     var xAxis = d3.axisBottom(xScale)
@@ -28,9 +21,7 @@ function genScatterplot(update) {
     var yAxis = d3.axisLeft(yScale);
 
     var zoom = d3.zoom()
-        .scaleExtent([1, 5])
-       // .translateExtent([[0, 0], [width, height]])
-        .on("zoom", zoomed);
+        .scaleExtent([1, 5]);
 
     // tooltip generator
     var tip = d3.tip()
@@ -46,7 +37,6 @@ function genScatterplot(update) {
         var svg = d3.select("#scatterplot").append("svg")
             .attr("width", width + margin.right + 20)
             .attr("height", height + margin.top + margin.bottom)
-            //.call(zoom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
@@ -63,13 +53,6 @@ function genScatterplot(update) {
                 (update ? updateScatterplot() : drawScatterplot());
             }
         });
-
-        function zoomed() {
-            svg.select(".xAxis").call(xAxis.scale(d3.event.transform.rescaleX(xScale)));
-            svg.select(".yAxis").call(yAxis.scale(d3.event.transform.rescaleY(yScale)));
-
-            svg.selectAll(".dot").attr("transform", d3.event.transform);
-        }
 
     function processData(population, countries){
 
@@ -93,7 +76,7 @@ function genScatterplot(update) {
             })
         });
 
-        // calculate total ammount of medals won in the selected time interval
+        // calculate total amount of medals won in the selected time interval
         processedCountries = d3.nest()
             .key(function(d) { return d.Country; })
             .rollup(function(leaves) {
@@ -142,13 +125,9 @@ function genScatterplot(update) {
         processedPopulation.each(function(value,key) {
             processedData.set(String(key), [value, processedCountries.get(String(key)).TotalMedals]);
         });
-
-        //    console.log(processedPopulation.get("POR"));
-        //    console.log(processedCountries.get("POR").TotalMedals);
-
     }
-    function drawScatterplot() {
-        
+
+    function drawScatterplot() {    
         xScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[0]; })).nice();
         yScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[1]; })).nice();
 
@@ -208,7 +187,6 @@ function genScatterplot(update) {
     };
 
     function updateScatterplot() {
-
         xScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[0]; })).nice();
         yScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[1]; })).nice();
 

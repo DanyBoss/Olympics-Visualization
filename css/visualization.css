@@ -58,10 +58,11 @@ text {
 }
 
 #statelabel {
+    font-family: 'Montserrat';
+    font-size: 2vw;
     position: absolute;
     left: 0.5%;
     top: 0.3%;
-    font-size: 2vw;
 }
 
 /* Poput tip */
