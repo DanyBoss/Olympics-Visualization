@@ -20,7 +20,7 @@
 /* Axis Variables */
 
 #linechart .axislabel {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 12px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 #linechart text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     fill: var(--main-dark-color);
 }
 
