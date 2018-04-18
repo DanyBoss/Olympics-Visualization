@@ -241,7 +241,7 @@ function genBubblechart(update, isGoingLower) {
                 var labels = bubbleGroup.append("text")
                     .attr("class","label unselectable")
                     .text(function(d){  // function to rename long sport names to something digestable 
-                        if((radiusScale(d.TotalMedals) < 25 && d[currentFilterKeyword].length > 5) 
+                        if((radiusScale(d.TotalMedals) < 32 && d[currentFilterKeyword].length > 6) 
                             || d[currentFilterKeyword].length > 10){
                             return  d[currentFilterKeyword].substring(0, 4) + "...";
                         } else
