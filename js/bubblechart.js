@@ -240,8 +240,9 @@ function genBubblechart(update, isGoingLower) {
                 // text labels that appear on top of the bubbles
                 var labels = bubbleGroup.append("text")
                     .attr("class","label unselectable")
-                    .text(function(d){ 
-                        if((radiusScale(d.TotalMedals) < 30 && d[currentFilterKeyword].length > 6) || d[currentFilterKeyword].length > 10){
+                    .text(function(d){  // function to rename long sport names to something digestable 
+                        if((radiusScale(d.TotalMedals) < 25 && d[currentFilterKeyword].length > 5) 
+                            || d[currentFilterKeyword].length > 10){
                             return  d[currentFilterKeyword].substring(0, 4) + "...";
                         } else
                             return d[currentFilterKeyword]; 
