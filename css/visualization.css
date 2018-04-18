@@ -58,7 +58,7 @@ text {
 }
 
 #statelabel {
-    font-family: 'Montserrat';
+    font-family: 'Roboto', 'sans-serif';
     font-size: 2vw;
     position: absolute;
     left: 0.5%;
