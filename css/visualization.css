@@ -59,10 +59,9 @@ text {
 
 #statelabel {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 2vw;
+    font-size: 2.2vw;
     position: absolute;
-    left: 0.5%;
-    top: 0.3%;
+    left: 0.6%;
 }
 
 /* Poput tip */
