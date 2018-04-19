@@ -1,6 +1,5 @@
 # Olympics Visualization
 
-## Preview
 ![screenshot](https://raw.githubusercontent.com/DanyBoss/olympics-visualization/master/preview.png)
 [Live Version](https://danyboss.github.io/olympics/)
 
