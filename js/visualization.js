@@ -92,13 +92,15 @@ function convertIOCCodeToName(code){
 
 /** 
  * Returns the number of countries currently in the selection
+ * (basically not null values)
  * @returns {number} Number of countries (from 1 to 4)
  */
-function getNumberOfCountriesInSelection(){
+function getNumberOfCountriesInSelection() {
 	var number = 0;
-	countrySelection.forEach(function(element){
-		if(element === null)
-		    number++;	
+	countrySelection.forEach(function(element) {
+		if(element === null) {
+            number++;
+        }	
 	})
 	return countrySelection.length - number;
 }
@@ -107,7 +109,7 @@ function getNumberOfCountriesInSelection(){
  * Returns the first free position in the countrySelection array
  * @returns {number} Open Position or -1 if there is none
  */
-function getFirstOpenPositionInSelection(){
+function getFirstOpenPositionInSelection() {
 	for(i = 0; i<countrySelection.length; i++){
 		if(countrySelection[i] === null)
 			return i;
@@ -122,22 +124,26 @@ function getFirstOpenPositionInSelection(){
  * 
  * @returns {string} String
  */
-function countrySelectionToString(){
+function countrySelectionToString() {
+    
     var result = "";
 
 	// small hack to ensure correct first behaviour
-    if(dictionary === null)
-		return "France";
+    if(dictionary === null) {
+        return "France";
+    }
 
-	//if its
-    if(getNumberOfCountriesInSelection() == 1)
+	// if its a single country just return it
+    if(getNumberOfCountriesInSelection() == 1) {
         return convertIOCCodeToName(countrySelection[0]);
+    }
 
-    for(i = 0; i < getNumberOfCountriesInSelection(); i++){
+    for(i = 0; i < getNumberOfCountriesInSelection(); i++) {
 		
-		if(countrySelection[i] === null)
-			continue;
-		
+		if(countrySelection[i] === null) {
+            continue;
+        }
+
         result += convertIOCCodeToName(countriesArray[i])
 
         if(getNumberOfCountriesInSelection() - i == 2){
