@@ -23,7 +23,7 @@ function genBubblechart() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<font color=\"gold\"> <strong>" + d.GoldCount + "</strong> Gold Medals</font><br>" +
+            return "<font color=\"gold\"> <strong>" + d.GoldCount + "</strong> Gold Medals </font><br>" +
                     "<font color=\"silver\"> <strong>" + d.SilverCount + "</strong> Silver Medals </font>            on <strong>" + d[currentFilterKeyword] + "</strong><br>" +
                     "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong> Bronze Medals </font> <strong>";
         });
