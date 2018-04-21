@@ -60,13 +60,13 @@ function genLinechart() {
 
         //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
         for(var i = 0; i < years.length; i++){
-            if(!(processedData.get(countryFilter).has(years[i]))){
-                processedData.get(countryFilter).set(years[i], { TotalMedals:0 });
+            if(!(processedData.get(countrySelection[0]).has(years[i]))){
+                processedData.get(countrySelection[0]).set(years[i], { TotalMedals:0 });
             }
         }
         
         // automatically resize yScale according to max value of linechart
-        yScale.domain([0, (d3.max(processedData.get(countryFilter).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
+        yScale.domain([0, (d3.max(processedData.get(countrySelection[0]).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
 
         var svg = d3.select("#linechart")
             .append("svg")
@@ -111,21 +111,21 @@ function genLinechart() {
         // cicle to create the multiple lines/dots 
         for(i = 0; i < 4; i++){
             svg.append("path")
-                .datum(processedData.get(countryFilter).entries().sort(descending)) // Binds data to the line 
+                .datum(processedData.get(countrySelection[0]).entries().sort(descending)) // Binds data to the line 
                 .attr("class", function(d){
                     return (i == 0 ? "line id"+i : "line id" + i +" hidden");
                 })
-                .attr("stroke", function(d) {return color(countryFilter)})
+                .attr("stroke", function(d) {return color(countrySelection[0])})
                 .attr("d", line); // Calls the line generator 
 
             // Appends a circle for each datapoint 
             svg.selectAll(".dot id" + i)
-                .data(processedData.get(countryFilter).entries().sort(descending))
+                .data(processedData.get(countrySelection[0]).entries().sort(descending))
                 .enter().append("circle") // Uses the enter().append() method
                 .attr("class", function(d){
                     return (i == 0 ? "dot id"+i : "dot id" + i +" hidden");
                 })
-                .attr("fill", function(d){ return d3.rgb(color(countryFilter)) })
+                .attr("fill", function(d){ return d3.rgb(color(countrySelection[0])) })
                 .attr("cx", function(d, i) { return xScale(i) })
                 .attr("cy", function(d) { 
                     return yScale(d.value.TotalMedals) })
@@ -189,7 +189,7 @@ function updateLinechart(forceRefresh = false){
             .rollup(function(values) {
                 return { 
                     "TotalMedals" : d3.sum(values, function(d) {
-                        switch(currentLevel){
+                        switch(currentState){
                             case 0:
                                 return parseFloat(d.TotalMedals);
                                 break;
@@ -218,7 +218,11 @@ function updateLinechart(forceRefresh = false){
         .map(data);
             
         // fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
-        countryFilter.forEach(function(element){
+        countrySelection.forEach(function(element){
+            // we don't do anything to null element
+            if(element === null)
+                return;
+
             for(var i = 0; i < years.length; i++){
                 if(!(processedData.get(element).has(years[i]))){
                     processedData.get(element).set(years[i], { TotalMedals:0 });
@@ -237,13 +241,22 @@ function updateLinechart(forceRefresh = false){
             .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
             .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
             .curve(d3.curveMonotoneX) // apply smoothing to the line
+
+        var resetLineGenerator = d3.line()
+            .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
+            .y(function(d) { return 0 }) // set the y values for the line generator 
+            .curve(d3.curveMonotoneX) // apply smoothing to the line
             
         svg.select(".yAxis")
             .transition().duration(animationTime)
             .ease(d3.easeExp)
             .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
 
-        countryFilter.forEach(function(element){
+        countrySelection.forEach(function(element){
+             // we don't do anything to null element
+             if(element === null)
+                return;
+
             //if element doesn't exist add it to the next open value
             if(forceRefresh){
                 clearLineIDArray();

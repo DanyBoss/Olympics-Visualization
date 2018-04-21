@@ -8,7 +8,7 @@
 /* Axis Variables */
 
 #scatterplot .axislabel {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 12px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 #scatterplot text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     fill: var(--main-dark-color);
 }
 

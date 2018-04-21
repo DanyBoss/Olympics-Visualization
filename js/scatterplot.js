@@ -80,7 +80,7 @@ function genScatterplot(update) {
         processedCountries = d3.nest()
             .key(function(d) { return d.Country; })
             .rollup(function(leaves) {
-                    switch(currentLevel) {
+                    switch(currentState) {
                         case 0:
                             return {
                                 "TotalMedals" : d3.sum(leaves, function(d) {
@@ -163,8 +163,8 @@ function genScatterplot(update) {
         svg.selectAll("dot")
             .data(processedData.entries())
             .enter().append("circle")
-            .attr("class", function(d) { return (countryFilter.includes(d.key) ? "dot" : "dot hidden")})
-            .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
+            .attr("class", function(d) { return (countrySelection.includes(d.key) ? "dot" : "dot hidden")})
+            .attr("r", function(d) { return (countrySelection.includes(d.key) ? 10 : 5)})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); })
             .style("fill", function(d) { return color(d.key); })
@@ -173,7 +173,7 @@ function genScatterplot(update) {
                 d3.select(this).transition()
                     .ease(d3.easeElastic)
                     .duration(animationTime)
-                    .attr("r", function(d) { return (countryFilter.includes(d.key) ? 15 : 8)})
+                    .attr("r", function(d) { return (countrySelection.includes(d.key) ? 15 : 8)})
                     .attr("stroke-width", 2);
             })
             .on('mouseout', function(d){
@@ -181,7 +181,7 @@ function genScatterplot(update) {
                 d3.select(this).transition()
                 .ease(d3.easeElastic)
                 .duration(animationTime)
-                .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
+                .attr("r", function(d) { return (countrySelection.includes(d.key) ? 10 : 5)})
                 .attr("stroke-width", 1);
             });
     };
@@ -206,8 +206,8 @@ function genScatterplot(update) {
         dots.transition()
             .duration(animationTime)
             .ease(d3.easeExp)
-            .attr("r", function(d) { return (countryFilter.includes(d.key) ? 10 : 5)})
-            .attr("class", function(d) { return (countryFilter.includes(d.key) ? "dot" : "dot hidden")})
+            .attr("r", function(d) { return (countrySelection.includes(d.key) ? 10 : 5)})
+            .attr("class", function(d) { return (countrySelection.includes(d.key) ? "dot" : "dot hidden")})
             .attr("cx", function(d) { return xScale(d.value[0]); })
             .attr("cy", function(d) { return yScale(d.value[1]); });
     };

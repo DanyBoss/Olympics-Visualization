@@ -1,4 +1,3 @@
-
 // generates the timeSlider in the vis
 function genTimeSlider() {
     var margin = {top: 10, right: 50, bottom: 10, left: 30}
