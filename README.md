@@ -1,14 +1,13 @@
 # Olympics Visualization
 
 ![screenshot](https://raw.githubusercontent.com/DanyBoss/olympics-visualization/master/preview.png)
-Preview of the visualization
-
 [Live Version](https://danyboss.github.io/olympics/)
 
 ## About
-Olympics Visualization is a web visualization of Olympic data.
+Olympics Visualization is a web visualization of Olympic data from 1896 until 2012. 
+It currrently only features data from the Summer Olympics, but adding data from Winter Olympics is planned for the future.
 
-This visualization was made as a project for the Information Visualization course at Lisbon Técnico.
+This visualization was initially made as a project for the Information Visualization course at Lisbon Técnico but turned into a hobby of mine.
 
 ## Credits
-This visualization is only made thanks to [D3.js](https://d3js.org/) and [JQuery](https://jquery.com/)
+This visualization is made using HTML5, JS with help of [D3.js](https://d3js.org/) and [JQuery](https://jquery.com/)
