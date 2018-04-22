@@ -23,9 +23,12 @@ function genBubblechart() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<font color=\"gold\"> <strong>" + d.GoldCount + "</strong> Gold Medals </font><br>" +
-                    "<font color=\"silver\"> <strong>" + d.SilverCount + "</strong> Silver Medals </font>            on <strong>" + d[currentFilterKeyword] + "</strong><br>" +
-                    "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong> Bronze Medals </font> <strong>";
+            return  "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
+                    "<center>" + 
+                    "<font color=#FFD700> <strong>" + d.GoldCount   + "</strong>🥇 </font>" +
+                    "<font color=#C0C0C0> <strong>" + d.SilverCount + "</strong>🥈 </font>" +
+                    "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong>🥉 </font>" +
+                    "</center>";
         });
 
     updateBubblechart();

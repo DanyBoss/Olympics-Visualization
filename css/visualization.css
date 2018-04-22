@@ -24,7 +24,6 @@ html, body {
 }
 
 text {
-    font: 10px sans-serif;
     font-family: 'Open Sans', sans-serif;
     color: var(--main-dark-color);
 }
@@ -67,12 +66,12 @@ text {
 /* Poput tip */
 .d3-tip {
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.3em;
     font-family: 'Open Sans', sans-serif;
-    padding: 12px;
+    padding: 10px;
     background: var(--main-dark-trans-color); 
     color: #fff;
-    border-radius: 4px;
+    border-radius: 7px;
 }
    
 /* Creates a small triangle extender for the tooltip */

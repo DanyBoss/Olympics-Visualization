@@ -29,6 +29,7 @@
 
 #bubblechart .label {
     fill: var(--main-dark-color) !important;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     text-anchor: middle;
     font-weight: bold;
