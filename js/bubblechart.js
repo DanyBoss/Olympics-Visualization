@@ -30,7 +30,7 @@ function genBubblechart() {
                     "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong>🥉 </font>" +
                     "</center>";
         });
-
+        
     updateBubblechart();
 }
 
@@ -53,8 +53,9 @@ function updateBubblechart() {
         //.force("x", d3.forceX().strength(0.05))
         //.force("y", d3.forceY().strength(0.05))
         .force("center_force", centerForce)
-        .force("collide", d3.forceCollide(function(d){
-            return radiusScale(d.TotalMedals) + offsetBetweenBubbles;
+        .force("collide", d3.forceCollide(
+            function(d){
+                return radiusScale(d.TotalMedals) + offsetBetweenBubbles;
             })
         );
 

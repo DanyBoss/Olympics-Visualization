@@ -1,6 +1,4 @@
 var MAX_SELECTED_COUNTRIES = 4;
-var currentSelectedCountriesNumber = 1;
-var isZoomed = false;
 
 var ALERT_MESSAGE = "You can't select more countries!\nTo start a new group from scratch try Control + Left Click"
 var NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
@@ -157,9 +155,8 @@ function genWorldMap() {
             .on("click", function (d) {
                 if (d3.select(this).classed("country")) {
                     if(d3.event.ctrlKey) {
-                        if (isZoomed && d3.select(this).classed("country-on")) {
+                        if (d3.select(this).classed("country-on")) {
                             zoomOut();
-                            isZoomed = false;
                         }
                         else {
                             d3.selectAll(".country").classed("country-on", false)
@@ -174,9 +171,7 @@ function genWorldMap() {
 
                             
                             boxZoom(path.bounds(d), path.centroid(d), 20);
-                            isZoomed = true;
 
-                            currentSelectedCountriesNumber = 1;
                             changeSelectedCountry(d.properties.name_long);
                         }
                     }
@@ -188,17 +183,14 @@ function genWorldMap() {
                                 return NOT_SELECTED_COUNTRY_COLOR;
                             });
 
-                            currentSelectedCountriesNumber--;
                             removeCountryFromSelection(d.properties.name_long);
                         }
                         else {
-                            if (currentSelectedCountriesNumber < MAX_SELECTED_COUNTRIES) {
+                            if (getNumberOfCountriesInSelection() < MAX_SELECTED_COUNTRIES) {
                                 d3.select(this).classed("country-on", true)
-                                    .attr("fill", function(d){
-                                    return color(convertNameToIOCCode(d.properties.name_long));
-                                });
-
-                                currentSelectedCountriesNumber++;
+                                    .attr("fill", function(d) {
+                                        return color(convertNameToIOCCode(d.properties.name_long));
+                                    });
                                 addCountryToSelection(d.properties.name_long);
                             } else {
                                 alert(ALERT_MESSAGE);
