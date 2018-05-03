@@ -48,7 +48,6 @@ $(document).ready(function() {
  * ctrl+click on map, default = false)
 */
 function updateDashboardState(nextState, initialUpdate = false, linechartRefresh = false) {
-
     switch(nextState){
         case -1:
             if(++currentState > 3) {
@@ -67,17 +66,18 @@ function updateDashboardState(nextState, initialUpdate = false, linechartRefresh
     }
 
     if(initialUpdate) {
-        genTimeSlider();
+        TimeSlider.initialize();
 
-        genBubblechart();
-        genLinechart();
-        genWorldMap();
-        genScatterplot();
+        Bubblechart.initialize();
+        WorldMap.initialize();
+
+        Linechart.initialize();
+        Scatterplot.initialize();
 
     } else {
-        updateBubblechart();
-        updateLinechart(linechartRefresh);
-        genScatterplot(true);
+        Bubblechart.update();
+        Linechart.update(linechartRefresh);
+        Scatterplot.update();
     }
 
     let yearsText = 
@@ -307,7 +307,7 @@ function removeCountryFromSelection(countryName){
 function clearLineIDArray(){
     for(i = 0; i < countryLineIdentifier.length; i++){
         countryLineIdentifier[i][0] = null;
-        hideLine(i);
+        Linechart.hideLine(i);
     }
 }
 
@@ -338,7 +338,7 @@ function setNextFreeLineID(iocCode){
     for(i = 0; i < countryLineIdentifier.length; i++){
         if(countryLineIdentifier[i][0] === null){
 			setLineID(iocCode, i);
-			showLine(i);
+			Linechart.showLine(i);
             return i;
         }
     }
@@ -346,7 +346,7 @@ function setNextFreeLineID(iocCode){
 }
 
 function removeLineID(country){
-    hideLine(getLineID(country));
+    Linechart.hideLine(getLineID(country));
     countryLineIdentifier[getLineID(country)][0] = null;
 }
 
