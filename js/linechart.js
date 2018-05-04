@@ -119,7 +119,7 @@ var Linechart = (function(){
                     .attr("class", function(d){
                         return (i == 0 ? "line id"+i : "line id" + i +" hidden");
                     })
-                    .attr("stroke", function(d) {return color(countrySelection[0])})
+                    .attr("stroke", function(d) {return getColor(countrySelection[0])})
                     .attr("d", line);
                 
                 // Dots in Line.
@@ -129,7 +129,7 @@ var Linechart = (function(){
                     .attr("class", function(d){
                         return (i == 0 ? "dot id"+i : "dot id" + i +" hidden");
                     })
-                    .attr("fill", function(d){ return d3.rgb(color(countrySelection[0])) })
+                    .attr("fill", function(d){ return d3.rgb(getColor(countrySelection[0])) })
                     .attr("cx", function(d, i) { return xScale(i) })
                     .attr("cy", function(d) { 
                         return yScale(d.value.TotalMedals) })
@@ -253,7 +253,7 @@ var Linechart = (function(){
                     .datum(processedData.get(element).entries().sort(descending))
                     .transition().duration(animationTime)
                     .ease(d3.easeExp)
-                    .attr("stroke", function(d) { return color(element)} )
+                    .attr("stroke", function(d) { return getColor(element)} )
                     .attr("d", lineGenerator);
 
                 svg.selectAll(".dot.id" + currentCountryID)
@@ -266,8 +266,8 @@ var Linechart = (function(){
                     })
                     .attr("fill", function(d){
                         return (checkIfYearInInterval(d.key) ? 
-                            d3.rgb(color(element))
-                            :  d3.rgb(color(element)).brighter());
+                            d3.rgb(getColor(element))
+                            :  d3.rgb(getColor(element)).brighter());
                     })
                     .attr("opacity",function(d){
                         return (checkIfYearInInterval(d.key) ? 1 : 0.6);

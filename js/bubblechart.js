@@ -44,8 +44,8 @@ var Bubblechart = (function() {
         // about where we want our circles to go
         // and how we want our circles to react
         simulation = d3.forceSimulation()
-            .force("x", d3.forceX(width).strength(.1).x(width / 2))
-            .force("y", d3.forceY(height).strength(.1).y(height / 2))
+            .force("x", d3.forceX(width).strength(.05).x(width / 2))
+            .force("y", d3.forceY(height).strength(.05).y(height / 2))
             .force("center_force", d3.forceCenter().x(width / 2).y(height / 2))
             .force("charge", d3.forceManyBody().strength(-15));
             
@@ -144,7 +144,7 @@ var Bubblechart = (function() {
                     return radiusScale(d.TotalMedals);
                 })
                 .attr("fill", function(d) {
-                    return color(d[currentFilterKeyword]);
+                    return eventsColors(Math.random());
                 })
                 .attr("stroke", function() { return getCSSColor('--main-dark-color') })
                 .attr("stroke-width", "2")

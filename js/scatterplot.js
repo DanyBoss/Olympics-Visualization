@@ -82,7 +82,7 @@ var Scatterplot = (function(){
                 .attr("r", function(d) { return (countrySelection.includes(d.key) ? 10 : 5)})
                 .attr("cx", function(d) { return xScale(d.value[0]); })
                 .attr("cy", function(d) { return yScale(d.value[1]); })
-                .style("fill", function(d) { return color(d.key); })
+                .style("fill", function(d) { return getColor(d.key); })
                 .on('mouseover', function(d){
                     tip.show(d);
                     d3.select(this).transition()
@@ -128,7 +128,8 @@ var Scatterplot = (function(){
                 .attr("r", function(d) { return (countrySelection.includes(d.key) ? 10 : 5)})
                 .attr("class", function(d) { return (countrySelection.includes(d.key) ? "dot" : "dot hidden")})
                 .attr("cx", function(d) { return xScale(d.value[0]); })
-                .attr("cy", function(d) { return yScale(d.value[1]); });
+                .attr("cy", function(d) { return yScale(d.value[1]); })
+                .style("fill", function(d) { return getColor(d.key); });
         });
     };
 

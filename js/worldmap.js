@@ -126,7 +126,7 @@ var WorldMap = (function(){
                     if (d3.select(this).classed("non-selectable-country")) {
                         return "url(#diagonalHatch)";
                     } if (d3.select(this).classed("country country-on")) {
-                        return color(convertNameToIOCCode(d.properties.name_long));
+                        return getColor(convertNameToIOCCode(d.properties.name_long));
                     } else {
                         return NOT_SELECTED_COUNTRY_COLOR;
                     }
@@ -172,15 +172,16 @@ var WorldMap = (function(){
                                     return NOT_SELECTED_COUNTRY_COLOR;
                                 });
     
-                                d3.select(this).classed("country-on", true)
-                                    .attr("fill", function(d) {
-                                    return color(convertNameToIOCCode(d.properties.name_long));
-                                });
-    
-                                
+                                d3.select(this).classed("country-on", true);
+                                   
                                 boxZoom(path.bounds(d), path.centroid(d), 20);
-    
+                                
+                                // Change country first so fill color can be correctly updated
                                 changeSelectedCountry(d.properties.name_long);
+
+                                d3.select(this).attr("fill", function(d) {
+                                    return getColor(convertNameToIOCCode(d.properties.name_long));
+                                });
                             }
                         }
                         if (!(getNumberOfCountriesInSelection() == 1 
@@ -195,11 +196,11 @@ var WorldMap = (function(){
                             }
                             else {
                                 if (getNumberOfCountriesInSelection() < MAX_SELECTED_COUNTRIES) {
+                                    addCountryToSelection(d.properties.name_long);
                                     d3.select(this).classed("country-on", true)
                                         .attr("fill", function(d) {
-                                            return color(convertNameToIOCCode(d.properties.name_long));
+                                            return getColor(convertNameToIOCCode(d.properties.name_long));
                                         });
-                                    addCountryToSelection(d.properties.name_long);
                                 } else {
                                     alert(ALERT_MESSAGE);
                                 }
