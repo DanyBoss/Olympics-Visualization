@@ -29,33 +29,30 @@ var Scatterplot = (function(){
      */
     var initialize = function() {
 
-        // Tooltip generator.
         tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
             .html(function(d) {
-            return "<strong>" + convertIOCCodeToName(d.key) + "</strong> with <strong>" + d.value[1] + "</strong> Medals";
-        });
+                return "<strong>" + convertIOCCodeToName(d.key) + "</strong> with <strong>" + d.value[1] + "</strong> Medals";
+            });
         
         svg = d3.select("#scatterplot").append("svg")
             .attr("width", width + margin.right + 20)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
-        svg.call(tip);
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+            .call(tip);
 
         processData().then(function(processedData) {
             xScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[0]; })).nice();
             yScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[1]; })).nice();
         
-            // x axis
+            // X Axis.
             svg.append("g")
                 .attr("class", "xAxis unselectable")
                 .attr("transform", "translate(0," + height + ")")
                 .call(xAxis);
             
-            // text label for the x axis
             svg.append("text")
                 .attr("class", "axislabel unselectable")
                 .attr("transform", "translate(" + (width / 2) + " ," + 
@@ -63,12 +60,11 @@ var Scatterplot = (function(){
                 .style("text-anchor", "middle")
                 .text("Population");
         
-            // y axis
+            // Y Axis.
             svg.append("g")
                 .attr("class", "yAxis unselectable")
                 .call(yAxis);
-            
-            // text label for the y axis
+
             svg.append("text")
                 .attr("class", "axislabel unselectable")
                 .attr("transform", "rotate(-90)")
@@ -78,6 +74,7 @@ var Scatterplot = (function(){
                 .style("text-anchor", "middle")
                 .text("Medals");
 
+            // Scatterplot points.
             svg.selectAll("dot")
                 .data(processedData.entries())
                 .enter().append("circle")
@@ -103,8 +100,6 @@ var Scatterplot = (function(){
                     .attr("stroke-width", 1);
                 });
         });
-
-        
     };
 
     var update = function() {
@@ -112,18 +107,20 @@ var Scatterplot = (function(){
             xScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[0]; })).nice();
             yScale.domain(d3.extent(processedData.entries(), function(d) { return d.value[1]; })).nice();
 
+            // Update Axis.
             svg.select(".yAxis")
                 .transition().duration(animationTime)
                 .ease(d3.easeExp)
-                .call(yAxis); // Create an axis component with d3.axisLeft
+                .call(yAxis); 
 
             svg.select(".xAxis")
                 .transition().duration(animationTime)
                 .ease(d3.easeExp)
-                .call(xAxis); // Create an axis component with d3.axisLeft
+                .call(xAxis);
 
-            var dots =svg.selectAll(".dot")
-                .data(processedData.entries())
+            // Update all points.
+            var dots = svg.selectAll(".dot")
+                .data(processedData.entries());
 
             dots.transition()
                 .duration(animationTime)
@@ -137,7 +134,6 @@ var Scatterplot = (function(){
 
     var processData = function() {
         var promise = new Promise(function(resolve, reject) {
-            var processedData;
 
             d3.queue(2)
                 .defer(d3.csv, "csv/world_population_full.csv")
@@ -146,27 +142,28 @@ var Scatterplot = (function(){
                     if (error) throw error;
                     
                     else {
-                        var processedPopulation,
+                        let processedPopulation,
                             processedCountries;
         
                         processedPopulation = d3.nest()
                             .key(function(d) { return d.CountryCode; })
                             .map(population);
         
-                        // calculate population average from the interval years
+                        // Calculate population average from the interval years.
                         processedPopulation.each(function(value,key) {
-                            var populationTotal = 0;
-                            var counter = 1;
+                            let populationTotal = 0,
+                                counter = 1;
+
                             Object.keys(value[0]).map(e => {
                                 if((!isNaN(e)) && checkIfYearInInterval(e) && !(isNaN(value[0][e]))){
                                     populationTotal = populationTotal + (+value[0][e] - populationTotal) / counter;
                                     processedPopulation.set(key, Math.round(populationTotal));
                                     counter++;
                                 }
-                            })
+                            });
                         });
         
-                        // calculate total amount of medals won in the selected time interval
+                        // Calculate total amount of medals won by each country in the interval years.
                         processedCountries = d3.nest()
                             .key(function(d) { return d.Country; })
                             .rollup(function(leaves) {
@@ -174,8 +171,8 @@ var Scatterplot = (function(){
                                         case 0:
                                             return {
                                                 "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year)){
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                                    if(checkIfYearInInterval(+d.Year)) {
+                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
                                                     }
                                                 })
                                             };
@@ -183,8 +180,8 @@ var Scatterplot = (function(){
                                         case 1:
                                             return {
                                                 "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter){
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                                    if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter) {
+                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
                                                     }
                                                 })
                                             };
@@ -192,8 +189,8 @@ var Scatterplot = (function(){
                                         case 2:
                                             return {
                                                 "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter){
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                                    if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter) {
+                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
                                                     }
                                                 })
                                             };
@@ -201,8 +198,8 @@ var Scatterplot = (function(){
                                         case 3:
                                             return {
                                                 "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter){
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount)
+                                                    if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter) {
+                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
                                                     }
                                                 })
                                             };
@@ -211,14 +208,15 @@ var Scatterplot = (function(){
                                 })
                             .map(countries);
         
-                        processedData = d3.map();
+                        let processedData = d3.map();
         
                         processedPopulation.each(function(value,key) {
                             processedData.set(String(key), [value, processedCountries.get(String(key)).TotalMedals]);
                         });
+                        
                         resolve(processedData); 
                     }
-                }); 
+                });
         });
         return promise;
     };
@@ -227,5 +225,5 @@ var Scatterplot = (function(){
         initialize: initialize,
         update: update
     };
-})();
 
+})();

@@ -18,7 +18,7 @@ var Linechart = (function(){
         .range([0, width-100]); // output
 
     // point scale to draw the X axis
-    let xScaleAxis = d3.scalePoint()
+    let xAxisScale = d3.scalePoint()
         .domain(years) // input
         .range([0, width-100]); // output
 
@@ -26,17 +26,17 @@ var Linechart = (function(){
     let yScale = d3.scaleLinear()
         .range([height-100, 0]); // output
 
-    let xAxis = d3.axisBottom(xScaleAxis)
-        .tickValues(xScaleAxis.domain().filter(function(d, i) { return !(i % 2); }))
+    let xAxis = d3.axisBottom(xAxisScale)
+        .tickValues(xAxisScale.domain().filter(function(d, i) { return !(i % 2); }))
 
     /**
      * Initializes a new Linechart.
      */
     var initialize = function() {
-        var line = d3.line()
-            .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
-            .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
-            .curve(d3.curveMonotoneX); // apply smoothing to the line
+        let line = d3.line()
+            .x(function(d, i) { return xScale(i); })
+            .y(function(d) { return yScale(d.value.TotalMedals); })
+            .curve(d3.curveMonotoneX);
 
         // dots tooltip
         tip = d3.tip()
@@ -55,7 +55,7 @@ var Linechart = (function(){
                 d.TotalMedals = (+d.GoldCount + +d.SilverCount + +d.BronzeCount);
             });
 
-            // Create a nested type data to sort the csv by country and year
+            // Create a nested type data to sort the csv by country and year.
             var processedData = d3.nest()
                 .key(function(d) {return d.Country})
                 .key(function(d) {return d.Year})
@@ -68,14 +68,13 @@ var Linechart = (function(){
                 })
                 .map(data);
 
-            //fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
+            // Fill blank spaces in array with zeroes (for years in which a country didn't won any medals).
             for(var i = 0; i < years.length; i++){
                 if(!(processedData.get(countrySelection[0]).has(years[i]))){
                     processedData.get(countrySelection[0]).set(years[i], { TotalMedals:0 });
                 }
             }
-            
-            // automatically resize yScale according to max value of linechart
+        
             yScale.domain([0, (d3.max(processedData.get(countrySelection[0]).entries(), function (d) { return d.value.TotalMedals + 10; }))]);
 
             svg = d3.select("#linechart")
@@ -84,30 +83,26 @@ var Linechart = (function(){
                 .attr("height", height)
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-        
-            // initialize tooltip generator
-            svg.call(tip);
+                .call(tip);
             
-            // Call the x axis in a group tag
+            // X Axis.
             svg.append("g")
                 .attr("class", "xAxis unselectable")
                 .attr("transform", "translate(0," + (height - margin.left - margin.top) + ")")
                 .call(xAxis);
 
-            // text label for the x axis
             svg.append("text")
-            .attr("class", "axislabel unselectable")
-            .attr("transform", "translate(" + ((width / 2) - margin.right) + " ," + 
-                                (height - margin.left - margin.top+30) + ")")
-            .style("text-anchor", "middle")
-            .text("Years");
+                .attr("class", "axislabel unselectable")
+                .attr("transform", "translate(" + ((width / 2) - margin.right) + " ," + 
+                                    (height - margin.left - margin.top+30) + ")")
+                .style("text-anchor", "middle")
+                .text("Years");
 
-            // generate Y axis
+            // Y Axis
             svg.append("g")
                 .attr("class", "yAxis unselectable")
                 .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
             
-            // text label for the y axis
             svg.append("text")
                 .attr("class", "axislabel unselectable")
                 .attr("transform", "rotate(-90)")
@@ -117,17 +112,18 @@ var Linechart = (function(){
                 .style("text-anchor", "middle")
                 .text("Medals");  
 
-            // cicle to create the multiple lines/dots 
+            // Create 4 line Entitities
             for(i = 0; i < 4; i++){
+                // Line.
                 svg.append("path")
-                    .datum(processedData.get(countrySelection[0]).entries().sort(descending)) // Binds data to the line 
+                    .datum(processedData.get(countrySelection[0]).entries().sort(descending))
                     .attr("class", function(d){
                         return (i == 0 ? "line id"+i : "line id" + i +" hidden");
                     })
                     .attr("stroke", function(d) {return color(countrySelection[0])})
-                    .attr("d", line); // Calls the line generator 
-
-                // Appends a circle for each datapoint 
+                    .attr("d", line);
+                
+                // Dots in Line.
                 svg.selectAll(".dot id" + i)
                     .data(processedData.get(countrySelection[0]).entries().sort(descending))
                     .enter().append("circle") // Uses the enter().append() method
@@ -159,9 +155,6 @@ var Linechart = (function(){
                             .attr("stroke-width", 1);
                     });
                 }
-
-            //initial vis state
-            setLineID("FRA", 0);
         });
     };
 
@@ -169,23 +162,20 @@ var Linechart = (function(){
      * Updates the Linechart according to the filters.
      * @param {boolean} forceRefresh Forces the linechart to refresh 
      */
-    var update = function(forceRefresh = false){
-        // The number of olympics
-        var best_domain = [0 , 1];
-    
+    var update = function(forceRefresh = false) {
         d3.csv("csv/summer_year_country_event.csv", function(error, data) {
             data.forEach(function(d){
                 d.Year = +d.Year;
                 d.TotalMedals = (+d.GoldCount + +d.SilverCount + +d.BronzeCount);
             });
 
-            var processedData = d3.nest()
+            let processedData = d3.nest()
                 .key(function(d) {return d.Country})
                 .key(function(d) {return d.Year})
                 .rollup(function(values) {
                     return { 
                         "TotalMedals" : d3.sum(values, function(d) {
-                            switch(currentState){
+                            switch(currentState) {
                                 case 0:
                                     return parseFloat(d.TotalMedals);
                                     break;
@@ -193,19 +183,19 @@ var Linechart = (function(){
                                     if (d.Sport == sportFilter) { 
                                         return parseFloat(d.TotalMedals);
                                     }
-                                        return parseFloat(0);
+                                    return parseFloat(0);
                                     break;
                                 case 2:
                                     if (d.Discipline == disciplineFilter) {
                                         return parseFloat(d.TotalMedals);
                                     }
-                                        return parseFloat(0);
+                                    return parseFloat(0);
                                     break;
                                 case 3:
                                     if (d.Event == eventFilter) {
                                         return parseFloat(d.TotalMedals);
                                     }
-                                        return parseFloat(0);
+                                    return parseFloat(0);
                                     break;
                             }
                         })
@@ -213,46 +203,43 @@ var Linechart = (function(){
                 })
             .map(data);
                 
-            // fill blank spaces in array with zeroes (for years in which a country didn't won any medals)
-            countrySelection.forEach(function(element){
-                // we don't do anything to null element
-                if(element === null)
-                    return;
+            let bestDomain = [0, 1];
 
+            countrySelection.forEach(function(element){
+
+                // Ignore null elements.
+                if(element === null){ return; }
+
+                // Fill blank spaces in array with zeroes (for years in which a country didn't won any medals).
                 for(var i = 0; i < years.length; i++){
                     if(!(processedData.get(element).has(years[i]))){
                         processedData.get(element).set(years[i], { TotalMedals:0 });
                     }
                 }
-                
-                // adjust the y axis componenent with the bigger interval
-                if(best_domain[1] < d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; })[1]){
-                    best_domain = d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; });
-                    yScale.domain(best_domain).nice()
+                // Readjust the Y Scale.
+                if(bestDomain[1] < d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; })[1]){
+                    bestDomain = d3.extent(processedData.get(element).entries(), function(d) { return d.value.TotalMedals; });
+                    yScale.domain(bestDomain).nice()
                 }
             });
 
-            // update line generator for new values
-            var lineGenerator = d3.line()
-                .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
-                .y(function(d) { return yScale(d.value.TotalMedals); }) // set the y values for the line generator 
-                .curve(d3.curveMonotoneX) // apply smoothing to the line
-
-            var resetLineGenerator = d3.line()
-                .x(function(d, i) { return xScale(i); }) // set the x values for the line generator
-                .y(function(d) { return 0 }) // set the y values for the line generator 
-                .curve(d3.curveMonotoneX) // apply smoothing to the line
+            // Update line generator for new values.
+            let lineGenerator = d3.line()
+                .x(function(d, i) { return xScale(i); })
+                .y(function(d) { return yScale(d.value.TotalMedals); }) 
+                .curve(d3.curveMonotoneX);
                 
             svg.select(".yAxis")
                 .transition().duration(animationTime)
                 .ease(d3.easeExp)
-                .call(d3.axisLeft(yScale)); // Create an axis component with d3.axisLeft
+                .call(d3.axisLeft(yScale));
 
             countrySelection.forEach(function(element){
-                // we don't do anything to null element
-                if(element === null) return;
+                
+                // Skip null elements.
+                if(element === null) { return; } 
 
-                //if element doesn't exist add it to the next open value
+                // If element doesn't exist add it to the next open value.
                 if(forceRefresh) {
                     clearLineIDArray();
                     setNextFreeLineID(element);
@@ -261,19 +248,18 @@ var Linechart = (function(){
                     setNextFreeLineID(element);
                 }
 
-                var currentCountryID = getLineID(element);
+                let currentCountryID = getLineID(element);
 
                 svg.select(".line.id" + currentCountryID)
-                    .datum(processedData.get(element).entries().sort(descending)) // Binds data to the line
+                    .datum(processedData.get(element).entries().sort(descending))
                     .transition().duration(animationTime)
                     .ease(d3.easeExp)
                     .attr("stroke", function(d) { return color(element)} )
-                    .attr("d", lineGenerator); // Calls the line generator 
+                    .attr("d", lineGenerator);
 
-                var dots = svg.selectAll(".dot.id" + currentCountryID)
-                    .data(processedData.get(element).entries().sort(descending));
-
-                dots.transition()
+                svg.selectAll(".dot.id" + currentCountryID)
+                    .data(processedData.get(element).entries().sort(descending))
+                    .transition()
                     .duration(animationTime)
                     .ease(d3.easeExp)
                     .attr("cy", function(d) {
@@ -290,7 +276,6 @@ var Linechart = (function(){
                     .attr("r", function(d){
                         return (checkIfYearInInterval(d.key) ? 8 : 4);
                     });
-
             });
         }) 
     };
