@@ -5,24 +5,19 @@ var Bubblechart = (function() {
 
     let tip,
         svg,
-        minBubbleSize = 23,
-        maxBubbleSize = 60,
+        minBubbleSize = 10,
+        maxBubbleSize = 70,
         offsetBetweenBubbles = 5,
         width = $("#bubblechart").width(),
         height = $("#bubblechart").height();
 
+    // Simulation variables.
     let radiusScale,
         centerForce,
         simulation;
 
     var initialize = function() {
-        svg = d3.select("#bubblechart")
-            .append("svg")
-            .attr("height", height)
-            .attr("width", width)
-            .append("g");
-
-        // tooltip generator
+        // Bubblechart Tooltip Generator
         tip = d3.tip()
             .attr('class', 'd3-tip')
             .offset([-10, 0])
@@ -35,27 +30,25 @@ var Bubblechart = (function() {
                         "</center>";
             });
 
-        svg.call(tip);
+        svg = d3.select("#bubblechart")
+            .append("svg")
+            .attr("height", height)
+            .attr("width", width)
+            .append("g")
+            .call(tip);
 
         // Automatic Bubble Scaler.
         radiusScale = d3.scaleSqrt();
         
-        // black hole kind of force to center the bubbles
-        centerForce = d3.forceCenter(width / 2, height / 2);  
-
         // the simulation is a collection of forces
         // about where we want our circles to go
         // and how we want our circles to react
         simulation = d3.forceSimulation()
-            //.force("x", d3.forceX().strength(0.05))
-            //.force("y", d3.forceY().strength(0.05))
-            .force("center_force", centerForce)
-            .force("collide", d3.forceCollide(
-                function(d){
-                    return radiusScale(d.TotalMedals) + offsetBetweenBubbles;
-                })
-            );
-
+            .force("x", d3.forceX(width).strength(.1).x(width / 2))
+            .force("y", d3.forceY(height).strength(.1).y(height / 2))
+            .force("center_force", d3.forceCenter().x(width / 2).y(height / 2))
+            .force("charge", d3.forceManyBody().strength(-15));
+            
         update();
     };
 
@@ -64,7 +57,7 @@ var Bubblechart = (function() {
         d3.csv("csv/summer_year_country_event.csv", function(error, data) {
             if (error) throw error;
 
-            data.forEach(function(d){
+            data.forEach(function(d) {
                 d.Year = +d.Year;
                 d.GoldCount = +d.GoldCount;
                 d.SilverCount = +d.SilverCount;
@@ -126,27 +119,32 @@ var Bubblechart = (function() {
                 }
             });
 
+            // make big bubbles stay on the outside
+            processedData.sort(function(a,b) { return b.TotalMedals < a.TotalMedals});  
+
             // update radiusScale function to work in accordance to size bubbles
             // we scale the larger range domain by scaling it with accordance of the ammount
             // of bubbles that will be drawn on screen
             radiusScale
-                .domain([1, (d3.max(processedData, function(d){ return +d.TotalMedals + 5; }) )])
+                .domain([1, (d3.max(processedData, function(d){ return +d.TotalMedals + offsetBetweenBubbles; }) )])
                 .range([minBubbleSize, maxBubbleSize - (processedData.length / 2)]);
 
             // Cleanup View.
             svg.selectAll(".bubble").remove();
             
-            // The bubbles container.
+            // Bubbles container.
             let bubbleGroup = svg.selectAll(".bubble")
                 .data(processedData)
                 .enter().append("g")
                 .attr("class", "bubble");
 
             let bubble = bubbleGroup.append("circle")
-                .attr("r", function(d){
+                .attr("cx", function(d) { return d.x; })
+                .attr("cy", function(d) { return d.y; })
+                .attr("r", function(d) {
                     return radiusScale(d.TotalMedals);
                 })
-                .attr("fill", function(d){
+                .attr("fill", function(d) {
                     return color(d[currentFilterKeyword]);
                 })
                 .attr("stroke", function() { return getCSSColor('--main-dark-color') })
@@ -171,20 +169,29 @@ var Bubblechart = (function() {
                         })
                         .style("cursor", "default"); 
                 })
-                .on("click", function(d){
+                .on("click", function(d) {
                     tip.hide(d);
 
                     selectedNode = d;
                     
                     if(currentState != 3) {
-                        updateDashboardState(-1); //going deeper
+                        updateDashboardState(-1);
                     }
-                });
+                })
+                .call(d3.drag()
+                    .on("start", _dragStarted)
+                    .on("drag", _dragged)
+                    .on("end", _dragEnded));
 
-            // text labels that appear on top of the bubbles
+            // Bubbles Text Labels 
             let labels = bubbleGroup.append("text")
                 .attr("class","label unselectable")
-                .text(function(d){  // function to rename long sport names to something digestable 
+                .text(function(d) {
+                    // If the bubble radius is too small simply hide the text.
+                    if(radiusScale(d.TotalMedals) < 18) {
+                        return "";
+                    }
+                    // Else calculate if it's necessary to substring the title
                     if((radiusScale(d.TotalMedals) < 32 && d[currentFilterKeyword].length > 6) 
                         || (radiusScale(d.TotalMedals) < 46 && d[currentFilterKeyword].length > 10)){
                         return  d[currentFilterKeyword].substring(0, 4) + "...";
@@ -192,31 +199,32 @@ var Bubblechart = (function() {
                         return d[currentFilterKeyword]; 
                 })
                 
-            //back icon functionality
+            // Back Icon
             d3.select('#back-icon')
                 .on('mouseover', function(d){
                     d3.select(this).transition()
                         .style("cursor", "pointer"); 
                 })
-                .on('mouseout', function(d){
+                .on('mouseout', function(d) {
                     d3.select(this).transition()
                         .style("cursor", "default"); 
                 })
-                .on("click", function(d){
+                .on("click", function(d) {
                     updateDashboardState(1);
                 })
 
-            // restart the animation with a new alpha value
-            simulation.nodes(processedData)
-                .alpha(1)
-                .alphaDecay(0.4)
-                .on('tick', ticked)
-                .restart();
 
-            function ticked()  {
+            // Update the simulation based on the data.
+            simulation.nodes(processedData)
+                .force("collide", d3.forceCollide().strength(.5).radius(function(d) { 
+                    return radiusScale(d.TotalMedals) + offsetBetweenBubbles; 
+                }))
+                .on('tick', _ticked);
+
+            function _ticked()  {
                 bubble
-                    .attr("cx", function(d) { return d.x = Math.max(radiusScale(d.TotalMedals), Math.min(width - radiusScale(d.TotalMedals), d.x)); })
-                    .attr("cy", function(d) { return d.y = Math.max(radiusScale(d.TotalMedals), Math.min(height - radiusScale(d.TotalMedals), d.y)); })
+                    .attr("cx", function(d) { return d.x })
+                    .attr("cy", function(d) { return d.y })
                     
                 labels
                     .attr("x", function(d) { return d.x; } )
@@ -225,6 +233,31 @@ var Bubblechart = (function() {
         });
     };
 
+    // Drag events
+    function _dragStarted(d) {
+        tip.hide(d);
+        
+        if (!d3.event.active) {
+            simulation.alphaTarget(.03).restart(); 
+        } 
+        
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+    
+    function _dragged(d) {
+        d.fx = d3.event.x;
+        d.fy = d3.event.y;
+    }
+
+    function _dragEnded(d) {
+        if (!d3.event.active) { 
+            simulation.alphaTarget(.03) 
+        };
+
+        d.fx = null;
+        d.fy = null;
+    }
     return {
         initialize: initialize,
         update: update
