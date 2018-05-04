@@ -219,7 +219,9 @@ var Bubblechart = (function() {
                 .force("collide", d3.forceCollide().strength(.5).radius(function(d) { 
                     return radiusScale(d.TotalMedals) + offsetBetweenBubbles; 
                 }))
-                .on('tick', _ticked);
+                .alpha(1)
+                .on('tick', _ticked)
+                .restart();
 
             function _ticked()  {
                 bubble
