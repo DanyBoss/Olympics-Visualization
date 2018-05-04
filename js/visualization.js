@@ -132,9 +132,8 @@ function updateDashboardState(nextState, initialUpdate = false, linechartRefresh
  * Initializes the internal dicionary objects
  */
 var loadDictionary = function(callback) {
-    d3.csv("csv/dictionary.csv", function(error, data){
-        if (error) throw error;
-    
+    d3.csv("csv/dictionary.csv").then(function(data){
+
         for (let i = 0; i < data.length; i++) {
             countryNameDictionary[data[i].CountryName] = data[i].CountryCode;
         }

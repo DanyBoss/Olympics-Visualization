@@ -135,88 +135,86 @@ var Scatterplot = (function(){
     var processData = function() {
         var promise = new Promise(function(resolve, reject) {
 
-            d3.queue(2)
-                .defer(d3.csv, "csv/world_population_full.csv")
-                .defer(d3.csv, "csv/summer_year_country_event.csv")
-                .await(function(error, population, countries) {
-                    if (error) throw error;
-                    
-                    else {
-                        let processedPopulation,
-                            processedCountries;
-        
-                        processedPopulation = d3.nest()
-                            .key(function(d) { return d.CountryCode; })
-                            .map(population);
-        
-                        // Calculate population average from the interval years.
-                        processedPopulation.each(function(value,key) {
-                            let populationTotal = 0,
-                                counter = 1;
+            Promise.all([d3.csv("csv/world_population_full.csv"), d3.csv("csv/summer_year_country_event.csv")])
+                .then(function(values) {
 
-                            Object.keys(value[0]).map(e => {
-                                if((!isNaN(e)) && checkIfYearInInterval(e) && !(isNaN(value[0][e]))){
-                                    populationTotal = populationTotal + (+value[0][e] - populationTotal) / counter;
-                                    processedPopulation.set(key, Math.round(populationTotal));
-                                    counter++;
-                                }
-                            });
-                        });
-        
-                        // Calculate total amount of medals won by each country in the interval years.
-                        processedCountries = d3.nest()
-                            .key(function(d) { return d.Country; })
-                            .rollup(function(leaves) {
-                                    switch(currentState) {
-                                        case 0:
-                                            return {
-                                                "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year)) {
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
-                                                    }
-                                                })
-                                            };
-                                            break;
-                                        case 1:
-                                            return {
-                                                "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter) {
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
-                                                    }
-                                                })
-                                            };
-                                            break;
-                                        case 2:
-                                            return {
-                                                "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter) {
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
-                                                    }
-                                                })
-                                            };
-                                            break;
-                                        case 3:
-                                            return {
-                                                "TotalMedals" : d3.sum(leaves, function(d) {
-                                                    if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter) {
-                                                        return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
-                                                    }
-                                                })
-                                            };
-                                            break;
-                                    }
-                                })
-                            .map(countries);
-        
-                        let processedData = d3.map();
-        
-                        processedPopulation.each(function(value,key) {
-                            processedData.set(String(key), [value, processedCountries.get(String(key)).TotalMedals]);
-                        });
-                        
-                        resolve(processedData); 
-                    }
+                let population = values[0],
+                    countries = values[1];
+                
+                let processedPopulation,
+                    processedCountries;
+
+                processedPopulation = d3.nest()
+                    .key(function(d) { return d.CountryCode; })
+                    .map(population);
+
+                // Calculate population average from the interval years.
+                processedPopulation.each(function(value,key) {
+                    let populationTotal = 0,
+                        counter = 1;
+
+                    Object.keys(value[0]).map(e => {
+                        if((!isNaN(e)) && checkIfYearInInterval(e) && !(isNaN(value[0][e]))){
+                            populationTotal = populationTotal + (+value[0][e] - populationTotal) / counter;
+                            processedPopulation.set(key, Math.round(populationTotal));
+                            counter++;
+                        }
+                    });
                 });
+
+                // Calculate total amount of medals won by each country in the interval years.
+                processedCountries = d3.nest()
+                    .key(function(d) { return d.Country; })
+                    .rollup(function(leaves) {
+                            switch(currentState) {
+                                case 0:
+                                    return {
+                                        "TotalMedals" : d3.sum(leaves, function(d) {
+                                            if(checkIfYearInInterval(+d.Year)) {
+                                                return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
+                                            }
+                                        })
+                                    };
+                                    break;
+                                case 1:
+                                    return {
+                                        "TotalMedals" : d3.sum(leaves, function(d) {
+                                            if(checkIfYearInInterval(+d.Year) && d.Sport == sportFilter) {
+                                                return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
+                                            }
+                                        })
+                                    };
+                                    break;
+                                case 2:
+                                    return {
+                                        "TotalMedals" : d3.sum(leaves, function(d) {
+                                            if(checkIfYearInInterval(+d.Year) && d.Discipline == disciplineFilter) {
+                                                return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
+                                            }
+                                        })
+                                    };
+                                    break;
+                                case 3:
+                                    return {
+                                        "TotalMedals" : d3.sum(leaves, function(d) {
+                                            if(checkIfYearInInterval(+d.Year) && d.Event == eventFilter) {
+                                                return(+d.BronzeCount + +d.SilverCount + +d.GoldCount);
+                                            }
+                                        })
+                                    };
+                                    break;
+                            }
+                        })
+                    .map(countries);
+
+                let processedData = d3.map();
+
+                processedPopulation.each(function(value,key) {
+                    processedData.set(String(key), [value, processedCountries.get(String(key)).TotalMedals]);
+                });
+                
+                resolve(processedData); 
+            });
         });
         return promise;
     };

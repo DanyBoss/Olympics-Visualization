@@ -47,8 +47,7 @@ var Linechart = (function(){
             });
 
         // start drawing the Linechart from the csv
-        d3.csv("csv/summer_year_country_event.csv", function(error, data) {
-            if (error) throw error;
+        d3.csv("csv/summer_year_country_event.csv").then(function(data) {
 
             data.forEach(function(d){
                 d.Year = +d.Year;
@@ -163,7 +162,7 @@ var Linechart = (function(){
      * @param {boolean} forceRefresh Forces the linechart to refresh 
      */
     var update = function(forceRefresh = false) {
-        d3.csv("csv/summer_year_country_event.csv", function(error, data) {
+        d3.csv("csv/summer_year_country_event.csv").then(function(data) {
             data.forEach(function(d){
                 d.Year = +d.Year;
                 d.TotalMedals = (+d.GoldCount + +d.SilverCount + +d.BronzeCount);

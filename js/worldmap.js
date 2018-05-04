@@ -100,7 +100,7 @@ var WorldMap = (function(){
             .attr('stroke-width', 1);
         
         // get map data
-        d3.json("js/worldmap/simple_map.json", function (json) {
+        d3.json("js/worldmap/simple_map.json").then(function (json) {
             //Bind data and create one path per GeoJSON feature
             countriesGroup = svg.append("g")
                 .attr("id", "map");

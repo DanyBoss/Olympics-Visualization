@@ -54,8 +54,7 @@ var Bubblechart = (function() {
 
     var update = function() {                     
         // create new bubbles as necessary
-        d3.csv("csv/summer_year_country_event.csv", function(error, data) {
-            if (error) throw error;
+        d3.csv("csv/summer_year_country_event.csv").then(function(data) {
 
             data.forEach(function(d) {
                 d.Year = +d.Year;
