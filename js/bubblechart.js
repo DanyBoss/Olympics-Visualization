@@ -17,10 +17,11 @@ var Bubblechart = (function() {
         simulation;
 
     var initialize = function() {
+        
         // Bubblechart Tooltip Generator
         tip = d3.tip()
             .attr('class', 'd3-tip')
-            .offset([-10, 0])
+            .offset([-15, 0])
             .html(function(d) {
                 return  "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
                         "<center>" + 

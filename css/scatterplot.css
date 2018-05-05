@@ -5,11 +5,9 @@
     background: var(--main-bg-color); 
 }
 
-/* Axis Variables */
-
 #scatterplot .axislabel {
     font-family: 'Open Sans', 'sans-serif';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #scatterplot .dot {
@@ -32,3 +30,4 @@
 #scatterplot .domain {
     stroke: var(--main-dark-color);
 }
+

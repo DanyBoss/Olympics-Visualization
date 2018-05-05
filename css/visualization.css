@@ -68,6 +68,7 @@ text {
 }
 
 /* Poput tip */
+
 .d3-tip {
     font-size: 0.8em;
     line-height: 1.3em;
@@ -79,10 +80,9 @@ text {
 }
    
 /* Creates a small triangle extender for the tooltip */
+
 .d3-tip:after {
     box-sizing: border-box;
-    display: inline;
-    font-size: 10px;
     width: 100%;
     line-height: 1;
     color: var(--main-dark-trans-color); 
@@ -92,6 +92,7 @@ text {
 }
    
 /* Style northward tooltips specifically */
+
 .d3-tip.n:after {
     margin: -2px 0 0 0;
     top: 100%;

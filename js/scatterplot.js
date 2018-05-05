@@ -31,7 +31,7 @@ var Scatterplot = (function(){
 
         tip = d3.tip()
             .attr('class', 'd3-tip')
-            .offset([-10, 0])
+            .offset([-15, 0])
             .html(function(d) {
                 return "<strong>" + convertIOCCodeToName(d.key) + "</strong> with <strong>" + d.value[1] + "</strong> Medals";
             });

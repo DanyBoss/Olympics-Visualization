@@ -140,17 +140,18 @@ var WorldMap = (function(){
                             } else {
                                 return "pointer";
                             }
-                        })
-                    
+                        });
+
+                    // Make this one the top of the stack for the lines.
                     this.parentElement.appendChild(this);
     
-                    var mouseCoordinates = d3.mouse(svg.node()).map(function(d) { 
+                    let mouseCoordinates = d3.mouse(svg.node()).map(function(d) { 
                         return parseInt(d); 
                     });
                     
                     tooltip.classed("hidden", false)
                         .attr("style", "left:"+(mouseCoordinates[0]+offsetL)+"px;top:"+(mouseCoordinates[1]+offsetT)+"px")
-                        .html(this.__data__.properties.name);
+                        .html(d.properties.name);
                 })
                 .on("mouseout", function (d) {
                     d3.select(this).attr("stroke", function() 
