@@ -1,7 +1,7 @@
 # Olympics Visualization
 
 ![screenshot](https://raw.githubusercontent.com/DanyBoss/olympics-visualization/master/preview.png)
-[Live Version](http://olimpics.ayydany.space/)
+[Live Version](http://olympics.ayydany.space/)
 
 ## About
 Olympics Visualization is a web visualization of Olympic data from 1896 until 2012. 
