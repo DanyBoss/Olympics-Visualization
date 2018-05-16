@@ -3,57 +3,48 @@
  */
 var Bubblechart = (function() {
 
-    let tip,
-        svg,
-        minBubbleSize = 10,
+    let svg;
+
+    const minBubbleSize = 10,
         maxBubbleSize = 70,
         offsetBetweenBubbles = 5,
         width = $("#bubblechart").width(),
         height = $("#bubblechart").height();
 
-    // Simulation variables.
-    let radiusScale,
-        centerForce,
-        simulation;
+
+    const radiusScale = d3.scaleSqrt();
+        
+    const simulation = d3.forceSimulation()
+        .force("x", d3.forceX(width).strength(.05).x(width / 2))
+        .force("y", d3.forceY(height).strength(.05).y(height / 2))
+        .force("center_force", d3.forceCenter().x(width / 2).y(height / 2))
+        .force("charge", d3.forceManyBody().strength(-15));
+
+    // Bubblechart Tooltip Generator
+    const tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-15, 0])
+        .html(function(d) {
+            return  "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
+                    "<center>" + 
+                    "<font color=#FFD700> <strong>" + d.GoldCount   + "</strong>🥇 </font>" +
+                    "<font color=#C0C0C0> <strong>" + d.SilverCount + "</strong>🥈 </font>" +
+                    "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong>🥉 </font>" +
+                    "</center>";
+        });
 
     var initialize = function() {
-        
-        // Bubblechart Tooltip Generator
-        tip = d3.tip()
-            .attr('class', 'd3-tip')
-            .offset([-15, 0])
-            .html(function(d) {
-                return  "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
-                        "<center>" + 
-                        "<font color=#FFD700> <strong>" + d.GoldCount   + "</strong>🥇 </font>" +
-                        "<font color=#C0C0C0> <strong>" + d.SilverCount + "</strong>🥈 </font>" +
-                        "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong>🥉 </font>" +
-                        "</center>";
-            });
-
         svg = d3.select("#bubblechart")
             .append("svg")
             .attr("height", height)
             .attr("width", width)
             .append("g")
             .call(tip);
-
-        // Automatic Bubble Scaler.
-        radiusScale = d3.scaleSqrt();
-        
-        // the simulation is a collection of forces
-        // about where we want our circles to go
-        // and how we want our circles to react
-        simulation = d3.forceSimulation()
-            .force("x", d3.forceX(width).strength(.05).x(width / 2))
-            .force("y", d3.forceY(height).strength(.05).y(height / 2))
-            .force("center_force", d3.forceCenter().x(width / 2).y(height / 2))
-            .force("charge", d3.forceManyBody().strength(-15));
             
         update();
     };
 
-    var update = function() {                     
+    var update = function() {  
         // create new bubbles as necessary
         d3.csv("csv/summer_year_country_event.csv").then(function(data) {
 
