@@ -11,7 +11,7 @@ var Bubblechart = (function() {
         width = $("#bubblechart").width(),
         height = $("#bubblechart").height();
 
-    // Simulation variables..
+    // Simulation variables.
     let radiusScale,
         centerForce,
         simulation;
