@@ -2,7 +2,6 @@
 var selectedNode = null,
     currentState = 0,   // defines the deepness we're seeing in the vis (All = 0, Sport = 1; Discipline = 2; Event = 3)
     countrySelection = [null, null, null, null],
-    countryLineIdentifier = [[null, 0], [null, 1], [null, 2], [null, 3]],
     sportFilter = "All",
     disciplineFilter = "All",
     eventFilter = "All",
@@ -14,14 +13,14 @@ var selectedNode = null,
 
 
 // colors used throughout the visualization
-var eventsColors = d3.scaleOrdinal(d3.schemeSet3),
+const eventsColors = d3.scaleOrdinal(d3.schemeSet3),
     countryColors = ["#fb8072", "#ffffb3", "#8dd3c7", "#bebada"];
 
 // array containing the years in which summer olympics occurred
-var years = [1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012]
+const years = [1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012]
 
 // animation variables
-var animationTime = 750;
+const animationTime = 750;
 
 // set a reload function on window resize
 window.onresize = function(){ location.reload(); }
@@ -40,9 +39,8 @@ $(document).ready(function() {
 });
 
 /**
- * Main function that does the updates the visualization requires
- * @param {number} nextState - next state in the visualization (-1, 0, 1), see comment about 
- * currentState for further information
+ * Main function that updated the visualization according to user inputs.
+ * @param {number} nextState - next state in the visualization, can only take the values -1, 0, 1
  * @param {boolean} initialUpdate - flag determining if its the first update (default = false)
  * @param {boolean} linechartRefresh - flag determining if the linechart should refresh (for catching
  * ctrl+click on map, default = false)
@@ -165,7 +163,6 @@ function randomizeInitialCountry(array, initialCountryCode = null) {
     }
 
     countrySelection = [randomCountryCode, null, null, null];
-    countryLineIdentifier = [[randomCountryCode, 0], [null, 1], [null, 2], [null, 3]];
 }
 
 /** 
@@ -184,14 +181,10 @@ function convertNameToIOCCode(countryName) {
 /** 
  * converts a IOC code to the country name 
  * @param {string} code - IOC Code to be converted into a country name
- * @returns {string} Country Name or -1 if code doesn't exist in dictionary
+ * @returns {string} Country Name or -1 if the given code doesn't exist in dictionary
  */
 function convertIOCCodeToName(code) {
-    if(iocCodeDictionary[code]) {
-        return iocCodeDictionary[code]; 
-    } else {
-        return -1;
-    }
+    return (iocCodeDictionary[code] ? iocCodeDictionary[code] : -1);
 }
 
 /** 
@@ -204,17 +197,18 @@ function getNumberOfCountriesInSelection() {
 	countrySelection.forEach(function(element) {
 		if(element === null) {
             number++;
-        }	
-	})
+        }
+    });
+    
 	return countrySelection.length - number;
 }
 
 /** 
  * Returns the first free position in the countrySelection array
- * @returns {number} Open Position or -1 if there is none
+ * @returns {number} Open Position or -1 if the array is filled
  */
 function getFirstOpenPositionInSelection() {
-	for(let i = 0; i<countrySelection.length; i++) {
+	for(let i = 0; i < countrySelection.length; i++) {
 		if(countrySelection[i] === null) {
 			return i;
         }
@@ -226,13 +220,15 @@ function getFirstOpenPositionInSelection() {
  * Converts the countrySelection variable to something a 
  * human can read, with some html marking
  * 
- * *"country1, country2 and country3"*
+ * Example:
+ * 
+ *  *"country1, country2 and country3"*
  * 
  * @returns {string} String
  */
 function countrySelectionToString() {
     
-    let result = "",            
+    let string = "",            
         counter = 0;
 
     // Cicle through the countries in countrySelection.
@@ -242,24 +238,24 @@ function countrySelectionToString() {
             continue;
         }
 
-        result += "<strong>" + convertIOCCodeToName(countrySelection[i]) + "</strong>";
+        string += "<strong>" + convertIOCCodeToName(countrySelection[i]) + "</strong>";
         counter++;
 
         switch(getNumberOfCountriesInSelection() - counter) {
             case 0:
-                result += "";
+                string += "";
                 break;
 
             case 1:
-                result += " and ";
+                string += " and ";
                 break;
 
             default:
-                result += ", "
+                string += ", "
                 break;
         }
     }
-    return result;
+    return string;
 }
 
 /** 
@@ -268,9 +264,7 @@ function countrySelectionToString() {
  * @param {string} countryName - Name of the new country
  */
 function changeSelectedCountry(countryName){
-	var iocCode = convertNameToIOCCode(countryName);
-
-    countrySelection = [String(iocCode), null, null, null];
+    countrySelection = [String(convertNameToIOCCode(countryName)), null, null, null];
 
     updateDashboardState(0, false, true);
 };
@@ -281,7 +275,6 @@ function changeSelectedCountry(countryName){
  * @param {string} countryName - Name of the country to be added
  */
 function addCountryToSelection(countryName){
-
 	countrySelection[getFirstOpenPositionInSelection()] = String(convertNameToIOCCode(countryName));
 
     updateDashboardState(0);
@@ -293,71 +286,14 @@ function addCountryToSelection(countryName){
  * @param {string} countryName - Name of the country to be removed
  */
 function removeCountryFromSelection(countryName){
-	var iocCode = convertNameToIOCCode(countryName);
-	countrySelection[countrySelection.indexOf(String(iocCode))] = null;
-
-    removeLineID(iocCode);
+	countrySelection[countrySelection.indexOf(String(convertNameToIOCCode(countryName)))] = null;
 
     updateDashboardState(0);
 }
 
-/** 
- * Clears the array of LineIDs (for the linechart),
- * and also hides all the lines
- */
-function clearLineIDArray(){
-    for(i = 0; i < countryLineIdentifier.length; i++){
-        countryLineIdentifier[i][0] = null;
-        Linechart.hideLine(i);
-    }
-}
-
-/** 
- * Gets the lineID of the country with the given IOC Code
- * 
- * @param {string} iocCode - Code of the country to search for
- * @return {number} ID or -1 if it doesn't find the country with the given IOC code
- */
-function getLineID(iocCode){
-    for(i = 0; i < countryLineIdentifier.length; i++){
-        if(countryLineIdentifier[i][0] === iocCode){
-            return i;
-        }
-    }
-    return -1;
-}
-
-/** 
- * Sets the country with the give IOC Code in the first 
- * free open position in the array that controls linechart lines
- * @param {string} iocCode - IOC Code of the country
- * 
- * @return {number} position that was set or -1 if array was full (and wasn't modified)
- * 
- */
-function setNextFreeLineID(iocCode){
-    for(i = 0; i < countryLineIdentifier.length; i++){
-        if(countryLineIdentifier[i][0] === null){
-			setLineID(iocCode, i);
-			Linechart.showLine(i);
-            return i;
-        }
-    }
-    return -1;
-}
-
-function removeLineID(country){
-    Linechart.hideLine(getLineID(country));
-    countryLineIdentifier[getLineID(country)][0] = null;
-}
-
-function setLineID(country, id){
-    countryLineIdentifier[id] = [country, id]
-}
-
 function changeTimeline(begin, end){
-    //check if a update is necessary
-    if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)] ){
+    // Check if a update is necessary.
+    if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)]){
         initialYearFilter = years[Math.round(begin)];
         endYearFilter = years[Math.round(end)];
     
@@ -374,7 +310,7 @@ function checkIfYearInInterval(year){
     return (year >= initialYearFilter && year <= endYearFilter);
 };
 
-//function to get a CSS variable from the CSS
+// function to get a CSS variable from the CSS
 function getCSSColor(variable){
     return getComputedStyle(document.body).getPropertyValue(variable);
 };

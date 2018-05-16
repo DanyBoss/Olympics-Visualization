@@ -233,30 +233,24 @@ var Linechart = (function(){
                 .ease(d3.easeExp)
                 .call(d3.axisLeft(yScale));
 
-            countrySelection.forEach(function(element){
+            for(i = 0; i < countrySelection.length; i++) {
+
+                let element = countrySelection[i];
                 
-                // Skip null elements.
-                if(element === null) { return; } 
-
-                // If element doesn't exist add it to the next open value.
-                if(forceRefresh) {
-                    clearLineIDArray();
-                    setNextFreeLineID(element);
+                // Skip null elements and hide them.
+                if(element === null) { 
+                    hideLine(i);
+                    break; 
                 } 
-                else if(getLineID(element) == -1) {
-                    setNextFreeLineID(element);
-                }
 
-                let currentCountryID = getLineID(element);
-
-                svg.select(".line.id" + currentCountryID)
+                svg.select(".line.id" + i)
                     .datum(processedData.get(element).entries().sort(descending))
                     .transition().duration(animationTime)
                     .ease(d3.easeExp)
                     .attr("stroke", function(d) { return getColor(element)} )
                     .attr("d", lineGenerator);
 
-                svg.selectAll(".dot.id" + currentCountryID)
+                svg.selectAll(".dot.id" + i)
                     .data(processedData.get(element).entries().sort(descending))
                     .transition()
                     .duration(animationTime)
@@ -275,25 +269,25 @@ var Linechart = (function(){
                     .attr("r", function(d){
                         return (checkIfYearInInterval(d.key) ? 8 : 4);
                     });
-            });
+
+                    // Make line visible
+                    showLine(i);
+            }
         }) 
     };
-
-    var hideLine = function(lineID){
+    var hideLine = function(lineID) {
         d3.select("#linechart .line.id" + lineID).classed("hidden", true);
         d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", true);
     }
 
-    var showLine = function(lineID){
+    var showLine = function(lineID) {
         d3.select("#linechart .line.id" + lineID).classed("hidden", false)
         d3.selectAll("#linechart .dot.id" + lineID).classed("hidden", false);
     }
 
     return {
         initialize:initialize,
-        update:update,
-        hideLine:hideLine,
-        showLine:showLine
+        update:update
     };
     
 })();

@@ -45,7 +45,6 @@ var Bubblechart = (function() {
     };
 
     var update = function() {  
-        // create new bubbles as necessary
         d3.csv("csv/summer_year_country_event.csv").then(function(data) {
 
             data.forEach(function(d) {
@@ -56,27 +55,27 @@ var Bubblechart = (function() {
                 d.TotalMedals = (+d.GoldCount + +d.SilverCount + +d.BronzeCount);
             });
 
-            // filter the data, first by year and then by Country
+            // Filter the data, first by year and then by Country
             let filteredData = data.filter(function(d, i) {
                 if(countrySelection.includes(d["Country"]) && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter) {
                     switch(currentState) {
-                        case 0: //all information
+                        case 0: // All information.
                             return d;
                             break;
 
-                        case 1: // Specific Sport
+                        case 1: // Specific Sport.
                             if(d["Sport"] == sportFilter) {
                                 return d;
                             }
                             break;
 
-                        case 2: // Specific Discipline
+                        case 2: // Specific Discipline.
                             if(d["Discipline"] == disciplineFilter) {
                                 return d;
                             }
                             break;
 
-                        case 3: // Specific Event
+                        case 3: // Specific Event.
                             if (d["Event"] == eventFilter) {
                                 return d;
                             }
