@@ -24,14 +24,13 @@ var Bubblechart = (function() {
     const tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-15, 0])
-        .html(function(d) {
-            return  "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
+        .html(d => "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
                     "<center>" + 
                     "<font color=#FFD700> <strong>" + d.GoldCount   + "</strong>🥇 </font>" +
                     "<font color=#C0C0C0> <strong>" + d.SilverCount + "</strong>🥈 </font>" +
                     "<font color=#cd7f32> <strong>" + d.BronzeCount + "</strong>🥉 </font>" +
-                    "</center>";
-        });
+                    "</center>"
+        );
 
     var initialize = function() {
         svg = d3.select("#bubblechart")
@@ -45,9 +44,8 @@ var Bubblechart = (function() {
     };
 
     var update = function() {  
-        d3.csv("csv/summer_year_country_event.csv").then(function(data) {
-
-            data.forEach(function(d) {
+        d3.csv("csv/summer_year_country_event.csv").then(data => {
+            data.forEach(d => {
                 d.Year = +d.Year;
                 d.GoldCount = +d.GoldCount;
                 d.SilverCount = +d.SilverCount;
@@ -56,7 +54,7 @@ var Bubblechart = (function() {
             });
 
             // Filter the data, first by year and then by Country
-            let filteredData = data.filter(function(d, i) {
+            let filteredData = data.filter((d, i) => {
                 if(countrySelection.includes(d["Country"]) && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter) {
                     switch(currentState) {
                         case 0: // All information.
@@ -87,7 +85,7 @@ var Bubblechart = (function() {
             // create a new array with adding up information from different years of the olympics using a specified filter
             let processedData = [];
 
-            filteredData.forEach(function(d) {
+            filteredData.forEach(d => {
                 //if the data doesn't exist in the processed array, create it
                 if(processedData.findIndex(x => x[currentFilterKeyword] === d[currentFilterKeyword]) == -1) {
                     processedData[processedData.length] = {
@@ -110,13 +108,13 @@ var Bubblechart = (function() {
             });
 
             // make big bubbles stay on the outside
-            processedData.sort(function(a,b) { return b.TotalMedals < a.TotalMedals});  
+            processedData.sort((a,b) =>  b.TotalMedals < a.TotalMedals);  
 
             // update radiusScale function to work in accordance to size bubbles
             // we scale the larger range domain by scaling it with accordance of the ammount
             // of bubbles that will be drawn on screen
             radiusScale
-                .domain([1, (d3.max(processedData, function(d){ return +d.TotalMedals + offsetBetweenBubbles; }) )])
+                .domain([1, (d3.max(processedData, d => +d.TotalMedals + offsetBetweenBubbles) )])
                 .range([minBubbleSize, maxBubbleSize - (processedData.length / 2)]);
 
             // Cleanup View.
@@ -129,37 +127,29 @@ var Bubblechart = (function() {
                 .attr("class", "bubble");
 
             let bubble = bubbleGroup.append("circle")
-                .attr("cx", function(d) { return d.x; })
-                .attr("cy", function(d) { return d.y; })
-                .attr("r", function(d) {
-                    return radiusScale(d.TotalMedals);
-                })
-                .attr("fill", function(d) {
-                    return eventsColors(Math.random());
-                })
-                .attr("stroke", function() { return getCSSColor('--main-dark-color') })
+                .attr("cx", d => d.x)
+                .attr("cy", d =>  d.y)
+                .attr("r", d => radiusScale(d.TotalMedals))
+                .attr("fill", d => eventsColors(Math.random()))
+                .attr("stroke", d => getCSSColor('--main-dark-color'))
                 .attr("stroke-width", "2")
-                .on('mouseover', function(d){
+                .on('mouseover', function(d) {
                     tip.show(d);
                     d3.select(this).transition().duration(animationTime)                  
                         .ease(d3.easeElastic)
-                        .attr("stroke", function() { return getCSSColor('--main-white-color') })
-                        .attr("r", function(d){
-                            return radiusScale(d.TotalMedals) + offsetBetweenBubbles;
-                        })
+                        .attr("stroke", d => getCSSColor('--main-white-color'))
+                        .attr("r", d => radiusScale(d.TotalMedals) + offsetBetweenBubbles)
                         .style("cursor", (currentState == 3 ? "default" : "pointer")); 
                     })
                 .on('mouseout', function(d){
                     tip.hide(d);
                     d3.select(this).transition().duration(animationTime)
                         .ease(d3.easeElastic)    
-                        .attr("stroke", function() { return getCSSColor('--main-dark-color') })
-                        .attr("r", function(d){
-                            return radiusScale(d.TotalMedals);
-                        })
+                        .attr("stroke", d => getCSSColor('--main-dark-color'))
+                        .attr("r", d => radiusScale(d.TotalMedals))
                         .style("cursor", "default"); 
                 })
-                .on("click", function(d) {
+                .on("click", d => {
                     tip.hide(d);
 
                     selectedNode = d;
@@ -176,7 +166,7 @@ var Bubblechart = (function() {
             // Bubbles Text Labels 
             let labels = bubbleGroup.append("text")
                 .attr("class","label unselectable")
-                .text(function(d) {
+                .text(d => {
                     // If the bubble radius is too small simply hide the text.
                     if(radiusScale(d.TotalMedals) < 18) {
                         return "";
@@ -187,11 +177,11 @@ var Bubblechart = (function() {
                         return  d[currentFilterKeyword].substring(0, 4) + "...";
                     } else
                         return d[currentFilterKeyword]; 
-                })
+                });
                 
             // Back Icon
             d3.select('#back-icon')
-                .on('mouseover', function(d){
+                .on('mouseover', function(d) {
                     d3.select(this).transition()
                         .style("cursor", "pointer"); 
                 })
@@ -199,28 +189,24 @@ var Bubblechart = (function() {
                     d3.select(this).transition()
                         .style("cursor", "default"); 
                 })
-                .on("click", function(d) {
-                    updateDashboardState(1);
-                })
+                .on("click", d => updateDashboardState(1));
 
 
             // Update the simulation based on the data.
             simulation.nodes(processedData)
-                .force("collide", d3.forceCollide().strength(.5).radius(function(d) { 
-                    return radiusScale(d.TotalMedals) + offsetBetweenBubbles; 
-                }))
+                .force("collide", d3.forceCollide().strength(.5).radius(d => radiusScale(d.TotalMedals) + offsetBetweenBubbles))
                 .alpha(1)
                 .on('tick', _ticked)
                 .restart();
 
             function _ticked()  {
                 bubble
-                    .attr("cx", function(d) { return d.x })
-                    .attr("cy", function(d) { return d.y })
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
                     
                 labels
-                    .attr("x", function(d) { return d.x; } )
-                    .attr("y", function(d) { return d.y; } )
+                    .attr("x", d => d.x )
+                    .attr("y", d => d.y );
             }
         });
     };
