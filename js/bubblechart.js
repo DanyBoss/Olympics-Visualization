@@ -87,7 +87,7 @@ var Bubblechart = (function() {
             // create a new array with adding up information from different years of the olympics using a specified filter
             let processedData = [];
 
-            filteredData.forEach(function(d, i, filteredData) {
+            filteredData.forEach(function(d) {
                 //if the data doesn't exist in the processed array, create it
                 if(processedData.findIndex(x => x[currentFilterKeyword] === d[currentFilterKeyword]) == -1) {
                     processedData[processedData.length] = {

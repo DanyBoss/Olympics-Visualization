@@ -130,13 +130,10 @@ function updateDashboardState(nextState, initialUpdate = false, linechartRefresh
 var loadDictionary = function(callback) {
     d3.csv("csv/dictionary.csv").then(function(data){
 
-        for (let i = 0; i < data.length; i++) {
-            countryNameDictionary[data[i].CountryName] = data[i].CountryCode;
-        }
-
-        for (let i = 0; i < data.length; i++) {
-            iocCodeDictionary[data[i].CountryCode] = data[i].CountryName;
-        }
+        data.forEach((element) => {
+            countryNameDictionary[element.CountryName] = element.CountryCode;
+            iocCodeDictionary[element.CountryCode] = element.CountryName;
+        });
 
          randomizeInitialCountry(data, "FRA");
 
@@ -194,7 +191,7 @@ function convertIOCCodeToName(code) {
  */
 function getNumberOfCountriesInSelection() {
 	let number = 0;
-	countrySelection.forEach(function(element) {
+	countrySelection.forEach((element) => {
 		if(element === null) {
             number++;
         }
@@ -208,12 +205,15 @@ function getNumberOfCountriesInSelection() {
  * @returns {number} Open Position or -1 if the array is filled
  */
 function getFirstOpenPositionInSelection() {
-	for(let i = 0; i < countrySelection.length; i++) {
-		if(countrySelection[i] === null) {
-			return i;
+    let n = countrySelection.length;
+
+    for(let i = 0; i < n; i++) {
+        if(countrySelection[i] === null) {
+            return i;
         }
-	}
-	return -1;
+    };
+    
+    return -1;
 }
 
 /** 
@@ -232,13 +232,12 @@ function countrySelectionToString() {
         counter = 0;
 
     // Cicle through the countries in countrySelection.
-    for(let i = 0; i < countrySelection.length; i++) {
-        
-		if(countrySelection[i] === null) {
-            continue;
+    countrySelection.forEach((element, i) => {
+		if(element === null) {
+            return;
         }
 
-        string += "<strong>" + convertIOCCodeToName(countrySelection[i]) + "</strong>";
+        string += "<strong>" + convertIOCCodeToName(element) + "</strong>";
         counter++;
 
         switch(getNumberOfCountriesInSelection() - counter) {
@@ -254,7 +253,7 @@ function countrySelectionToString() {
                 string += ", "
                 break;
         }
-    }
+    });
     return string;
 }
 
@@ -263,7 +262,7 @@ function countrySelectionToString() {
  * 
  * @param {string} countryName - Name of the new country
  */
-function changeSelectedCountry(countryName){
+function changeSelectedCountry(countryName) {
     countrySelection = [String(convertNameToIOCCode(countryName)), null, null, null];
 
     updateDashboardState(0, false, true);
@@ -274,7 +273,7 @@ function changeSelectedCountry(countryName){
  * 
  * @param {string} countryName - Name of the country to be added
  */
-function addCountryToSelection(countryName){
+function addCountryToSelection(countryName) {
 	countrySelection[getFirstOpenPositionInSelection()] = String(convertNameToIOCCode(countryName));
 
     updateDashboardState(0);
@@ -293,7 +292,7 @@ function removeCountryFromSelection(countryName){
 
 function changeTimeline(begin, end){
     // Check if a update is necessary.
-    if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)]){
+    if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)]) {
         initialYearFilter = years[Math.round(begin)];
         endYearFilter = years[Math.round(end)];
     
@@ -305,7 +304,7 @@ function checkIfTimelineIsBetween(begin, end){
     return (begin <= initialYearFilter && end >= initialYearFilter && begin <= endYearFilter &&  end >= endYearFilter);
 }
 
-//function assumes we never use a year outside of year array
+// function assumes we never use a year outside of year array
 function checkIfYearInInterval(year){
     return (year >= initialYearFilter && year <= endYearFilter);
 };
@@ -325,9 +324,5 @@ function descending(a,b) { return a.key - b.key };
 function getColor(countryCode) {
     var index =  countrySelection.findIndex(el => el === countryCode);
 
-    if(index == -1) {
-        return "D2D4D3";
-    } else {
-        return countryColors[index];
-    }
+    return ((index == -1) ? "D2D4D3" : countryColors[index]);
 }
