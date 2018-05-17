@@ -3,10 +3,15 @@
  */
 var WorldMap = (function(){
     
-    var MAX_SELECTED_COUNTRIES = 4;
+    const MAX_SELECTED_COUNTRIES = 4;
 
-    var ALERT_MESSAGE = "You can't select more countries!\nTo start a new group from scratch try Control + Left Click"
-    var NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
+    const ALERT_MESSAGE = "You can't select more countries!\nTo start a new group from scratch try Control + Left Click"
+    const NOT_SELECTED_COUNTRY_COLOR = "#A8A39D"
+
+    const width = 2400,
+        height = 1000;
+
+    let svg;
     
     /**
      * Initializes the Worldmap Entity.
@@ -15,9 +20,7 @@ var WorldMap = (function(){
         // Define size of map group
         // Full world map is 2:1 ratio
         // Using 12:5 because we will crop top and bottom of map
-        let width = 2400,
-            height = 1000,
-            minZoom,
+        let minZoom,
             maxZoom,
             midX,
             midY,
@@ -66,7 +69,7 @@ var WorldMap = (function(){
         // on window resize
         $(window).resize(function () {
             // Resize SVG
-            sv.attr("width", $("#worldmap").width())
+            svg.attr("width", $("#worldmap").width())
               .attr("height", $("#worldmap").height());
     
             initiateZoom();
