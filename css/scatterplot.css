@@ -10,9 +10,6 @@
     font-size: 14px;
 }
 
-#scatterplot .dot {
-    stroke: var(--main-dark-color); 
-}
 
 #scatterplot.xAxis #scatterplot.yAxis text {
     stroke: var(--main-dark-color);

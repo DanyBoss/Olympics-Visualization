@@ -126,13 +126,15 @@ var Linechart = (function(){
                     .attr("cx", (d, i) => xScale(i))
                     .attr("cy", d => yScale(d.value.TotalMedals))
                     .attr("r", 8)
-                    .attr("opacity",1)
+                    .attr("stroke", d => getCSSColor('--main-dark-color'))
+                    .attr("opacity", 1)
                     .on('mouseover', function(d){
                         tip.show(d);
                         d3.select(this).transition()
                             .ease(d3.easeElastic)
                             .duration(animationTime)
-                            .attr("r", 10)
+                            .attr("stroke", d => getCSSColor('--main-white-color'))
+                            .attr("r", 12)
                             .attr("stroke-width", 2);
                     })
                     .on('mouseout', function(d){
@@ -140,6 +142,7 @@ var Linechart = (function(){
                         d3.select(this).transition()
                             .ease(d3.easeElastic)
                             .duration(animationTime)
+                            .attr("stroke", d => getCSSColor('--main-dark-color'))
                             .attr("r", d => (checkIfYearInInterval(d.key) ? 8 : 4))
                             .attr("stroke-width", 1);
                     });
