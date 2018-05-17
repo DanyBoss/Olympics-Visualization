@@ -13,6 +13,7 @@ var Bubblechart = (function() {
 
 
     const radiusScale = d3.scaleSqrt();
+    
         
     const simulation = d3.forceSimulation()
         .force("x", d3.forceX(width).strength(.05).x(width / 2))
