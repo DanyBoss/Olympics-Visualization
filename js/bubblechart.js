@@ -55,7 +55,7 @@ var Bubblechart = (function() {
 
             // Filter the data, first by year and then by Country
             let filteredData = data.filter((d, i) => {
-                if(countrySelection.includes(d["Country"]) && initialYearFilter <= d["Year"] && d["Year"] <= endYearFilter) {
+                if(countrySelection.includes(d["Country"]) && yearFilter.initial <= d["Year"] && d["Year"] <= yearFilter.end) {
                     switch(currentState) {
                         case 0: // All information.
                             return d;
@@ -99,7 +99,7 @@ var Bubblechart = (function() {
                             "TotalMedals" : d.TotalMedals
                         }
                 } else {
-                    //if it already exists simply update counts
+                    // If it already exists simply update total counts.
                     processedData[processedData.findIndex(x => x[currentFilterKeyword] === d[currentFilterKeyword])].GoldCount += d.GoldCount;
                     processedData[processedData.findIndex(x => x[currentFilterKeyword] === d[currentFilterKeyword])].SilverCount += d.SilverCount;
                     processedData[processedData.findIndex(x => x[currentFilterKeyword] === d[currentFilterKeyword])].BronzeCount += d.BronzeCount;
@@ -107,20 +107,20 @@ var Bubblechart = (function() {
                 }
             });
 
-            // make big bubbles stay on the outside
+            // Make bigger bubbles stay on the outside.
             processedData.sort((a,b) =>  b.TotalMedals < a.TotalMedals);  
 
             // update radiusScale function to work in accordance to size bubbles
             // we scale the larger range domain by scaling it with accordance of the ammount
             // of bubbles that will be drawn on screen
             radiusScale
-                .domain([1, (d3.max(processedData, d => +d.TotalMedals + offsetBetweenBubbles) )])
+                .domain([1, (d3.max(processedData, d => +d.TotalMedals + offsetBetweenBubbles))])
                 .range([minBubbleSize, maxBubbleSize - (processedData.length / 2)]);
 
-            // Cleanup View.
+            // Cleanup previous view.
             svg.selectAll(".bubble").remove();
             
-            // Bubbles container.
+            // Bubble container.
             let bubbleGroup = svg.selectAll(".bubble")
                 .data(processedData)
                 .enter().append("g")
@@ -128,7 +128,7 @@ var Bubblechart = (function() {
 
             let bubble = bubbleGroup.append("circle")
                 .attr("cx", d => d.x)
-                .attr("cy", d =>  d.y)
+                .attr("cy", d => d.y)
                 .attr("r", d => radiusScale(d.TotalMedals))
                 .attr("fill", d => eventsColors(Math.random()))
                 .attr("stroke", d => getCSSColor('--main-dark-color'))
@@ -139,7 +139,7 @@ var Bubblechart = (function() {
                         .ease(d3.easeElastic)
                         .attr("stroke", d => getCSSColor('--main-white-color'))
                         .attr("r", d => radiusScale(d.TotalMedals) + offsetBetweenBubbles)
-                        .style("cursor", (currentState == 3 ? "default" : "pointer")); 
+                        .style("cursor", (currentState != 3 ? "pointer" : "default")); 
                     })
                 .on('mouseout', function(d){
                     tip.hide(d);
@@ -151,9 +151,7 @@ var Bubblechart = (function() {
                 })
                 .on("click", d => {
                     tip.hide(d);
-
                     selectedNode = d;
-                    
                     if(currentState != 3) {
                         updateDashboardState(-1);
                     }
@@ -163,20 +161,21 @@ var Bubblechart = (function() {
                     .on("drag", _dragged)
                     .on("end", _dragEnded));
 
-            // Bubbles Text Labels 
+            // Bubble Text Labels. 
             let labels = bubbleGroup.append("text")
                 .attr("class","label unselectable")
                 .text(d => {
-                    // If the bubble radius is too small simply hide the text.
+                    // If the bubble is too small simply hide the text.
                     if(radiusScale(d.TotalMedals) < 18) {
                         return "";
                     }
-                    // Else calculate if it's necessary to substring the title
+                    // If not calculate if it's necessary to substring the title.
                     if((radiusScale(d.TotalMedals) < 32 && d[currentFilterKeyword].length > 6) 
                         || (radiusScale(d.TotalMedals) < 46 && d[currentFilterKeyword].length > 10)){
                         return  d[currentFilterKeyword].substring(0, 4) + "...";
-                    } else
+                    } else {
                         return d[currentFilterKeyword]; 
+                    }
                 });
                 
             // Back Icon
@@ -205,8 +204,8 @@ var Bubblechart = (function() {
                     .attr("cy", d => d.y);
                     
                 labels
-                    .attr("x", d => d.x )
-                    .attr("y", d => d.y );
+                    .attr("x", d => d.x)
+                    .attr("y", d => d.y);
             }
         });
     };
@@ -217,7 +216,7 @@ var Bubblechart = (function() {
         
         if (!d3.event.active) {
             simulation.alphaTarget(.03).restart(); 
-        } 
+        }
         
         d.fx = d.x;
         d.fy = d.y;

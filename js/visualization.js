@@ -5,8 +5,7 @@ var selectedNode = null,
     sportFilter = "All",
     disciplineFilter = "All",
     eventFilter = "All",
-    initialYearFilter = 1896,
-    endYearFilter = 2012,
+    yearFilter = {initial: 1896, end: 2012}
     currentFilterKeyword = "Sport",
     countryNameDictionary = {},
     iocCodeDictionary = {};
@@ -42,10 +41,8 @@ $(document).ready(function() {
  * Main function that updated the visualization according to user inputs.
  * @param {number} nextState - next state in the visualization, can only take the values -1, 0, 1
  * @param {boolean} initialUpdate - flag determining if its the first update (default = false)
- * @param {boolean} linechartRefresh - flag determining if the linechart should refresh (for catching
- * ctrl+click on map, default = false)
 */
-function updateDashboardState(nextState, initialUpdate = false, linechartRefresh = false) {
+function updateDashboardState(nextState, initialUpdate = false) {
 
     switch(nextState){
         case -1:
@@ -72,14 +69,14 @@ function updateDashboardState(nextState, initialUpdate = false, linechartRefresh
 
     } else {
         Bubblechart.update();
-        Linechart.update(linechartRefresh);
+        Linechart.update();
         Scatterplot.update();
     }
 
     let yearsText = 
-        (endYearFilter == initialYearFilter ? 
-            " in <strong>" + initialYearFilter + "</strong>" :
-            " from <strong>" +  initialYearFilter + "</strong> to <strong>" + endYearFilter + "</strong>"
+        (yearFilter.end == yearFilter.initial ? 
+            " in <strong>" + yearFilter.initial + "</strong>" :
+            " from <strong>" +  yearFilter.initial + "</strong> to <strong>" + yearFilter.end + "</strong>"
         );
     let countriesSection = countrySelectionToString();
 
@@ -292,21 +289,21 @@ function removeCountryFromSelection(countryName){
 
 function changeTimeline(begin, end){
     // Check if a update is necessary.
-    if(initialYearFilter != years[Math.round(begin)] || endYearFilter != years[Math.round(end)]) {
-        initialYearFilter = years[Math.round(begin)];
-        endYearFilter = years[Math.round(end)];
+    if(yearFilter.initial != years[Math.round(begin)] || yearFilter.end != years[Math.round(end)]) {
+        yearFilter.initial = years[Math.round(begin)];
+        yearFilter.end = years[Math.round(end)];
     
         updateDashboardState(0);
     }
 };
 
 function checkIfTimelineIsBetween(begin, end){
-    return (begin <= initialYearFilter && end >= initialYearFilter && begin <= endYearFilter &&  end >= endYearFilter);
+    return (begin <= yearFilter.initial && end >= yearFilter.initial && begin <= yearFilter.end &&  end >= yearFilter.end);
 }
 
 // function assumes we never use a year outside of year array
 function checkIfYearInInterval(year){
-    return (year >= initialYearFilter && year <= endYearFilter);
+    return (year >= yearFilter.initial && year <= yearFilter.end);
 };
 
 // function to get a CSS variable from the CSS

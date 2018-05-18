@@ -151,10 +151,9 @@ var Linechart = (function(){
     };
 
     /**
-     * Updates the Linechart according to the filters.
-     * @param {boolean} forceRefresh Forces the linechart to refresh 
+     * Updates the Linechart according to the filters. 
      */
-    var update = function(forceRefresh = false) {
+    var update = function() {
         d3.csv("csv/summer_year_country_event.csv").then(data => {
             data.forEach(d => {
                 d.Year = +d.Year;
