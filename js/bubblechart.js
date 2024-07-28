@@ -24,7 +24,7 @@ var Bubblechart = (function() {
     const tip = d3.tip()
         .attr('class', 'd3-tip')
         .offset([-15, 0])
-        .html(d => "<center>" + d[currentFilterKeyword] + "</center>" + "<br>" +
+        .html(d => "<center>" + + "</center>" + "<br>" +
                     "<center>" + 
                     "<font color=#FFD700> <strong>" + d.GoldCount   + "</strong>🥇 </font>" +
                     "<font color=#C0C0C0> <strong>" + d.SilverCount + "</strong>🥈 </font>" +
@@ -130,8 +130,6 @@ var Bubblechart = (function() {
                 .attr("cx", d => d.x)
                 .attr("cy", d => d.y)
                 .attr("r", d => radiusScale(d.TotalMedals))
-                .attr("fill", d => eventsColors(Math.random()))
-                .attr("stroke", d => getCSSColor('--main-dark-color'))
                 .attr("stroke-width", "2")
                 .on('mouseover', function(d) {
                     tip.show(d);

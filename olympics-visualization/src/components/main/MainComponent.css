@@ -1,0 +1,42 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+.visualizations-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 50% 50%; 
+}
+
+.bubblechart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
+
+.worldmap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
+
+.scatterplot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
+
+.linechart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
